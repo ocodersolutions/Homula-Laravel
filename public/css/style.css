@@ -22,9 +22,13 @@ li {
 	text-align: center;
     line-height: 90px;
 }
-.header_top_account a {
+.header_top_account span {
     color: #fff;
     font-weight: bold;
+    cursor: pointer;
+}
+.header_top_account span:hover {
+    text-decoration: underline;
 }
 .header_top_account i {
 	background: #0a368a;

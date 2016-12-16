@@ -14,3 +14,7 @@
 Route::get('/', function () {
     return view('homula');
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index');
