@@ -26,9 +26,24 @@
 										<a href=""><img src="{{ URL::asset('images/logo-sep.png') }}" class="img-responsive"></a>
 									</div>
 									<div class="col-sm-4 header_top_account">
+									@if(Auth::guest())
 										<span data-toggle="modal" data-target="#modal_signin">SIGN IN</span>
 										<i class="fa fa-plus" aria-hidden="true"></i>
 										<span data-toggle="modal" data-target="#modal_signup">SIGN UP</span>
+									@else
+										<span><a href="/profile">My profile</a></span>
+										<i class="fa fa-plus" aria-hidden="true"></i>
+										<span>
+											<a href="{{ url('/logout') }}"
+	                                            onclick="event.preventDefault();
+	                                                     document.getElementById('logout-form').submit();">
+	                                            Logout
+	                                        </a>
+	                                        <form id="logout-form" action="{{ url('/logout') }}" method="POST" style="display: none;">
+	                                            {{ csrf_field() }}
+	                                        </form>
+										</span>
+									@endif
 									</div>
 									<div class="col-sm-4 header_top_favorites">
 										<a>FAVORITES</a>
