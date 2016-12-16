@@ -139,6 +139,7 @@ li {
     height: 450px;
     overflow: hidden;
     position: relative;
+    background: url(../images/header-bg.jpg);
 }
 video {
     width: 100%;
