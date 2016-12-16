@@ -11,10 +11,12 @@
 |
 */
 
-Route::get('/', function () {
-    return view('homula');
-});
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/', function() {
+	return view('home');
+});
+Route::get('profile', function() {
+	return view('profile');
+});
