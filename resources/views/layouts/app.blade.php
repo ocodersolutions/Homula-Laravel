@@ -215,12 +215,37 @@
 					</div>
 				</div>
 				<!-- End modal sign up -->
+				
+				{{--@php
+					$menu_2 = App\Models\Menus::where('parent_id','20')->get();
+					echo '<pre>';	var_dump(($menu_2)); 	echo '</pre>';
+				@endphp --}}
 				<div class="header_menu">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12 header_menu_content">
 								<ul class="header_main_menu">
-									<li><a href="">HOME</a></li>
+									@foreach ($menus as $menu)
+										@php
+											$sub_menu = App\Models\Menus::where('parent_id',$menu['id'])->get();
+										@endphp
+										@if(count($sub_menu) == 0)
+											<li class="no_after"><a href="{{$menu['link']}}">{{$menu['name']}}</a></li>
+										@else
+											<li>
+												<a href="{{$menu['link']}}">{{$menu['name']}}</a>
+												<ul class="header_sub_menu">
+													@foreach ($sub_menu as $value)
+														<li>
+															<a href="{{$value['link']}}">{!!$value['icon']!!} {{$value['name']}}</a>
+														</li>
+													@endforeach
+													<li class="clr"></li>
+												</ul>
+											</li>
+										@endif
+									@endforeach
+									<!--li class="no_after"><a href="">HOME</a></li>
 									<li>
 										<a href="">BUY</a>
 										<ul class="header_sub_menu">
@@ -252,7 +277,7 @@
 										<a href="">SELL</a>
 										<ul class="header_sub_menu">
 											<li>
-												<a href=""><img src="{{url::asset('images/free-home-evluation-homula.png')}}" alt="">FREE HOME EVAVLUATION</a>
+												<a href=""><img src="{{url::asset('images/free-home-evluation-homula.png')}}" alt="">FREE HOME EVALUATION</a>
 											</li>
 											<li>
 												<a href=""><img src="{{url::asset('images/free-home-report-homula.png')}}" alt="">FREE HOME REPORT</a>
@@ -384,7 +409,7 @@
 										</ul>
 									</li>
 									<li>
-										<a href="">CACULATORS</a>
+										<a href="">CALCULATORS</a>
 										<ul class="header_sub_menu">
 											<li>
 												<a href=""><img src="{{url::asset('images/mortage-calculater-copy.png')}}" alt="">MORTGAGE CALCULATOR</a>
@@ -419,7 +444,7 @@
 											<li class="clr"></li>
 										</ul>
 									</li>
-									<li><a href="">ABOUT US</a></li>
+									<li class="no_after"><a href="">ABOUT US</a></li>
 									<li>
 										<a href="">NEWS</a>
 										<ul class="header_sub_menu">
@@ -437,7 +462,7 @@
 											</li>
 											<li class="clr"></li>
 										</ul>
-									</li>
+									</li-->
 								</ul>
 							</div>
 						</div>

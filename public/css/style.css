@@ -79,7 +79,7 @@ li {
 .header_main_menu > li {
     display: inline-block;
     color: #fff;
-    padding: 10px 36px 10px 0;
+    padding: 10px 35px 10px 0;
 }
 .header_main_menu > li:hover .header_sub_menu {
     display: block;
@@ -98,7 +98,7 @@ li {
     right: -15px;
     color: #fff;
 }
-.header_main_menu > li:first-child a:after, .header_main_menu > li:nth-child(10) a:after {
+.header_main_menu > li.no_after a:after, .header_main_menu > li.no_after a:after {
     content: "";
 }
 .header_sub_menu {
