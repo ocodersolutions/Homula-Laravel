@@ -3,9 +3,9 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 14, 2016 at 04:42 AM
+-- Generation Time: Dec 19, 2016 at 04:40 AM
 -- Server version: 10.1.13-MariaDB
--- PHP Version: 5.6.23
+-- PHP Version: 7.0.5
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `test-laravel`
+-- Database: `laravel-demo`
 --
 
 -- --------------------------------------------------------
@@ -15018,6 +15018,92 @@ CREATE TABLE `lookup` (
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `menus`
+--
+
+CREATE TABLE `menus` (
+  `id` int(11) NOT NULL,
+  `name` varchar(50) NOT NULL,
+  `alias` varchar(50) NOT NULL,
+  `icon` varchar(500) NOT NULL,
+  `parent_id` int(11) NOT NULL,
+  `link` varchar(500) NOT NULL,
+  `target` varchar(50) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `menus`
+--
+
+INSERT INTO `menus` (`id`, `name`, `alias`, `icon`, `parent_id`, `link`, `target`) VALUES
+(1, 'HOME', 'home', '', 0, '', ''),
+(2, 'BUY', 'buy', '', 0, '', ''),
+(3, 'SELL', 'sell', '', 0, '', ''),
+(4, 'LEASE', 'lease', '', 0, '', ''),
+(5, 'COMMERCIAL', 'commercial', '', 0, '', ''),
+(6, 'PROFESSIONAL FINDER', 'professional-finder', '', 0, '', ''),
+(7, 'MORTGAGE', 'mortgage', '', 0, '', ''),
+(8, 'CALCULATORS', 'calculators', '', 0, '', ''),
+(9, 'ADVICE', 'advice', '', 0, '', ''),
+(10, 'ABOUT US', 'about-us', '', 0, '', ''),
+(11, 'NEWS', 'news', '', 0, '', ''),
+(12, 'RESALES HOME', 'resales-home', '<img src="http://homula-laravel.local/images/resales-home.png" alt="">', 2, '', ''),
+(13, 'NEW CONSTRUCTION HOME', 'new-construction-home', '<img src="http://homula-laravel.local/images/new-construction-home.png" alt="">', 2, '', ''),
+(14, 'NEW CONSTRUCTION CONDO', 'new-construction-condo', '<img src="http://homula-laravel.local/images/new-construction-condo.png" alt="">', 2, '', ''),
+(15, 'EXCLUSIVE HOMES', 'exclusive-homes', '<img src="http://homula-laravel.local/images/exclusive-home.png" alt="">', 2, '', ''),
+(16, 'OPEN HOUSE', 'open-house', '<img src="http://homula-laravel.local/images/open-house.png" alt="">', 2, '', ''),
+(17, 'COMING SOON', 'coming-soon', '<img src="http://homula-laravel.local/images/coming-soon.png" alt="">', 2, '', ''),
+(18, 'BUSINESS', 'business', '<img src="http://homula-laravel.local/images/business-homula.png" alt="">', 2, '', ''),
+(19, 'FREE HOME EVALUATION', 'free-home-evaluation', '<img src="http://homula-laravel.local/images/free-home-evluation-homula.png" alt="">', 3, '', ''),
+(20, 'FREE HOME REPORT', 'free-home-report', '<img src="http://homula-laravel.local/images/free-home-report-homula.png" alt="">', 3, '', ''),
+(21, 'FIND A REALTOR', 'find-a-realtor', '<img src="http://homula-laravel.local/images/find-retailer-copy.png" alt="">', 3, '', ''),
+(22, 'LIST MY HOUSE', 'list-my-house', '<img src="http://homula-laravel.local/images/list-my-home-homula.png" alt="">', 3, '', ''),
+(23, 'LEASE SEARCH', 'lease-search', '<img src="http://homula-laravel.local/images/search-copy.png" alt="">', 4, '', ''),
+(24, 'MAP SEARCH', 'map-search', '<img src="http://homula-laravel.local/images/search-copy.png" alt="">', 4, '', ''),
+(25, 'COMMERCIAL SEARCH', 'commercial-search', '<img src="http://homula-laravel.local/images/search-copy.png" alt="">', 4, '', ''),
+(26, 'BUSINESS', 'business', '<img src="http://homula-laravel.local/images/business-copy.png" alt="">', 4, '', ''),
+(27, 'UTILITY', 'utility', '<img src="http://homula-laravel.local/images/utility-copy.png" alt="">', 4, '', ''),
+(28, 'SEARCH', 'search', '<img src="http://homula-laravel.local/images/search-copy.png" alt="">', 4, '', ''),
+(29, 'SEARCH', 'search', '<img src="http://homula-laravel.local/images/search-2.png" alt="">', 5, '', ''),
+(30, 'ADVANCED SEARCH', 'advanced-search', '<img src="http://homula-laravel.local/images/ad-search2.png" alt="">', 5, '', ''),
+(31, 'LIST YOUR PROPERTY', 'list-your-property', '<img src="http://homula-laravel.local/images/home-listing2.png" alt="">', 5, '', ''),
+(32, 'FIND A COMMERCIAL REALTOR', 'find-a-commercial-realtor', '<img src="http://homula-laravel.local/images/find-retaile2.png" alt="">', 5, '', ''),
+(33, 'REAL ESTATE PROFESSIONAL', 'real-estate-professional', '<img src="http://homula-laravel.local/images/real-estate-professiona-homula.png" alt="">', 6, '', ''),
+(34, 'LEASING AGENT', 'leasing-agent', '<img src="http://homula-laravel.local/images/leasing-agent1-homula.png" alt="">', 6, '', ''),
+(35, 'MORTGAGE BROKER', 'mortgage-broker', '<img src="http://homula-laravel.local/images/Mortage-broker-copy.png" alt="">', 6, '', ''),
+(36, 'HOME INSPECTOR', 'home-inspector', '<img src="http://homula-laravel.local/images/homeinspector-homula.png" alt="">', 6, '', ''),
+(37, 'REAL ESTATE LAWYER', 'real-estate-lawyer', '<img src="http://homula-laravel.local/images/lawyer-homula.png" alt="">', 6, '', ''),
+(38, 'APPRAISER', 'appraiser', '<img src="http://homula-laravel.local/images/appraiser-homula.png" alt="">', 6, '', ''),
+(39, 'PROPERTY MANAGEMENT', 'property-management', '<img src="http://homula-laravel.local/images/property-management-homula.png" alt="">', 6, '', ''),
+(40, 'HOME STAGERS', 'home-stagers', '<img src="http://homula-laravel.local/images/home-stagers-homula.png" alt="">', 6, '', ''),
+(41, 'INSURANCE BROKERS', 'insurance-brokers', '<img src="http://homula-laravel.local/images/insurance-broker-homula.png" alt="">', 6, '', ''),
+(42, 'MOVING COMPANY', 'moving-company', '<img src="http://homula-laravel.local/images/moving-company-homula.png" alt="">', 6, '', ''),
+(43, 'GRAPHIC DESIGNER', 'graphic-designer', '<img src="http://homula-laravel.local/images/photographers-reps-homula.png" alt="">', 6, '', ''),
+(44, 'LAWYERS(FIRMS)', 'lawyers-firms', '<img src="http://homula-laravel.local/images/sign-supplir-copy.png" alt="">', 6, '', ''),
+(45, 'SIGN INSTALLERS', 'sign-installers', '<img src="http://homula-laravel.local/images/shape-homula.png" alt="">', 6, '', ''),
+(46, 'PRINTERS', 'printers', '<img src="http://homula-laravel.local/images/printer-homula.png" alt="">', 6, '', ''),
+(47, 'PHOTOGRAPHERS (PROPERTIES)', 'photographers-properties', '<img src="http://homula-laravel.local/images/photographer-homula.png" alt="">', 6, '', ''),
+(48, 'PHOTOGRAPHERS (REPS)', 'photographers-reps', '<img src="http://homula-laravel.local/images/photographers-reps-homula.png" alt="">', 6, '', ''),
+(49, 'MORTGAGE BROKER', 'mortgage-broker', '<img src="http://homula-laravel.local/images/Mortage-broker-copy.png" alt="">', 7, '', ''),
+(50, 'MORTGAGE INSURANCE CALCULATOR', 'mortgage-insurance-calculator', '<img src="http://homula-laravel.local/images/mortgage-insurance-calculator-copy.png" alt="">', 7, '', ''),
+(51, 'MORTGAGE RATGES', 'mortgage-ratges', '<img src="http://homula-laravel.local/images/mortage-rates-copy.png" alt="">', 7, '', ''),
+(52, 'NEW MORTGAGE CALCULATOR', 'new-mortgage-calculator', '<img src="http://homula-laravel.local/images/mortage-calculater-copy.png" alt="">', 7, '', ''),
+(53, 'MORTGAGE CALCULATOR', 'mortgage-calculator', '<img src="http://homula-laravel.local/images/mortage-calculater-copy.png" alt="">', 8, '', ''),
+(54, 'MORTGAGE INSURANCE CALCULATOR', 'mortgage-insurance-calculator', '<img src="http://homula-laravel.local/images/mortgage-insurance-calculator-copy.png" alt="">', 8, '', ''),
+(55, 'LAND TRANSFER TAX CALCULATOR', 'land-transfer-tax-calculator', '<img src="http://homula-laravel.local/images/land-transfer-tax-calculator-copy.png" alt="">', 8, '', ''),
+(56, 'ONTARIO MORTGAGE CALCULATOR', 'ontario-mortgage-calculator', '<img src="http://homula-laravel.local/images/land-transfer-tax-calculator-copy.png" alt="">', 8, '', ''),
+(57, 'FAQ', 'faq', '<img src="http://homula-laravel.local/images/faq-1.png" alt="">', 9, '', ''),
+(58, 'ASK A QUESTION', 'ask-a-question', '<img src="http://homula-laravel.local/images/Ask-a-question.png" alt="">', 9, '', ''),
+(59, 'HELP CENTRE', 'help-centre', '<img src="http://homula-laravel.local/images/help-center-copy.png" alt="">', 9, '', ''),
+(60, 'CONTACT US', 'contact-us', '<img src="http://homula-laravel.local/images/contact.png" alt="">', 9, '', ''),
+(61, 'REALESTATE MARKET', 'realestate-market', '<img src="http://homula-laravel.local/images/news1.png" alt="">', 11, '', ''),
+(62, 'WEEKLY BLOG', 'weekly-blog', '<img src="http://homula-laravel.local/images/news2.png" alt="">', 11, '', ''),
+(63, 'TORONTO REALESTATE', 'toronto-realestate', '<img src="http://homula-laravel.local/images/toronto-realestate.png" alt="">', 11, '', ''),
+(64, 'MLS LISTING', 'mls-listing', '<img src="http://homula-laravel.local/images/news1.png" alt="">', 11, '', '');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `migrations`
 --
 
@@ -15035,9 +15121,9 @@ CREATE TABLE `migrations` (
 CREATE TABLE `nusers` (
   `id` int(10) UNSIGNED NOT NULL,
   `username` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `first` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `middle` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
-  `last` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `first` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `middle` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `last` varchar(255) COLLATE utf8_unicode_ci DEFAULT NULL,
   `email` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `password` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
   `remember_token` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
@@ -15051,7 +15137,8 @@ CREATE TABLE `nusers` (
 
 INSERT INTO `nusers` (`id`, `username`, `first`, `middle`, `last`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
 (3, 'trungstormsix', '', '', '', 'trungstormsix@gmail.com', '$2y$10$/9ThU7he0NAMW8h9xs/3yu4twhh0f8lmirA8lBTaJVmkeAr5UH3CO', 'iJnQ2qBIiwXz5EQs0lp6TQVJUic6XmXdTAud67uopwFfcVVIMytDGV4HEza5', '2016-09-23 12:09:35', '2016-10-20 21:29:04'),
-(4, 'trung', '', '', '', 'trung@gmail.com', '$2y$10$7VLF0l0cKXwPnppArhSyfum1H/u.OYLsZVOSXLz7up/u31VeABQSa', 'xWW0Zh4WJZWRwtt6KLcGF18arJc90U9nsBIDLNO0stua4O1OhkqlziSasURE', '2016-09-27 03:45:08', '2016-10-21 20:53:03');
+(4, 'trung', '', '', '', 'trung@gmail.com', '$2y$10$7VLF0l0cKXwPnppArhSyfum1H/u.OYLsZVOSXLz7up/u31VeABQSa', 'xWW0Zh4WJZWRwtt6KLcGF18arJc90U9nsBIDLNO0stua4O1OhkqlziSasURE', '2016-09-27 03:45:08', '2016-10-21 20:53:03'),
+(16, 'tester01', NULL, NULL, NULL, 'tester01@gmail.com', '$2y$10$0CYjbcK1lEVRmo238LGaJetk/L61nyCxRA.p6SoAI23w.z1fQozRm', 'jPpJVg8QeohIkeT2GCxegswjJIvHiw6hMKJUQ8SFISkLh7ThupgPbuEu7bOY', '2016-12-16 01:31:16', '2016-12-16 02:34:57');
 
 -- --------------------------------------------------------
 
@@ -15087,7 +15174,8 @@ CREATE TABLE `permissions` (
 INSERT INTO `permissions` (`id`, `name`, `display_name`, `description`, `created_at`, `updated_at`) VALUES
 (0, 'read', 'Read', 'read', '2016-10-20 19:16:49', '2016-10-20 19:16:49'),
 (1, 'create-post', 'Create Posts', 'create new blog posts', '2016-09-21 02:34:09', '2016-09-21 02:34:09'),
-(2, 'edit-user', 'Edit Users', 'edit existing users', '2016-09-21 02:34:09', '2016-10-20 19:20:27');
+(2, 'edit-user', 'Edit Users', 'edit existing users', '2016-09-21 02:34:09', '2016-10-20 19:20:27'),
+(4, 'toan', 'nguyen toan', 'write', '2016-12-16 19:54:32', '2016-12-16 19:54:32');
 
 -- --------------------------------------------------------
 
@@ -15533,6 +15621,12 @@ ALTER TABLE `lookup`
   ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `menus`
+--
+ALTER TABLE `menus`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `nusers`
 --
 ALTER TABLE `nusers`
@@ -15777,6 +15871,16 @@ ALTER TABLE `il_vocabularies`
 --
 ALTER TABLE `lookup`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2610;
+--
+-- AUTO_INCREMENT for table `menus`
+--
+ALTER TABLE `menus`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+--
+-- AUTO_INCREMENT for table `nusers`
+--
+ALTER TABLE `nusers`
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 --
 -- AUTO_INCREMENT for table `picvoc_categories`
 --
