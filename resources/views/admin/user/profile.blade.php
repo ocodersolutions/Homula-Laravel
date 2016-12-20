@@ -47,6 +47,15 @@
                         <form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/user/profile') }}">
                             {{ csrf_field() }}
 
+                            <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+                                <label class="col-sm-2 control-label"> Username</label>
+
+                                <div class="col-sm-10">
+                                    {{$user->username}}
+                                </div>
+                            </div>
+                            <div class="hr-line-dashed"></div>
+
                             <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
                                 <label class="col-sm-2 control-label"> E-Mail Address</label>
 

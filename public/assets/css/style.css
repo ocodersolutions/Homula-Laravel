@@ -8243,3 +8243,25 @@ body.md-skin {
 .sort{
     cursor: pointer;
 }
+#side-menu ul {
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+#side-menu ul li a {
+  color: #a7b1c2;
+  font-weight: 600;
+  padding: 14px 20px 14px 65px;
+  position: relative;
+  display: block;
+}
+#side-menu ul li a:hover {
+  background-color: #293846;
+  color: white;
+}
+#side-menu ul li a:before {
+  position: absolute;
+  content:  "\f138";
+  font-family: FontAwesome;
+  left: 45px;
+}

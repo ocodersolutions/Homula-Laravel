@@ -47,7 +47,7 @@
                                 </a>
                                 <ul class="dropdown-menu animated fadeInRight m-t-xs">
                                     <li>
-                                        <a href="{{ url('/admin/profile') }}"><i class="fa fa-envelope"></i> <span class="nav-label">Profile</span> </a>
+                                        <a href="{{ url('/admin/user/profile') }}"><i class="fa fa-envelope"></i> <span class="nav-label">Profile</span> </a>
                                     </li>
                                     <li><a href="{{ url('/logout') }}"
                                             onclick="event.preventDefault();
@@ -64,7 +64,11 @@
                             </div>
 
                         </li>
-                        @include('layouts.menu.custom-menu', array('MyNavBar' => Menu::get('MyNavBar')))
+                        @if(Auth::user()->hasRole('admin'))
+                            @include('layouts.menu.custom-menu', array('MyNavBar' => Menu::get('MyNavBar')))
+                        @else
+                            {!! Menu::get('MyNavBar_v2')->asUl() !!}
+                        @endif
                     </ul>
                 </div>
             </nav>

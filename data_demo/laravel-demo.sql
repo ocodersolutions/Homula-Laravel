@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2016 at 05:26 AM
+-- Generation Time: Dec 20, 2016 at 10:21 AM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.5
 
@@ -185,8 +185,7 @@ CREATE TABLE `roles` (
 INSERT INTO `roles` (`id`, `name`, `display_name`, `description`, `created_at`, `updated_at`) VALUES
 (1, 'owner', 'Project Owner', 'User is the owner of a given project 1', '2016-09-21 02:34:09', '2016-10-20 19:31:29'),
 (2, 'admin', 'User Administrator', 'User is allowed to manage and edit other users', '2016-09-21 02:34:09', '2016-09-21 02:34:09'),
-(3, 'Learner', 'learner', 'read', '2016-10-20 19:33:52', '2016-10-20 19:33:52'),
-(4, 'toan', 'toan', 'toan', '2016-12-19 20:43:50', '2016-12-19 20:43:50');
+(3, 'register', 'Register', 'Register', '2016-10-20 19:33:52', '2016-10-20 19:33:52');
 
 -- --------------------------------------------------------
 
@@ -204,10 +203,14 @@ CREATE TABLE `role_user` (
 --
 
 INSERT INTO `role_user` (`user_id`, `role_id`) VALUES
-(3, 1),
-(3, 2),
-(4, 1),
-(4, 2);
+(16, 1),
+(16, 2),
+(16, 3),
+(18, 1),
+(18, 2),
+(18, 3),
+(19, 1),
+(20, 3);
 
 -- --------------------------------------------------------
 
@@ -233,9 +236,10 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `first`, `middle`, `last`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(3, 'trungstormsix', '', '', '', 'trungstormsix@gmail.com', '$2y$10$/9ThU7he0NAMW8h9xs/3yu4twhh0f8lmirA8lBTaJVmkeAr5UH3CO', 'iJnQ2qBIiwXz5EQs0lp6TQVJUic6XmXdTAud67uopwFfcVVIMytDGV4HEza5', '2016-09-23 12:09:35', '2016-10-20 21:29:04'),
-(4, 'trung', '', '', '', 'trung@gmail.com', '$2y$10$7VLF0l0cKXwPnppArhSyfum1H/u.OYLsZVOSXLz7up/u31VeABQSa', 'xWW0Zh4WJZWRwtt6KLcGF18arJc90U9nsBIDLNO0stua4O1OhkqlziSasURE', '2016-09-27 03:45:08', '2016-10-21 20:53:03'),
-(16, 'tester01', NULL, NULL, NULL, 'tester01@gmail.com', '$2y$10$FTZ3k9U1feANoNcqBMpigeluFxHO3CEvkMG97Zi/k2t/ihTOu0rAK', 'G9g6bSwbS59qbxLOzYlmkGF0vxqezCaRmg4KImE6b9bAEU5SHzhs6ynpMKOr', '2016-12-16 01:31:16', '2016-12-19 19:06:00');
+(16, 'tester01', NULL, NULL, NULL, 'tester01@gmail.com', '$2y$10$5Ryr3t/cJrLAGwaAJYt0ye80ROdFmvZguD53yys3/OS/xEGBzIbta', 'Gm2a1645BlKivCvhcJGQh4d9IJWozzgFIn02cY8iXS73IGZWERxyCYL9QU3j', '2016-12-16 01:31:16', '2016-12-20 00:09:13'),
+(18, 'admin', NULL, NULL, NULL, 'admin@gmail.com', '$2y$10$8LCnS/H7363VR3SBDssUoOEQZ80H5XzcBHiULsfYAijgmJLODx2fC', 'IQzoVyBble8DpzX9J85dh1GWNEwGE9PBtkhxC53dxH0rn9U95bwRitAWxQyz', '2016-12-20 00:09:30', '2016-12-20 02:18:31'),
+(19, 'owner', NULL, NULL, NULL, 'owner@gmail.com', '$2y$10$aP1.tg.xO5FDKEbvEVurK.Bb328L2PcgEgkfxTWpnkyxD5ZeD44WC', 'S0ej8CrgqLhr0VH9qYRVq9pdyxtneDEigf6xlGKbQEqM3wvAg79mAekF3HWl', '2016-12-20 00:09:58', '2016-12-20 00:10:01'),
+(20, 'register', NULL, NULL, NULL, 'register@gmail.com', '$2y$10$ndSNAqAy7hXzpaT3a9mX5.Wz5GmqjROtM5Gxd8F/UKkrcEUTfvHCe', '6KeYcXVoFXRxJb6O0pB4XCGGxytSELM6a3CbodhLhkY1H04SFiSvW6JBCLAO', '2016-12-20 00:10:22', '2016-12-20 02:19:39');
 
 --
 -- Indexes for dumped tables
@@ -313,7 +317,7 @@ ALTER TABLE `roles`
 -- AUTO_INCREMENT for table `users`
 --
 ALTER TABLE `users`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

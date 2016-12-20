@@ -14,6 +14,8 @@ class UserController extends Controller
     public function __construct()
     {
         $this->middleware('auth');
+        
+        // $this->middleware('role:admin|email:trung@gmail.com');
     }
     /**
      * Display a listing of the resource.
@@ -139,6 +141,6 @@ class UserController extends Controller
         } else {
             Session::flash('error', 'Incorrect password!');
         }
-        return Redirect::to('/admin/user/profile');
+        return redirect('/admin/user/profile');
     }
 }
