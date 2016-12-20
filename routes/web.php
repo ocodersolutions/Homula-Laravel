@@ -20,9 +20,7 @@ Auth::routes();
 // });
 Route::get('/', 'HomeController@index');
 
-Route::get('profile', function(){
-	return view('frontend.profile');
-});
+Route::get('profile', 'FrontendController@index');
 
 /**
  * admin
