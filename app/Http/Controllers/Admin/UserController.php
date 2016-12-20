@@ -131,7 +131,7 @@ class UserController extends Controller
 
     public function postProfile(Request $req) {
         $cuser = Auth::user();
-         $user = User::find($cuser->id);
+        $user = User::find($cuser->id);
         if (\Illuminate\Support\Facades\Hash::check($req->password, $user->password)) {
             Session::flash('success', 'Profile saved successfully!');
             $user->password = bcrypt($req->new_password);
