@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 20, 2016 at 10:21 AM
+-- Generation Time: Dec 21, 2016 at 09:21 AM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.5
 
@@ -19,6 +19,53 @@ SET time_zone = "+00:00";
 --
 -- Database: `laravel-demo`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `articles`
+--
+
+CREATE TABLE `articles` (
+  `id` int(10) NOT NULL,
+  `title` varchar(200) NOT NULL,
+  `alias` int(200) NOT NULL,
+  `thumbnail` varchar(200) NOT NULL,
+  `content` varchar(10000) NOT NULL,
+  `excerpt` varchar(500) NOT NULL,
+  `categories_id` int(10) NOT NULL,
+  `publisher` int(10) NOT NULL,
+  `created_at` timestamp NULL DEFAULT NULL,
+  `updated_at` timestamp NULL DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `categories`
+--
+
+CREATE TABLE `categories` (
+  `id` int(10) NOT NULL,
+  `name` varchar(100) NOT NULL,
+  `alias` varchar(200) NOT NULL,
+  `description` varchar(200) NOT NULL,
+  `parent_id` int(10) NOT NULL,
+  `publisher` int(10) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+--
+-- Dumping data for table `categories`
+--
+
+INSERT INTO `categories` (`id`, `name`, `alias`, `description`, `parent_id`, `publisher`) VALUES
+(1, 'Help Centre', 'help-centre', '', 0, 1),
+(2, 'News', 'news', '', 0, 1),
+(3, 'Real Estate Important Questions', 'real-estate-important-questions', '', 1, 1),
+(4, 'Mls Listing', 'mls-listing', '', 2, 1),
+(5, 'Realestate Market', 'realestate-market', '', 2, 1),
+(6, 'Toronto Realestate', 'toronto-realestate', '', 2, 1),
+(7, 'Weekly-blog', 'weeklu-blog', '', 2, 1);
 
 -- --------------------------------------------------------
 
@@ -42,7 +89,7 @@ CREATE TABLE `menus` (
 --
 
 INSERT INTO `menus` (`id`, `name`, `alias`, `icon`, `parent_id`, `link`, `target`, `publisher`) VALUES
-(1, 'HOME', 'home', '', 0, '', '', 1),
+(1, 'HOME', 'home', '', 0, '', '_blank', 1),
 (2, 'BUY', 'buy', '', 0, '', '', 1),
 (3, 'SELL', 'sell', '', 0, '', '', 1),
 (4, 'LEASE', 'lease', '', 0, '', '', 1),
@@ -203,9 +250,6 @@ CREATE TABLE `role_user` (
 --
 
 INSERT INTO `role_user` (`user_id`, `role_id`) VALUES
-(16, 1),
-(16, 2),
-(16, 3),
 (18, 1),
 (18, 2),
 (18, 3),
@@ -236,14 +280,26 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `username`, `first`, `middle`, `last`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(16, 'tester01', NULL, NULL, NULL, 'tester01@gmail.com', '$2y$10$5Ryr3t/cJrLAGwaAJYt0ye80ROdFmvZguD53yys3/OS/xEGBzIbta', 'Gm2a1645BlKivCvhcJGQh4d9IJWozzgFIn02cY8iXS73IGZWERxyCYL9QU3j', '2016-12-16 01:31:16', '2016-12-20 00:09:13'),
-(18, 'admin', NULL, NULL, NULL, 'admin@gmail.com', '$2y$10$8LCnS/H7363VR3SBDssUoOEQZ80H5XzcBHiULsfYAijgmJLODx2fC', 'IQzoVyBble8DpzX9J85dh1GWNEwGE9PBtkhxC53dxH0rn9U95bwRitAWxQyz', '2016-12-20 00:09:30', '2016-12-20 02:18:31'),
+(16, 'tester01', NULL, NULL, NULL, 'tester01@gmail.com', '$2y$10$5Ryr3t/cJrLAGwaAJYt0ye80ROdFmvZguD53yys3/OS/xEGBzIbta', 'zSHlR6YZj4Qh5h75b9MUHfn2rXOWhyK202o5VVwIl7Jn1DkadB6N8J1TbhVf', '2016-12-16 01:31:16', '2016-12-20 23:48:00'),
+(18, 'admin', NULL, NULL, NULL, 'admin@gmail.com', '$2y$10$8LCnS/H7363VR3SBDssUoOEQZ80H5XzcBHiULsfYAijgmJLODx2fC', 'JTTjcvOdQhDb3BYzAa3vcBjavqB4XwHMs6hI1YT85cQiIXiM3vBvCmvZZsTD', '2016-12-20 00:09:30', '2016-12-21 00:45:20'),
 (19, 'owner', NULL, NULL, NULL, 'owner@gmail.com', '$2y$10$aP1.tg.xO5FDKEbvEVurK.Bb328L2PcgEgkfxTWpnkyxD5ZeD44WC', 'S0ej8CrgqLhr0VH9qYRVq9pdyxtneDEigf6xlGKbQEqM3wvAg79mAekF3HWl', '2016-12-20 00:09:58', '2016-12-20 00:10:01'),
-(20, 'register', NULL, NULL, NULL, 'register@gmail.com', '$2y$10$ndSNAqAy7hXzpaT3a9mX5.Wz5GmqjROtM5Gxd8F/UKkrcEUTfvHCe', '6KeYcXVoFXRxJb6O0pB4XCGGxytSELM6a3CbodhLhkY1H04SFiSvW6JBCLAO', '2016-12-20 00:10:22', '2016-12-20 02:19:39');
+(20, 'register', NULL, NULL, NULL, 'register@gmail.com', '$2y$10$ndSNAqAy7hXzpaT3a9mX5.Wz5GmqjROtM5Gxd8F/UKkrcEUTfvHCe', 'E8BPI6y559PxXEzNq5fch0LNUEL4RdyAZT8QJchiNwSMtIVmdnzxr0iRGjrv', '2016-12-20 00:10:22', '2016-12-21 00:18:52');
 
 --
 -- Indexes for dumped tables
 --
+
+--
+-- Indexes for table `articles`
+--
+ALTER TABLE `articles`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `categories`
+--
+ALTER TABLE `categories`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Indexes for table `menus`
@@ -299,20 +355,30 @@ ALTER TABLE `users`
 --
 
 --
+-- AUTO_INCREMENT for table `articles`
+--
+ALTER TABLE `articles`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `categories`
+--
+ALTER TABLE `categories`
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+--
 -- AUTO_INCREMENT for table `menus`
 --
 ALTER TABLE `menus`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=65;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=67;
 --
 -- AUTO_INCREMENT for table `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `users`
 --
