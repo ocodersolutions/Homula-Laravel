@@ -44,6 +44,7 @@ class CategoriesController extends Controller
         $post_data = $request->all();
         $categories = new Categories();
         $categories->name = $post_data['name'];
+        $categories->alias = $post_data['alias'];
         $categories->description = $post_data['description'];
         $categories->parent_id = $post_data['parent_id'];
         $categories->publisher = $post_data['publisher'];

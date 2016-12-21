@@ -10,6 +10,7 @@
 	        <tr>
 	            <th >Id</th>
 				<th >Name</th>
+				<th >Alias</th>
 				<th >Description</th>
 				<th >Parent_id</th>
 				<th >Publisher</th>
@@ -21,6 +22,7 @@
 				<tr>				
 					<td > {{$category->id}} </td>
 					<td > {{$category->name}} </td>
+					<td > {{$category->alias}} </td>
 					<td > {{$category->description}} </td>
 					<td > {{$category->parent_id}} </td>
 					<td > {{$category->publisher}} </td>
