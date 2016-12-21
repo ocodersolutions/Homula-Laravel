@@ -1,1 +1,5 @@
-day la trang categories
+@extends('layouts.admin')
+
+@section('content')
+Day la trang categories
+@endsection

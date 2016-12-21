@@ -1,11 +1,12 @@
 <?php
 
-namespace App\Http\Controllers;
+namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\Controller;
 use App\Models\Menus;
 
-class FrontendController extends Controller
+class MenuController extends Controller
 {
     public function __construct()
     {
@@ -18,9 +19,8 @@ class FrontendController extends Controller
      */
     public function index()
     {
-        $menus = Menus::where(['parent_id' => 0, 'publisher' => 1])->get();
-        
-        return view('frontend.profile', ['menus'=>$menus]);
+        $menu = Menus::paginate(20);
+        return view('admin.menu.home', ['menus' => $menu]);
     }
 
     /**
@@ -30,7 +30,7 @@ class FrontendController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.menu.create');
     }
 
     /**
@@ -41,7 +41,18 @@ class FrontendController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $post_data = $request->all();
+        $menu = new Menus();
+        $menu->name = $post_data['name'];
+        $menu->alias = $post_data['alias'];
+        $menu->icon = $post_data['icon'];
+        $menu->parent_id = $post_data['parent_id'];
+        $menu->link = $post_data['link'];
+        $menu->target = $post_data['target'];
+        $menu->publisher = $post_data['publisher'];
+        $menu->save();
+
+        return redirect('admin/menu');
     }
 
     /**
@@ -63,7 +74,8 @@ class FrontendController extends Controller
      */
     public function edit($id)
     {
-        //
+        $menu = Menus::findOrFail($id);
+        return view('admin.menu.edit',compact('menu'));
     }
 
     /**
@@ -75,7 +87,10 @@ class FrontendController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $menu = Menus::findOrFail($id); 
+        if(!$menu) return redirect('admin/menu');
+        $menu->update($request->all()); 
+        return redirect('admin/menu');
     }
 
     /**
@@ -87,5 +102,11 @@ class FrontendController extends Controller
     public function destroy($id)
     {
         //
+    }
+    public function delete($id)
+    {
+        $menu = Menus::find($id);
+        $menu->delete();
+        return redirect('admin/menu');
     }
 }

@@ -220,7 +220,27 @@
 						<div class="row">
 							<div class="col-sm-12 header_menu_content">
 								<ul class="header_main_menu">
-									<li><a href="">HOME</a></li>
+									@foreach ($menus as $menu)
+										@php
+											$sub_menu = App\Models\Menus::where(['parent_id' => $menu['id'], 'publisher' => 1])->get();
+										@endphp
+										@if(count($sub_menu) == 0)
+											<li class="no_after"><a href="{{$menu['link']}}" target="{{$menu['target']}}">{{$menu['name']}}</a></li>
+										@else
+											<li>
+												<a href="{{$menu['link']}}">{{$menu['name']}}</a>
+												<ul class="header_sub_menu">
+													@foreach ($sub_menu as $value)
+														<li>
+															<a href="{{$value['link']}}">{!!$value['icon']!!} {{$value['name']}}</a>
+														</li>
+													@endforeach
+													<li class="clr"></li>
+												</ul>
+											</li>
+										@endif
+									@endforeach
+									<!--li><a href="">HOME</a></li>
 									<li>
 										<a href="">BUY</a>
 										<ul class="header_sub_menu">
@@ -437,7 +457,7 @@
 											</li>
 											<li class="clr"></li>
 										</ul>
-									</li>
+									</li-->
 								</ul>
 							</div>
 						</div>

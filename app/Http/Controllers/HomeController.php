@@ -24,7 +24,7 @@ class HomeController extends Controller
      */
     public function index()
     {
-        $menus = Menus::where('parent_id',0)->get();
+        $menus = Menus::where(['parent_id' => 0, 'publisher' => 1])->get();
         return view('home', ['menus'=>$menus]);
     }
 }

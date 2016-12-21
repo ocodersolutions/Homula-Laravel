@@ -107,7 +107,7 @@ class UserController extends Controller
          
         Session::flash('success', 'User saved successfully!');
         
-        return redirect('admin/users/edit/'.$id);
+        return redirect('admin/user/edit/'.$id);
     }
     /**
      * Remove the specified resource from storage.

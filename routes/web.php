@@ -26,13 +26,15 @@ Route::get('profile', 'FrontendController@index');
  * admin
  */
 Route::group(['middleware' => ['role:admin']], function() {
+	//user
 	Route::get('admin', 'Admin\AdminController@index');
 	Route::get('admin/users', 'Admin\UserController@index');
-	Route::get('admin/users/create', 'Admin\UserController@create');
-	Route::get('admin/users/edit/{id}', 'Admin\UserController@edit');
+	Route::get('admin/user/create', 'Admin\UserController@create');
+	Route::get('admin/user/edit/{id}', 'Admin\UserController@edit');
 	Route::post('admin/user/save', 'Admin\UserController@save'); 
-	Route::get('admin/users/delete/{id}', 'Admin\UserController@delete');
+	Route::get('admin/user/delete/{id}', 'Admin\UserController@delete');
 
+	//permission
 	Route::get('admin/user/permissions', 'Admin\PermissionController@index');
 	Route::get('admin/user/permission/create', 'Admin\PermissionController@create');
 	Route::post('admin/user/permission/save', 'Admin\PermissionController@store');
@@ -40,6 +42,7 @@ Route::group(['middleware' => ['role:admin']], function() {
 	Route::patch('admin/user/permission/update/{id}', 'Admin\PermissionController@update');
 	Route::get('admin/user/permission/delete/{id}', 'Admin\PermissionController@delete');
 
+	//roles
 	Route::get('admin/user/roles', 'Admin\RoleController@index');
 	Route::get('admin/user/role/create', 'Admin\RoleController@create');
 	Route::post('admin/user/role/save', 'Admin\RoleController@store'); 
@@ -47,9 +50,19 @@ Route::group(['middleware' => ['role:admin']], function() {
 	Route::patch('admin/user/role/update/{id}', 'Admin\RoleController@update');
 	Route::get('admin/user/role/delete/{id}', 'Admin\RoleController@delete');
 
+	//profile
 	Route::get('admin/user/profile', 'Admin\UserController@getProfile');
 	Route::post('admin/user/profile', 'Admin\UserController@postProfile');
 
+	//menu
+	Route::get('admin/menu', 'Admin\MenuController@index');
+	Route::get('admin/menu/create', 'Admin\MenuController@create');
+	Route::post('admin/menu/save', 'Admin\MenuController@store'); 
+	Route::get('admin/menu/edit/{id}', 'Admin\MenuController@edit');
+	Route::patch('admin/menu/update/{id}', 'Admin\MenuController@update');
+	Route::get('admin/menu/delete/{id}', 'Admin\MenuController@delete');
+
+	//categories
 	Route::get('admin/categories', 'Admin\CategoriesController@index');
 });
 
@@ -75,6 +88,8 @@ Menu::make('MyNavBar', function($menu) {
     $menu->usersManager->add('Profile', 'admin/user/profile')->attr(array('pre_icon'=>'envelope'));
 
     $menu->add('Categories', 'admin/categories')->attr(array('pre_icon'=>'tag'));
+
+    $menu->add('Menu', 'admin/menu')->attr(array('pre_icon'=>'bars'));
 });
 Menu::make('MyNavBar_v2', function($menu) {
     $menu->add('Home');
