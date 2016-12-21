@@ -18,9 +18,10 @@ class FrontendController extends Controller
      */
     public function index()
     {
-        $menus = Menus::where(['parent_id' => 0, 'publisher' => 1])->get();
+        // $menus = Menus::where(['parent_id' => 0, 'publisher' => 1])->get();
         
-        return view('frontend.profile', ['menus'=>$menus]);
+        // return view('layouts.frontend', ['menus'=>$menus]);
+        return view('layouts.frontend');
     }
 
     /**

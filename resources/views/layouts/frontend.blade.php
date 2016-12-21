@@ -29,7 +29,7 @@
 							<div class="col-sm-12 header_top_content">
 								<div class="row">
 									<div class="col-sm-4 logo_header">
-										<a href=""><img src="{{ URL::asset('images/logo-sep.png') }}" class="img-responsive"></a>
+										<a href="/"><img src="{{ URL::asset('images/logo-sep.png') }}" class="img-responsive"></a>
 									</div>
 									<div class="col-sm-4 header_top_account">
 									@if(Auth::guest())
@@ -220,6 +220,9 @@
 						<div class="row">
 							<div class="col-sm-12 header_menu_content">
 								<ul class="header_main_menu">
+									@php 
+										$menus = App\Models\Menus::where(['parent_id' => 0, 'publisher' => 1])->get();
+									@endphp
 									@foreach ($menus as $menu)
 										@php
 											$sub_menu = App\Models\Menus::where(['parent_id' => $menu['id'], 'publisher' => 1])->get();

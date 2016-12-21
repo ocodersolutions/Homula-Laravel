@@ -29,7 +29,7 @@
 							<div class="col-sm-12 header_top_content">
 								<div class="row">
 									<div class="col-sm-4 logo_header">
-										<a href=""><img src="{{ URL::asset('images/logo-sep.png') }}" class="img-responsive"></a>
+										<a href="/"><img src="{{ URL::asset('images/logo-sep.png') }}" class="img-responsive"></a>
 									</div>
 									<div class="col-sm-4 header_top_account">
 									@if(Auth::guest())
