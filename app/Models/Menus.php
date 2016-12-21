@@ -12,8 +12,5 @@ class Menus extends Model
     
     protected $fillable = ['name', 'alias', 'icon', 'parent_id', 'link', 'target', 'publisher',];
 
-    public function setUpdatedAtAttribute($value)
-	{
-	    // to Disable updated_at
-	}
+    
 }

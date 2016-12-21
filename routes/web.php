@@ -64,6 +64,14 @@ Route::group(['middleware' => ['role:admin']], function() {
 
 	//categories
 	Route::get('admin/categories', 'Admin\CategoriesController@index');
+	Route::get('admin/categories/create', 'Admin\CategoriesController@create');
+	Route::post('admin/categories/save', 'Admin\CategoriesController@store');
+	Route::get('admin/categories/edit/{id}', 'Admin\CategoriesController@edit');
+	Route::patch('admin/categories/update/{id}', 'Admin\CategoriesController@update');
+	Route::get('admin/categories/delete/{id}', 'Admin\CategoriesController@delete');
+
+	//Articles
+	Route::get('admin/articles', 'Admin\ArticlesController@index');
 });
 
 Route::group(['middleware' => ['role:owner|register']], function() {
@@ -74,7 +82,7 @@ Route::group(['middleware' => ['role:owner|register']], function() {
 });
 
 /**
- * create menu
+ * create menu role:admin
  */
 
 Menu::make('MyNavBar', function($menu) {
@@ -87,10 +95,15 @@ Menu::make('MyNavBar', function($menu) {
     $menu->usersManager->add('Roles', 'admin/user/roles')->attr(array('pre_icon'=>'users'))->active('admin/user/role/*');
     $menu->usersManager->add('Profile', 'admin/user/profile')->attr(array('pre_icon'=>'envelope'));
 
+    $menu->add('Menu', 'admin/menu')->attr(array('pre_icon'=>'bars'));
+
     $menu->add('Categories', 'admin/categories')->attr(array('pre_icon'=>'tag'));
 
-    $menu->add('Menu', 'admin/menu')->attr(array('pre_icon'=>'bars'));
+    $menu->add('Articles', 'admin/articles')->attr(array('pre_icon'=>'file-text'));
 });
+/**
+ * create menu don't role:admin
+ */
 Menu::make('MyNavBar_v2', function($menu) {
     $menu->add('Home');
     $menu->add('Profile', 'admin/user/profile');

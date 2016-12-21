@@ -4,14 +4,9 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
-use App\Models\Categories;
 
-class CategoriesController extends Controller
+class ArticlesController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
     /**
      * Display a listing of the resource.
      *
@@ -19,8 +14,7 @@ class CategoriesController extends Controller
      */
     public function index()
     {
-        $categories = Categories::paginate(10);
-        return view('admin.categories.home', ['categories' => $categories]);
+        //
     }
 
     /**
@@ -30,7 +24,7 @@ class CategoriesController extends Controller
      */
     public function create()
     {
-        return view('admin.categories.create');
+        //
     }
 
     /**
@@ -41,15 +35,7 @@ class CategoriesController extends Controller
      */
     public function store(Request $request)
     {
-        $post_data = $request->all();
-        $categories = new Categories();
-        $categories->name = $post_data['name'];
-        $categories->description = $post_data['description'];
-        $categories->parent_id = $post_data['parent_id'];
-        $categories->publisher = $post_data['publisher'];
-        $categories->save();
-
-        return redirect('admin/categories');
+        //
     }
 
     /**
@@ -71,8 +57,7 @@ class CategoriesController extends Controller
      */
     public function edit($id)
     {
-        $categories = Categories::findOrFail($id);
-        return view('admin.categories.edit',compact('categories'));
+        //
     }
 
     /**
@@ -84,10 +69,7 @@ class CategoriesController extends Controller
      */
     public function update(Request $request, $id)
     {
-        $categories = Categories::findOrFail($id); 
-        if(!$categories) return redirect('admin/categories');
-        $categories->update($request->all()); 
-        return redirect('admin/categories');
+        //
     }
 
     /**
@@ -99,11 +81,5 @@ class CategoriesController extends Controller
     public function destroy($id)
     {
         //
-    }
-    public function delete($id)
-    {
-        $categories = Categories::find($id);
-        $categories->delete();
-        return redirect('admin/categories');
     }
 }
