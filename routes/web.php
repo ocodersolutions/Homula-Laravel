@@ -63,9 +63,6 @@ Route::group(['middleware' => ['role:owner|register']], function() {
 /**
  * create menu
  */
-// if(Auth::user()->hasRole('role-name')) {
-// 	return '12345';
-// }
 
 Menu::make('MyNavBar', function($menu) {
     $menu->add('Home')->attr(array('pre_icon'=>'home'));
