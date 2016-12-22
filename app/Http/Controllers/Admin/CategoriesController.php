@@ -30,7 +30,8 @@ class CategoriesController extends Controller
      */
     public function create()
     {
-        return view('admin.categories.create');
+        $categories = Categories::all();
+        return view('admin.categories.create', ['categories' => $categories]);
     }
 
     /**
@@ -44,7 +45,12 @@ class CategoriesController extends Controller
         $post_data = $request->all();
         $categories = new Categories();
         $categories->name = $post_data['name'];
-        $categories->alias = $post_data['alias'];
+        if(!$post_data['alias'] == '') {
+            $categories->alias = $post_data['alias'];
+        }
+        else {
+            $categories->alias = str_slug($post_data['name'], '-');
+        }
         $categories->description = $post_data['description'];
         $categories->parent_id = $post_data['parent_id'];
         $categories->publisher = $post_data['publisher'];
@@ -73,7 +79,8 @@ class CategoriesController extends Controller
     public function edit($id)
     {
         $categories = Categories::findOrFail($id);
-        return view('admin.categories.edit',compact('categories'));
+        $all_categories = Categories::all();
+        return view('admin.categories.edit',compact('categories', 'all_categories'));
     }
 
     /**

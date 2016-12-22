@@ -73,7 +73,7 @@
                 </div>
             </nav>
 
-            <div id="page-wrapper" class="gray-bg">
+            <div id="page-wrapper" class="gray-bg" style="padding-bottom: 50px">
                 <div class="row border-bottom">
                     <nav class="navbar navbar-static-top" role="navigation" style="margin-bottom: 0">
                         <div class="navbar-header">

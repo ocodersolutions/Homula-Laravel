@@ -16,11 +16,15 @@
 		{!! Form::text('description') !!} <br />
 
 		{!! Form::label('parent_id','Parent_id:') !!}
-		{!! Form::text('parent_id') !!} </br>
-
+		<select name="parent_id">
+			@foreach($categories as $category)			
+				<option value="{{$category->id}}">{{$category->id}}</option>				
+			@endforeach
+		</select>
+		</br>
 		{!! Form::label('publisher','Publisher:') !!}
-		{!! Form::text('publisher') !!} </br>
- 
+		{!! Form::select('publisher', ['0', '1']) !!} </br>
+ 		
 		{!! Form::submit('Add new categories')!!}
 
 		{!! Form::close() !!}

@@ -4,7 +4,7 @@
 
 <div id="home_categories" >
 	<div class="ibox-content">
-		<a href="{{ url('admin/categories/create')}}" type="button" class="btn btn-primary btn-lg">Add new Menu</a>
+		<a href="{{ url('admin/categories/create')}}" type="button" class="btn btn-primary btn-lg">Add new Categories</a>
 	    <table class="table">
 	        <thead>
 	        <tr>

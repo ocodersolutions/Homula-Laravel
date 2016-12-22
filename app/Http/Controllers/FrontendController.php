@@ -21,7 +21,7 @@ class FrontendController extends Controller
         // $menus = Menus::where(['parent_id' => 0, 'publisher' => 1])->get();
         
         // return view('layouts.frontend', ['menus'=>$menus]);
-        return view('layouts.frontend');
+        return view('frontend.profile');
     }
 
     /**

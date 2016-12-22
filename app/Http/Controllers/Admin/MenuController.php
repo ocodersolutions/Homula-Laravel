@@ -30,7 +30,8 @@ class MenuController extends Controller
      */
     public function create()
     {
-        return view('admin.menu.create');
+        $menus = Menus::all();
+        return view('admin.menu.create', ['menus'=>$menus]);
     }
 
     /**
@@ -44,7 +45,12 @@ class MenuController extends Controller
         $post_data = $request->all();
         $menu = new Menus();
         $menu->name = $post_data['name'];
-        $menu->alias = $post_data['alias'];
+        if(!$post_data['alias'] == '') {
+            $menu->alias = $post_data['alias'];
+        }
+        else {
+            $menu->alias = str_slug($post_data['name'], '-');
+        }
         $menu->icon = $post_data['icon'];
         $menu->parent_id = $post_data['parent_id'];
         $menu->link = $post_data['link'];
@@ -74,8 +80,9 @@ class MenuController extends Controller
      */
     public function edit($id)
     {
-        $menu = Menus::findOrFail($id);
-        return view('admin.menu.edit',compact('menu'));
+        $menus = Menus::findOrFail($id);
+        $all_menus = Menus::all();
+        return view('admin.menu.edit',compact('menus','all_menus'));
     }
 
     /**

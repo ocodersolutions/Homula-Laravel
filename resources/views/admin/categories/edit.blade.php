@@ -16,10 +16,19 @@
 		{!! Form::text('description') !!} <br />
 
 		{!! Form::label('parent_id','Parent_id:') !!}
-		{!! Form::text('parent_id') !!} </br>
+		<select name="parent_id">
+			@foreach($all_categories as $category)	
+				@if ($category->id == $categories->parent_id)
+					<option value="{{$category->id}}" selected="selected">{{$category->id}}</option>
+				@else
+					<option value="{{$category->id}}">{{$category->id}}</option>	
+				@endif					
+			@endforeach
+		</select>
+		</br>
 
 		{!! Form::label('publisher','Publisher:') !!}
-		{!! Form::text('publisher') !!} </br>
+		{!! Form::select('publisher', ['0', '1']) !!} </br>
  
 		{!! Form::submit('Update categories')!!}
 
