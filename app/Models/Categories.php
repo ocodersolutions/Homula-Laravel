@@ -8,5 +8,5 @@ class Categories extends Model
 {
 	public $timestamps = false;
     
-    protected $fillable = ['name', 'alias', 'description', 'parent_id', 'publisher'];
+    protected $fillable = ['name', 'alias', 'description', 'parent_id', 'published'];
 }

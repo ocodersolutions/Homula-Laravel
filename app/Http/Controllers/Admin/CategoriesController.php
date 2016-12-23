@@ -32,7 +32,7 @@ class CategoriesController extends Controller
     {
         $categories = Categories::all();
         $categories_level = Categories::where(['parent_id' => 0])->get();
-        return view('admin.categories.create', ['categories' => $categories, 'categories_level' => $categories_level]);
+        return view('admin.categories.edit', ['categories' => $categories, 'categories_level' => $categories_level]);
     }
 
     /**
@@ -43,21 +43,7 @@ class CategoriesController extends Controller
      */
     public function store(Request $request)
     {
-        $post_data = $request->all();
-        $categories = new Categories();
-        $categories->name = $post_data['name'];
-        if(!$post_data['alias'] == '') {
-            $categories->alias = $post_data['alias'];
-        }
-        else {
-            $categories->alias = str_slug($post_data['name'], '-');
-        }
-        $categories->description = $post_data['description'];
-        $categories->parent_id = $post_data['parent_id'];
-        $categories->publisher = $post_data['publisher'];
-        $categories->save();
-
-        return redirect('admin/categories');
+        //
     }
 
     /**
@@ -92,12 +78,31 @@ class CategoriesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $id = 0)
     {
-        $categories = Categories::findOrFail($id); 
-        if(!$categories) return redirect('admin/categories');
-        $categories->update($request->all()); 
-        return redirect('admin/categories');
+        if ($id == 0) {
+            $post_data = $request->all();
+            $categories = new Categories();
+            $categories->name = $post_data['name'];
+            if(!$post_data['alias'] == '') {
+                $categories->alias = $post_data['alias'];
+            }
+            else {
+                $categories->alias = str_slug($post_data['name'], '-');
+            }
+            $categories->description = $post_data['description'];
+            $categories->parent_id = $post_data['parent_id'];
+            $categories->published = $post_data['published'];
+            $categories->save();
+
+            return redirect('admin/categories');
+        }
+        else {
+            $categories = Categories::findOrFail($id); 
+            if(!$categories) return redirect('admin/categories');
+            $categories->update($request->all()); 
+            return redirect('admin/categories');
+        }
     }
 
     /**

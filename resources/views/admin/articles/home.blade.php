@@ -15,7 +15,7 @@
 				<th >Content</th>
 				<th >Excerpt</th>
 				<th >Categories_id</th>
-				<th >publisher</th>
+				<th >published</th>
 				<th >Created_at</th>
 				<th >Updated_at</th>
 				<th >&nbsp;</th>
@@ -31,7 +31,7 @@
 					<td >@php  echo str_limit($post->content,100, '...'); @endphp </td>
 					<td > @php  echo str_limit($post->excerpt,50, '...'); @endphp </td>
 					<td > {{$post->categories_id}} </td>
-					<td > {{$post->publisher}} </td>
+					<td > {{$post->published}} </td>
 					<td > {{$post->created_at}} </td>
 					<td > {{$post->updated_at}} </td>
 					<td style="width: 162px;">

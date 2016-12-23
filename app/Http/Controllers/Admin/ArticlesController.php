@@ -29,7 +29,8 @@ class ArticlesController extends Controller
     {
         $articles = Articles::all();
         $categories = Categories::all();
-        return view('admin.articles.create', ['articles' => $articles, 'categories' => $categories]);
+        $categories_level = Categories::where(['parent_id' => 0])->get();
+        return view('admin.articles.create', ['articles' => $articles, 'categories' => $categories, 'categories_level' => $categories_level]);
     }
 
     /**
@@ -53,7 +54,7 @@ class ArticlesController extends Controller
         $articles->content = $post_data['content'];
         $articles->excerpt = $post_data['excerpt'];
         $articles->categories_id = $post_data['categories_id'];
-        $articles->publisher = $post_data['publisher'];
+        $articles->published = $post_data['published'];
         $articles->save();
 
         return redirect('admin/articles');
@@ -80,7 +81,8 @@ class ArticlesController extends Controller
     {
         $articles = Articles::findOrFail($id);
         $categories = Categories::all();
-        return view('admin.articles.edit',compact('articles', 'categories'));
+        $categories_level = Categories::where(['parent_id' => 0])->get();
+        return view('admin.articles.edit',compact('articles', 'categories', 'categories_level'));
     }
 
     /**
@@ -95,7 +97,7 @@ class ArticlesController extends Controller
         $articles = Articles::findOrFail($id); 
         if(!$articles) return redirect('admin/articles');
         $articles->update($request->all()); 
-        return redirect('admin/articles/edit/'.$id);
+        return redirect('admin/articles');
     }
 
     /**

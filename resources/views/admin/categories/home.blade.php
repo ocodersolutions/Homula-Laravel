@@ -13,7 +13,7 @@
 				<th >Alias</th>
 				<th >Description</th>
 				<th >Parent_id</th>
-				<th >Publisher</th>
+				<th >Published</th>
 				<th >&nbsp;</th>
 	        </tr>
 	        </thead>
@@ -25,7 +25,7 @@
 					<td > {{$category->alias}} </td>
 					<td > {{$category->description}} </td>
 					<td > {{$category->parent_id}} </td>
-					<td > {{$category->publisher}} </td>
+					<td > {{$category->published}} </td>
 					<td style="width: 162px;">
 						<a href="{{ url('admin/categories/edit/'. $category->id) }}" class="btn btn-info">Update</a>
 						<a href="{{ url('admin/categories/delete/' . $category->id) }}" class="btn btn-danger">Delete</a>
