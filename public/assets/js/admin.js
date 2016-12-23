@@ -66,14 +66,14 @@ jQuery(document).ready(function ($) {
     /*************************
      * *** add cat **********
      ***********************/
-    jQuery("#add_cat").autocomplete({
-        source: linkAutocompleteCat,
-        select: function (event, ui) {
-            event.preventDefault();
-            var dl_id = jQuery(event.target).data('id');
-            addCat(ui.item.key, dl_id, ui.item.value)
-        },
-    });
+//    jQuery("#add_cat").autocomplete({
+//        source: linkAutocompleteCat,
+//        select: function (event, ui) {
+//            event.preventDefault();
+//            var dl_id = jQuery(event.target).data('id');
+//            addCat(ui.item.key, dl_id, ui.item.value)
+//        },
+//    });
     function addCat(cat_id, dl_id, cat_title) {
 
         if (cat_id) {
@@ -99,14 +99,7 @@ jQuery(document).ready(function ($) {
      * listening grammar
      */
     //auto complete
-    jQuery("#add_grammar").autocomplete({
-        source: linkAutocompleteGrammar,
-        select: function (event, ui) {
-            event.preventDefault();
-            jQuery(this).val(ui.item.value);
-            jQuery("#add_grammar_id").val(ui.item.key);
-        },
-    });
+
     //add grammar
     jQuery("#add_grammar_button").click(function () {
         var dl_id = jQuery(this).data('id');

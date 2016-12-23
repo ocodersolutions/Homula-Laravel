@@ -5,22 +5,31 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Menus;
+use Illuminate\Support\Facades\Session;
 
-class MenuController extends Controller
-{
-    public function __construct()
-    {
+class MenuController extends Controller {
+
+    public function __construct() {
         $this->middleware('auth');
     }
+
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
-    {
-        $menu = Menus::paginate(20);
-        return view('admin.menu.home', ['menus' => $menu]);
+    public function index() {
+        if (@$_GET['sort_by']) {
+            Session::put('sort_by', $_GET['sort_by']);
+            $dimen = @$_GET['sort_dimen'] ? $_GET['sort_dimen'] : 'asc';
+            Session::put('sort_dimen', $dimen);
+        }
+        $sort_by = Session::get('sort_by', 'id');
+        $dimen = Session::get('sort_dimen', 'asc');
+
+        $menu = Menus::orderBy($sort_by, $dimen)->paginate(20);
+        
+        return view('admin.menu.home', ['menus' => $menu, 'sort_by' => $sort_by, 'sort_dimen' => $dimen]);
     }
 
     /**
@@ -28,8 +37,7 @@ class MenuController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function create()
-    {
+    public function create() {
         $menus = Menus::all();
         $menus_level = Menus::where(['parent_id' => 0])->get();
         return view('admin.menu.create', ['menus' => $menus, 'menus_level' => $menus_level]);
@@ -41,22 +49,20 @@ class MenuController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
-    {
+    public function store(Request $request) {
         $post_data = $request->all();
         $menu = new Menus();
         $menu->name = $post_data['name'];
-        if(!$post_data['alias'] == '') {
+        if (!$post_data['alias'] == '') {
             $menu->alias = $post_data['alias'];
-        }
-        else {
+        } else {
             $menu->alias = str_slug($post_data['name'], '-');
         }
         $menu->icon = $post_data['icon'];
         $menu->parent_id = $post_data['parent_id'];
         $menu->link = $post_data['link'];
         $menu->target = $post_data['target'];
-        $menu->publisher = $post_data['publisher'];
+        $menu->published = $post_data['published'];
         $menu->save();
 
         return redirect('admin/menu');
@@ -68,8 +74,7 @@ class MenuController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
-    {
+    public function show($id) {
         //
     }
 
@@ -79,12 +84,11 @@ class MenuController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
-    {
+    public function edit($id) {
         $menus_item = Menus::findOrFail($id);
         $menus = Menus::all();
         $menus_level = Menus::where(['parent_id' => 0])->get();
-        return view('admin.menu.edit',compact('menus_item', 'menus', 'menus_level'));
+        return view('admin.menu.edit', compact('menus_item', 'menus', 'menus_level'));
     }
 
     /**
@@ -94,11 +98,11 @@ class MenuController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
-        $menu = Menus::findOrFail($id); 
-        if(!$menu) return redirect('admin/menu');
-        $menu->update($request->all()); 
+    public function update(Request $request, $id) {
+        $menu = Menus::findOrFail($id);
+        if (!$menu)
+            return redirect('admin/menu');
+        $menu->update($request->all());
         return redirect('admin/menu');
     }
 
@@ -108,14 +112,14 @@ class MenuController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
-    {
+    public function destroy($id) {
         //
     }
-    public function delete($id)
-    {
+
+    public function delete($id) {
         $menu = Menus::find($id);
         $menu->delete();
         return redirect('admin/menu');
     }
+
 }

@@ -59,8 +59,8 @@
 			'framename' => 'framename'
 		], $menus_item->target) !!} </br>
 
-		{!! Form::label('publisher','Publisher:') !!}
-		{!! Form::select('publisher', ['0', '1']) !!} </br>
+		{!! Form::label('published','Published:') !!}
+		{!! Form::select('published', ['0', '1']) !!} </br>
  
 		{!! Form::submit('Update menu')!!}
 
