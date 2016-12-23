@@ -227,7 +227,7 @@
 								<ul class="header_main_menu">
 									@foreach ($menus as $menu)
 										@php
-											$sub_menu = App\Models\Menus::where(['parent_id' => $menu['id'], 'publisher' => 1])->get();
+											$sub_menu = App\Models\Menus::where(['parent_id' => $menu['id'], 'published' => 1])->get();
 										@endphp
 										@if(count($sub_menu) == 0)
 											<li class="no_after"><a href="{{$menu['link']}}" target="{{$menu['target']}}">{{$menu['name']}}</a></li>

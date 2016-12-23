@@ -10,7 +10,7 @@ class Menus extends Model
 
     public $timestamps = false;
     
-    protected $fillable = ['name', 'alias', 'icon', 'parent_id', 'link', 'target', 'publisher',];
+    protected $fillable = ['name', 'alias', 'icon', 'parent_id', 'link', 'target', 'published',];
 
     
 }
