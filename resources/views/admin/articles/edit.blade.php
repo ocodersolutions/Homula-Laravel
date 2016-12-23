@@ -16,10 +16,10 @@
 		{!! Form::text('thumbnail') !!} <br />
 
 		{!! Form::label('content','Content:') !!}
-		{!! Form::textarea('content', '', ['id' => 'editor1']) !!} <br />
+		{!! Form::textarea('content', $articles->content, ['id' => 'editor1']) !!} <br />
 
 		{!! Form::label('excerpt','Excerpt:') !!}
-		{!! Form::textarea('excerpt', '', ['id' => 'editor2']) !!} <br />
+		{!! Form::textarea('excerpt', $articles->excerpt, ['id' => 'editor2']) !!} <br />
 
 		{!! Form::label('categories_id','Categories_id:') !!}
 		<select name="categories_id">
