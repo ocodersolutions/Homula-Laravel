@@ -17,11 +17,23 @@
 
 		{!! Form::label('parent_id','Parent_id:') !!}
 		<select name="parent_id">
-			@foreach($menus as $menu)			
-				<option value="{{$menu->id}}">{{$menu->id}}</option>				
+			<option value="0">none</option>	
+			@foreach ($menus_level as $menus_level_1)			
+				<option value="{{$menus_level_1->id}}">{{$menus_level_1->name}}</option>
+				@foreach ($menus as $menus_level_2)
+					@if ($menus_level_2->parent_id == $menus_level_1->id)
+						<option value="{{$menus_level_2->id}}">&nbsp;&nbsp;&nbsp;{{$menus_level_2->name}}</option>
+						@foreach ($menus as $menus_level_3)
+							@if ($menus_level_3->parent_id == $menus_level_2->id)
+								<option value="{{$menus_level_3->id}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$menus_level_3->name}}</option>
+
+							@endif
+						@endforeach
+					@endif
+				@endforeach			
 			@endforeach
 		</select>
-		</br>
+		</br> 
 
 		{!! Form::label('link','Link:') !!}
 		{!! Form::text('link') !!} </br>

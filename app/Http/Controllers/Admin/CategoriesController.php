@@ -31,7 +31,8 @@ class CategoriesController extends Controller
     public function create()
     {
         $categories = Categories::all();
-        return view('admin.categories.create', ['categories' => $categories]);
+        $categories_level = Categories::where(['parent_id' => 0])->get();
+        return view('admin.categories.create', ['categories' => $categories, 'categories_level' => $categories_level]);
     }
 
     /**
@@ -78,9 +79,10 @@ class CategoriesController extends Controller
      */
     public function edit($id)
     {
-        $categories = Categories::findOrFail($id);
-        $all_categories = Categories::all();
-        return view('admin.categories.edit',compact('categories', 'all_categories'));
+        $categories_item = Categories::findOrFail($id);
+        $categories = Categories::all();
+        $categories_level = Categories::where(['parent_id' => 0])->get();
+        return view('admin.categories.edit',compact('categories', 'categories_item', 'categories_level'));
     }
 
     /**

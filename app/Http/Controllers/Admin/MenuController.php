@@ -31,7 +31,8 @@ class MenuController extends Controller
     public function create()
     {
         $menus = Menus::all();
-        return view('admin.menu.create', ['menus'=>$menus]);
+        $menus_level = Menus::where(['parent_id' => 0])->get();
+        return view('admin.menu.create', ['menus' => $menus, 'menus_level' => $menus_level]);
     }
 
     /**
@@ -80,9 +81,10 @@ class MenuController extends Controller
      */
     public function edit($id)
     {
-        $menus = Menus::findOrFail($id);
-        $all_menus = Menus::all();
-        return view('admin.menu.edit',compact('menus','all_menus'));
+        $menus_item = Menus::findOrFail($id);
+        $menus = Menus::all();
+        $menus_level = Menus::where(['parent_id' => 0])->get();
+        return view('admin.menu.edit',compact('menus_item', 'menus', 'menus_level'));
     }
 
     /**
