@@ -221,11 +221,11 @@
 							<div class="col-sm-12 header_menu_content">
 								<ul class="header_main_menu">
 									@php 
-										$menus = App\Models\Menus::where(['parent_id' => 0, 'publisher' => 1])->get();
+										$menus = App\Models\Menus::where(['parent_id' => 0, 'published' => 1])->get();
 									@endphp
 									@foreach ($menus as $menu)
 										@php
-											$sub_menu = App\Models\Menus::where(['parent_id' => $menu['id'], 'publisher' => 1])->get();
+											$sub_menu = App\Models\Menus::where(['parent_id' => $menu['id'], 'published' => 1])->get();
 										@endphp
 										@if(count($sub_menu) == 0)
 											<li class="no_after"><a href="{{$menu['link']}}" target="{{$menu['target']}}">{{$menu['name']}}</a></li>
