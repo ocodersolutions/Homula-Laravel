@@ -40,7 +40,7 @@ class MenuController extends Controller {
     public function create() {
         $menus = Menus::all();
         $menus_level = Menus::where(['parent_id' => 0])->get();
-        return view('admin.menu.create', ['menus' => $menus, 'menus_level' => $menus_level]);
+        return view('admin.menu.edit', ['menus' => $menus, 'menus_level' => $menus_level]);
     }
 
     /**
@@ -50,22 +50,7 @@ class MenuController extends Controller {
      * @return \Illuminate\Http\Response
      */
     public function store(Request $request) {
-        $post_data = $request->all();
-        $menu = new Menus();
-        $menu->name = $post_data['name'];
-        if (!$post_data['alias'] == '') {
-            $menu->alias = $post_data['alias'];
-        } else {
-            $menu->alias = str_slug($post_data['name'], '-');
-        }
-        $menu->icon = $post_data['icon'];
-        $menu->parent_id = $post_data['parent_id'];
-        $menu->link = $post_data['link'];
-        $menu->target = $post_data['target'];
-        $menu->published = $post_data['published'];
-        $menu->save();
-
-        return redirect('admin/menu');
+        
     }
 
     /**
@@ -98,12 +83,32 @@ class MenuController extends Controller {
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id) {
-        $menu = Menus::findOrFail($id);
-        if (!$menu)
+    public function update(Request $request, $id = 0) {
+        if($id == 0) {
+            $post_data = $request->all();
+            $menu = new Menus();
+            $menu->name = $post_data['name'];
+            if (!$post_data['alias'] == '') {
+                $menu->alias = $post_data['alias'];
+            } else {
+                $menu->alias = str_slug($post_data['name'], '-');
+            }
+            $menu->icon = $post_data['icon'];
+            $menu->parent_id = $post_data['parent_id'];
+            $menu->link = $post_data['link'];
+            $menu->target = $post_data['target'];
+            $menu->published = $post_data['published'];
+            $menu->save();
+
             return redirect('admin/menu');
-        $menu->update($request->all());
-        return redirect('admin/menu');
+        }
+        else {
+            $menu = Menus::findOrFail($id);
+            if (!$menu)
+                return redirect('admin/menu');
+            $menu->update($request->all());
+            return redirect('admin/menu');
+        }
     }
 
     /**

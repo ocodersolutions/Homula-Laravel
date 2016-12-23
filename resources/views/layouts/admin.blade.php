@@ -26,6 +26,8 @@
         <link href="{!! asset('assets/css/datepicker3.css')!!}" rel="stylesheet">
         <link href="{!! asset('assets/css/daterangepicker-bs3.css')!!}" rel="stylesheet">
 
+        <script type="text/javascript" src="{!! asset('plugin/ckeditor/ckeditor.js') !!}"></script>
+
 
     </head>
     <body id="app-layout">

@@ -48,8 +48,8 @@
 			'framename' => 'framename'
 		]) !!} </br>
 
-		{!! Form::label('publisher','Publisher:') !!}
-		{!! Form::select('publisher', ['0', '1']) !!} </br>
+		{!! Form::label('published','published:') !!}
+		{!! Form::select('published', ['0', '1']) !!} </br>
  
 		{!! Form::submit('Add new menu')!!}
 

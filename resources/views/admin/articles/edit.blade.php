@@ -16,10 +16,10 @@
 		{!! Form::text('thumbnail') !!} <br />
 
 		{!! Form::label('content','Content:') !!}
-		{!! Form::textarea('content') !!} <br />
+		{!! Form::textarea('content', '', ['id' => 'editor1']) !!} <br />
 
 		{!! Form::label('excerpt','Excerpt:') !!}
-		{!! Form::textarea('excerpt') !!} <br />
+		{!! Form::textarea('excerpt', '', ['id' => 'editor2']) !!} <br />
 
 		{!! Form::label('categories_id','Categories_id:') !!}
 		<select name="categories_id">
@@ -40,5 +40,10 @@
 		{!! Form::close() !!}
 	</div>
 </div>
+
+<script>
+    CKEDITOR.replace( 'editor1' );
+    CKEDITOR.replace( 'editor2' );
+</script>
 
 @endsection
