@@ -41,23 +41,7 @@ class ArticlesController extends Controller
      */
     public function store(Request $request)
     {
-        $post_data = $request->all();
-        $articles = new Articles();
-        $articles->title = $post_data['title'];
-        if (!$post_data['alias'] == '') {
-            $articles->alias = $post_data['alias'];
-        }
-        else {
-            $articles->alias = str_slug($post_data['title'], '-');
-        }
-        $articles->thumbnail = $post_data['thumbnail'];
-        $articles->content = $post_data['content'];
-        $articles->excerpt = $post_data['excerpt'];
-        $articles->categories_id = $post_data['categories_id'];
-        $articles->published = $post_data['published'];
-        $articles->save();
-
-        return redirect('admin/articles');
+        
     }
 
     /**
@@ -92,12 +76,33 @@ class ArticlesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $id = 0)
     {
-        $articles = Articles::findOrFail($id); 
-        if(!$articles) return redirect('admin/articles');
-        $articles->update($request->all()); 
-        return redirect('admin/articles');
+        if ($id == 0) {
+            $post_data = $request->all();
+            $articles = new Articles();
+            $articles->title = $post_data['title'];
+            if (!$post_data['alias'] == '') {
+                $articles->alias = $post_data['alias'];
+            }
+            else {
+                $articles->alias = str_slug($post_data['title'], '-');
+            }
+            $articles->thumbnail = $post_data['thumbnail'];
+            $articles->content = $post_data['content'];
+            $articles->excerpt = $post_data['excerpt'];
+            $articles->categories_id = $post_data['categories_id'];
+            $articles->published = $post_data['published'];
+            $articles->save();
+
+            return redirect('admin/articles');
+        }
+        else {
+            $articles = Articles::findOrFail($id); 
+            if(!$articles) return redirect('admin/articles');
+            $articles->update($request->all()); 
+            return redirect('admin/articles');
+        }
     }
 
     /**

@@ -73,7 +73,7 @@ Route::group(['middleware' => ['role:admin']], function() {
 	//Articles
 	Route::get('admin/articles', 'Admin\ArticlesController@index');
 	Route::get('admin/articles/create', 'Admin\ArticlesController@create');
-	Route::post('admin/articles/save', 'Admin\ArticlesController@store');
+	Route::post('admin/articles/save', 'Admin\ArticlesController@update');
 	Route::get('admin/articles/edit/{id}', 'Admin\ArticlesController@edit');
 	Route::patch('admin/articles/update/{id}', 'Admin\ArticlesController@update');
 	Route::get('admin/articles/delete/{id}', 'Admin\ArticlesController@delete');
