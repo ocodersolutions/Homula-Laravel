@@ -4,7 +4,11 @@
 
 <div id="edit_roles" >
 	<div class="ibox-content">
-		{!! Form::model($roles,[ 'method' => 'PATCH', 'action' => ['Admin\RoleController@update', $roles->id] ]) !!}
+		@php if(isset($roles)) { @endphp
+			{!! Form::model($roles,[ 'method' => 'PATCH', 'action' => ['Admin\RoleController@update', $roles->id] ]) !!}
+		@php } else { @endphp
+			{!! Form::open(['url' => 'admin/user/role/save']) !!}
+		@php } @endphp
 
 		{!! Form::label('name','Name:') !!}
 		{!! Form::text('name') !!} <br />
