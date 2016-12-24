@@ -83,7 +83,10 @@ class MenuController extends Controller {
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id = 0) {
+    public function update(Request $request, $id = 0) 
+    {
+        Session::flash('success', 'User saved successfully!');
+
         if($id == 0) {
             $post_data = $request->all();
             $menu = new Menus();
@@ -100,14 +103,14 @@ class MenuController extends Controller {
             $menu->published = $post_data['published'];
             $menu->save();
 
-            return redirect('admin/menu');
+            return redirect('admin/menu/edit/'.$menu->id);
         }
         else {
             $menu = Menus::findOrFail($id);
             if (!$menu)
                 return redirect('admin/menu');
             $menu->update($request->all());
-            return redirect('admin/menu');
+            return redirect('admin/menu/edit/'.$menu->id);
         }
     }
 
