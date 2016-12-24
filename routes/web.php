@@ -67,7 +67,7 @@ Route::group(['middleware' => ['role:admin']], function() {
 	Route::get('admin/categories/create', 'Admin\CategoriesController@create');
 	Route::post('admin/categories/save', 'Admin\CategoriesController@update');
 	Route::get('admin/categories/edit/{id}', 'Admin\CategoriesController@edit');
-	Route::patch('admin/categories/update/{id}', 'Admin\CategoriesController@update');
+	Route::post('admin/categories/update/{id}', 'Admin\CategoriesController@update');
 	Route::get('admin/categories/delete/{id}', 'Admin\CategoriesController@delete');
 
 	//Articles
@@ -75,7 +75,7 @@ Route::group(['middleware' => ['role:admin']], function() {
 	Route::get('admin/articles/create', 'Admin\ArticlesController@create');
 	Route::post('admin/articles/save', 'Admin\ArticlesController@update');
 	Route::get('admin/articles/edit/{id}', 'Admin\ArticlesController@edit');
-	Route::patch('admin/articles/update/{id}', 'Admin\ArticlesController@update');
+	Route::post('admin/articles/update/{id}', 'Admin\ArticlesController@update');
 	Route::get('admin/articles/delete/{id}', 'Admin\ArticlesController@delete');
 });
 

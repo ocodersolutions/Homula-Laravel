@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Articles;
 use App\Models\Categories;
+use Illuminate\Support\Facades\Session;
 
 class ArticlesController extends Controller
 {
@@ -27,10 +28,10 @@ class ArticlesController extends Controller
      */
     public function create()
     {
-        $articles = Articles::all();
+        $articles_all = Articles::all();
         $categories = Categories::all();
         $categories_level = Categories::where(['parent_id' => 0])->get();
-        return view('admin.articles.create', ['articles' => $articles, 'categories' => $categories, 'categories_level' => $categories_level]);
+        return view('admin.articles.edit', ['articles_all' => $articles_all, 'categories' => $categories, 'categories_level' => $categories_level]);
     }
 
     /**
@@ -78,6 +79,8 @@ class ArticlesController extends Controller
      */
     public function update(Request $request, $id = 0)
     {
+        Session::flash('success', 'User saved successfully!');
+
         if ($id == 0) {
             $post_data = $request->all();
             $articles = new Articles();
@@ -95,13 +98,13 @@ class ArticlesController extends Controller
             $articles->published = $post_data['published'];
             $articles->save();
 
-            return redirect('admin/articles');
+            return redirect('admin/articles/edit/'.$articles->id);
         }
         else {
             $articles = Articles::findOrFail($id); 
             if(!$articles) return redirect('admin/articles');
             $articles->update($request->all()); 
-            return redirect('admin/articles');
+            return redirect('admin/articles/edit/'.$articles->id);
         }
     }
 

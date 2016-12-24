@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Categories;
+use Illuminate\Support\Facades\Session;
 
 class CategoriesController extends Controller
 {
@@ -80,6 +81,8 @@ class CategoriesController extends Controller
      */
     public function update(Request $request, $id = 0)
     {
+        Session::flash('success', 'User saved successfully!');
+
         if ($id == 0) {
             $post_data = $request->all();
             $categories = new Categories();
@@ -95,13 +98,13 @@ class CategoriesController extends Controller
             $categories->published = $post_data['published'];
             $categories->save();
 
-            return redirect('admin/categories');
+            return redirect('admin/categories/edit/'.$categories->id);
         }
         else {
             $categories = Categories::findOrFail($id); 
             if(!$categories) return redirect('admin/categories');
             $categories->update($request->all()); 
-            return redirect('admin/categories');
+            return redirect('admin/categories/edit/'.$categories->id);
         }
     }
 

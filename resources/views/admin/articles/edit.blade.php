@@ -1,100 +1,266 @@
 @extends('layouts.admin')
 
 @section('content')
+@php if (!isset($articles)) { @endphp
+<form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/articles/save') }}">
+@php } else { @endphp
+<form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/articles/update/'.$articles->id) }}">
+@php } @endphp
 
-<div id="edit_post" >
-	<div class="ibox-content">
-		@php if (isset($articles)) { @endphp
-			{!! Form::model($articles,[ 'method' => 'PATCH', 'action' => ['Admin\ArticlesController@update', $articles->id] ]) !!}
-		@php } else { @endphp
-			{!! Form::open(['url' => 'admin/articles/save']) !!}
-		@php } @endphp
+    <div class="row wrapper border-bottom white-bg page-heading">
+        <div class="col-lg-10">
+        	@php if (!isset($articles)) { @endphp
+            	<h2>Create Articles</h2>
+            @php } else { @endphp
+            	<h2>Edit Articles</h2>
+            @php } @endphp
+            
+            <ol class="breadcrumb">
+                <li>
+                    <a href="{{url('/admin')}}">Home</a>
+                </li>
+                <li>
+                    <a href="{{url('/admin/articles')}}">Articles</a>
+                </li>
+                <li class="active">
+                	@php if (!isset($articles)) { @endphp
+                    	<strong>Create Articles</strong>
+                    @php } else { @endphp
+                    	<strong>Edit Articles</strong>
+                    @php } @endphp
+                </li>
+            </ol>
+        </div>
+        <div class="col-lg-2">
+            <br>
+            <br>
+            <div class="pull-right tooltip-demo">
+                <button  class="btn btn-sm btn-primary dim" data-toggle="tooltip" data-placement="top" title="Add new Articles"><i class="fa fa-plus"></i> Save</button>
+                <a href="{{url('/admin/')}}" class="btn btn-danger btn-sm dim" data-toggle="tooltip" data-placement="top" title="" data-original-title="Cancel Edit"><i class="fa fa-times"></i>Discard</a>
+            </div>
+        </div>
+    </div>
+    @if (Session::has('success'))
+    <br>
+    <div class="alert alert-success alert-dismissable animated fadeInDown">
+        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+        {{ Session::get('success') }}
+    </div>
 
-		{!! Form::label('title','Title:') !!}
-		{!! Form::text('title') !!} <br />
+    @elseif (Session::has('error'))
+    <br>
+    <div class="alert alert-danger  alert-dismissable animated fadeInDown">
+        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+        {{ Session::get('error') }}
+    </div>
 
-		{!! Form::label('alias','Alias:') !!}
-		{!! Form::text('alias') !!} <br />
+    @endif
 
-		{!! Form::label('thumbnail','Thumbnail:') !!}
-		{!! Form::text('thumbnail') !!} <br />
+    {{ csrf_field() }}
+    <!--input type="hidden" name="id" value="{{empty($user) ? old('id') : $user->id}}" /-->
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="ibox float-e-margins">                
+                <div class="ibox-content">
+                    @php if (!isset($articles)) { @endphp
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">     
+                                Title
+                            </label>
+                            <div class="col-sm-10">
+		                    	<input class="form-control" type="text" name='title' value="{{old('title') ? old('title') : '' }}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
 
-		@php if (isset($articles)) { @endphp
-			{!! Form::label('content','Content:') !!}
-			{!! Form::textarea('content', $articles->content, ['id' => 'editor1']) !!} <br />
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">     
+                                Alias
+                            </label>
+                            <div class="col-sm-10">
+		                    	<input class="form-control" type="text" name='alias' value="{{old('title') ? old('title') : '' }}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
 
-			{!! Form::label('excerpt','Excerpt:') !!}
-			{!! Form::textarea('excerpt', $articles->excerpt, ['id' => 'editor2']) !!} <br />
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Thumbnail
+                            </label>
+                            <div class="col-sm-10">
+		                    	<input class="form-control" type="text" name='thumbnail' value="{{old('title') ? old('title') : '' }}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>     
 
-			{!! Form::label('categories_id','Categories_id:') !!}
-			<select name="categories_id">
-				<option value="0">none</option>	
-				@foreach ($categories_level as $categories_level_1)	
-					@if ($categories_level_1->id == $articles->categories_id)		
-						<option value="{{$categories_level_1->id}}" selected="selected">{{$categories_level_1->name}}</option>
-					@else		
-						<option value="{{$categories_level_1->id}}">{{$categories_level_1->name}}</option>
-					@endif
-					@foreach ($categories as $categories_level_2)
-						@if ($categories_level_2->parent_id == $categories_level_1->id)
-							@if ($categories_level_2->id == $articles->categories_id)	
-								<option value="{{$categories_level_2->id}}" selected="selected">&nbsp;&nbsp;&nbsp;{{$categories_level_2->name}}</option>
-							@else		
-								<option value="{{$categories_level_2->id}}">&nbsp;&nbsp;&nbsp;{{$categories_level_2->name}}</option>
-							@endif
-							@foreach ($categories as $categories_level_3)
-								@if ($categories_level_3->parent_id == $categories_level_2->id)
-									@if ($categories_level_3->id == $articles->categories_id)		
-										<option value="{{$categories_level_3->id}}" selected="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$categories_level_3->name}}</option>
-									@else		
-										<option value="{{$categories_level_3->id}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$categories_level_3->name}}</option>
-									@endif
-								@endif
-							@endforeach
-						@endif
-					@endforeach			
-				@endforeach
-			</select>
-		@php } else { @endphp
-			{!! Form::label('content','Content:') !!}
-			{!! Form::textarea('content', '', ['id' => 'editor1']) !!} <br />
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Content
+                            </label>
+                            <div class="col-sm-10">
+		                    	<textarea id="editor1" class="form-control" type="text" name='content'>{{old('title') ? old('title') : '' }}</textarea>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>   
 
-			{!! Form::label('excerpt','Excerpt:') !!}
-			{!! Form::textarea('excerpt', '', ['id' => 'editor2']) !!} <br />
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Excerpt
+                            </label>
+                            <div class="col-sm-10">
+		                    	<textarea id="editor2" class="form-control" type="text" name='excerpt' >{{old('title') ? old('title') : '' }}</textarea>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>   
 
-			{!! Form::label('categories_id','Categories_id:') !!}
-			<select name="categories_id">
-				<option value="0">none</option>	
-				@foreach ($categories_level as $categories_level_1)			
-					<option value="{{$categories_level_1->id}}">{{$categories_level_1->name}}</option>
-					@foreach ($categories as $categories_level_2)
-						@if ($categories_level_2->parent_id == $categories_level_1->id)
-							<option value="{{$categories_level_2->id}}">&nbsp;&nbsp;&nbsp;{{$categories_level_2->name}}</option>
-							@foreach ($categories as $categories_level_3)
-								@if ($categories_level_3->parent_id == $categories_level_2->id)
-									<option value="{{$categories_level_3->id}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$categories_level_3->name}}</option>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Categories_id
+                            </label>
+                            <div class="col-sm-10">
+                                <select name="categories_id">
+									<option value="0">none</option>	
+									@foreach ($categories_level as $categories_level_1)			
+										<option value="{{$categories_level_1->id}}">{{$categories_level_1->name}}</option>
+										@foreach ($articles_all as $categories_level_2)
+											@if ($categories_level_2->parent_id == $categories_level_1->id)
+												<option value="{{$categories_level_2->id}}">&nbsp;&nbsp;&nbsp;{{$categories_level_2->name}}</option>
+												@foreach ($articles_all as $categories_level_3)
+													@if ($categories_level_3->parent_id == $categories_level_2->id)
+														<option value="{{$categories_level_3->id}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$categories_level_3->name}}</option>
 
-								@endif
-							@endforeach
-						@endif
-					@endforeach			
-				@endforeach
-			</select>
-		@php } @endphp
-		</br>
+													@endif
+												@endforeach
+											@endif
+										@endforeach			
+									@endforeach
+								</select>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>     
 
-		{!! Form::label('published','Published:') !!}
-		{!! Form::select('published', ['0', '1']) !!} </br>
- 
-		{!! Form::submit('Update post')!!}
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Published
+                            </label>
+                            <div class="col-sm-10">
+                                <select name="published" class="form-control">
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>    
 
-		{!! Form::close() !!}
-	</div>
-</div>
+                    @php } else { @endphp  
 
-<script>
-    CKEDITOR.replace( 'editor1' );
-    CKEDITOR.replace( 'editor2' );
-</script>
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">     
+                                Title
+                            </label>
+                            <div class="col-sm-10">
+		                    	<input class="form-control" type="text" name='title' value="{{$articles->title}}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">     
+                                Alias
+                            </label>
+                            <div class="col-sm-10">
+		                    	<input class="form-control" type="text" name='alias' value="{{$articles->alias}}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Thumbnail
+                            </label>
+                            <div class="col-sm-10">
+		                    	<input class="form-control" type="text" name='thumbnail' value="{{$articles->thumbnail}}">
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>     
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Content
+                            </label>
+                            <div class="col-sm-10">
+		                    	<textarea id="editor1" class="form-control" type="text" name='content' >{{$articles->content}}</textarea>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>   
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Excerpt
+                            </label>
+                            <div class="col-sm-10">
+		                    	<textarea id="editor2" class="form-control" type="text" name='excerpt'>{{$articles->excerpt}}</textarea>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>   
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Categories_id
+                            </label>
+                            <div class="col-sm-10">
+                                <select name="categories_id">
+									<option value="0">none</option>	
+									@foreach ($categories_level as $categories_level_1)	
+										@if ($categories_level_1->id == $articles->categories_id)		
+											<option value="{{$categories_level_1->id}}" selected="selected">{{$categories_level_1->name}}</option>
+										@else		
+											<option value="{{$categories_level_1->id}}">{{$categories_level_1->name}}</option>
+										@endif
+										@foreach ($categories as $categories_level_2)
+											@if ($categories_level_2->parent_id == $categories_level_1->id)
+												@if ($categories_level_2->id == $articles->categories_id)	
+													<option value="{{$categories_level_2->id}}" selected="selected">&nbsp;&nbsp;&nbsp;{{$categories_level_2->name}}</option>
+												@else		
+													<option value="{{$categories_level_2->id}}">&nbsp;&nbsp;&nbsp;{{$categories_level_2->name}}</option>
+												@endif
+												@foreach ($categories as $categories_level_3)
+													@if ($categories_level_3->parent_id == $categories_level_2->id)
+														@if ($categories_level_3->id == $articles->categories_id)		
+															<option value="{{$categories_level_3->id}}" selected="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$categories_level_3->name}}</option>
+														@else		
+															<option value="{{$categories_level_3->id}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$categories_level_3->name}}</option>
+														@endif
+													@endif
+												@endforeach
+											@endif
+										@endforeach			
+									@endforeach
+								</select>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>     
+
+                        <div class="form-group">
+                            <label class="col-sm-2 control-label">   
+                                Published
+                            </label>
+                            <div class="col-sm-10">
+                                <select name="published" class="form-control">
+                                    <option value="{{$articles->published}}" selected="selected" disabled="">
+                                        {{$articles->published}}
+                                    </option>
+                                    <option value="0">0</option>
+                                    <option value="1">1</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="hr-line-dashed"></div>   
+                    @php } @endphp  
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
 
 @endsection
