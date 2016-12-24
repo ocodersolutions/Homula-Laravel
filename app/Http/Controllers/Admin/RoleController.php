@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Role;
+use Illuminate\Support\Facades\Session;
 
 class RoleController extends Controller
 {
@@ -41,13 +42,7 @@ class RoleController extends Controller
      */
     public function store(Request $request)
     {
-        $post_data = $request->all();
-        $roles = new Role();
-        $roles->name = $post_data['name'];
-        $roles->display_name = $post_data['display_name'];
-        $roles->description = $post_data['description'];
-        $roles->save();
-        return redirect('admin/user/roles');
+        //
     }
 
     /**
@@ -80,12 +75,25 @@ class RoleController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $id = 0)
     {
-        $roles = Role::findOrFail($id); 
-        if(!$roles) return redirect('admin/user/roles');
-        $roles->update($request->all()); 
-        return redirect('admin/user/roles');
+        Session::flash('success', 'User saved successfully!');
+
+        if ($id == 0) {
+            $post_data = $request->all();
+            $roles = new Role();
+            $roles->name = $post_data['name'];
+            $roles->display_name = $post_data['display_name'];
+            $roles->description = $post_data['description'];
+            $roles->save();
+            return redirect('admin/user/role/edit/'.$roles->id);
+        }
+        else {
+            $roles = Role::findOrFail($id); 
+            if(!$roles) return redirect('admin/user/roles');
+            $roles->update($request->all()); 
+            return redirect('admin/user/role/edit/'.$roles->id);
+        }
     }
 
     /**

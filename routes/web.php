@@ -40,17 +40,17 @@ Route::group(['middleware' => ['role:admin']], function() {
 	//permission
 	Route::get('admin/user/permissions', 'Admin\PermissionController@index');
 	Route::get('admin/user/permission/create', 'Admin\PermissionController@create');
-	Route::post('admin/user/permission/save', 'Admin\PermissionController@store');
+	Route::post('admin/user/permission/save', 'Admin\PermissionController@update');
 	Route::get('admin/user/permission/edit/{id}', 'Admin\PermissionController@edit');
-	Route::patch('admin/user/permission/update/{id}', 'Admin\PermissionController@update');
+	Route::post('admin/user/permission/update/{id}', 'Admin\PermissionController@update');
 	Route::get('admin/user/permission/delete/{id}', 'Admin\PermissionController@delete');
 
 	//roles
 	Route::get('admin/user/roles', 'Admin\RoleController@index');
 	Route::get('admin/user/role/create', 'Admin\RoleController@create');
-	Route::post('admin/user/role/save', 'Admin\RoleController@store'); 
+	Route::post('admin/user/role/save', 'Admin\RoleController@update'); 
 	Route::get('admin/user/role/edit/{id}', 'Admin\RoleController@edit');
-	Route::patch('admin/user/role/update/{id}', 'Admin\RoleController@update');
+	Route::post('admin/user/role/update/{id}', 'Admin\RoleController@update');
 	Route::get('admin/user/role/delete/{id}', 'Admin\RoleController@delete');
 
 	//profile
@@ -62,7 +62,7 @@ Route::group(['middleware' => ['role:admin']], function() {
 	Route::get('admin/menu/create', 'Admin\MenuController@create');
 	Route::post('admin/menu/save', 'Admin\MenuController@update'); 
 	Route::get('admin/menu/edit/{id}', 'Admin\MenuController@edit');
-	Route::patch('admin/menu/update/{id}', 'Admin\MenuController@update');
+	Route::post('admin/menu/update/{id}', 'Admin\MenuController@update');
 	Route::get('admin/menu/delete/{id}', 'Admin\MenuController@delete');
 
 	//categories

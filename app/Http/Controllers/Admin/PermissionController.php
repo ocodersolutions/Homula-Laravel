@@ -5,6 +5,7 @@ namespace App\Http\Controllers\Admin;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use App\Models\Permission;
+use Illuminate\Support\Facades\Session;
 
 class PermissionController extends Controller
 {
@@ -30,7 +31,7 @@ class PermissionController extends Controller
      */
     public function create()
     {
-        return view('admin.permissions.create');
+        return view('admin.permissions.edit');
     }
 
     /**
@@ -41,13 +42,7 @@ class PermissionController extends Controller
      */
     public function store(Request $request)
     {
-        $post_data = $request->all();
-        $permissions = new Permission;
-        $permissions->name = $post_data['name'];
-        $permissions->display_name = $post_data['display_name'];
-        $permissions->description = $post_data['description'];
-        $permissions->save();
-        return redirect('admin/user/permissions');
+        //
     }
 
     /**
@@ -80,12 +75,25 @@ class PermissionController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, $id = 0)
     {
-        $permissions = Permission::findOrFail($id); 
-        if(!$permissions) return redirect('admin/user/permissions');
-        $permissions->update($request->all()); 
-        return redirect('admin/user/permissions');
+        Session::flash('success', 'User saved successfully!');
+
+        if ($id == 0) {
+            $post_data = $request->all();
+            $permissions = new Permission;
+            $permissions->name = $post_data['name'];
+            $permissions->display_name = $post_data['display_name'];
+            $permissions->description = $post_data['description'];
+            $permissions->save();
+            return redirect('admin/user/permission/edit/'.$permissions->id);
+        }
+        else {
+            $permissions = Permission::findOrFail($id); 
+            if(!$permissions) return redirect('admin/user/permissions');
+            $permissions->update($request->all()); 
+            return redirect('admin/user/permission/edit/'.$permissions->id);
+        }
     }
 
     /**
