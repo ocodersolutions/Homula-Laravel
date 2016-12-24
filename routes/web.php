@@ -20,6 +20,9 @@ Auth::routes();
 // });
 Route::get('/', 'HomeController@index');
 
+// router compare
+Route::get('compare', 'HomeController@compare');
+
 Route::get('profile', 'FrontendController@index');
 
 /**
