@@ -27,4 +27,11 @@ class HomeController extends Controller
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
         return view('home', ['menus'=>$menus]);
     }
+
+    public function compare()
+    {
+        $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
+        return view('frontend.compare', ['menus'=>$menus]);
+        
+    }
 }
