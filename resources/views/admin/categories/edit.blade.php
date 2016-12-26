@@ -207,8 +207,8 @@
                             </label>
                             <div class="col-sm-10">
                                 <select name="published" class="form-control">
-                                    <option value="{{$articles->published}}" selected="selected" disabled="">
-                                        {{$articles->published}}
+                                    <option value="{{$categories_item->published}}" selected="selected" disabled="">
+                                        {{$categories_item->published}}
                                     </option>
                                     <option value="0">0</option>
                                     <option value="1">1</option>

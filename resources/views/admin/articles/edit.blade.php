@@ -122,10 +122,10 @@
 									<option value="0">none</option>	
 									@foreach ($categories_level as $categories_level_1)			
 										<option value="{{$categories_level_1->id}}">{{$categories_level_1->name}}</option>
-										@foreach ($articles_all as $categories_level_2)
+										@foreach ($categories as $categories_level_2)
 											@if ($categories_level_2->parent_id == $categories_level_1->id)
 												<option value="{{$categories_level_2->id}}">&nbsp;&nbsp;&nbsp;{{$categories_level_2->name}}</option>
-												@foreach ($articles_all as $categories_level_3)
+												@foreach ($categories as $categories_level_3)
 													@if ($categories_level_3->parent_id == $categories_level_2->id)
 														<option value="{{$categories_level_3->id}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$categories_level_3->name}}</option>
 
@@ -262,5 +262,8 @@
         </div>
     </div>
 </form>
-
+<script>
+    CKEDITOR.replace( 'editor1' );
+    CKEDITOR.replace( 'editor2' );
+</script>
 @endsection
