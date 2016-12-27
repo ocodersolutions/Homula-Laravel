@@ -11,7 +11,7 @@
     {
       urlobj = obj;
       OpenServerBrowser(
-      '{{URL::asset("/plugin/Filemanager-master/index.html")}}',
+      '{{URL::asset("/filemanager/index.html")}}',
       screen.width * 0.7,
       screen.height * 0.7 ) ;
     }
@@ -77,8 +77,8 @@
         padding: 0 122px 0 45px;
     }
     .menu_icon img {
-        max-width: 100% !important;
-        max-height: 100% !important;
+        max-width: 100% ;
+        max-height: 100% ;
     }
 </style>
 

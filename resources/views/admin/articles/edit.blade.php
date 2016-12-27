@@ -11,7 +11,7 @@
     {
       urlobj = obj;
       OpenServerBrowser(
-      '{{URL::asset("/plugin/Filemanager-master/index.html")}}',
+      '{{URL::asset("/filemanager/index.html")}}',
       screen.width * 0.7,
       screen.height * 0.7 ) ;
     }
@@ -76,8 +76,8 @@
         padding: 0 122px 0 45px;
     }
     .article_thumbnail img {
-        max-width: 100% !important;
-        max-height: 100% !important;
+        max-width: 100%;
+        max-height: 100%;
     }
 
 </style>
@@ -351,10 +351,10 @@
 </form>
 <script>
     CKEDITOR.replace('editor1', {
-        filebrowserBrowseUrl: '{{URL::asset("plugin/Filemanager-master")}}/index.html',
+        filebrowserBrowseUrl: '{{URL::asset("filemanager")}}/index.html',
     });
     CKEDITOR.replace('editor2', {
-        filebrowserBrowseUrl: '{{URL::asset("plugin/Filemanager-master")}}/index.html',
+        filebrowserBrowseUrl: '{{URL::asset("filemanager")}}/index.html',
     });
     // CKEDITOR.replace( 'editor1' );
     // CKEDITOR.replace( 'editor2' );

@@ -189,6 +189,10 @@ return [
          * html
          */
         Collective\Html\HtmlServiceProvider::class,
+        /**
+         * upload image
+         */
+        Bestmomo\Filemanager\FilemanagerServiceProvider::class,
     ],
 
     /*

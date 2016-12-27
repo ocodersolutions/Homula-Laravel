@@ -6,6 +6,7 @@ use Illuminate\Notifications\Notifiable;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Zizaco\Entrust\Traits\EntrustUserTrait;
 use App\Role;
+use Illuminate\Support\Facades\Auth;
 
 class User extends Authenticatable
 {
@@ -34,4 +35,14 @@ class User extends Authenticatable
     public function Role(){
         return $this->belongsToMany('App\Role');
     }
+    public function accessMediasAll()
+    {
+        if (Auth::check()) {
+            return true;
+        }
+        else {
+            return false;
+        }     
+    }
+
 }
