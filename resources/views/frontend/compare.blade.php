@@ -34,8 +34,9 @@
 	}
 	.slider{
 		position: relative;
+		height: 450px;
 	}
-	.slider span{
+	.slider span.virtual-tour{
 		background: #039be5;
 	    padding: 10px;
 	    color: #fff;
@@ -204,19 +205,91 @@
 	    border-radius: 100% / 10px;
 	}
 </style>
+
 	<div class="container">
+	<div class="row" style="text-align: center;"><a href="/compare/remove-all"><button>Remove all sesson</button></a> </div>
 		<div class="row">
 			<div class="col-md-6">
 				<div class="top-compare">
 					<h2 class="title-property">170 Owen BLVD, Toronto, M2P1G7, Ontario</h2>
 					<p>Jacksonville, Florida 
 					<span class="share">Share this: <i class="fa fa-facebook-square" aria-hidden="true"></i><i class="fa fa-twitter-square" aria-hidden="true"></i><i class="fa fa-google-plus-square" aria-hidden="true"></i></span></p>
+					<button>Remove this properties</button>
 					<hr>
 				</div>
 				<div class="slider">
-					<img class="img-responsive" src="/images/homula-properties-2.png">
-					<span><i class="fa fa-eye" aria-hidden="true"></i> Virtual Tour</span>
-					<img class="img-responsive" src="/images/slider.png">
+			    <link href="/sl/css/slider.css" rel="stylesheet">
+				<script src="/sl/js/jquery-1.11.3.min.js" type="text/javascript" data-library="jquery" data-version="1.11.3"></script>
+			    <script src="/sl/js/jssor.slider-22.0.15.mini.js" type="text/javascript" data-library="jssor.slider.mini" data-version="22.0.15"></script>
+			    <script src="/sl/js/custom.js" type="text/javascript" ></script>
+				<div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: visible; visibility: hidden;">
+				        <!-- Loading Screen -->
+				        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+				            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+				            <div style="position:absolute;display:block;background:url('sl/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+				        </div>
+				        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 335px; overflow: hidden;">
+				            <div data-p="112.50">
+				                <img data-u="image" src="/sl/img/002.jpg" />
+				                <img data-u="thumb" src="/sl/img/002.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/003.jpg" />
+				                <img data-u="thumb" src="/sl/img/003.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/004.jpg" />
+				                <img data-u="thumb" src="/sl/img/004.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/005.jpg" />
+				                <img data-u="thumb" src="/sl/img/005.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/006.jpg" />
+				                <img data-u="thumb" src="/sl/img/006.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/007.jpg" />
+				                <img data-u="thumb" src="/sl/img/007.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/008.jpg" />
+				                <img data-u="thumb" src="/sl/img/008.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/009.jpg" />
+				                <img data-u="thumb" src="/sl/img/009.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/010.jpg" />
+				                <img data-u="thumb" src="/sl/img/010.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/011.jpg" />
+				                <img data-u="thumb" src="/sl/img/011.jpg" />
+				            </div>
+				            <a data-u="any" href="http://www.jssor.com" style="display:none">Image Slider 2</a>
+				        </div>
+				        <!-- Thumbnail Navigator -->
+				        <div data-u="thumbnavigator" class="jssort03" style="position:absolute;left:0px;bottom:-175px;width:600px;height:135px;" data-autocenter="1">
+				            <div style="position: absolute; top: 0; left: 0; width: 100%; height:100%; filter:alpha(opacity=30.0); opacity:0.3;"></div>
+				            <!-- Thumbnail Item Skin Begin -->
+				            <div data-u="slides" style="cursor: default;height: 142px!important;">
+				                <div data-u="prototype" class="p">
+				                    <div class="w">
+				                        <div data-u="thumbnailtemplate" class="t"></div>
+				                    </div>
+				                    <div class="c"></div>
+				                </div>
+				            </div>
+				            <!-- Thumbnail Item Skin End -->
+				        </div>
+				        <!-- Arrow Navigator -->
+				        <span data-u="arrowleft" class="jssora02l" style="top:355px;left:0;width:55px;height:55px;" data-autocenter="2"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+				        <span data-u="arrowright" class="jssora02r" style="top:355px;right:0;width:55px;height:55px;" data-autocenter="2"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+				    </div>
+
 				</div>
 				<div class="shadow">
 					<div class="box-info">
@@ -254,12 +327,12 @@
 				<div class="shadow">
 					<div class="box-info features">
 					  <ul class="nav nav-tabs">
-					    <li class="active"><a data-toggle="tab" href="#home">Basic features</a></li>
-					    <li><a data-toggle="tab" href="#menu1">Advanced features</a></li>
-					    <li><a data-toggle="tab" href="#menu2">Amenities</a></li>
+					    <li class="active"><a data-toggle="tab" href="#left1">Basic features</a></li>
+					    <li><a data-toggle="tab" href="#left2">Advanced features</a></li>
+					    <li><a data-toggle="tab" href="#left3">Amenities</a></li>
 					  </ul><hr>
 					  <div class="tab-content">
-					    <div id="home" class="tab-pane fade in active">
+					    <div id="left1" class="tab-pane fade in active">
 					      <div class="list-pane left">
 					      	<ul>
 					      		<li><span> Status: </span> A</li>
@@ -283,7 +356,7 @@
 					      </div>
 					      <div class="clearfix"></div>
 					    </div>
-					    <div id="menu1" class="tab-pane fade">
+					    <div id="left2" class="tab-pane fade">
 					       <div class="list-pane left">
 					      	<ul>
 					      		<li><span> Status: </span> A</li>
@@ -307,7 +380,7 @@
 					      </div>
 					      <div class="clearfix"></div>
 					    </div>
-					    <div id="menu2" class="tab-pane fade">
+					    <div id="left3" class="tab-pane fade">
 					       <div class="list-pane left">
 					      	<ul>
 					      		<li><span> Status: </span> A</li>
@@ -400,18 +473,85 @@
 				</div>
 			</div>
 
-			
 			<div class="col-md-6">
 				<div class="top-compare">
 					<h2 class="title-property">170 Owen BLVD, Toronto, M2P1G7, Ontario</h2>
 					<p>Jacksonville, Florida 
 					<span class="share">Share this: <i class="fa fa-facebook-square" aria-hidden="true"></i><i class="fa fa-twitter-square" aria-hidden="true"></i><i class="fa fa-google-plus-square" aria-hidden="true"></i></span></p>
+					<button>Remove this properties</button>
 					<hr>
 				</div>
 				<div class="slider">
-					<img class="img-responsive" src="/images/homula-properties-2.png">
-					<span><i class="fa fa-eye" aria-hidden="true"></i> Virtual Tour</span>
-					<img class="img-responsive" src="/images/slider.png">
+
+
+					<div id="jssor_2" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 600px; height: 300px; overflow: visible; visibility: hidden;">
+				        <!-- Loading Screen -->
+				        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+				            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
+				            <div style="position:absolute;display:block;background:url('sl/img/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
+				        </div>
+				        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 600px; height: 335px; overflow: hidden;">
+				            <div data-p="112.50">
+				                <img data-u="image" src="/sl/img/002.jpg" />
+				                <img data-u="thumb" src="/sl/img/002.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/003.jpg" />
+				                <img data-u="thumb" src="/sl/img/003.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/004.jpg" />
+				                <img data-u="thumb" src="/sl/img/004.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/005.jpg" />
+				                <img data-u="thumb" src="/sl/img/005.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/006.jpg" />
+				                <img data-u="thumb" src="/sl/img/006.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/007.jpg" />
+				                <img data-u="thumb" src="/sl/img/007.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/008.jpg" />
+				                <img data-u="thumb" src="/sl/img/008.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/009.jpg" />
+				                <img data-u="thumb" src="/sl/img/009.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/010.jpg" />
+				                <img data-u="thumb" src="/sl/img/010.jpg" />
+				            </div>
+				            <div data-p="112.50" style="display:none;">
+				                <img data-u="image" src="/sl/img/011.jpg" />
+				                <img data-u="thumb" src="/sl/img/011.jpg" />
+				            </div>
+				            <a data-u="any" href="http://www.jssor.com" style="display:none">Image Slider 2</a>
+				        </div>
+				        <!-- Thumbnail Navigator -->
+				        <div data-u="thumbnavigator" class="jssort03" style="position:absolute;left:0px;bottom:-175px;width:600px;height:135px;" data-autocenter="1">
+				            <div style="position: absolute; top: 0; left: 0; width: 100%; height:100%; filter:alpha(opacity=30.0); opacity:0.3;"></div>
+				            <!-- Thumbnail Item Skin Begin -->
+				            <div data-u="slides" style="cursor: default;height: 142px!important;">
+				                <div data-u="prototype" class="p">
+				                    <div class="w">
+				                        <div data-u="thumbnailtemplate" class="t"></div>
+				                    </div>
+				                    <div class="c"></div>
+				                </div>
+				            </div>
+				            <!-- Thumbnail Item Skin End -->
+				        </div>
+				        <!-- Arrow Navigator -->
+				        <span data-u="arrowleft" class="jssora02l" style="top:355px;left:0;width:55px;height:55px;" data-autocenter="2"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+				        <span data-u="arrowright" class="jssora02r" style="top:355px;right:0;width:55px;height:55px;" data-autocenter="2"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+				    </div>
+
 				</div>
 				<div class="shadow">
 					<div class="box-info">
@@ -449,12 +589,12 @@
 				<div class="shadow">
 					<div class="box-info features">
 					  <ul class="nav nav-tabs">
-					    <li class="active"><a data-toggle="tab" href="#home">Basic features</a></li>
-					    <li><a data-toggle="tab" href="#menu1">Advanced features</a></li>
-					    <li><a data-toggle="tab" href="#menu2">Amenities</a></li>
+					    <li class="active"><a data-toggle="tab" href="#right1">Basic features</a></li>
+					    <li><a data-toggle="tab" href="#right2">Advanced features</a></li>
+					    <li><a data-toggle="tab" href="#right3">Amenities</a></li>
 					  </ul><hr>
 					  <div class="tab-content">
-					    <div id="home" class="tab-pane fade in active">
+					    <div id="right1" class="tab-pane fade in active">
 					      <div class="list-pane left">
 					      	<ul>
 					      		<li><span> Status: </span> A</li>
@@ -478,7 +618,7 @@
 					      </div>
 					      <div class="clearfix"></div>
 					    </div>
-					    <div id="menu1" class="tab-pane fade">
+					    <div id="right2" class="tab-pane fade">
 					       <div class="list-pane left">
 					      	<ul>
 					      		<li><span> Status: </span> A</li>
@@ -502,7 +642,7 @@
 					      </div>
 					      <div class="clearfix"></div>
 					    </div>
-					    <div id="menu2" class="tab-pane fade">
+					    <div id="right3" class="tab-pane fade">
 					       <div class="list-pane left">
 					      	<ul>
 					      		<li><span> Status: </span> A</li>

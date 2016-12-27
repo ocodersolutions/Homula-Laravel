@@ -22,7 +22,7 @@ Route::get('/', 'HomeController@index');
 
 // router compare
 Route::get('compare', 'HomeController@compare');
-
+Route::get('compare/remove-all', 'HomeController@remove_all_session_compare');
 Route::get('profile', 'FrontendController@index');
 
 /**
