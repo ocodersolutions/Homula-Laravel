@@ -22,7 +22,7 @@
         "splitterMinWidth": 200,
         "dateFormat": "d M Y H:i",
         "serverRoot": true,
-        "fileRoot": false,
+        "fileRoot": "uploads/",
         "baseUrl": false,
         "logger": false,
         "capabilities": ["select", "download", "rename", "delete", "replace"],
