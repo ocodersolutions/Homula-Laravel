@@ -207,12 +207,14 @@
 </style>
 
 	<div class="container">
+	<div class="row" style="text-align: center;"><a href="/compare/remove-all"><button>Remove all sesson</button></a> </div>
 		<div class="row">
 			<div class="col-md-6">
 				<div class="top-compare">
 					<h2 class="title-property">170 Owen BLVD, Toronto, M2P1G7, Ontario</h2>
 					<p>Jacksonville, Florida 
 					<span class="share">Share this: <i class="fa fa-facebook-square" aria-hidden="true"></i><i class="fa fa-twitter-square" aria-hidden="true"></i><i class="fa fa-google-plus-square" aria-hidden="true"></i></span></p>
+					<button>Remove this properties</button>
 					<hr>
 				</div>
 				<div class="slider">
@@ -471,12 +473,12 @@
 				</div>
 			</div>
 
-
 			<div class="col-md-6">
 				<div class="top-compare">
 					<h2 class="title-property">170 Owen BLVD, Toronto, M2P1G7, Ontario</h2>
 					<p>Jacksonville, Florida 
 					<span class="share">Share this: <i class="fa fa-facebook-square" aria-hidden="true"></i><i class="fa fa-twitter-square" aria-hidden="true"></i><i class="fa fa-google-plus-square" aria-hidden="true"></i></span></p>
+					<button>Remove this properties</button>
 					<hr>
 				</div>
 				<div class="slider">
