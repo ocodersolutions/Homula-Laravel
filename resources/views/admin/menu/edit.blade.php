@@ -36,13 +36,49 @@
 </script>
 
 <style type="text/css">
+    .menu_icon 
     .menu_icon {
         position: relative;
     }
     .menu_icon button {
         position: absolute;
         top: 0;
-        right: 2%;
+        right: 70px;
+        border-radius: 0;
+        background: #f2f2f2;
+        border: 1px solid #cccccc;
+        color: black;
+    }
+    .menu_icon i {
+        position: absolute;
+        top: 0;
+        font-size: 20px;
+        line-height: 32px;
+        padding: 0 10px;
+        background: #eeeeee;
+        border: 1px solid #cccccc;
+        cursor: pointer;
+    }
+    .menu_icon span {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 15px;
+        line-height: 32px;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 0px 20px;
+        cursor: pointer;
+        background: #f2f2f2;
+        border: 1px solid #cccccc;
+        color: #000;
+    }
+    .menu_icon input[type=text] {
+        padding: 0 122px 0 45px;
+    }
+    .menu_icon img {
+        max-width: 100% !important;
+        max-height: 100% !important;
     }
 </style>
 
@@ -134,7 +170,9 @@
                             </label>
                             <div class="col-sm-10 menu_icon">
 		                    	<input class="form-control" type="text" name='icon' value="{{old('title') ? old('title') : '' }}"  id="id_of_the_target_input">
-                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Pick Image</button>
+                                <i class="fa fa-eye" aria-hidden="true" title=""></i>
+                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Select</button>
+                                <span>x</span>
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>     
@@ -233,7 +271,9 @@
                             </label>
                             <div class="col-sm-10 menu_icon">
                                 <input class="form-control" type="text" name='icon' value="{{$menus_item->icon}}" id="id_of_the_target_input">
-                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Pick Image</button>
+                                <i class="fa fa-eye" aria-hidden="true" title=""></i>
+                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Select</button>
+                                <span>x</span>
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>     

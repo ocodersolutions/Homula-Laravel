@@ -42,8 +42,44 @@
     .article_thumbnail button {
         position: absolute;
         top: 0;
-        right: 2%;
+        right: 70px;
+        border-radius: 0;
+        background: #f2f2f2;
+        border: 1px solid #cccccc;
+        color: black;
     }
+    .article_thumbnail i {
+        position: absolute;
+        top: 0;
+        font-size: 20px;
+        line-height: 32px;
+        padding: 0 10px;
+        background: #eeeeee;
+        border: 1px solid #cccccc;
+        cursor: pointer;
+    }
+    .article_thumbnail span {
+        display: inline-block;
+        position: absolute;
+        top: 0;
+        right: 15px;
+        line-height: 32px;
+        font-size: 25px;
+        font-weight: bold;
+        padding: 0px 20px;
+        cursor: pointer;
+        background: #f2f2f2;
+        border: 1px solid #cccccc;
+        color: #000;
+    }
+    .article_thumbnail input[type=text] {
+        padding: 0 122px 0 45px;
+    }
+    .article_thumbnail img {
+        max-width: 100% !important;
+        max-height: 100% !important;
+    }
+
 </style>
 
 @php if (!isset($articles)) { @endphp
@@ -134,7 +170,9 @@
                             </label>
                             <div class="col-sm-10 article_thumbnail">
 		                    	<input class="form-control" type="text" name='thumbnail' value="{{old('title') ? old('title') : '' }}" id="id_of_the_target_input">
-                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Pick Image</button>
+                                <i class="fa fa-eye" aria-hidden="true" title=""></i>
+                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Select</button>
+                                <span>x</span>
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>     
@@ -226,7 +264,9 @@
                             </label>
                             <div class="col-sm-10 article_thumbnail">
 		                    	<input class="form-control" type="text" name='thumbnail' value="{{$articles->thumbnail}}" id="id_of_the_target_input">
-                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Pick Image</button>
+                                <i class="fa fa-eye" aria-hidden="true"></i>
+                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Select</button>
+                                <span>x</span>
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>     

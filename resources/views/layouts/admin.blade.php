@@ -227,6 +227,8 @@
         <script src="{!! asset('assets/js/bootstrap-datepicker.js') !!}"></script>
         <script src="{!! asset('assets/js/daterangepicker.js') !!}"></script>
         <script src="{!! asset('assets/js/admin.js') !!}"></script>
+        
+        <script type="text/javascript" src="{{ URL::asset('js/custom.js') }}"></script>
 
         
     @yield('content_js')
