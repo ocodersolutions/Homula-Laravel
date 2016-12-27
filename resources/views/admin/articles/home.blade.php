@@ -2,6 +2,12 @@
 
 @section('content')
 
+<style type="text/css">
+    .table > tbody > tr > td {
+        word-break: break-all;
+    }
+</style>
+
 <div id="home_articles" >
 	<div class="ibox-content">
 		<a href="{{ url('admin/articles/create')}}" type="button" class="btn btn-primary btn-lg">Add new Post</a>
