@@ -2,81 +2,9 @@
 
 @section('content')
 
-<script type="text/javascript">
-    // File Picker modification for FCK Editor v2.0 - www.fckeditor.net
-    // by: Pete Forde <pete@unspace.ca> @ Unspace Interactive
-    var urlobj;
-
-    function BrowseServer(obj)
-    {
-      urlobj = obj;
-      OpenServerBrowser(
-      '{{URL::asset("/filemanager/index.html")}}',
-      screen.width * 0.7,
-      screen.height * 0.7 ) ;
-    }
-
-    function OpenServerBrowser( url, width, height )
-    {
-      var iLeft = (screen.width - width) / 2 ;
-      var iTop = (screen.height - height) / 2 ;
-      var sOptions = "toolbar=no,status=no,resizable=yes,dependent=yes" ;
-      sOptions += ",width=" + width ;
-      sOptions += ",height=" + height ;
-      sOptions += ",left=" + iLeft ;
-      sOptions += ",top=" + iTop ;
-      var oWindow = window.open( url, "BrowseWindow", sOptions ) ;
-    }
-
-    function SetUrl( url, width, height, alt )
-    {
-      document.getElementById(urlobj).value = url ;
-      oWindow = null;
-    }
-</script>
 
 <style type="text/css">
-    .menu_icon 
-    .menu_icon {
-        position: relative;
-    }
-    .menu_icon button {
-        position: absolute;
-        top: 0;
-        right: 70px;
-        border-radius: 0;
-        background: #f2f2f2;
-        border: 1px solid #cccccc;
-        color: black;
-    }
-    .menu_icon i {
-        position: absolute;
-        top: 0;
-        font-size: 20px;
-        line-height: 32px;
-        padding: 0 10px;
-        background: #eeeeee;
-        border: 1px solid #cccccc;
-        cursor: pointer;
-    }
-    .menu_icon span {
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        right: 15px;
-        line-height: 32px;
-        font-size: 25px;
-        font-weight: bold;
-        padding: 0px 20px;
-        cursor: pointer;
-        background: #f2f2f2;
-        border: 1px solid #cccccc;
-        color: #000;
-    }
-    .menu_icon input[type=text] {
-        padding: 0 122px 0 45px;
-    }
-    .menu_icon img {
+    .generate_input img {
         max-width: 100% ;
         max-height: 100% ;
     }
@@ -168,11 +96,12 @@
                             <label class="col-sm-2 control-label">   
                                 Icon
                             </label>
-                            <div class="col-sm-10 menu_icon">
-		                    	<input class="form-control" type="text" name='icon' value="{{old('title') ? old('title') : '' }}"  id="id_of_the_target_input">
-                                <i class="fa fa-eye" aria-hidden="true" title=""></i>
-                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Select</button>
-                                <span>x</span>
+                            <div class="col-sm-10">
+		                    	@php
+                                    $value = old('title') ? old('title') : '';
+                                    $url = URL::asset("/filemanager/index.html");
+                                    echo App\Library\SelectImageHelper::GenerateIcon($value, 'id_of_the_target_input', $url);
+                                @endphp
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>     
@@ -269,11 +198,12 @@
                             <label class="col-sm-2 control-label">   
                                 Icon
                             </label>
-                            <div class="col-sm-10 menu_icon">
-                                <input class="form-control" type="text" name='icon' value="{{$menus_item->icon}}" id="id_of_the_target_input">
-                                <i class="fa fa-eye" aria-hidden="true" title=""></i>
-                                <button type="button" class="btn btn-primary" onclick="BrowseServer('id_of_the_target_input');">Select</button>
-                                <span>x</span>
+                            <div class="col-sm-10">
+                                @php
+                                    $value = $menus_item->icon;
+                                    $url = URL::asset("/filemanager/index.html");
+                                    echo App\Library\SelectImageHelper::GenerateIcon($value, 'id_of_the_target_input', $url);
+                                @endphp
                             </div>
                         </div>
                         <div class="hr-line-dashed"></div>     

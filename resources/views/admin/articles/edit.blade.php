@@ -3,46 +3,7 @@
 @section('content')
 
 <style type="text/css">
-    .article_thumbnail {
-        position: relative;
-    }
-    .article_thumbnail button {
-        position: absolute;
-        top: 0;
-        right: 70px;
-        border-radius: 0;
-        background: #f2f2f2;
-        border: 1px solid #cccccc;
-        color: black;
-    }
-    .article_thumbnail i {
-        position: absolute;
-        top: 0;
-        font-size: 20px;
-        line-height: 32px;
-        padding: 0 10px;
-        background: #eeeeee;
-        border: 1px solid #cccccc;
-        cursor: pointer;
-    }
-    .article_thumbnail span {
-        display: inline-block;
-        position: absolute;
-        top: 0;
-        right: 15px;
-        line-height: 32px;
-        font-size: 25px;
-        font-weight: bold;
-        padding: 0px 20px;
-        cursor: pointer;
-        background: #f2f2f2;
-        border: 1px solid #cccccc;
-        color: #000;
-    }
-    .article_thumbnail input[type=text] {
-        padding: 0 122px 0 45px;
-    }
-    .article_thumbnail img {
+    .generate_input img {
         max-width: 100%;
         max-height: 100%;
     }
@@ -135,11 +96,11 @@
                             <label class="col-sm-2 control-label">   
                                 Thumbnail
                             </label>
-                            <div class="col-sm-10 article_thumbnail">
-		                    	<input class="form-control" type="text" name='thumbnail' value="{{old('title') ? old('title') : '' }}" id="id_of_the_target_input">
+                            <div class="col-sm-10"> 
                                 @php
+                                    $value = old('title') ? old('title') : '';
                                     $url = URL::asset("/filemanager/index.html");
-                                    echo App\Library\SelectImageHelper::GenerateIcon('id_of_the_target_input', $url);
+                                    echo App\Library\SelectImageHelper::GenerateIcon($value, 'id_of_the_target_input', $url);
                                 @endphp
                             </div>
                         </div>
@@ -230,11 +191,11 @@
                             <label class="col-sm-2 control-label">   
                                 Thumbnail
                             </label>
-                            <div class="col-sm-10 article_thumbnail">
-		                    	<input class="form-control" type="text" name='thumbnail' value="{{$articles->thumbnail}}" id="id_of_the_target_input">
+                            <div class="col-sm-10">
                                 @php
+                                    $value = $articles->thumbnail;
                                     $url = URL::asset("/filemanager/index.html");
-                                    echo App\Library\SelectImageHelper::GenerateIcon('id_of_the_target_input', $url);
+                                    echo App\Library\SelectImageHelper::GenerateIcon($value, 'id_of_the_target_input', $url);
                                 @endphp
                             </div>
                         </div>
