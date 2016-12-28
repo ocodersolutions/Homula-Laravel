@@ -13,6 +13,6 @@ class Permission extends Model
      * The videos that belong to the playlist.
      */
     public function Role(){
-    	return $this->belongsToMany('App\Models\Role', 'permission_role');
+    	return $this->belongsToMany('App\Role', 'permission_role');
     }
 }

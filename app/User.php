@@ -33,7 +33,7 @@ class User extends Authenticatable
         'password', 'remember_token',
     ];
     public function Role(){
-        return $this->belongsToMany('App\Role');
+        return $this->belongsToMany('App\Role', 'role_user');
     }
     public function accessMediasAll()
     {
