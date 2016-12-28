@@ -3,12 +3,6 @@
 @section('content')
 
 
-<style type="text/css">
-    .generate_input img {
-        max-width: 100% ;
-        max-height: 100% ;
-    }
-</style>
 
 @php if (!isset($menus_item)) { @endphp
 <form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/menu/save') }}">

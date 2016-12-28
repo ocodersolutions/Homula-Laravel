@@ -2,13 +2,6 @@
 
 @section('content')
 
-<style type="text/css">
-    .generate_input img {
-        max-width: 100%;
-        max-height: 100%;
-    }
-
-</style>
 
 @php if (!isset($articles)) { @endphp
 <form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/articles/save') }}">

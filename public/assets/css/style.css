@@ -8270,3 +8270,46 @@ body.md-skin {
 .menu_pagination {
   text-align: center;
 }
+.generate_input {
+  position: relative;
+}
+.generate_input img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.generate_input input[type=text] {
+  padding: 0 122px 0 45px;
+}
+.generate_input i {
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+  line-height: 32px;
+  padding: 0 10px;
+  background: #eeeeee;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+.generate_input button {
+  position: absolute;
+  top: 0;
+  right: 55px;
+  border-radius: 0;
+  background: #f2f2f2;
+  border: 1px solid #cccccc;
+  color: black;
+}
+.generate_input span {
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  line-height: 32px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 0px 20px;
+  cursor: pointer;
+  background: #f2f2f2;
+  border: 1px solid #cccccc;
+  color: #000;
+}
