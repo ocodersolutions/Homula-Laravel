@@ -198,6 +198,30 @@
                     </nav>
                 </div>
 
+                @if (Session::has('success'))
+                    <div class="alert alert-success alert-dismissable animated fadeInDown">
+                        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                        {{ Session::get('success') }}
+                    </div>
+
+                    @elseif (Session::has('error'))
+                    <br>
+
+                    <div class="alert alert-danger  alert-dismissable animated fadeInDown">
+                        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+                        {{ Session::get('error') }}
+                    </div>
+                    @elseif (count($errors) > 0)
+                    <div class="alert alert-danger  alert-dismissable animated fadeInDown">
+                        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
+
+                        <ul>
+                            @foreach ($errors->all() as $error)
+                            <li>{{ $error }}</li>
+                            @endforeach
+                        </ul>
+                    </div>
+                @endif
 
                 @yield('content')
 

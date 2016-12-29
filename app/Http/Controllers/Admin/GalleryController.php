@@ -30,11 +30,13 @@ class GalleryController extends BaseAdminController {
         $id = Input::get("id");
         if ($id) {
             $cat = GalleryCat::find($id);
-            $result = $cat->update($req->all());
         } else {
             $cat = new GalleryCat();
-            $result = $cat->save($req->all());
+            $cat->title = $req->title;
+            $cat->save();
         }
+        $result = $cat->update($req->all());
+
         if ($result) {
             Session::flash('success', 'Gallery Category saved successfully!');
         } else {
@@ -45,6 +47,20 @@ class GalleryController extends BaseAdminController {
             return Redirect::to('/admin/gallery/cat/' . $cat->id);
         }
         return Redirect::to('/admin/gallery/cat/add');
+    }
+
+    public function deleteCat($cat_id) {
+        if (!$cat_id) {
+            Session::flash('error', 'Gallery Category fail to delete!<br>No id found!');
+        } else {
+            $cat = GalleryCat::find($cat_id);
+            if ($cat && $cat->delete()) {
+                Session::flash('success', 'Gallery Category deleted successfully!');
+            } else {
+                Session::flash('error', 'Gallery Category fail to delete!');
+            }
+        }
+        return Redirect::to('/admin/gallery');
     }
 
 }

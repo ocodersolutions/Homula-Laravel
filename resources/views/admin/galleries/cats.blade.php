@@ -10,7 +10,7 @@
 
 <div id="home_articles" >
     <div class="ibox-content">
-        <a href="{{ url('admin/articles/create')}}" type="button" class="btn btn-primary btn-lg">Add new Post</a>
+        <a href="{{ url('admin/gallery/cat/add')}}" type="button" class="btn btn-primary btn-lg">Add new Category</a>
         <table class="table">
             <thead>
                 <tr>
@@ -31,8 +31,8 @@
                     <td > {{$post->created_at}} </td>
                     <td > {{$post->updated_at}} </td>
                     <td style="width: 162px;">
-                        <a href="{{ url('admin/articles/edit/'. $post->id) }}" class="btn btn-info">Update</a>
-                        <a href="{{ url('admin/articles/delete/' . $post->id) }}" class="btn btn-danger">Delete</a>
+                        <a href="{{ url('admin/gallery/cat/'. $post->id) }}" class="btn btn-info">Update</a>
+                        <a href="{{ url('admin/gallery/cat/delete/' . $post->id) }}" class="btn btn-danger">Delete</a>
                     </td>
                 </tr>
                 @endforeach

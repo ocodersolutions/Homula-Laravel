@@ -8,3 +8,5 @@ Homestead.yaml
 composer.lock
 /nbproject/private/
 nbproject/
+public/uploads/
+public/plugin/Filemanager-master/userfiles/

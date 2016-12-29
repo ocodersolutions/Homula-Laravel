@@ -15,7 +15,7 @@
                     <a href="{{url('admin/gallery')}}">Gallery</a>
                 </li>
                 @if($cat)
-                 
+
                 <li class="active">
                     <strong>Edit - {{$cat->title}}</strong>
                 </li>
@@ -86,4 +86,9 @@
         </div>
     </div>
 </form>
+@endsection
+
+@section("content_js")
+<script src="{!! asset('assets/js/gallery_admin.js') !!}"></script>
+
 @endsection
