@@ -1,5 +1,15 @@
 $(document).ready(function(){
-	
+	$("#type_title").typed({
+        strings: ["HOMULA IS THE REAL-ESTATE FORMULA"],
+        typeSpeed: 70,
+        backDelay: 500,
+        loop: false,
+        showCursor: false,
+        contentType: 'html', // or text
+        // defaults to false for infinite loop
+        loopCount: false
+        // resetCallback: function() { newTyped(); }
+    });
 	var owlhome = $("#owl-demo-home");
  
    	owlhome.owlCarousel({
@@ -58,15 +68,19 @@ $(document).ready(function(){
                 items:1,
             },
             400:{
-                items:2,
+                items:1,
             },
             600:{
                 items:2,
             },
             700:{
-                items:3,
+                items:2,
             },
             1000:{
+                items:3,
+                slideBy: 1,
+            },
+            1200:{
                 items:4,
                 slideBy: 1,
             },

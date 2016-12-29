@@ -285,6 +285,9 @@
 							</form>
 						</div>
 					</div>
+					<div class="whereilive_div">
+						<a target="_blank" href="http://realestate.homula.com/professional-finder/" class="wsil_btn">Professional Finder</a>
+					</div>
 				</div>
 			</div>
 			<div id="main-content">
@@ -385,6 +388,7 @@
 	<script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min-org.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/typed.js') }}"></script>
 
 </body>
 </html>

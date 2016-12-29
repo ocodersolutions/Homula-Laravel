@@ -154,7 +154,33 @@ video {
     text-align: center;
 }
 .header_bot {
-    border-bottom: 40px solid #0a368a;
+    border-bottom: 90px solid #0a368a;
+    position: relative;
+}
+.whereilive_div {
+    position: absolute;
+    bottom: -78px;
+    right: 200px;
+}
+.wsil_btn {
+    background: url(../images/find_your_perfect.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.wsil_btn:hover {
+    text-decoration: none;
+    color: #fff;
 }
 .header_search {
     position: absolute;
