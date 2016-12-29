@@ -69,7 +69,6 @@ Route::group(['middleware' => ['role:admin']], function() {
     Route::get('admin/categories/create', 'Admin\CategoriesController@create');
     Route::post('admin/categories/save', 'Admin\CategoriesController@update');
     Route::get('admin/categories/edit/{id}', 'Admin\CategoriesController@edit');
-    Route::post('admin/categories/update/{id}', 'Admin\CategoriesController@update');
     Route::get('admin/categories/delete/{id}', 'Admin\CategoriesController@delete');
 
     //Articles

@@ -79,9 +79,10 @@ class CategoriesController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id = 0)
+    public function update(Request $request)
     {
-        Session::flash('success', 'User saved successfully!');
+        $id = $request->get("id");
+        $result = false;
 
         if ($id == 0) {
             $post_data = $request->all();
@@ -102,10 +103,20 @@ class CategoriesController extends Controller
         }
         else {
             $categories = Categories::findOrFail($id); 
-            if(!$categories) return redirect('admin/categories');
-            $categories->update($request->all()); 
-            return redirect('admin/categories/edit/'.$categories->id);
+            if($categories) {
+                $categories->published = $request->published ? $request->published : 0;
+                $result = $categories->update($request->all());
+            } 
         }
+        if ($result) {
+            Session::flash('success', 'Categories saved successfully!');
+        } else {
+            Session::flash('error', 'Categories failed to save successfully!');
+        }
+        if ($categories && $categories->id) {
+            return redirect('admin/categories/edit/' . $categories->id);
+        }
+        return redirect('admin/categories/create');
     }
 
     /**

@@ -105,7 +105,7 @@ class ArticlesController extends Controller {
         if ($articles && $articles->id) {
             return redirect('admin/articles/edit/' . $articles->id);
         }
-        return redirect('admin/articles/edit/create');
+        return redirect('admin/articles/create');
     }
 
     /**
