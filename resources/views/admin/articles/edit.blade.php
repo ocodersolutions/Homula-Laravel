@@ -150,9 +150,7 @@
 
 @endsection
 @section("content_js")
-<link href="{!! asset('assets/css/plugins/switchery/switchery.css')!!}" rel="stylesheet">
- <!-- Switchery -->
-<script src="{!! asset('assets/js/plugins/switchery/switchery.js') !!}"></script>
+
 <script>
     CKEDITOR.replace('editor1', {
         filebrowserBrowseUrl: '{{URL::asset("filemanager")}}/index.html',
