@@ -9,6 +9,9 @@
 	<link href="{{ URL::asset('css/bootstrap-theme.min.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="{{ URL::asset('css/style.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="{{ URL::asset('css/font-awesome.min.css') }}" media="all" rel="stylesheet" type="text/css" />
+	<link href="{{ URL::asset('css/owl.carousel.css') }}" media="all" rel="stylesheet" type="text/css" />
+	<link href="{{ URL::asset('css/owl.carousel.min.css') }}" media="all" rel="stylesheet" type="text/css" />
+	<link href="{{ URL::asset('css/owl.theme.default.min.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="/css/app.css" rel="stylesheet">
 
 	<script type="text/javascript" src="{{URL::asset('js/jquery-1.12.4.min.js')}}"></script>
@@ -251,7 +254,7 @@
 						<video id="cover-video" preload="metadata" autoplay="" muted="" loop="">
 							<source src="http://preview.byaviators.com/theme/realsite/wp-content/uploads/2015/03/Houses_1-5_720p_h264_30rf_wo.mp4" type="video/mp4">
 						</video>
-						<h1>HOMULA IS THE REAL-ESTATE FOMULA</h1>
+						<h1 id="type_title">HOMULA IS THE REAL-ESTATE FOMULA</h1>
 						<div class="header_search">
 							<ul>
 								<li>
@@ -380,6 +383,8 @@
 	<script type="text/javascript" src="{{ URL::asset('js/custom.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.4.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min-org.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
 
 </body>
 </html>
