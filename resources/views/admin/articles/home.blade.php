@@ -34,8 +34,8 @@
 					<td > {{$post->title}} </td>
 					<td > {{$post->alias}} </td>
 					<td > {{$post->thumbnail}} </td>
-					<td >@php  echo str_limit($post->content,100, '...'); @endphp </td>
-					<td > @php  echo str_limit($post->excerpt,50, '...'); @endphp </td>
+					<td >{{str_limit(strip_tags($post->content),100, '...')}}</td>
+					<td > {{ str_limit(strip_tags($post->excerpt),50, '...')}} </td>
 					<td > {{$post->categories_id}} </td>
 					<td > {{$post->published}} </td>
 					<td > {{$post->created_at}} </td>

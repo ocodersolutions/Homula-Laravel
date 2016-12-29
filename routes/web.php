@@ -77,7 +77,6 @@ Route::group(['middleware' => ['role:admin']], function() {
     Route::get('admin/articles/create', 'Admin\ArticlesController@create');
     Route::post('admin/articles/save', 'Admin\ArticlesController@update');
     Route::get('admin/articles/edit/{id}', 'Admin\ArticlesController@edit');
-    Route::post('admin/articles/update/{id}', 'Admin\ArticlesController@update');
     Route::get('admin/articles/delete/{id}', 'Admin\ArticlesController@delete');
 
     Route::group(['prefix' => 'admin/gallery', "namespace" => "Admin"], function() {
@@ -115,7 +114,7 @@ Menu::make('MyNavBar', function($menu) {
 
     $menu->add('Articles', 'admin/articles')->attr(array('pre_icon' => 'file-text'));
 
-    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
+//    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
 });
 /**
  * create menu don't role:admin
