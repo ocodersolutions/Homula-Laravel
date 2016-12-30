@@ -28,7 +28,8 @@ class HomeController extends Controller
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
         $articles = Articles::where('id','>=', 8)->take(10)->get();
         $articles_agent = Articles::where('id','>=', 18)->take(36)->get();
-        return view('home', compact('menus', 'articles', 'articles_agent'));
+        $articles_news = Articles::where('id','>=', 54)->take(18)->get();
+        return view('home', compact('menus', 'articles', 'articles_agent', 'articles_news'));
     }
 
     public function compare()
