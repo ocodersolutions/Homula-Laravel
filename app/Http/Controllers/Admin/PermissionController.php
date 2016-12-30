@@ -75,9 +75,10 @@ class PermissionController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id = 0)
+    public function update(Request $request)
     {
-        Session::flash('success', 'User saved successfully!');
+        $id = $request->get("id");
+        $result = false;
 
         if ($id == 0) {
             $post_data = $request->all();
@@ -85,15 +86,23 @@ class PermissionController extends Controller
             $permissions->name = $post_data['name'];
             $permissions->display_name = $post_data['display_name'];
             $permissions->description = $post_data['description'];
-            $permissions->save();
-            return redirect('admin/user/permission/edit/'.$permissions->id);
+            $result = $permissions->save();
         }
         else {
             $permissions = Permission::findOrFail($id); 
-            if(!$permissions) return redirect('admin/user/permissions');
-            $permissions->update($request->all()); 
-            return redirect('admin/user/permission/edit/'.$permissions->id);
+            if($permissions) {
+                $result = $permissions->update($request->all());
+            } 
+        }        
+        if ($result) {
+            Session::flash('success', 'Permissions saved successfully!');
+        } else {
+            Session::flash('error', 'Permissions failed to save successfully!');
         }
+        if ($permissions && $permissions->id) {
+            return redirect('admin/user/permission/edit/' . $permissions->id);
+        }
+        return redirect('admin/user/permission/create');
     }
 
     /**

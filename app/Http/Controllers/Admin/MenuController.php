@@ -102,7 +102,7 @@ class MenuController extends Controller {
             $menu->link = $post_data['link'];
             $menu->target = $post_data['target'];
             $menu->published = $request->published ? $request->published : 0;
-            $menu->save();
+            $result = $menu->save();
         }
         else {
             $menu = Menus::findOrFail($id);

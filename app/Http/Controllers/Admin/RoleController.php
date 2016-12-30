@@ -77,7 +77,8 @@ class RoleController extends Controller
      */
     public function update(Request $request, $id = 0)
     {
-        Session::flash('success', 'User saved successfully!');
+        $id = $request->get("id");
+        $result = false;
 
         if ($id == 0) {
             $post_data = $request->all();
@@ -85,15 +86,23 @@ class RoleController extends Controller
             $roles->name = $post_data['name'];
             $roles->display_name = $post_data['display_name'];
             $roles->description = $post_data['description'];
-            $roles->save();
-            return redirect('admin/user/role/edit/'.$roles->id);
+            $result = $roles->save();            
         }
         else {
             $roles = Role::findOrFail($id); 
-            if(!$roles) return redirect('admin/user/roles');
-            $roles->update($request->all()); 
-            return redirect('admin/user/role/edit/'.$roles->id);
+            if($roles) {
+                $result = $roles->update($request->all());
+            } 
+        }        
+        if ($result) {
+            Session::flash('success', 'Role saved successfully!');
+        } else {
+            Session::flash('error', 'Role failed to save successfully!');
         }
+        if ($roles && $roles->id) {
+            return redirect('admin/user/role/edit/' . $roles->id);
+        }
+        return redirect('admin/user/role/create');
     }
 
     /**

@@ -1,19 +1,15 @@
 @extends('layouts.admin')
 
 @section('content')
-@php if (!isset($permissions)) { @endphp
+@php( $permissions = isset($permissions) ? $permissions : false)
+
 <form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/user/permission/save') }}">
-@php } else { @endphp
-<form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/user/permission/update/'.$permissions->id) }}">
-@php } @endphp
+
+    <input  type="hidden" name='id' value="{{ $permissions ? $permissions->id : '' }}">
 
     <div class="row wrapper border-bottom white-bg page-heading">
         <div class="col-lg-10">
-        	@php if (!isset($permissions)) { @endphp
-            	<h2>Create Permission</h2>
-            @php } else { @endphp
-            	<h2>Edit Permission</h2>
-            @php } @endphp
+            <h2>{{ $permissions ? "Edit" : 'Create' }} Permission</h2>
             
             <ol class="breadcrumb">
                 <li>
@@ -23,11 +19,7 @@
                     <a href="{{url('/admin/user/permissions')}}">Permission</a>
                 </li>
                 <li class="active">
-                	@php if (!isset($permissions)) { @endphp
-                    	<strong>Create Permission</strong>
-                    @php } else { @endphp
-                    	<strong>Edit Permission</strong>
-                    @php } @endphp
+                    <strong>{{ $permissions ? "Edit" : 'Create' }} Permission</strong>
                 </li>
             </ol>
         </div>
@@ -40,21 +32,6 @@
             </div>
         </div>
     </div>
-    @if (Session::has('success'))
-    <br>
-    <div class="alert alert-success alert-dismissable animated fadeInDown">
-        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-        {{ Session::get('success') }}
-    </div>
-
-    @elseif (Session::has('error'))
-    <br>
-    <div class="alert alert-danger  alert-dismissable animated fadeInDown">
-        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-        {{ Session::get('error') }}
-    </div>
-
-    @endif
 
     {{ csrf_field() }}
     <!--input type="hidden" name="id" value="{{empty($user) ? old('id') : $user->id}}" /-->
@@ -68,11 +45,7 @@
                             Name
                         </label>
                         <div class="col-sm-10">
-                        	@php if (!isset($permissions)) { @endphp
-		                    	<input class="form-control" type="text" name='name' value="{{old('title') ? old('title') : '' }}">
-		                    @php } else { @endphp
-                            	<input class="form-control" type="text" name='name' value="{{$permissions->name}}">
-		                    @php } @endphp
+	                    	<input class="form-control" type="text" name='name' value="{{old('name') ? old('name') : ($permissions ? $permissions->name : '') }}">
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -82,11 +55,7 @@
                             Display_name
                         </label>
                         <div class="col-sm-10">
-                        	@php if (!isset($permissions)) { @endphp
-		                    	<input class="form-control" type="text" name='display_name' value="{{old('title') ? old('title') : '' }}">
-		                    @php } else { @endphp
-                            	<input class="form-control" type="text" name='display_name' value="{{$permissions->display_name}}">
-		                    @php } @endphp
+	                    	<input class="form-control" type="text" name='display_name' value="{{old('display_name') ? old('display_name') : ($permissions ? $permissions->display_name : '') }}">
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -96,11 +65,7 @@
                             Description
                         </label>
                         <div class="col-sm-10">
-                            @php if (!isset($permissions)) { @endphp
-		                    	<input class="form-control" type="text" name='description' value="{{old('title') ? old('title') : '' }}">
-		                    @php } else { @endphp
-                            	<input class="form-control" type="text" name='description' value="{{$permissions->description}}">
-		                    @php } @endphp
+	                    	<input class="form-control" type="text" name='description' value="{{old('description') ? old('description') : ($permissions ? $permissions->description : '') }}">
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>           

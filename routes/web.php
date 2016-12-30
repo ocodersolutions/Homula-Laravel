@@ -41,7 +41,6 @@ Route::group(['middleware' => ['role:admin']], function() {
     Route::get('admin/user/permission/create', 'Admin\PermissionController@create');
     Route::post('admin/user/permission/save', 'Admin\PermissionController@update');
     Route::get('admin/user/permission/edit/{id}', 'Admin\PermissionController@edit');
-    Route::post('admin/user/permission/update/{id}', 'Admin\PermissionController@update');
     Route::get('admin/user/permission/delete/{id}', 'Admin\PermissionController@delete');
 
     //roles
