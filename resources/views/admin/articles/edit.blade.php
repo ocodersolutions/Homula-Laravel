@@ -68,7 +68,7 @@
                         </label>
                         <div class="col-sm-10">
                             @php ($value = (old('thumbnail') ? old('thumbnail') : ($articles ? $articles->thumbnail : '')))
-                            {!! App\Library\SelectImageHelper::GenerateIcon($value, 'id_of_the_target_input', URL::asset("/filemanager/index.html")) !!}
+                            {!! App\Library\SelectImageHelper::GenerateIcon($value, 'id_of_the_target_input', URL::asset("/filemanager/index.html"), 'thumbnail') !!}
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>     

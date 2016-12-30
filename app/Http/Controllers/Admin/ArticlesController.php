@@ -88,7 +88,7 @@ class ArticlesController extends Controller {
             $articles->content = $post_data['content'];
             $articles->excerpt = $post_data['excerpt'];
             $articles->categories_id = $post_data['categories_id'];
-            $articles->published = $post_data['published'];
+            $articles->published = $request->published ? $request->published : 0;
             $result = $articles->save();
         } else {
             $articles = Articles::findOrFail($id);

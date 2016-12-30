@@ -61,7 +61,6 @@ Route::group(['middleware' => ['role:admin']], function() {
     Route::get('admin/menu/create', 'Admin\MenuController@create');
     Route::post('admin/menu/save', 'Admin\MenuController@update');
     Route::get('admin/menu/edit/{id}', 'Admin\MenuController@edit');
-    Route::post('admin/menu/update/{id}', 'Admin\MenuController@update');
     Route::get('admin/menu/delete/{id}', 'Admin\MenuController@delete');
 
     //categories

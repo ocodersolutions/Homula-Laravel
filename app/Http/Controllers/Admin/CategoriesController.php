@@ -96,10 +96,8 @@ class CategoriesController extends Controller
             }
             $categories->description = $post_data['description'];
             $categories->parent_id = $post_data['parent_id'];
-            $categories->published = $post_data['published'];
+            $categories->published = $request->published ? $request->published : 0;
             $categories->save();
-
-            return redirect('admin/categories/edit/'.$categories->id);
         }
         else {
             $categories = Categories::findOrFail($id); 

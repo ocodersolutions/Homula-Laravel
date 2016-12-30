@@ -83,9 +83,10 @@ class MenuController extends Controller {
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id = 0) 
+    public function update(Request $request) 
     {
-        Session::flash('success', 'User saved successfully!');
+        $id = $request->get("id");
+        $result = false;
 
         if($id == 0) {
             $post_data = $request->all();
@@ -100,18 +101,25 @@ class MenuController extends Controller {
             $menu->parent_id = $post_data['parent_id'];
             $menu->link = $post_data['link'];
             $menu->target = $post_data['target'];
-            $menu->published = $post_data['published'];
+            $menu->published = $request->published ? $request->published : 0;
             $menu->save();
-
-            return redirect('admin/menu/edit/'.$menu->id);
         }
         else {
             $menu = Menus::findOrFail($id);
-            if (!$menu)
-                return redirect('admin/menu');
-            $menu->update($request->all());
-            return redirect('admin/menu/edit/'.$menu->id);
+            if ($menu) {
+                $menu->published = $request->published ? $request->published : 0;
+                $result = $menu->update($request->all());
+            }
         }
+        if ($result) {
+            Session::flash('success', 'Menu saved successfully!');
+        } else {
+            Session::flash('error', 'Menu failed to save successfully!');
+        }
+        if ($menu && $menu->id) {
+            return redirect('admin/menu/edit/' . $menu->id);
+        }
+        return redirect('admin/menu/create');
     }
 
     /**
