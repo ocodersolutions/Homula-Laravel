@@ -49,53 +49,39 @@
 		<div class="container">
 			<div class="row">
 				<h2 class="title_hasline">WHAT IS HOMULA?</h2>
-					<div class="col-sm-4 col-md-4">						
-						<div class="box_item_what">
-							<div class="box_item_what_hover">
-								<a href="/radius-search">
-									<img src="{{URL::asset('images/homula-search.jpg')}}" alt="homula search" class="img-responsive">
-									<div class="overplay_title">
-										<a href="#"><p class="box_items_title">Ask Questions</p></a>
-									</div>
-								</a>
-							</div>	
-						</div>						
-					</div>					
-					<div class="col-sm-4 col-md-4">						
-						<div class="box_item_what">
-							<div class="box_item_what_hover">
-								<iframe width="100%" height="234" src="https://www.youtube.com/embed/VGP0hMjEGc8" frameborder="0" allowfullscreen></iframe>
+				<div class="col-sm-4 col-md-4">						
+					<div class="box_item_what">
+						<div class="box_item_what_hover">
+							<a href="/radius-search">
+								<img src="{{URL::asset('images/homula-search.jpg')}}" alt="homula search" class="img-responsive">
 								<div class="overplay_title">
-									<a href="/about-us"><p class="box_items_title">Read more</p></a>
+									<a href="#"><p class="box_items_title">Ask Questions</p></a>
 								</div>
-							</div>	
-						</div>
-					</div>					
-					<div class="col-sm-4 col-md-4">						
-						<div class="box_item_what">
-							<div class="box_item_what_hover">
-								<a href="/realestate-search">
-									<img src="{{URL::asset('images/homula-map.jpg')}}" alt="homula search" class="img-responsive">
-									<div class="overplay_title">
-										<p class="box_items_title">Search</p>
-									</div>
-								</a>
-							</div>	
-						</div>
+							</a>
+						</div>	
+					</div>						
+				</div>					
+				<div class="col-sm-4 col-md-4">						
+					<div class="box_item_what">
+						<div class="box_item_what_hover">
+							<iframe width="100%" height="234" src="https://www.youtube.com/embed/VGP0hMjEGc8" frameborder="0" allowfullscreen></iframe>
+							<div class="overplay_title">
+								<a href="/about-us"><p class="box_items_title">Read more</p></a>
+							</div>
+						</div>	
 					</div>
-				</div>
-				<div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
-				  <div class="modal-dialog modal-lg" role="document">
-				    <div class="modal-content">
-				    	<div class="modal-header">
-				          <button type="button" class="close" data-dismiss="modal">&times;</button>
-				          <h4 class="modal-title">Homula - MLS listing - Toronto real estate - Canada real estate 2016</h4>
-				        </div>
-				        <div class="modal-body">
-				         <iframe width="100%" height="472" src="https://www.youtube.com/embed/VGP0hMjEGc8" frameborder="0" allowfullscreen></iframe>
-				        </div>
-				    </div>
-				  </div>
+				</div>					
+				<div class="col-sm-4 col-md-4">						
+					<div class="box_item_what">
+						<div class="box_item_what_hover">
+							<a href="/realestate-search">
+								<img src="{{URL::asset('images/homula-map.jpg')}}" alt="homula search" class="img-responsive">
+								<div class="overplay_title">
+									<p class="box_items_title">Search</p>
+								</div>
+							</a>
+						</div>	
+					</div>
 				</div>
 				<div class="clr"></div>
 			</div>
