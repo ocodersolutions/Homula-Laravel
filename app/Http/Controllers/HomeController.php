@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Menus;
+use App\Models\Articles;
 
 class HomeController extends Controller
 {
@@ -25,7 +26,9 @@ class HomeController extends Controller
     public function index()
     {
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
-        return view('home', ['menus'=>$menus]);
+        $articles = Articles::where('id','>=', 8)->take(10)->get();
+        $articles_agent = Articles::where('id','>=', 18)->take(36)->get();
+        return view('home', compact('menus', 'articles', 'articles_agent'));
     }
 
     public function compare()

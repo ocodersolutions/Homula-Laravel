@@ -71,7 +71,17 @@
                             {!! App\Library\SelectImageHelper::GenerateIcon($value, 'id_of_the_target_input', URL::asset("/filemanager/index.html"), 'thumbnail') !!}
                         </div>
                     </div>
-                    <div class="hr-line-dashed"></div>     
+                    <div class="hr-line-dashed"></div>   
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">     
+                            Link
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='link' value="{!!old('link') ? old('link') : ($articles? $articles->link : '')!!}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>  
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
