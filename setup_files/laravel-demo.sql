@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 30, 2016 at 05:05 AM
+-- Generation Time: Dec 30, 2016 at 08:55 AM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.5
 
@@ -95,7 +95,25 @@ INSERT INTO `articles` (`id`, `title`, `alias`, `thumbnail`, `link`, `content`, 
 (50, 'Janina Crone', '', '/uploads/top_agents/agentphoto-31.png', 'http://realestate.homula.com/agents/janina-crone/', '<p>janinacrone@realestate.homula.com</p>\r\n', '', 0, 1, '2016-12-29 20:33:43', '2016-12-29 20:42:44'),
 (51, 'Julia Crane', '', '/uploads/top_agents/agentphoto-32.png', 'http://realestate.homula.com/agents/julia-crane/', '<p>juliacrane@realestate.homula.com</p>\r\n', '', 0, 1, '2016-12-29 20:34:13', '2016-12-29 20:42:49'),
 (52, 'Willie L. Christian', '', '/uploads/top_agents/agentphoto-33.png', 'http://realestate.homula.com/agents/willie-l-christian/', '<p>willielchristian@realestate.homula.com</p>\r\n', '', 0, 1, '2016-12-29 20:34:44', '2016-12-29 20:42:55'),
-(53, 'Harry Cardoso', '', '/uploads/top_agents/agentphoto-34.png', 'http://realestate.homula.com/agents/harry-cardoso/', '<p>harrycardoso@realestate.homula.com</p>\r\n', '', 0, 1, '2016-12-29 20:35:21', '2016-12-29 20:43:12');
+(53, 'Harry Cardoso', '', '/uploads/top_agents/agentphoto-34.png', 'http://realestate.homula.com/agents/harry-cardoso/', '<p>harrycardoso@realestate.homula.com</p>\r\n', '', 0, 1, '2016-12-29 20:35:21', '2016-12-29 20:43:12'),
+(54, '10 Effective Tips for Finding the Right Realtor in Toronto', '', '/uploads/real_estate_new/new-1.jpg', 'http://realestate.homula.com/10-effective-tips-finding-right-realtor-toronto/', '', '', 0, 1, '2016-12-29 21:18:10', '2016-12-29 21:18:13'),
+(55, 'TORONTO REAL ESTATE UTILITIES', '', '/uploads/real_estate_new/new-2.jpg', 'http://realestate.homula.com/toronto-real-estate-utilities/', '', '', 0, 1, '2016-12-29 21:18:41', '2016-12-29 21:18:45'),
+(56, 'TORONTO REAL ESTATE STUDIES', '', '/uploads/real_estate_new/new-3.jpg', 'http://realestate.homula.com/toronto-real-estate-studies/', '', '', 0, 1, '2016-12-29 21:19:12', '2016-12-29 21:19:15'),
+(57, 'TORONTO REAL ESTATE SOCIAL', '', '/uploads/real_estate_new/new-4.jpg', 'http://realestate.homula.com/toronto-real-estate-social/', '', '', 0, 1, '2016-12-29 21:19:39', '2016-12-29 21:19:43'),
+(58, 'Five things to expect from Canadian real estate in 2017', '', '/uploads/real_estate_new/new-5.jpg', 'http://realestate.homula.com/five-things-expect-canadian-real-estate-2017/', '', '', 0, 1, '2016-12-29 21:20:14', '2016-12-29 21:20:17'),
+(59, '4 Illegal Tactics You Need to Beware of in Toronto Real Estate', '', '/uploads/real_estate_new/new-5.jpg', 'http://realestate.homula.com/4-illegal-tactics-need-beware-toronto-real-estate/', '', '', 0, 1, '2016-12-29 21:20:45', '2016-12-29 21:20:48'),
+(60, 'The 5 Biggest Risks You Will Face in the Toronto Real Estate Market in 2016', '', '/uploads/real_estate_new/new-6.jpg', 'http://realestate.homula.com/5-biggest-risks-will-face-toronto-real-estate-market-2016/', '', '', 0, 1, '2016-12-29 21:21:10', '2016-12-29 21:21:14'),
+(61, 'What if You Find a Realtor in Toronto and They’re Terrible?', '', '/uploads/real_estate_new/new-7.jpg', 'http://realestate.homula.com/find-realtor-toronto-theyre-terrible/', '', '', 0, 1, '2016-12-29 21:21:39', '2016-12-29 21:21:47'),
+(62, 'Top 10 key factors you must know about the Toronto real estate Market', '', '/uploads/real_estate_new/new-2.jpg', 'http://realestate.homula.com/top-10-key-factors-must-know-toronto-real-estate-market/', '', '', 0, 1, '2016-12-29 21:22:38', '2016-12-29 21:22:42'),
+(63, 'Latest trends sweeping the real estate market in Toronto', '', '/uploads/real_estate_new/new-8.png', 'http://realestate.homula.com/latest-trends-sweeping-real-estate-market-toronto/', '', '', 0, 1, '2016-12-29 21:23:06', '2016-12-29 21:23:09'),
+(64, '10 Effective Tips for Finding the Right Realtor in Toronto', '', '/uploads/real_estate_new/new-1.jpg', 'http://realestate.homula.com/10-effective-tips-finding-right-realtor-toronto/', '', '', 0, 1, '2016-12-29 21:23:32', '2016-12-29 21:23:35'),
+(65, 'TORONTO REAL ESTATE UTILITIES', '', '/uploads/real_estate_new/new-2.jpg', 'http://realestate.homula.com/toronto-real-estate-utilities/', '', '', 0, 1, '2016-12-29 21:23:58', '2016-12-29 21:24:12'),
+(66, 'TORONTO REAL ESTATE STUDIES', '', '/uploads/real_estate_new/new-3.jpg', 'http://realestate.homula.com/toronto-real-estate-studies/', '', '', 0, 1, '2016-12-29 21:24:32', '2016-12-29 21:24:35'),
+(67, 'TORONTO REAL ESTATE SOCIAL', '', '/uploads/real_estate_new/new-4.jpg', 'http://realestate.homula.com/toronto-real-estate-social/', '', '', 0, 1, '2016-12-29 21:24:57', '2016-12-29 21:25:00'),
+(68, 'Five things to expect from Canadian real estate in 2017', '', '/uploads/real_estate_new/new-5.jpg', 'http://realestate.homula.com/five-things-expect-canadian-real-estate-2017/', '', '', 0, 1, '2016-12-29 21:25:26', '2016-12-29 21:25:32'),
+(69, '4 Illegal Tactics You Need to Beware of in Toronto Real Estate', '', '/uploads/real_estate_new/new-5.jpg', 'http://realestate.homula.com/4-illegal-tactics-need-beware-toronto-real-estate/', '', '', 0, 1, '2016-12-29 21:25:58', '2016-12-29 21:26:01'),
+(70, 'The 5 Biggest Risks You Will Face in the Toronto Real Estate Market in 2016', '', '/uploads/real_estate_new/new-6.jpg', 'http://realestate.homula.com/5-biggest-risks-will-face-toronto-real-estate-market-2016/', '', '', 0, 1, '2016-12-29 21:26:26', '2016-12-29 21:26:28'),
+(71, 'What if You Find a Realtor in Toronto and They’re Terrible?', '', '/uploads/real_estate_new/new-7.jpg', 'http://realestate.homula.com/find-realtor-toronto-theyre-terrible/', '', '', 0, 1, '2016-12-29 21:27:00', '2016-12-29 21:27:03');
 
 -- --------------------------------------------------------
 
@@ -342,7 +360,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `username`, `first`, `middle`, `last`, `email`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
 (16, 'tester01', NULL, NULL, NULL, 'tester01@gmail.com', '$2y$10$5Ryr3t/cJrLAGwaAJYt0ye80ROdFmvZguD53yys3/OS/xEGBzIbta', '8FgjTgWVynCrfi8aQNOtsXk0JrO9MLifMowDUZOhjqDsmHfqw8YjfNYsBfhp', '2016-12-16 01:31:16', '2016-12-26 21:20:07'),
-(18, 'admin', NULL, NULL, NULL, 'admin@gmail.com', '$2y$10$8LCnS/H7363VR3SBDssUoOEQZ80H5XzcBHiULsfYAijgmJLODx2fC', '66lqItIcfIYoEbdbyA73eO8Nt486Q7AAWgSAfUViFUAuxGRWfFBkkrcgJ4vG', '2016-12-20 00:09:30', '2016-12-28 18:15:11'),
+(18, 'admin', NULL, NULL, NULL, 'admin@gmail.com', '$2y$10$8LCnS/H7363VR3SBDssUoOEQZ80H5XzcBHiULsfYAijgmJLODx2fC', 'pqQhmg2TAi9CV9yVYlfUfaRK5A87yegtJRCgKcLY0xARcP4zPk09MZQy90Qc', '2016-12-20 00:09:30', '2016-12-30 00:32:55'),
 (19, 'owner', NULL, NULL, NULL, 'owner@gmail.com', '$2y$10$aP1.tg.xO5FDKEbvEVurK.Bb328L2PcgEgkfxTWpnkyxD5ZeD44WC', 'S0ej8CrgqLhr0VH9qYRVq9pdyxtneDEigf6xlGKbQEqM3wvAg79mAekF3HWl', '2016-12-20 00:09:58', '2016-12-20 00:10:01'),
 (20, 'register', NULL, NULL, NULL, 'register@gmail.com', '$2y$10$ndSNAqAy7hXzpaT3a9mX5.Wz5GmqjROtM5Gxd8F/UKkrcEUTfvHCe', 'E8BPI6y559PxXEzNq5fch0LNUEL4RdyAZT8QJchiNwSMtIVmdnzxr0iRGjrv', '2016-12-20 00:10:22', '2016-12-21 00:18:52');
 
@@ -419,12 +437,12 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for table `articles`
 --
 ALTER TABLE `articles`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
 --
 -- AUTO_INCREMENT for table `categories`
 --
 ALTER TABLE `categories`
-  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+  MODIFY `id` int(10) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
 --
 -- AUTO_INCREMENT for table `menus`
 --
@@ -434,12 +452,12 @@ ALTER TABLE `menus`
 -- AUTO_INCREMENT for table `permissions`
 --
 ALTER TABLE `permissions`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
 --
 -- AUTO_INCREMENT for table `roles`
 --
 ALTER TABLE `roles`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 --
 -- AUTO_INCREMENT for table `users`
 --
