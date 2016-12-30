@@ -27,21 +27,6 @@
             </div>
         </div>
     </div>
-    @if (Session::has('success'))
-    <br>
-    <div class="alert alert-success alert-dismissable animated fadeInDown">
-        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-        {{ Session::get('success') }}
-    </div>
-
-    @elseif (Session::has('error'))
-    <br>
-    <div class="alert alert-danger  alert-dismissable animated fadeInDown">
-        <button aria-hidden="true" data-dismiss="alert" class="close" type="button">×</button>
-        {{ Session::get('error') }}
-    </div>
-
-    @endif
 
     {{ csrf_field() }}
     <input type="hidden" name="id" value="{{empty($user) ? old('id') : $user->id}}" />
