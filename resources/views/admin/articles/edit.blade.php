@@ -105,11 +105,11 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
-                            Categories_id
+                            Category
                         </label>
                         <div class="col-sm-10">
                             @php ($category_id = old('categories_id') ? old('categories_id') : ($articles ? $articles->categories_id : ''))
-                            <select name="categories_id">
+                            <select name="categories_id" data-placeholder="Choose a Country..." class="chosen-select" style="width:350px;" tabindex="2">
                                 <option value="0">none</option>	
                                 @foreach ($categories_level as $categories_level_1)	
                                 @if ($categories_level_1->id == $category_id)		
@@ -120,16 +120,16 @@
                                 @foreach ($categories as $categories_level_2)
                                 @if ($categories_level_2->parent_id == $categories_level_1->id)
                                 @if ($categories_level_2->id == $category_id)	
-                                <option value="{{$categories_level_2->id}}" selected="selected">&nbsp;&nbsp;&nbsp;{{$categories_level_2->name}}</option>
+                                <option value="{{$categories_level_2->id}}" selected="selected">&nbsp;&nbsp;&nbsp; {{$categories_level_2->name}}</option>
                                 @else		
-                                <option value="{{$categories_level_2->id}}">&nbsp;&nbsp;&nbsp;{{$categories_level_2->name}}</option>
+                                <option value="{{$categories_level_2->id}}">&nbsp;&nbsp;&nbsp; {{$categories_level_2->name}}</option>
                                 @endif
                                 @foreach ($categories as $categories_level_3)
                                 @if ($categories_level_3->parent_id == $categories_level_2->id)
                                 @if ($categories_level_3->id == $category_id)		
-                                <option value="{{$categories_level_3->id}}" selected="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$categories_level_3->name}}</option>
+                                <option value="{{$categories_level_3->id}}" selected="selected">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{$categories_level_3->name}}</option>
                                 @else		
-                                <option value="{{$categories_level_3->id}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{{$categories_level_3->name}}</option>
+                                <option value="{{$categories_level_3->id}}">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; {{$categories_level_3->name}}</option>
                                 @endif
                                 @endif
                                 @endforeach
@@ -171,5 +171,16 @@
 
     var elem = document.querySelector('.js-switch');
     var switchery = new Switchery(elem, {color: '#1AB394'});
+    //choosen select
+     var config = {
+        '.chosen-select'           : {},
+        '.chosen-select-deselect'  : {allow_single_deselect:true},
+        '.chosen-select-no-single' : {disable_search_threshold:10},
+        '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+        '.chosen-select-width'     : {width:"95%"}
+        }
+    for (var selector in config) {
+        $(selector).chosen(config[selector]);
+    }
 </script>
 @endsection

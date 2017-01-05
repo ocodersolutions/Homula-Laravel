@@ -23,6 +23,7 @@
         <link href="{!! asset('assets/css/style.css') !!}" media="all" rel="stylesheet" type="text/css" />
 
         <link href="{!! asset('assets/css/switchery.css')!!}" rel="stylesheet">
+        <link href="{!! asset('assets/css/chosen.css')!!}" rel="stylesheet">
         <link href="{!! asset('assets/css/datepicker3.css')!!}" rel="stylesheet">
         <link href="{!! asset('assets/css/daterangepicker-bs3.css')!!}" rel="stylesheet">
 
@@ -201,6 +202,7 @@
         <script type="text/javascript" src="{!! asset('assets/js/pace.min.js') !!}"></script>
         <!-- Switchery -->
         <script src="{!! asset('assets/js/switchery.js') !!}"></script>
+        <script src="{!! asset('assets/js/chosen.jquery.js') !!}"></script>
         <script src="{!! asset('assets/js/bootstrap-datepicker.js') !!}"></script>
         <script src="{!! asset('assets/js/daterangepicker.js') !!}"></script>
         <script src="{!! asset('assets/js/admin.js') !!}"></script>
