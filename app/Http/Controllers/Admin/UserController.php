@@ -36,7 +36,7 @@ class UserController extends Controller
      */
     public function create()
     {
-        return 'Create User';
+        return view('admin.user.create');
     }
 
     /**
@@ -82,11 +82,7 @@ class UserController extends Controller
      * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
-    {
-        
-    }
-    public function save(Request $request)
+    public function update(Request $request)
     {
         $id = $request->get('id');
         $user = User::findOrFail($id); 
@@ -108,6 +104,12 @@ class UserController extends Controller
         Session::flash('success', 'User saved successfully!');
         
         return redirect('admin/user/edit/'.$id);
+    }
+
+    public function save(Request $request)
+    {
+        $post_data = $request->all();
+        $suser = User::where([['username','=',$post_data['username']],['email','=',$post_data['email']]])
     }
     /**
      * Remove the specified resource from storage.

@@ -9,7 +9,7 @@
 	        <thead>
 	        <tr>
 	            <th >Id</th>
-				<th >Name</th>
+				<th >Username</th>
 				<th >Email</th>
 				<th >Created_at</th>
 				<th >Updated_at</th>

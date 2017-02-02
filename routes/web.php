@@ -33,12 +33,13 @@ Route::get('article-detail','HomeController@article_detail');
  */
 Route::group(['middleware' => ['role:admin']], function() {
     Route::get('admin', 'Admin\AdminController@index');
-    
+
     //user
     Route::get('admin/users', 'Admin\UserController@index');
     Route::get('admin/user/create', 'Admin\UserController@create');
     Route::get('admin/user/edit/{id}', 'Admin\UserController@edit');
-    Route::post('admin/user/save', 'Admin\UserController@update');
+    Route::post('admin/user/update', 'Admin\UserController@update');
+    Route::post('admin/user/save', 'Admin\UserController@save');
     Route::get('admin/user/delete/{id}', 'Admin\UserController@delete');
 
     //permission
