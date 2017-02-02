@@ -70,7 +70,7 @@
                             Password
                         </label>
                         <div class="col-sm-10">
-                            <input id="password" class="form-control" type="text" name='password' value="" required>
+                            <input id="password" class="form-control" type="password" name='password' value="" required>
                              @if ($errors->has('password'))
                                 <span class="help-block">
                                     <strong>{{ $errors->first('password') }}</strong>
@@ -85,7 +85,7 @@
                             Confirm password
                         </label>
                         <div class="col-sm-10">
-                            <input id="password-confirm" class="form-control" type="text" name='password_confirmation' value="" required>
+                            <input id="password-confirm" class="form-control" type="password" name='password_confirmation' value="" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>

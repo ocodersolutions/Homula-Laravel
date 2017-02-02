@@ -109,7 +109,18 @@ class UserController extends Controller
     public function save(Request $request)
     {
         $post_data = $request->all();
-        $suser = User::where([['username','=',$post_data['username']],['email','=',$post_data['email']]])
+        $suser = User::where([['username','=',$post_data['username']],['email','=',$post_data['email']]])->first();
+        if(empty($suser)) {
+            $user = new User;
+            $user->username = $post_data['username'];
+            $user->email = $post_data['email'];
+            $user->password = bcrypt($post_data['password']);
+            $user->save();
+            return redirect('admin/user/edit/'.$user->id);
+        }
+        else {
+            var_dump($suser);
+        }
     }
     /**
      * Remove the specified resource from storage.
