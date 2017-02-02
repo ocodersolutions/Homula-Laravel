@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Admin - {{empty($title) ?  'oCoder' : $title}}</title>
+        <title>Admin - {{empty($title) ?  'Toronto Real Estate' : $title}}</title>
 
         <!-- Fonts -->
         <link rel="stylesheet" href="{{ URL::asset('css/font-awesome.min.css') }}"  crossorigin="anonymous">
@@ -180,11 +180,8 @@
                 @yield('content')
 
                 <div class="footer">
-                    <div class="pull-right">
-                        10GB of <strong>250GB</strong> Free.
-                    </div>
                     <div>
-                        <strong>Copyright</strong> Example Company &copy; 2014-2015
+                        <strong>Copyright © 2017 Homula Real Estate. All Rights Reserved.</strong>
                     </div>
                 </div>
             </div>

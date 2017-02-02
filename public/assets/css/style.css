@@ -8251,7 +8251,7 @@ body.md-skin {
   list-style: none;
 }
 #side-menu ul li a {
-  color: #a7b1c2;
+  // color: #a7b1c2;
   font-weight: 600;
   padding: 14px 20px 14px 65px;
   position: relative;

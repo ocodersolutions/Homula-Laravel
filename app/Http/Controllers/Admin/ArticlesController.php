@@ -10,11 +10,10 @@ use Illuminate\Support\Facades\Session;
 
 class ArticlesController extends Controller {
 
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    public function __construct()
+    {
+        $this->middleware('auth');
+    }
     public function index() {
         $articles = Articles::paginate(10);
         return view('admin.articles.home', ['articles' => $articles]);

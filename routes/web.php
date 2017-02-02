@@ -19,21 +19,26 @@ Auth::routes();
 // });
 Route::get('/', 'HomeController@index');
 
+/*
+ * Front end
+ */
 // router compare
 Route::get('compare', 'HomeController@compare');
 Route::get('compare/remove-all', 'HomeController@remove_all_session_compare');
 Route::get('profile', 'FrontendController@index');
+Route::get('article-detail','HomeController@article_detail');
 
 /**
  * admin
  */
 Route::group(['middleware' => ['role:admin']], function() {
-    //user
     Route::get('admin', 'Admin\AdminController@index');
+    
+    //user
     Route::get('admin/users', 'Admin\UserController@index');
     Route::get('admin/user/create', 'Admin\UserController@create');
     Route::get('admin/user/edit/{id}', 'Admin\UserController@edit');
-    Route::post('admin/user/save', 'Admin\UserController@save');
+    Route::post('admin/user/save', 'Admin\UserController@update');
     Route::get('admin/user/delete/{id}', 'Admin\UserController@delete');
 
     //permission

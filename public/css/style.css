@@ -139,7 +139,7 @@ li {
     height: 450px;
     overflow: hidden;
     position: relative;
-    background: url(../images/header-bg.jpg);
+    background: url(../images/header-bg-homepage.jpg);
 }
 video {
     width: 100%;
@@ -287,6 +287,12 @@ video {
 }
 .footer_top_box ul li a:hover {
     text-decoration: underline;
+}
+.footer_top_box ul li ul {
+    display: none;
+}
+.hp_show_link {
+    cursor: pointer;
 }
 .footer_divider img {
     width: 100%;

@@ -4,7 +4,7 @@
 
 <div id="home_roles" >
 	<div class="ibox-content">
-		{{--<a href="{{ url('admin/user/create')}}" type="button" class="btn btn-primary btn-lg">Add new User</a>--}}
+		<a href="{{ url('admin/user/create')}}" type="button" class="btn btn-primary btn-lg">Add new User</a>
 	    <table class="table">
 	        <thead>
 	        <tr>

@@ -307,7 +307,15 @@
 										<li><a href="">Guelph</a></li>
 										<li><a href="">Hamilton</a></li>
 										<li><a href="">Richmond Hill</a></li>
-										<li>More...</li>
+										<li>
+											<ul>
+												<li><a href="">Barrie</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Cloyne</a></li>
+											</ul>
+											<span class="hp_show_link">More...</span>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -321,7 +329,15 @@
 										<li><a href="">Markham</a></li>
 										<li><a href="">Barrie</a></li>
 										<li><a href="">Brockville</a></li>
-										<li>More...</li>
+										<li>
+											<ul>
+												<li><a href="">Barrie</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Cloyne</a></li>
+											</ul>
+											<span class="hp_show_link">More...</span>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -346,6 +362,9 @@
 										<li><a href="">Free Home Evaluation</a></li>
 										<li><a href="">Canada Search</a></li>
 										<li><a href="">All Ontario Properties</a></li>
+										<li><a href="">IDX Map Search</a></li>
+										<li><a href="">IDX Commercial Search</a></li>
+										<li><a href="">IDX Lease Search</a></li>
 										<li><a href="">Sitemap Index</a></li>
 									</ul>
 								</div>

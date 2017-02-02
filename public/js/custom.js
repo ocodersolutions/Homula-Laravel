@@ -164,4 +164,16 @@ $(document).ready(function(){
 		$next.trigger('click');
     });
 
+    $('.hp_show_link').click(function(){
+        if($(this).hasClass('show_link')) {
+            $(this).parent().find('ul').css("display","none");
+            $(this).removeClass('show_link');
+            $(this).html('More...').css({'color':'#fff', 'font-wieght':'normal'});
+        }
+        else {
+            $(this).parent().find('ul').css("display","block");
+            $(this).addClass('show_link');
+            $(this).html('Less...').css({'color':'rgb(3, 155, 229)', 'font-wieght':'bold'});
+        }
+    });
 });

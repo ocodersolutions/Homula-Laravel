@@ -22,7 +22,8 @@
                     <a href="#" class="btn btn-danger btn-sm" data-toggle="tooltip" data-placement="top" title="" data-original-title="Discard email"><i class="fa fa-times"></i> Discard</a>
                 </div>-->
     </div>
-</div>
+</div> 
+{{--
 @if (Session::has('success'))
 <br>
 <div class="alert alert-success alert-dismissable animated fadeInDown">
@@ -36,7 +37,8 @@
     {{ Session::get('error') }}
 </div>
 
-@endif
+@endif  
+--}}
 <div class="wrapper wrapper-content animated fadeIn">
     <div class="row">
         <div class="col-lg-12">
@@ -60,7 +62,7 @@
                                 <label class="col-sm-2 control-label"> E-Mail Address</label>
 
                                 <div class="col-sm-10">
-                                    {{$user->email}}
+                                    <input id="email" type="text" class="form-control" name="email" value="{{$user->email}}">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>

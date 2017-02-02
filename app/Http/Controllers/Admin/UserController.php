@@ -134,12 +134,26 @@ class UserController extends Controller
     public function postProfile(Request $req) {
         $cuser = Auth::user();
         $user = User::find($cuser->id);
+        $count = 0;
+        if($req->email == '') {
+            Session::flash('error', 'Incorrect email!');
+            return redirect('/admin/user/profile');
+        }
+        elseif($user->email != $req->email) {
+            $user->email = $req->email;
+            $count++;
+        }
         if (\Illuminate\Support\Facades\Hash::check($req->password, $user->password)) {
-            Session::flash('success', 'Profile saved successfully!');
-            $user->password = bcrypt($req->new_password);
-            $user->save();
-        } else {
             Session::flash('error', 'Incorrect password!');
+            $user->password = bcrypt($req->new_password);
+            $count++;
+        }
+        if($count > 0) {
+            $user->save();
+            Session::flash('success', 'Profile saved successfully!');            
+        }
+        else {
+            Session::flash('error', 'Incorrect password! Error.');
         }
         return redirect('/admin/user/profile');
     }

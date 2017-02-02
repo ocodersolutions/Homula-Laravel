@@ -63,4 +63,9 @@ class HomeController extends Controller
     public function add_session_compare(){
 
     }
+
+    public function article_detail() {
+        $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
+        return view('frontend.article-detail', compact('menus'));
+    }
 }
