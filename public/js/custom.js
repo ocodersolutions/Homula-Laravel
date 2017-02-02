@@ -33,7 +33,7 @@ $(document).ready(function(){
                 slideBy: 1,
             },
             1200:{
-                items:5,
+                items:6,
                 slideBy: 1,
             },
             1400:{

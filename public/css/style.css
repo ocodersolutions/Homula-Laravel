@@ -154,12 +154,12 @@ video {
     text-align: center;
 }
 .header_bot {
-    border-bottom: 90px solid #0a368a;
+    border-bottom: 80px solid #0a368a;
     position: relative;
 }
 .whereilive_div {
     position: absolute;
-    bottom: -78px;
+    bottom: -73px;
     right: 200px;
 }
 .wsil_btn {
@@ -186,16 +186,14 @@ video {
     position: absolute;
     z-index: 2;
     top: 170px;
-    background: #039be5;
+    // background: #039be5;
+    background: rgba(0, 116, 228, 0.6) none repeat scroll 0 0;
     left: 50%;
     transform: translateX(-50%);
     width: 950px;
     height: 200px;
     padding-left: 40px;
 }
-.header_search:hover {
-    background: rgba(0, 116, 228, 0.6) none repeat scroll 0 0;
- }
 .header_search ul {
     padding: 0;
     margin: 0;
@@ -323,7 +321,8 @@ video {
 .fb_box_two i {
     color: #039BE5;
     width: 30px;
-    line-height: 30px;
+    line-height: 28px;
+    height: 30px;
     border-radius: 50%;
     border: 2px solid #039BE5;
     font-size: 18px;
@@ -666,4 +665,57 @@ p.box_items_title {
     height: 380px;
     background-color: rgba(40, 100, 150, 0.84);
     box-shadow: -4px -1px 6px rgba(4, 4, 4, 0.4);
+}
+@media (min-width: 1366px) {
+    .hot_properties .container, .content_video .container, .top_agents .container, .real_estate_news .container {
+        width: 1230px;
+    }
+}
+@media (min-width: 1600px) {
+    .hot_properties .container, .content_video .container, .top_agents .container, .real_estate_news .container {
+        width: 1500px;
+    }
+    .hot_properties_item_top .item_img {
+        width: 95%;
+        height: 170px;
+    }
+}
+@media (min-width: 1899px) {
+    .hot_properties .container, .content_video .container, .top_agents .container, .real_estate_news .container {
+        width: 1810px;
+    }
+    .hot_properties_item_top .item_img {
+        width: 270px;
+        height: 200px;
+    }
+}
+@media (max-width: 1599px) and (min-width: 1366px) {
+    .box_item_what_hover iframe {
+        height: 25rem!important;
+    }
+}
+@media (max-width: 1899px) and (min-width: 1600px) {
+    .box_item_what_hover iframe {
+        height: 31rem!important;
+    }
+}
+@media (min-width: 1900px) {
+    .box_item_what_hover iframe {
+        height: 38rem!important;
+    }
+}
+.article_details_title h1 {
+    line-height: 30px;
+    font-size: 28px;
+    color: #2a2a2a;
+    border-bottom: 1px solid #d5d5d5;
+    padding-bottom: 17px;
+    margin-top: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+} 
+.article_detail_comment h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
 }
