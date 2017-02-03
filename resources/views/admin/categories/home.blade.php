@@ -30,7 +30,7 @@
 							{{$cate->name}} 
 						@endif
 					</td>
-					<td > {{$category->published == 1 ? 'yes' : 'no'}} </td>
+					<td > {{$category->published == 1 ? 'Yes' : 'No'}} </td>
 					<td style="width: 162px;">
 						<a href="{{ url('admin/categories/edit/'. $category->id) }}" class="btn btn-info">Update</a>
 						<a href="{{ url('admin/categories/delete/' . $category->id) }}" class="btn btn-danger">Delete</a>

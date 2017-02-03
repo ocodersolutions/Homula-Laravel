@@ -14,15 +14,15 @@
 	    <table class="table">
 	        <thead>
 	        <tr>
-	            <th >Id</th>
+	            <!-- <th >Id</th> -->
 				<th >Title</th>
 				<th >Alias</th>
 				<th >Thumbnail</th>
 				<th >Link</th>
 				<th >Content</th>
 				<th >Excerpt</th>
-				<th >Categories_id</th>
-				<th >published</th>
+				<th >Category name</th>
+				<th >Yes/No</th>
 				<th >Created_at</th>
 				<th >Updated_at</th>
 				<th >&nbsp;</th>
@@ -31,15 +31,20 @@
 	        <tbody>
 	        @foreach ($articles as $post)
 				<tr>				
-					<td > {{$post->id}} </td>
+					{{--<td > {{$post->id}} </td> --}}
 					<td > {{$post->title}} </td>
 					<td > {{$post->alias}} </td>
 					<td > {{$post->thumbnail}} </td>
 					<td > {{$post->link}} </td>
 					<td >{{str_limit(strip_tags($post->content),100, '...')}}</td>
 					<td > {{ str_limit(strip_tags($post->excerpt),50, '...')}} </td>
-					<td > {{$post->categories_id}} </td>
-					<td > {{$post->published}} </td>
+					<td > 
+						@if ($post->categories_id != 0)
+							@php $cate = App\Http\Controllers\Admin\ArticlesController::getCat($post->categories_id); @endphp
+							{{$cate->name}} 
+						@endif
+					</td>
+					<td > {{$post->published == 1 ? 'Yes' : 'No'}} </td>
 					<td > {{$post->created_at}} </td>
 					<td > {{$post->updated_at}} </td>
 					<td style="width: 162px;">

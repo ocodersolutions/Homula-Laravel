@@ -105,7 +105,7 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
-                            Category
+                            Category name
                         </label>
                         <div class="col-sm-10">
                             @php ($category_id = old('categories_id') ? old('categories_id') : ($articles ? $articles->categories_id : ''))
@@ -143,7 +143,7 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
-                            Published
+                            Yes/No
                         </label>
                         <div class="col-sm-10">
 

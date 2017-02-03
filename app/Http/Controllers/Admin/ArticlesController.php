@@ -123,5 +123,9 @@ class ArticlesController extends Controller {
         $articles->delete();
         return redirect('admin/articles');
     }
+    public static function getCat($id) {
+        $categories_item = Categories::findOrFail($id);
+        return $categories_item;
+    }
 
 }

@@ -21,6 +21,7 @@
         <link href="{!! asset('assets/css/animate.css') !!}" media="all" rel="stylesheet" type="text/css" />
         <link href="{!! asset('css/font-awesome.min.css') !!}" media="all" rel="stylesheet" type="text/css" />
         <link href="{!! asset('assets/css/style.css') !!}" media="all" rel="stylesheet" type="text/css" />
+        <link href="{!! asset('css/admin.css') !!}" media="all" rel="stylesheet" type="text/css" />
 
         <link href="{!! asset('assets/css/switchery.css')!!}" rel="stylesheet">
         <link href="{!! asset('assets/css/chosen.css')!!}" rel="stylesheet">
