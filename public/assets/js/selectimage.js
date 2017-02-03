@@ -1,4 +1,8 @@
 $(document).ready(function(){
+	$('.generate_img').attr('src', $('.generate_input input').val());
+	$('.generate_input input').change(function(){
+		$('.generate_img').attr('src', $('.generate_input input').val());
+	});
 	// $(".article_thumbnail span, .menu_icon span").click(function() {
 	// 	$(this).parent().find("#id_of_the_target_input").val("");
 	// });
