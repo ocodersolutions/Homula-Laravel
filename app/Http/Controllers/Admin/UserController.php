@@ -109,7 +109,7 @@ class UserController extends Controller
     public function save(Request $request)
     {
         $post_data = $request->all();
-        $suser = User::where([['username','=',$post_data['username']],['email','=',$post_data['email']]])->first();
+        $suser = User::where('username','=',$post_data['username'])->orWhere('email','=',$post_data['email'])->first();
         if(empty($suser)) {
             $user = new User;
             $user->username = $post_data['username'];
@@ -119,7 +119,8 @@ class UserController extends Controller
             return redirect('admin/user/edit/'.$user->id);
         }
         else {
-            var_dump($suser);
+            Session::flash('error', 'Username or Email is exits!');
+            return redirect('admin/user/create');
         }
     }
     /**
