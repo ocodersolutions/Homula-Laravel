@@ -5,7 +5,7 @@
 
 <form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/gallery/cat/save') }}">
     <div class="row wrapper border-bottom white-bg page-heading">
-        <div class="col-lg-10">
+        <div class="col-lg-9">
             <h2>{{empty($title) ?  'Homula' : $title}}</h2>
             <ol class="breadcrumb">
                 <li>
@@ -26,11 +26,11 @@
                 @endif
             </ol>
         </div>
-        <div class="col-lg-2">
+        <div class="col-lg-3">
             <br>
             <div class="pull-right tooltip-demo">
                 <button class="btn btn-sm btn-primary dim" data-toggle="tooltip" data-placement="top" title="" data-original-title="Save Category"><i class="fa fa-plus"></i> Save</button>
-                <a href="{{url('/admin/gallery/')}}" class="btn btn-danger btn-sm dim" data-toggle="tooltip" data-placement="top" title="" data-original-title="Cancel Edit"><i class="fa fa-times"></i> Discard</a>
+                <a href="{{url('/admin/gallery/')}}" class="btn btn-danger btn-sm dim" data-toggle="tooltip" data-placement="top" title="" data-original-title="Cancel Edit"><i class="fa fa-times"></i> Back</a>
 
             </div>
         </div>

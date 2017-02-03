@@ -84,7 +84,7 @@
                             @yield('search_form')
                         </div>
                         <ul class="nav navbar-top-links navbar-right">
-                            <li>
+                            <!--li>
                                 <span class="m-r-sm text-muted welcome-message">Welcome to Homula.</span>
                             </li>
                             <li class="dropdown">
@@ -134,7 +134,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                            </li>
+                            </li-->
 
                             <li>
                                 <a href="{{ url('/logout') }}"

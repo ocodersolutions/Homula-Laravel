@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="row wrapper border-bottom white-bg page-heading">
-    <div class="col-lg-10">
+    <div class="col-lg-9">
         <h2>{{empty($title) ?  'Homula' : $title}}</h2>
         <ol class="breadcrumb">
             <li>
@@ -14,7 +14,7 @@
             </li>
         </ol>
     </div>
-    <div class="col-lg-2">
+    <div class="col-lg-3">
         <!--        <br>
                 <br>
                 <div class="pull-right tooltip-demo">
