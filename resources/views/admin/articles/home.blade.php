@@ -18,7 +18,7 @@
 				<th >Title</th>
 				<th >Alias</th>
 				<th >Thumbnail</th>
-				<th >Link</th>
+				<!-- <th >Link</th> -->
 				<th >Content</th>
 				<th >Excerpt</th>
 				<th >Category name</th>
@@ -35,7 +35,7 @@
 					<td > {{$post->title}} </td>
 					<td > {{$post->alias}} </td>
 					<td > {{$post->thumbnail}} </td>
-					<td > {{$post->link}} </td>
+					{{--<td > {{$post->link}} </td>--}}
 					<td >{{str_limit(strip_tags($post->content),100, '...')}}</td>
 					<td > {{ str_limit(strip_tags($post->excerpt),50, '...')}} </td>
 					<td > 
