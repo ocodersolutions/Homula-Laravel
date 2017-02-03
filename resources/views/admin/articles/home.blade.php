@@ -34,7 +34,11 @@
 					{{--<td > {{$post->id}} </td> --}}
 					<td > {{$post->title}} </td>
 					<td > {{$post->alias}} </td>
-					<td > {{$post->thumbnail}} </td>
+					<td >
+						@if ($post->thumbnail)
+							<img src="{{$post->thumbnail}} " alt="" width="100px;">
+					 	@endif
+					</td>
 					{{--<td > {{$post->link}} </td>--}}
 					<td >{{str_limit(strip_tags($post->content),100, '...')}}</td>
 					<td > {{ str_limit(strip_tags($post->excerpt),50, '...')}} </td>
