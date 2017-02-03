@@ -137,5 +137,8 @@ class MenuController extends Controller {
         $menu->delete();
         return redirect('admin/menu');
     }
-
+    public static function getMenu($id) {
+        $menu_item = Menus::findOrFail($id);
+        return $menu_item;
+    }
 }

@@ -72,7 +72,7 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
-                            Parent_id
+                            Parent name
                         </label>
                         <div class="col-sm-10">
                             <select name="parent_id" class="form-control">
@@ -157,7 +157,7 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
-                            Published
+                            Yes/No
                         </label>
                         <div class="col-sm-10">
                             <input class="js-switch" value="1" style="display: none;" data-switchery="true" type="checkbox" name="published" {{(old('published') || $menus_item == false || ($menus_item && $menus_item->published)) ? 'checked' : '' }} >
