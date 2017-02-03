@@ -11,9 +11,9 @@
 	            <th >Id</th>
 				<th >Name</th>
 				<th >Alias</th>
-				<th >Description</th>
-				<th >Parent_id</th>
-				<th >Published</th>
+				<!-- <th >Description</th> -->
+				<th >Parent category name</th>
+				<th >Yes/No</th>
 				<th >&nbsp;</th>
 	        </tr>
 	        </thead>
@@ -23,9 +23,14 @@
 					<td > {{$category->id}} </td>
 					<td > {{$category->name}} </td>
 					<td > {{$category->alias}} </td>
-					<td > {{$category->description}} </td>
-					<td > {{$category->parent_id}} </td>
-					<td > {{$category->published}} </td>
+					{{--<td > {{$category->description}} </td> --}}
+					<td > 
+						@if ($category->parent_id != 0)
+							@php $cate = App\Http\Controllers\Admin\CategoriesController::getCat($category->parent_id); @endphp
+							{{$cate->name}} 
+						@endif
+					</td>
+					<td > {{$category->published == 1 ? 'yes' : 'no'}} </td>
 					<td style="width: 162px;">
 						<a href="{{ url('admin/categories/edit/'. $category->id) }}" class="btn btn-info">Update</a>
 						<a href="{{ url('admin/categories/delete/' . $category->id) }}" class="btn btn-danger">Delete</a>

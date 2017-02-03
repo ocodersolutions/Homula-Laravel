@@ -133,4 +133,8 @@ class CategoriesController extends Controller
         $categories->delete();
         return redirect('admin/categories');
     }
+    public static function getCat($id) {
+        $categories_item = Categories::findOrFail($id);
+        return $categories_item;
+    }
 }
