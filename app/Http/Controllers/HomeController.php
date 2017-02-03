@@ -26,10 +26,10 @@ class HomeController extends Controller
     public function index()
     {
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
-        $articles = Articles::where('id','>=', 8)->take(10)->get();
+        $articles = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
         $articles_agent = Articles::where('id','>=', 18)->take(36)->get();
-        $articles_news = Articles::where('id','>=', 54)->take(18)->get();
-        return view('home', compact('menus', 'articles', 'articles_agent', 'articles_news'));
+        $articles_news = Articles::where([['id','>=', 54],['id','<',72]])->orderBy('id','desc')->get();
+        return view('home', compact('menus', 'articles', 'articles_agent', 'articles_news'));//->orderBy('id','desc')
     }
 
     public function compare()
