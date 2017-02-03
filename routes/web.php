@@ -109,7 +109,7 @@ Menu::make('MyNavBar', function($menu) {
     $menu->usersManager->add('Users', 'admin/users')->attr(array('pre_icon' => 'user'))->active('admin/users/*');
     $menu->usersManager->add('Permissions', 'admin/user/permissions')->attr(array('pre_icon' => 'user'))->active('admin/user/permission/*');
     $menu->usersManager->add('Roles', 'admin/user/roles')->attr(array('pre_icon' => 'users'))->active('admin/user/role/*');
-    $menu->usersManager->add('Profile', 'admin/user/profile')->attr(array('pre_icon' => 'envelope'));
+    $menu->usersManager->add('My account', 'admin/user/profile')->attr(array('pre_icon' => 'envelope'));
 
     $menu->add('Menu', 'admin/menu')->attr(array('pre_icon' => 'bars'));
 

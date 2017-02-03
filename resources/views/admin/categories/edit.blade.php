@@ -40,12 +40,17 @@
         <div class="col-lg-12">
             <div class="ibox float-e-margins">                
                 <div class="ibox-content">
-                    <div class="form-group">
+                    <div class="form-group {{ $errors->has('name') ? ' has-error' : '' }}">
                         <label class="col-sm-2 control-label">     
                             Name
                         </label>
                         <div class="col-sm-10">
-	                    	<input class="form-control" type="text" name='name' value="{{old('title') ? old('title') : ($categories_item ? $categories_item->name : '')}}">
+	                    	<input id="name" class="form-control" type="text" name='name' value="{{old('title') ? old('title') : ($categories_item ? $categories_item->name : '')}}" required autofocus>
+                            @if ($errors->has('name'))
+                                <span class="help-block">
+                                    <strong>{{ $errors->first('name') }}</strong>
+                                </span>
+                            @endif
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -65,7 +70,7 @@
                             Description
                         </label>
                         <div class="col-sm-10">
-	                    	<input class="form-control" type="text" name='description' value="{{old('title') ? old('title') : ($categories_item ? $categories_item->description : '') }}">
+	                    	<textarea class="form-control" type="text" name='description'>{{old('title') ? old('title') : ($categories_item ? $categories_item->description : '') }}</textarea>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>     
