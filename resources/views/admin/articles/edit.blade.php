@@ -47,7 +47,7 @@
                             Title
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='title' value="{{old('title') ? old('title') : ($articles? $articles->title : '')}}">
+                            <input class="form-control" type="text" name='title' value="{{old('title') ? old('title') : ($articles? $articles->title : '')}}" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>

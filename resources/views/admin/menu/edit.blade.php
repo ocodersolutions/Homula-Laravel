@@ -44,7 +44,7 @@
                             Name
                         </label>
                         <div class="col-sm-10">
-	                    	<input class="form-control" type="text" name='name' value="{{old('title') ? old('title') : ($menus_item ? $menus_item->name : '') }}">
+	                    	<input class="form-control" type="text" name='name' value="{{old('title') ? old('title') : ($menus_item ? $menus_item->name : '') }}" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
