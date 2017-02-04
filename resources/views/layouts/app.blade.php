@@ -251,7 +251,7 @@
 				</div>
 				<div class="header_bot">
 					<div class="header_bot_video">
-					
+
 						<div id="wrap-cover-video"></div>
 
 						<h1 id="type_title">HOMULA IS THE REAL-ESTATE FOMULA</h1>
@@ -396,6 +396,32 @@
 							</div>
 						</div>
 					</div>
+				</div>
+			</div>
+			<div class="customizer">
+				<div class="customizer-header">
+					<img src="/images/contact-icon-17.png" alt="">
+				</div>
+				<div class="move_page_top"><i class="fa fa-angle-up"></i></div>
+				<div class="customizer-content  closed">
+					<h2>Connect with one of our professionals in your area</h2>
+					<form action="">
+						<p>
+							<label for="">YOUR NAME (REQUIRED)</label>
+							<input type="text">
+						</p>
+						<p>
+							<label for="">YOUR EMAIL (REQUIRED)</label>
+							<input type="text">
+						</p>
+						<p>
+							<label for="">YOUR PHONE (REQUIRED)</label>
+							<input type="text">
+						</p>
+						<p>
+							<button>CONTACT US</button>
+						</p>
+					</form>
 				</div>
 			</div>
 		</div>

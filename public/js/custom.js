@@ -1,8 +1,37 @@
 $(document).ready(function(){
+    /**
+     * delay 10s will show video
+     */
     setTimeout(function() {
           $("#wrap-cover-video").html('<video id="cover-video" preload="metadata" autoplay="" muted="" loop=""><source src="http://preview.byaviators.com/theme/realsite/wp-content/uploads/2015/03/Houses_1-5_720p_h264_30rf_wo.mp4" type="video/mp4"></video>');
 
     }, 10000);
+    /**
+     * scroll top
+     */
+    $('.move_page_top i').click(function(){
+        $("html, body").animate({ scrollTop: 0 }, 800);
+        return false;
+    });
+
+    $(document).scroll(function(){
+        if($(this).scrollTop() > 100) {
+            $('.move_page_top i').show('slow');
+        }
+        else {
+            $('.move_page_top i').hide('slow');
+        }
+    });
+    
+    $('.customizer-header img').click(function(){
+        if($('.customizer-content').hasClass('closed')) {
+            $('.customizer-content').removeClass('closed');
+        }
+        else {
+            $('.customizer-content').addClass('closed')
+        }
+    });
+
 	$("#type_title").typed({
         strings: ["HOMULA IS THE REAL-ESTATE FORMULA"],
         typeSpeed: 70,
@@ -14,6 +43,7 @@ $(document).ready(function(){
         loopCount: false
         // resetCallback: function() { newTyped(); }
     });
+
 	var owlhome = $("#owl-demo-home");
  
    	owlhome.owlCarousel({
