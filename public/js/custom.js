@@ -32,6 +32,10 @@ $(document).ready(function(){
         }
     });
 
+    $('#show_search_oftion').click(function(){
+        $('#select-search-options').toggle(500);
+    });
+
 	$("#type_title").typed({
         strings: ["HOMULA IS THE REAL-ESTATE FORMULA"],
         typeSpeed: 70,
