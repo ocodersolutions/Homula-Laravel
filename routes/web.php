@@ -102,7 +102,7 @@ Route::group(['middleware' => ['role:owner|register']], function() {
  * create menu role:admin
  */
 Menu::make('MyNavBar', function($menu) {
-    $menu->add('Home')->attr(array('pre_icon' => 'home'));
+    $menu->add('View site')->attr(array('pre_icon' => 'home'));
 
     //users
     $menu->add('Users Manager', 'users')->attr(array('pre_icon' => 'user'));

@@ -18,7 +18,8 @@ class AdminController extends Controller
      */
     public function index()
     {
-        return view('admin.home');
+        return redirect('/admin/users');
+        // return view('admin.home');
     }
 
     /**
