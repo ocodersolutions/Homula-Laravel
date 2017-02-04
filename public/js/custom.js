@@ -5,7 +5,7 @@ $(document).ready(function(){
     setTimeout(function() {
           $("#wrap-cover-video").html('<video id="cover-video" preload="metadata" autoplay="" muted="" loop=""><source src="http://preview.byaviators.com/theme/realsite/wp-content/uploads/2015/03/Houses_1-5_720p_h264_30rf_wo.mp4" type="video/mp4"></video>');
 
-    }, 10000);
+    }, 4000);
     /**
      * scroll top
      */
