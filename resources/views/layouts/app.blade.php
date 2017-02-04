@@ -251,9 +251,9 @@
 				</div>
 				<div class="header_bot">
 					<div class="header_bot_video">
-						<video id="cover-video" preload="metadata" autoplay="" muted="" loop="">
-							<source src="http://preview.byaviators.com/theme/realsite/wp-content/uploads/2015/03/Houses_1-5_720p_h264_30rf_wo.mp4" type="video/mp4">
-						</video>
+					
+						<div id="wrap-cover-video"></div>
+
 						<h1 id="type_title">HOMULA IS THE REAL-ESTATE FOMULA</h1>
 						<div class="header_search">
 							<ul>
