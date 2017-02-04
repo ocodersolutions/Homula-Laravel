@@ -312,6 +312,10 @@ video {
     color: #fff;
     margin: 0 20px;
 }
+.fb_box_one a:hover {
+    color: #fff;
+    text-decoration: none;
+}
 .fb_box_two span {
     color: #fff;
     margin-right: 10px;
