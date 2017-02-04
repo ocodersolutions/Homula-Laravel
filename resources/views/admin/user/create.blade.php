@@ -1,7 +1,7 @@
 @extends('layouts.admin')
 
 @section('content')
-<form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/user/save') }}">
+<form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/user/save') }}" enctype="multipart/form-data">
 
     <div class="row wrapper border-bottom white-bg page-heading">
         <div class="col-lg-9">
@@ -86,6 +86,66 @@
                         </label>
                         <div class="col-sm-10">
                             <input id="password-confirm" class="form-control" type="password" name='password_confirmation' value="" required>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Image
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="file" name='image'>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Phone number
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="phone_number" class="form-control" type="text" name='phone_number' value="" required>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Address
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="address" class="form-control" type="text" name='address' value="" required>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            City
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="city" class="form-control" type="text" name='city' value="" required>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Province
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="province" class="form-control" type="text" name='province' value="" required>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Postal
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="postal" class="form-control" type="text" name='postal' value="" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>

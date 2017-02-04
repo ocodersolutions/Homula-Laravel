@@ -42,7 +42,7 @@
                             <div class="dropdown profile-element">                            
                                 <!-- Authentication Links -->
                                
-                                <img alt="image" class="img-circle" src="{!! asset('assets/images/profile_small.jpg') !!}" />
+                                <img alt="image" class="img-circle avatar-admin" src="{!! Auth::user()->image !!}" />
                                 <a data-toggle="dropdown" class="dropdown-toggle" href="#">
                                     <span class="clear"> <span class="block m-t-xs"> <strong class="font-bold">{{Auth::user()->email}}</strong>
                                         </span></span>

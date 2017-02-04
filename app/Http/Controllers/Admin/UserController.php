@@ -89,6 +89,12 @@ class UserController extends Controller
         if(!$user) return redirect('admin/users');
         $user->username = $request->get('username');
         $user->email = $request->get('email');
+        $user->phone_number = $request->get('phone_number');
+        $user->address = $request->get('address');
+        $user->city = $request->get('city');
+        $user->province = $request->get('province');
+        $user->postal = $request->get('postal');
+        $user->image = $request->get('image');
         if($request->new_password){
             $user->password = bcrypt($request->new_password);
         }
@@ -109,17 +115,40 @@ class UserController extends Controller
     public function save(Request $request)
     {
         $post_data = $request->all();
+        $path = "";
+        $name = "";
+        if ($_FILES['image']['name'] != NULL) {
+            $path = "uploads-user/";
+            if (!is_dir($path)) {
+                mkdir($path);
+            }
+            $tmp_name = $_FILES['image']['tmp_name'];
+            $name = time() . $_FILES['image']['name'];
+            // Upload file
+            move_uploaded_file($tmp_name, $path . $name);
+        }
         $suser = User::where('username','=',$post_data['username'])->orWhere('email','=',$post_data['email'])->first();
         if(empty($suser)) {
             $user = new User;
             $user->username = $post_data['username'];
             $user->email = $post_data['email'];
             $user->password = bcrypt($post_data['password']);
+            $user->phone_number = $post_data['phone_number'];
+            $user->address = $post_data['address'];
+            $user->city = $post_data['city'];
+            $user->province = $post_data['province'];
+            $user->postal = $post_data['postal'];
+            if($post_data['image'] == '') {
+                $user->image = '/assets/images/profile_small.jpg';
+            }
+            else {
+                $user->image = '/' . $path . $name;
+            }
             $user->save();
             return redirect('admin/user/edit/'.$user->id);
         }
         else {
-            Session::flash('error', 'Username or Email is exits!');
+            Session::flash('error', 'Username or Email is exist!');
             return redirect('admin/user/create');
         }
     }

@@ -67,6 +67,66 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
+                            Image
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='image' value="{{old('image') ? old('image') : $user->image }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Phone number
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="phone_number" class="form-control" type="text" name='phone_number' value="{{old('phone_number') ? old('phone_number') : $user->phone_number }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Address
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="address" class="form-control" type="text" name='address' value="{{old('address') ? old('address') : $user->address }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            City
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="city" class="form-control" type="text" name='city' value="{{old('city') ? old('city') : $user->city }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Province
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="province" class="form-control" type="text" name='province' value="{{old('province') ? old('province') : $user->province }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Postal
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="postal" class="form-control" type="text" name='postal' value="{{old('postal') ? old('postal') : $user->postal }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
                             Roles
                         </label>
                         <div class="col-sm-10">

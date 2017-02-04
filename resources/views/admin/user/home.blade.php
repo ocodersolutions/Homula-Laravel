@@ -11,9 +11,13 @@
 	            <th >Id</th>
 				<th >Username</th>
 				<th >Email</th>
-				<th >Created_at</th>
-				<th >Updated_at</th>
-				<th >Function</th>
+				<th >Image</th>
+				<th >Phone Number</th>
+				<th >Address</th>
+				<th >City</th>
+				<th >Province</th>
+				<th >Postal</th>
+				<th ></th>
 	        </tr>
 	        </thead>
 	        <tbody>
@@ -22,8 +26,16 @@
 					<td > {{$user->id}} </td>
 					<td > {{$user->username}} </td>
 					<td > {{$user->email}} </td>
- 					<td > {{$user->created_at}} </td>
-					<td > {{$user->updated_at}} </td>
+ 					<td >  						 
+ 						@if($user->image)
+ 							<img src="{{$user->image}}" alt="" style="width: 60px">
+ 						@endif
+ 					</td>
+					<td > {{$user->phone_number}} </td>
+					<td > {{$user->address}} </td>
+					<td > {{$user->city}} </td>
+					<td > {{$user->province}} </td>
+					<td > {{$user->postal}} </td>
 					<td>
 						<a href="{{ url('admin/user/edit/'. $user->id) }}" class="btn btn-info">Update</a>
 						<a href="{{ url('admin/user/delete/' . $user->id) }}" class="btn btn-danger">Delete</a>
