@@ -106,16 +106,16 @@ Menu::make('MyNavBar', function($menu) {
 
     //users
     $menu->add('Users Manager', 'users')->attr(array('pre_icon' => 'user'));
-    $menu->usersManager->add('Users', 'admin/users')->attr(array('pre_icon' => 'user'))->active('admin/users/*');
+    $menu->usersManager->add('Users', 'admin/users')->attr(array('pre_icon' => 'user'))->active('admin/user/*');
     $menu->usersManager->add('Permissions', 'admin/user/permissions')->attr(array('pre_icon' => 'user'))->active('admin/user/permission/*');
     $menu->usersManager->add('Roles', 'admin/user/roles')->attr(array('pre_icon' => 'users'))->active('admin/user/role/*');
     $menu->usersManager->add('My account', 'admin/user/profile')->attr(array('pre_icon' => 'envelope'));
 
-    $menu->add('Menu', 'admin/menu')->attr(array('pre_icon' => 'bars'));
+    $menu->add('Menu', 'admin/menu')->attr(array('pre_icon' => 'bars'))->active('admin/menu/*');
 
-    $menu->add('Categories', 'admin/categories')->attr(array('pre_icon' => 'tag'));
+    $menu->add('Categories', 'admin/categories')->attr(array('pre_icon' => 'tag'))->active('admin/categories/*');
 
-    $menu->add('Articles', 'admin/articles')->attr(array('pre_icon' => 'file-text'));
+    $menu->add('Articles', 'admin/articles')->attr(array('pre_icon' => 'file-text'))->active('admin/articles/*');
 
 //    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
 });
