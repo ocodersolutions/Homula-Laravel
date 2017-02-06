@@ -1,11 +1,15 @@
 @extends('layouts.admin')
 
 @section('content')
-<form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/user/update') }}">
+@php( $user = isset($user) ? $user : false)
+
+<form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/user/save') }}">
+
+    <input type="hidden" name="id" value="{{ $user ? $user->id : '' }}" />
 
     <div class="row wrapper border-bottom white-bg page-heading">
         <div class="col-lg-9">
-            <h2>Edit User</h2>
+            <h2>{{ $user ? "Edit" : 'Create' }} User</h2>
             <ol class="breadcrumb">
                 <li>
                     <a href="{{url('/admin')}}">Home</a>
@@ -14,7 +18,7 @@
                     <a href="{{url('/admin/users')}}">User</a>
                 </li>
                 <li class="active">
-                    <strong>Edit User</strong>
+                    <strong>{{ $user ? "Edit" : 'Create' }} User</strong>
                 </li>
             </ol>
         </div>
@@ -29,7 +33,7 @@
     </div>
 
     {{ csrf_field() }}
-    <input type="hidden" name="id" value="{{empty($user) ? old('id') : $user->id}}" />
+    <!--input type="hidden" name="id" value="{{empty($user) ? old('id') : $user->id}}" /-->
     <div class="row">
         <div class="col-lg-12">
             <div class="ibox float-e-margins">                
@@ -40,7 +44,7 @@
                             Username
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='username' value="{{old('title') ? old('title') : $user->username }}">
+                            <input class="form-control" type="text" name='username' value="{{old('username') ? old('username') : ($user ? $user->username : '') }}" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -50,17 +54,27 @@
                             Email
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="email" name='email' value="{{old('title') ? old('title') : $user->email }}">
+                            <input class="form-control" type="email" name='email' value="{{old('email') ? old('email') : ($user ? $user->email : '') }}" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
-                            New password
+                            {{ $user ? 'New' : '' }} password
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='new_password' value="">
+                            <input class="form-control" type="password" name='password' value="" {{ $user ? "" : 'required' }}>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Confirm password
+                        </label>
+                        <div class="col-sm-10">
+                            <input id="password-confirm" class="form-control" type="password" name='password_confirmation' {{ $user ? "" : 'required' }}>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -70,7 +84,8 @@
                             Image
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='image' value="{{old('image') ? old('image') : $user->image }}">
+                            @php ($value = (old('image') ? old('image') : ($user ? $user->image : '')))
+                            {!! App\Library\SelectImageHelper::GenerateIcon($value, 'id_of_the_target_input', URL::asset("/filemanager/index.html"), 'image') !!}
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -80,7 +95,7 @@
                             Phone number
                         </label>
                         <div class="col-sm-10">
-                            <input id="phone_number" class="form-control" type="text" name='phone_number' value="{{old('phone_number') ? old('phone_number') : $user->phone_number }}">
+                            <input id="phone_number" class="form-control" type="text" name='phone_number' value="{{old('phone_number') ? old('phone_number') : ($user ? $user->phone_number : '' ) }}" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -90,7 +105,7 @@
                             Address
                         </label>
                         <div class="col-sm-10">
-                            <input id="address" class="form-control" type="text" name='address' value="{{old('address') ? old('address') : $user->address }}">
+                            <input id="address" class="form-control" type="text" name='address' value="{{old('address') ? old('address') : ($user ? $user->address : '') }}" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -100,7 +115,7 @@
                             City
                         </label>
                         <div class="col-sm-10">
-                            <input id="city" class="form-control" type="text" name='city' value="{{old('city') ? old('city') : $user->city }}">
+                            <input id="city" class="form-control" type="text" name='city' value="{{old('city') ? old('city') : ($user ? $user->city : '') }}" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -110,7 +125,7 @@
                             Province
                         </label>
                         <div class="col-sm-10">
-                            <input id="province" class="form-control" type="text" name='province' value="{{old('province') ? old('province') : $user->province }}">
+                            <input id="province" class="form-control" type="text" name='province' value="{{old('province') ? old('province') : ($user ? $user->province : '') }}" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -120,7 +135,7 @@
                             Postal
                         </label>
                         <div class="col-sm-10">
-                            <input id="postal" class="form-control" type="text" name='postal' value="{{old('postal') ? old('postal') : $user->postal }}">
+                            <input id="postal" class="form-control" type="text" name='postal' value="{{old('postal') ? old('postal') : ($user ? $user->postal : '') }}" required>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -132,7 +147,7 @@
                         <div class="col-sm-10">
                             @foreach($roles as $role)
                             
-                            <label><input type="checkbox" name="roles[]"  {{$user->hasRole($role->name) ?  'checked' : '' }} value="{{$role->id}}">{{$role->display_name}}</label><br>
+                            <label><input type="checkbox" name="roles[]"  {{$user ? ($user->hasRole($role->name) ?  'checked' : '') : '' }} value="{{$role->id}}">{{$role->display_name}}</label><br>
                              @endforeach
 
                         </div>

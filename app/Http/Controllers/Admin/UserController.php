@@ -17,11 +17,7 @@ class UserController extends Controller
         
         // $this->middleware('role:admin|email:trung@gmail.com');
     }
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    
     public function index()
     {
         $users = User::all();        
@@ -29,44 +25,22 @@ class UserController extends Controller
         return view('admin.user.home',['users' => $users]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
-        return view('admin.user.create');
+        $roles = Role::all();
+        return view('admin.user.edit', compact('roles'));
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
     public function store(Request $request)
     {
         //
     }
 
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function show($id)
     {
         //
     }
 
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
         $user = User::findOrFail($id);
@@ -75,41 +49,78 @@ class UserController extends Controller
         return view('admin.user.edit',['user' => $user, 'roles' => $roles]);
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request)
     {
+        $this->validate($request, [
+            'username' => 'required|max:255',
+            'email' => 'required|email|max:255',
+            'password' => 'min:6|confirmed',
+        ]);
         $id = $request->get('id');
-        $user = User::findOrFail($id); 
-        if(!$user) return redirect('admin/users');
-        $user->username = $request->get('username');
-        $user->email = $request->get('email');
-        $user->phone_number = $request->get('phone_number');
-        $user->address = $request->get('address');
-        $user->city = $request->get('city');
-        $user->province = $request->get('province');
-        $user->postal = $request->get('postal');
-        $user->image = $request->get('image');
-        if($request->new_password){
-            $user->password = bcrypt($request->new_password);
+        $result = false;
+        if ($id == 0) {
+            $suser = User::where('username','=',$request->get('username'))->orWhere('email','=',$request->get('email'))->first();
+            if (empty($suser)) {
+                $post_data = $request->all();
+                $user = new User();
+                $user->username = $post_data['username'];
+                $user->email = $post_data['email'];
+                $user->phone_number = $post_data['phone_number'];
+                $user->address = $post_data['address'];
+                $user->city = $post_data['city'];
+                $user->province = $post_data['province'];
+                $user->postal = $post_data['postal'];
+                if($post_data['image'] != null) {
+                    $user->image = $post_data['image'];
+                }
+                else {
+                    $user->image = '/assets/images/profile_small.jpg';
+                }
+                $user->password = bcrypt($post_data['password']);
+                $result = $user->save();
+                //save roles
+                $roles = $request->get('roles');
+                if($roles){
+                    $user->roles()->sync($roles);
+                }else{
+                    $user->roles()->sync([]);
+                }
+            }
+            else {
+                Session::flash('error', 'Username or Email is exist!');
+                return redirect('admin/user/create');
+            }
         }
-        $user->save();
-        //save roles
-        $roles = $request->get('roles');
-        if($roles){
-            $user->roles()->sync($roles);
-        }else{
-            $user->roles()->sync([]);
+        else {
+            $user = User::findOrFail($id);
+            if ($user) {
+                $cuser = User::where('username','=',$request->get('username'))->orWhere('email','=',$request->get('email'))->first();
+                if (!empty($cuser) && $cuser != $user) {
+                    Session::flash('error', 'Username or Email is exist!');
+                    return redirect('admin/user/edit/'.$id);
+                }
+                else {
+                    $result = $user->update($request->all());
+                    //save roles
+                    $roles = $request->get('roles');
+                    if($roles){
+                        $user->roles()->sync($roles);
+                    }else{
+                        $user->roles()->sync([]);
+                    }
+                }
+            }
         }
-         
-        Session::flash('success', 'User saved successfully!');
-        
-        return redirect('admin/user/edit/'.$id);
+        if ($result) {
+            Session::flash('success', 'User saved successfully!');
+        } else {
+            Session::flash('error', 'User failed to save successfully!');
+        }
+        if ($user && $user->id) {
+            return redirect('admin/user/edit/' . $user->id);
+        }
+        return redirect('admin/user/create');
+
     }
 
     public function save(Request $request)
@@ -117,16 +128,6 @@ class UserController extends Controller
         $post_data = $request->all();
         $path = "";
         $name = "";
-        if ($_FILES['image']['name'] != NULL) {
-            $path = "uploads-user/";
-            if (!is_dir($path)) {
-                mkdir($path);
-            }
-            $tmp_name = $_FILES['image']['tmp_name'];
-            $name = time() . $_FILES['image']['name'];
-            // Upload file
-            move_uploaded_file($tmp_name, $path . $name);
-        }
         $suser = User::where('username','=',$post_data['username'])->orWhere('email','=',$post_data['email'])->first();
         if(empty($suser)) {
             $user = new User;
@@ -138,13 +139,27 @@ class UserController extends Controller
             $user->city = $post_data['city'];
             $user->province = $post_data['province'];
             $user->postal = $post_data['postal'];
-            if($post_data['image'] == '') {
-                $user->image = '/assets/images/profile_small.jpg';
-            }
-            else {
+            if ($_FILES['image']['name'] != NULL) {
+                $path = "uploads-user/";
+                if (!is_dir($path)) {
+                    mkdir($path);
+                }
+                $tmp_name = $_FILES['image']['tmp_name'];
+                $name = time() . $_FILES['image']['name'];
+                // Upload file
+                move_uploaded_file($tmp_name, $path . $name);
                 $user->image = '/' . $path . $name;
             }
+            else {
+                $user->image = '/assets/images/profile_small.jpg';
+            }
             $user->save();
+            $roles = $request->get('roles');
+            if($roles){
+                $user->roles()->sync($roles);
+            }else{
+                $user->roles()->sync([]);
+            }
             return redirect('admin/user/edit/'.$user->id);
         }
         else {
@@ -152,16 +167,12 @@ class UserController extends Controller
             return redirect('admin/user/create');
         }
     }
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
+    
     public function destroy($id)
     {
         //
     }
+
     public function delete($id)
     {
         $user = User::find($id);
