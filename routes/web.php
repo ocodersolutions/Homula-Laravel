@@ -36,10 +36,10 @@ Route::group(['middleware' => ['role:admin']], function() {
 
     //user
     Route::get('admin/users', 'Admin\UserController@index');
-    Route::get('admin/user/create', 'Admin\UserController@create');
-    Route::get('admin/user/edit/{id}', 'Admin\UserController@edit');
-    Route::post('admin/user/save', 'Admin\UserController@update');
-    Route::get('admin/user/delete/{id}', 'Admin\UserController@delete');
+    Route::get('admin/users/create', 'Admin\UserController@create');
+    Route::get('admin/users/edit/{id}', 'Admin\UserController@edit');
+    Route::post('admin/users/save', 'Admin\UserController@update');
+    Route::get('admin/users/delete/{id}', 'Admin\UserController@delete');
 
     //permission
     Route::get('admin/user/permissions', 'Admin\PermissionController@index');
@@ -105,7 +105,7 @@ Menu::make('MyNavBar', function($menu) {
 
     //users
     $menu->add('Users Manager', 'users')->attr(array('pre_icon' => 'user'));
-    $menu->usersManager->add('Users', 'admin/users')->attr(array('pre_icon' => 'user'))->active('admin/user/*');
+    $menu->usersManager->add('Users', 'admin/users')->attr(array('pre_icon' => 'user'))->active('admin/users/*');
     $menu->usersManager->add('Permissions', 'admin/user/permissions')->attr(array('pre_icon' => 'user'))->active('admin/user/permission/*');
     $menu->usersManager->add('Roles', 'admin/user/roles')->attr(array('pre_icon' => 'users'))->active('admin/user/role/*');
     $menu->usersManager->add('My account', 'admin/user/profile')->attr(array('pre_icon' => 'envelope'));

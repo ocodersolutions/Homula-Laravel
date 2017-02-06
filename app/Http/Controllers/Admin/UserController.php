@@ -88,7 +88,7 @@ class UserController extends Controller
             }
             else {
                 Session::flash('error', 'Username or Email is exist!');
-                return redirect('admin/user/create');
+                return redirect('admin/users/create');
             }
         }
         else {
@@ -97,7 +97,7 @@ class UserController extends Controller
                 $cuser = User::where('username','=',$request->get('username'))->orWhere('email','=',$request->get('email'))->first();
                 if (!empty($cuser) && $cuser != $user) {
                     Session::flash('error', 'Username or Email is exist!');
-                    return redirect('admin/user/edit/'.$id);
+                    return redirect('admin/users/edit/'.$id);
                 }
                 else {
                     $result = $user->update($request->all());
@@ -117,55 +117,10 @@ class UserController extends Controller
             Session::flash('error', 'User failed to save successfully!');
         }
         if ($user && $user->id) {
-            return redirect('admin/user/edit/' . $user->id);
+            return redirect('admin/users/edit/' . $user->id);
         }
-        return redirect('admin/user/create');
+        return redirect('admin/users/create');
 
-    }
-
-    public function save(Request $request)
-    {
-        $post_data = $request->all();
-        $path = "";
-        $name = "";
-        $suser = User::where('username','=',$post_data['username'])->orWhere('email','=',$post_data['email'])->first();
-        if(empty($suser)) {
-            $user = new User;
-            $user->username = $post_data['username'];
-            $user->email = $post_data['email'];
-            $user->password = bcrypt($post_data['password']);
-            $user->phone_number = $post_data['phone_number'];
-            $user->address = $post_data['address'];
-            $user->city = $post_data['city'];
-            $user->province = $post_data['province'];
-            $user->postal = $post_data['postal'];
-            if ($_FILES['image']['name'] != NULL) {
-                $path = "uploads-user/";
-                if (!is_dir($path)) {
-                    mkdir($path);
-                }
-                $tmp_name = $_FILES['image']['tmp_name'];
-                $name = time() . $_FILES['image']['name'];
-                // Upload file
-                move_uploaded_file($tmp_name, $path . $name);
-                $user->image = '/' . $path . $name;
-            }
-            else {
-                $user->image = '/assets/images/profile_small.jpg';
-            }
-            $user->save();
-            $roles = $request->get('roles');
-            if($roles){
-                $user->roles()->sync($roles);
-            }else{
-                $user->roles()->sync([]);
-            }
-            return redirect('admin/user/edit/'.$user->id);
-        }
-        else {
-            Session::flash('error', 'Username or Email is exist!');
-            return redirect('admin/user/create');
-        }
     }
     
     public function destroy($id)
@@ -191,7 +146,7 @@ class UserController extends Controller
         $count = 0;
         if($req->email == '') {
             Session::flash('error', 'Incorrect email!');
-            return redirect('/admin/user/profile');
+            return redirect('/admin/users/profile');
         }
         elseif($user->email != $req->email) {
             $user->email = $req->email;

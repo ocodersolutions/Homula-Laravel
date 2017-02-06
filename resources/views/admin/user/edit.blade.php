@@ -3,7 +3,7 @@
 @section('content')
 @php( $user = isset($user) ? $user : false)
 
-<form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/user/save') }}">
+<form class="form-horizontal" role="form" method="POST" action="{{ url('/admin/users/save') }}">
 
     <input type="hidden" name="id" value="{{ $user ? $user->id : '' }}" />
 
