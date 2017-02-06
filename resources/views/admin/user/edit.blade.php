@@ -50,7 +50,7 @@
                             Email
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='email' value="{{old('title') ? old('title') : $user->email }}">
+                            <input class="form-control" type="email" name='email' value="{{old('title') ? old('title') : $user->email }}">
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>

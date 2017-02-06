@@ -55,7 +55,7 @@
                             Email
                         </label>
                         <div class="col-sm-10">
-                            <input id="email" class="form-control" type="text" name='email' value="{{old('title') ? old('title') : '' }}" required>
+                            <input id="email" class="form-control" type="email" name='email' value="{{old('title') ? old('title') : '' }}" required>
                             @if ($errors->has('email'))
                                 <span class="help-block">
                                     <strong>{{ $errors->first('email') }}</strong>

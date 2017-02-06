@@ -62,7 +62,7 @@
                                 <label class="col-sm-2 control-label"> E-Mail Address</label>
 
                                 <div class="col-sm-10">
-                                    <input id="email" type="text" class="form-control" name="email" value="{{$user->email}}">
+                                    <input id="email" type="email" class="form-control" name="email" value="{{$user->email}}">
                                 </div>
                             </div>
                             <div class="hr-line-dashed"></div>
