@@ -84,7 +84,8 @@ class ArticlesController extends Controller {
                 $articles->alias = str_slug($post_data['title'], '-');
             }
             $articles->thumbnail = $post_data['thumbnail'];
-            $articles->link = $post_data['link'];
+            // $articles->link = $post_data['link'];
+            $articles->link = '';
             $articles->content = $post_data['content'];
             $articles->excerpt = $post_data['excerpt'];
             $articles->categories_id = $post_data['categories_id'];
