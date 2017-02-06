@@ -28,7 +28,7 @@
             <br>
             <div class="pull-right tooltip-demo">
                 <button  class="btn btn-sm btn-primary dim" data-toggle="tooltip" data-placement="top" title="Add new Role"><i class="fa fa-plus"></i> Save</button>
-                <a href="{{url('/admin/')}}" class="btn btn-danger btn-sm dim" data-toggle="tooltip" data-placement="top" title="" data-original-title="Cancel Edit"><i class="fa fa-times"></i> Back</a>
+                <a href="{{url('/admin/user/roles')}}" class="btn btn-danger btn-sm dim" data-toggle="tooltip" data-placement="top" title="" data-original-title="Cancel Edit"><i class="fa fa-times"></i> Back</a>
             </div>
         </div>
     </div>
