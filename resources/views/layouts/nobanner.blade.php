@@ -9,6 +9,9 @@
 	<link href="{{ URL::asset('css/bootstrap-theme.min.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="{{ URL::asset('css/style.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="{{ URL::asset('css/font-awesome.min.css') }}" media="all" rel="stylesheet" type="text/css" />
+	<link href="{{ URL::asset('css/owl.carousel.css') }}" media="all" rel="stylesheet" type="text/css" />
+	<link href="{{ URL::asset('css/owl.carousel.min.css') }}" media="all" rel="stylesheet" type="text/css" />
+	<link href="{{ URL::asset('css/owl.theme.default.min.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="/css/app.css" rel="stylesheet">
 
 	<script type="text/javascript" src="{{URL::asset('js/jquery-1.12.4.min.js')}}"></script>
@@ -216,14 +219,14 @@
 				</div>
 				<!-- End modal sign up -->
 				
-				{{--@php
-					$menu_2 = App\Models\Menus::where('parent_id','20')->get();
-					echo '<pre>';	var_dump(($menu_2)); 	echo '</pre>';
-				@endphp --}}
+				
 				<div class="header_menu">
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12 header_menu_content">
+								<div class="hmc_show_menu">
+									<i class="fa fa-bars" aria-hidden="true"></i>
+								</div>
 								<ul class="header_main_menu">
 									@foreach ($menus as $menu)
 										@php
@@ -244,225 +247,7 @@
 												</ul>
 											</li>
 										@endif
-									@endforeach
-									<!--li class="no_after"><a href="">HOME</a></li>
-									<li>
-										<a href="">BUY</a>
-										<ul class="header_sub_menu">
-											<li>
-												<a href=""><img src="{{url::asset('images/resales-home.png')}}" alt="">RESALES HOME</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/new-construction-home.png')}}" alt="">NEW CONSTRUCTION HOME</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/new-construction-condo.png')}}" alt="">NEW CONSTRUCTION CONDO</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/exclusive-home.png')}}" alt="">EXCLUSIVE HOMES</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/open-house.png')}}" alt="">OPEN HOUSE</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/coming-soon.png')}}" alt="">COMING SOON</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/business-homula.png')}}" alt="">BUSINESS</a>
-											</li>
-											<li class="clr"></li>
-										</ul>
-									</li>
-									<li>
-										<a href="">SELL</a>
-										<ul class="header_sub_menu">
-											<li>
-												<a href=""><img src="{{url::asset('images/free-home-evluation-homula.png')}}" alt="">FREE HOME EVALUATION</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/free-home-report-homula.png')}}" alt="">FREE HOME REPORT</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/find-retailer-copy.png')}}" alt="">FIND A REALTOR</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/list-my-home-homula.png')}}" alt="">LIST MY HOUSE</a>
-											</li>
-											<li class="clr"></li>
-										</ul>
-									</li>
-									<li>
-										<a href="">LEASE</a>
-										<ul class="header_sub_menu">
-											<li>
-												<a href=""><img src="{{url::asset('images/search-copy.png')}}" alt="">LEASE SEARCH</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/search-copy.png')}}" alt="">MAP SEARCH</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/search-copy.png')}}" alt="">COMMERCIAL SEARCH</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/business-copy.png')}}" alt="">BUSINESS</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/utility-copy.png')}}" alt="">UTILITY</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/search-copy.png')}}" alt="">SEARCH</a>
-											</li>
-											<li class="clr"></li>
-										</ul>
-									</li>
-									<li>
-										<a href="">COMMERCIAL</a>
-										<ul class="header_sub_menu">
-											<li>
-												<a href=""><img src="{{url::asset('images/search-2.png')}}" alt="">SEARCH</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/ad-search2.png')}}" alt="">ADVANCED SEARCH</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/home-listing2.png')}}" alt="">LIST YOUR PROPERTY</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/find-retaile2.png')}}" alt="">FIND A COMMERCIAL REALTOR</a>
-											</li>
-											<li class="clr"></li>
-										</ul>
-									</li>
-									<li>
-										<a href="">PROFESSIONAL FINDER</a>
-										<ul class="header_sub_menu">
-											<li>
-												<a href=""><img src="{{url::asset('images/real-estate-professiona-homula.png')}}" alt="">REAL ESTATE PROFESSIONAL</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/leasing-agent1-homula.png')}}" alt="">LEASING AGENT</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/Mortage-broker-copy.png')}}" alt="">MORTGAGE BROKER</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/homeinspector-homula.png')}}" alt="">HOME INSPECTOR</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/lawyer-homula.png')}}" alt="">REAL ESTATE LAWYER</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/appraiser-homula.png')}}" alt="">APPRAISER</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/property-management-homula.png')}}" alt="">PROPERTY MANAGEMENT</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/home-stagers-homula.png')}}" alt="">HOME STAGERS</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/insurance-broker-homula.png')}}" alt="">INSURANCE BROKERS</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/moving-company-homula.png')}}" alt="">MOVING COMPANY</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/photographers-reps-homula.png')}}" alt="">GRAPHIC DESIGNER</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/lawyer1-homula.png')}}" alt="">LAWYERS(FIRMS)</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/sign-supplir-copy.png')}}" alt="">SIGN SUPPLIERS</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/shape-homula.png')}}" alt="">SIGN INSTALLERS</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/printer-homula.png')}}" alt="">PRINTERS</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/photographer-homula.png')}}" alt="">PHOTOGRAPHERS (PROPERTIES)</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/photographers-reps-homula.png')}}" alt="">PHOTOGRAPHERS (REPS)</a>
-											</li>
-											<li class="clr"></li>
-										</ul>
-									</li>
-									<li>
-										<a href="">MORTGAGE</a>
-										<ul class="header_sub_menu">
-											<li>
-												<a href=""><img src="{{url::asset('images/Mortage-broker-copy.png')}}" alt="">MORTGAGE BROKER</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/mortgage-insurance-calculator-copy.png')}}" alt="">MORTGAGE INSURANCE CALCULATOR</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/mortage-rates-copy.png')}}" alt="">MORTGAGE RATGES</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/mortage-calculater-copy.png')}}" alt="">NEW MORTGAGE CALCULATOR</a>
-											</li>
-											<li class="clr"></li>
-										</ul>
-									</li>
-									<li>
-										<a href="">CALCULATORS</a>
-										<ul class="header_sub_menu">
-											<li>
-												<a href=""><img src="{{url::asset('images/mortage-calculater-copy.png')}}" alt="">MORTGAGE CALCULATOR</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/mortgage-insurance-calculator-copy.png')}}" alt="">MORTGAGE INSURANCE CALCULATOR</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/land-transfer-tax-calculator-copy.png')}}" alt="">LAND TRANSFER TAX CALCULATOR</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/land-transfer-tax-calculator-copy.png')}}" alt="">ONTARIO MORTGAGE CALCULATOR</a>
-											</li>
-											<li class="clr"></li>
-										</ul>
-									</li>
-									<li>
-										<a href="">ADVICE</a>
-										<ul class="header_sub_menu">
-											<li>
-												<a href=""><img src="{{url::asset('images/faq-1.png')}}" alt="">FAQ</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/Ask-a-question.png')}}" alt="">ASK A QUESTION</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/help-center-copy.png')}}" alt="">HELP CENTRE</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/contact.png')}}" alt="">CONTACT US</a>
-											</li>
-											<li class="clr"></li>
-										</ul>
-									</li>
-									<li class="no_after"><a href="">ABOUT US</a></li>
-									<li>
-										<a href="">NEWS</a>
-										<ul class="header_sub_menu">
-											<li>
-												<a href=""><img src="{{url::asset('images/news1.png')}}" alt="">REALESTATE MARKET</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/news2.png')}}" alt="">WEEKLY BLOG</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/toronto-realestate.png')}}" alt="">TORONTO REALESTATE</a>
-											</li>
-											<li>
-												<a href=""><img src="{{url::asset('images/news1.png')}}" alt="">MLS LISTING</a>
-											</li>
-											<li class="clr"></li>
-										</ul>
-									</li-->
+									@endforeach									
 								</ul>
 							</div>
 						</div>
@@ -486,7 +271,15 @@
 										<li><a href="">Guelph</a></li>
 										<li><a href="">Hamilton</a></li>
 										<li><a href="">Richmond Hill</a></li>
-										<li>More...</li>
+										<li>
+											<ul>
+												<li><a href="">Barrie</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Cloyne</a></li>
+											</ul>
+											<span class="hp_show_link">More...</span>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -500,7 +293,15 @@
 										<li><a href="">Markham</a></li>
 										<li><a href="">Barrie</a></li>
 										<li><a href="">Brockville</a></li>
-										<li>More...</li>
+										<li>
+											<ul>
+												<li><a href="">Barrie</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Cloyne</a></li>
+											</ul>
+											<span class="hp_show_link">More...</span>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -525,6 +326,9 @@
 										<li><a href="">Free Home Evaluation</a></li>
 										<li><a href="">Canada Search</a></li>
 										<li><a href="">All Ontario Properties</a></li>
+										<li><a href="">IDX Map Search</a></li>
+										<li><a href="">IDX Commercial Search</a></li>
+										<li><a href="">IDX Lease Search</a></li>
 										<li><a href="">Sitemap Index</a></li>
 									</ul>
 								</div>
@@ -558,6 +362,121 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="customizer">
+				<div class="customizer-header">
+					<img src="/images/contact-icon-17.png" alt="">
+				</div>
+				<div class="move_page_top"><i class="fa fa-angle-up"></i></div>
+				<div class="customizer-content  closed">
+					<h2>Connect with one of our professionals in your area</h2>
+					<form action="">
+						<p>
+							<label for="">YOUR NAME (REQUIRED)</label>
+							<input type="text">
+						</p>
+						<p>
+							<label for="">YOUR EMAIL (REQUIRED)</label>
+							<input type="text">
+						</p>
+						<p>
+							<label for="">YOUR PHONE (REQUIRED)</label>
+							<input type="text">
+						</p>
+						<p>
+							<button>CONTACT US</button>
+						</p>
+					</form>
+				</div>
+			</div>
+
+			<div class="select-search-options" id="select-search-options">
+				<form class="ng-pristine ng-valid">
+				    <div class="form-group">
+				        <select class="form-control" id="sel1">
+			        	  <option value="Sale">Available For Sale</option>
+				          <option value="Rent">Available for Rent</option>
+				        </select>
+						
+						<select class="form-control" name="salutation" id="salutation">
+					      <option value="Residential">Residential</option>
+				          <option value="Commercial">Commercial</option>
+					    </select>
+					    	
+				    	<select class="form-control" name="bedroom" id="bedroom">
+					        <option value="Any">Bedroom</option>
+		                    <option value="1">1 Bedroom+</option>
+				            <option value="2">2 Bedroom+</option>
+				            <option value="3">3 Bedroom+</option>
+				            <option value="4">4 Bedroom+</option>
+				            <option value="5">5 Bedroom+</option>
+					    </select>
+
+					    <select class="form-control" name="bathroom" id="bathroom">
+					      	<option value="Any">Bathroom</option>
+		                    <option value="1">1 Bathroom</option>
+				            <option value="1.5">1.5 Bathroom</option>
+				            <option value="2">2 Bathroom</option>
+				            <option value="2.5">2.5 Bathroom</option>
+				            <option value="3">3 Bathroom</option>
+				            <option value="3.5">3.5 Bathroom</option>
+				            <option value="4">4 Bathroom</option>
+				            <option value="4.5">4.5 Bathroom</option>
+				            <option value="5">5 Bathroom</option>
+				            <option value="5.5">5.5 Bathroom</option>
+				            <option value="6">&gt; 6 Bathroom</option>
+					    </select>
+
+					    <select class="form-control" name="price" id="price">
+					      	<option value="Any">Price</option>
+		                    <optgroup id="rentprice" label="Rent/Lease">
+		            			<option class="rent_options" value="0-400">$0 - $400</option>
+								<option class="rent_options" value="400-800">$400 - $800</option>
+								<option class="rent_options" value="800-1000">$800 - $1000</option>
+								<option class="rent_options" value="1000-1200">$1000 - $1200</option>
+								<option class="rent_options" value="1200-1500">$1200 - $1500</option>
+								<option class="rent_options" value="1500-2000">$1500 - $2000</option>
+								<option class="rent_options" value="2000-2500">$2000 - $2500</option>
+								<option class="rent_options" value="2500-Above">$2500 - Above</option>
+			            	</optgroup>
+							<optgroup id="sellprice" label="Sale">
+						        <option value="0-50K">$0 - $50K</option>
+						        <option value="50K-100K">$50K - $100K</option>
+						        <option value="100K-250K">$100K - $250K</option>
+						        <option value="250K-500K">$250K - $500K</option>
+						        <option value="500K-750K">$500K - $750K</option>
+						        <option value="750K-1M">$750K - $1M</option>
+						        <option value="1M-Above">$1M - Above</option>
+						    </optgroup>
+					    </select>
+		                
+		                <select class="form-control" name="pricen" id="rePricen" style="display:none">
+					      	<option value="Any">Price</option>
+		                    <optgroup id="rentpricen" label="Rent/Lease">
+		            			<option class="rent_options" value="0-500">$0 - $500</option>
+								<option class="rent_options" value="500-1000">$500 - $1000</option>
+								<option class="rent_options" value="1000-1500">$1000 - $1500</option>
+								<option class="rent_options" value="1500-2000">$1500 - $2000</option>
+								<option class="rent_options" value="2000-1500">$2000 - $2500</option>
+								<option class="rent_options" value="2500-3000">$2500 - $3000</option>
+								<option class="rent_options" value="3000-3500">$3000 - $3500</option>
+								<option class="rent_options" value="4000-Above">$4000 - Above</option>
+			            	</optgroup>
+							<optgroup id="sellpricen" label="Sale">
+						        <option value="0-50K">$0 - $50K</option>
+						        <option value="50K-100K">$50K - $100K</option>
+						        <option value="100K-250K">$100K - $250K</option>
+						        <option value="250K-500K">$250K - $500K</option>
+						        <option value="500K-750K">$500K - $750K</option>
+						        <option value="750K-1M">$750K - $1M</option>
+						        <option value="1M-Above">$1M - Above</option>
+						    </optgroup>
+					    </select>
+		                <input type="button" class="moresrc" value="Search" onclick="javascript:jQuery('#home-search-frm').submit()">
+				    </div>
+			  	</form>
+
+			</div>
 		</div>
 	</div>
 	
@@ -565,6 +484,9 @@
 	<script type="text/javascript" src="{{ URL::asset('js/custom.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.4.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min-org.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/typed.js') }}"></script>
 
 </body>
 </html>

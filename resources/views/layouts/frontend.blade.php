@@ -9,6 +9,9 @@
 	<link href="{{ URL::asset('css/bootstrap-theme.min.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="{{ URL::asset('css/style.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="{{ URL::asset('css/font-awesome.min.css') }}" media="all" rel="stylesheet" type="text/css" />
+	<link href="{{ URL::asset('css/owl.carousel.css') }}" media="all" rel="stylesheet" type="text/css" />
+	<link href="{{ URL::asset('css/owl.carousel.min.css') }}" media="all" rel="stylesheet" type="text/css" />
+	<link href="{{ URL::asset('css/owl.theme.default.min.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="/css/app.css" rel="stylesheet">
 
 	<script type="text/javascript" src="{{URL::asset('js/jquery-1.12.4.min.js')}}"></script>
@@ -271,7 +274,15 @@
 										<li><a href="">Guelph</a></li>
 										<li><a href="">Hamilton</a></li>
 										<li><a href="">Richmond Hill</a></li>
-										<li>More...</li>
+										<li>
+											<ul>
+												<li><a href="">Barrie</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Cloyne</a></li>
+											</ul>
+											<span class="hp_show_link">More...</span>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -285,7 +296,15 @@
 										<li><a href="">Markham</a></li>
 										<li><a href="">Barrie</a></li>
 										<li><a href="">Brockville</a></li>
-										<li>More...</li>
+										<li>
+											<ul>
+												<li><a href="">Barrie</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Blenheim</a></li>
+												<li><a href="">Cloyne</a></li>
+											</ul>
+											<span class="hp_show_link">More...</span>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -310,6 +329,9 @@
 										<li><a href="">Free Home Evaluation</a></li>
 										<li><a href="">Canada Search</a></li>
 										<li><a href="">All Ontario Properties</a></li>
+										<li><a href="">IDX Map Search</a></li>
+										<li><a href="">IDX Commercial Search</a></li>
+										<li><a href="">IDX Lease Search</a></li>
 										<li><a href="">Sitemap Index</a></li>
 									</ul>
 								</div>
@@ -343,6 +365,121 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="customizer">
+				<div class="customizer-header">
+					<img src="/images/contact-icon-17.png" alt="">
+				</div>
+				<div class="move_page_top"><i class="fa fa-angle-up"></i></div>
+				<div class="customizer-content  closed">
+					<h2>Connect with one of our professionals in your area</h2>
+					<form action="">
+						<p>
+							<label for="">YOUR NAME (REQUIRED)</label>
+							<input type="text">
+						</p>
+						<p>
+							<label for="">YOUR EMAIL (REQUIRED)</label>
+							<input type="text">
+						</p>
+						<p>
+							<label for="">YOUR PHONE (REQUIRED)</label>
+							<input type="text">
+						</p>
+						<p>
+							<button>CONTACT US</button>
+						</p>
+					</form>
+				</div>
+			</div>
+
+			<div class="select-search-options" id="select-search-options">
+				<form class="ng-pristine ng-valid">
+				    <div class="form-group">
+				        <select class="form-control" id="sel1">
+			        	  <option value="Sale">Available For Sale</option>
+				          <option value="Rent">Available for Rent</option>
+				        </select>
+						
+						<select class="form-control" name="salutation" id="salutation">
+					      <option value="Residential">Residential</option>
+				          <option value="Commercial">Commercial</option>
+					    </select>
+					    	
+				    	<select class="form-control" name="bedroom" id="bedroom">
+					        <option value="Any">Bedroom</option>
+		                    <option value="1">1 Bedroom+</option>
+				            <option value="2">2 Bedroom+</option>
+				            <option value="3">3 Bedroom+</option>
+				            <option value="4">4 Bedroom+</option>
+				            <option value="5">5 Bedroom+</option>
+					    </select>
+
+					    <select class="form-control" name="bathroom" id="bathroom">
+					      	<option value="Any">Bathroom</option>
+		                    <option value="1">1 Bathroom</option>
+				            <option value="1.5">1.5 Bathroom</option>
+				            <option value="2">2 Bathroom</option>
+				            <option value="2.5">2.5 Bathroom</option>
+				            <option value="3">3 Bathroom</option>
+				            <option value="3.5">3.5 Bathroom</option>
+				            <option value="4">4 Bathroom</option>
+				            <option value="4.5">4.5 Bathroom</option>
+				            <option value="5">5 Bathroom</option>
+				            <option value="5.5">5.5 Bathroom</option>
+				            <option value="6">&gt; 6 Bathroom</option>
+					    </select>
+
+					    <select class="form-control" name="price" id="price">
+					      	<option value="Any">Price</option>
+		                    <optgroup id="rentprice" label="Rent/Lease">
+		            			<option class="rent_options" value="0-400">$0 - $400</option>
+								<option class="rent_options" value="400-800">$400 - $800</option>
+								<option class="rent_options" value="800-1000">$800 - $1000</option>
+								<option class="rent_options" value="1000-1200">$1000 - $1200</option>
+								<option class="rent_options" value="1200-1500">$1200 - $1500</option>
+								<option class="rent_options" value="1500-2000">$1500 - $2000</option>
+								<option class="rent_options" value="2000-2500">$2000 - $2500</option>
+								<option class="rent_options" value="2500-Above">$2500 - Above</option>
+			            	</optgroup>
+							<optgroup id="sellprice" label="Sale">
+						        <option value="0-50K">$0 - $50K</option>
+						        <option value="50K-100K">$50K - $100K</option>
+						        <option value="100K-250K">$100K - $250K</option>
+						        <option value="250K-500K">$250K - $500K</option>
+						        <option value="500K-750K">$500K - $750K</option>
+						        <option value="750K-1M">$750K - $1M</option>
+						        <option value="1M-Above">$1M - Above</option>
+						    </optgroup>
+					    </select>
+		                
+		                <select class="form-control" name="pricen" id="rePricen" style="display:none">
+					      	<option value="Any">Price</option>
+		                    <optgroup id="rentpricen" label="Rent/Lease">
+		            			<option class="rent_options" value="0-500">$0 - $500</option>
+								<option class="rent_options" value="500-1000">$500 - $1000</option>
+								<option class="rent_options" value="1000-1500">$1000 - $1500</option>
+								<option class="rent_options" value="1500-2000">$1500 - $2000</option>
+								<option class="rent_options" value="2000-1500">$2000 - $2500</option>
+								<option class="rent_options" value="2500-3000">$2500 - $3000</option>
+								<option class="rent_options" value="3000-3500">$3000 - $3500</option>
+								<option class="rent_options" value="4000-Above">$4000 - Above</option>
+			            	</optgroup>
+							<optgroup id="sellpricen" label="Sale">
+						        <option value="0-50K">$0 - $50K</option>
+						        <option value="50K-100K">$50K - $100K</option>
+						        <option value="100K-250K">$100K - $250K</option>
+						        <option value="250K-500K">$250K - $500K</option>
+						        <option value="500K-750K">$500K - $750K</option>
+						        <option value="750K-1M">$750K - $1M</option>
+						        <option value="1M-Above">$1M - Above</option>
+						    </optgroup>
+					    </select>
+		                <input type="button" class="moresrc" value="Search" onclick="javascript:jQuery('#home-search-frm').submit()">
+				    </div>
+			  	</form>
+
+			</div>
 		</div>
 	</div>
 	
@@ -350,6 +487,9 @@
 	<script type="text/javascript" src="{{ URL::asset('js/custom.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.4.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min-org.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/typed.js') }}"></script>
 
 </body>
 </html>

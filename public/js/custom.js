@@ -36,6 +36,28 @@ $(document).ready(function(){
         $('#select-search-options').toggle(500);
     });
 
+    /*
+     * position fixed with sidebar of page article-detail
+     */
+    $(document).scroll(function(){
+        if($(window).width() >= 768) {
+            var h_doc = $(this).height();
+            var h_window = $(window).height();
+            var h_footer = $("#footer").height();
+            var max_scroll = h_doc - h_window - h_footer;
+            if($(this).scrollTop() > 270 && $(this).scrollTop() < max_scroll) {
+                $(".ad_sidebar_wrap").css({'position':'fixed', 'top':'0'});
+            }
+            else if ($(this).scrollTop() >= max_scroll) {
+                $(".article_detail .sidebar").height($(".article_detail .content").height());
+                $(".ad_sidebar_wrap").css({'position':'absolute', 'top':'auto', 'bottom':'50px'});
+            }
+            else {
+                $(".ad_sidebar_wrap").css({'position':'static', 'top':'inherit'});
+            }
+        }
+    });
+
 	$("#type_title").typed({
         strings: ["HOMULA IS THE REAL-ESTATE FORMULA"],
         typeSpeed: 70,
