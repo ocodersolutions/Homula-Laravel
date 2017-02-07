@@ -55,7 +55,7 @@
 									@endif
 									</div>
 									<div class="col-sm-4 header_top_favorites">
-										<a>FAVORITES</a>
+										<a href="">FAVORITES</a>
 										<i class="fa fa-heart" aria-hidden="true"></i>
 									</div>
 								</div>

@@ -40,12 +40,13 @@ $(document).ready(function(){
      * position fixed with sidebar of page article-detail
      */
     $(document).scroll(function(){
-        if($(window).width() >= 768) {
+        if($(window).width() >= 750) {
             var h_doc = $(this).height();
             var h_window = $(window).height();
             var h_footer = $("#footer").height();
             var max_scroll = h_doc - h_window - h_footer;
-            if($(this).scrollTop() > 270 && $(this).scrollTop() < max_scroll) {
+            var min_scroll = $(".header_menu_content").height() + 220;
+            if($(this).scrollTop() > min_scroll && $(this).scrollTop() < max_scroll) {
                 $(".ad_sidebar_wrap").css({'position':'fixed', 'top':'0'});
             }
             else if ($(this).scrollTop() >= max_scroll) {
@@ -57,6 +58,33 @@ $(document).ready(function(){
             }
         }
     });
+
+    if($(window).width() >= 350 && $(window).width() < 991 ) {
+        $(".hmc_show_menu i").click(function(){
+            $(".header_main_menu").toggle('slow');
+            if($(this).hasClass('show_menu')) {
+                $(this).removeClass('show_menu fa-times-circle').addClass('fa-bars');
+            }
+            else {
+                $(this).addClass('show_menu fa-times-circle').removeClass('fa-bars');
+            }
+        });
+        $(".header_main_menu > li > a").click(function(e){
+            e.preventDefault();
+            if($(this).parent().hasClass('no_after')) {
+                window.location.replace($(this).attr('href'));
+            }            
+        });
+        $(".header_main_menu > li").click(function(){
+            $(this).find('.header_sub_menu').toggle('slow');
+        });
+        $(".header_top_favorites i").click(function(){
+            // alert("123");
+            // console.log($(this).parent().find('a').attr('href'));
+            window.location.replace($(this).parent().find('a').attr('href'));
+        });
+    }
+    
 
 	$("#type_title").typed({
         strings: ["HOMULA IS THE REAL-ESTATE FORMULA"],

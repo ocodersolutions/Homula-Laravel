@@ -1030,15 +1030,102 @@ p.box_items_title {
         top: 0;
     }
 }
-@media (min-width: 768px) and (max-width: 991px) {
-    .ad_sidebar_wrap {
-        width: 157px;
-    }
+@media (min-width: 380px) and (max-width: 991px) {    
     .header_main_menu {
         display: none;
     }
     .hmc_show_menu {
         display: block;
+    }
+    .header_main_menu > li:hover .header_sub_menu {
+        display: none;
+    }
+    .header_main_menu > li {
+        display: block;
+        padding-right: 0;        
+    }
+    .header_main_menu li a:hover {
+        background: rgba(202,183,221,0.5);
+    }
+    .header_main_menu li a:focus {
+        text-decoration: none;
+    }
+    .header_main_menu > li a {
+        display: block;
+    }
+    .header_main_menu > li a:after {
+        right: 0;
+    }
+    .header_sub_menu {
+        position: static;
+        background: none;
+    }
+    .header_sub_menu li {
+        float: none;
+        width: 100%;
+        padding: 0 15px;
+    }
+    .header_sub_menu li a {
+        box-shadow: none;
+        padding: 5px 15px;
+    }
+    .header_sub_menu li a img {
+        display: none;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .ad_sidebar_wrap {
+        width: 157px;
+    }
+}
+@media (min-width: 380px) and (max-width: 767px) {
+    .logo_header {
+        width: 230px;
+        float: left;
+    }
+    .logo_header img {
+        width: 100%;
+        padding: 5px 0;
+        max-height: 70px;
+    }
+    .header_top_content .header_top_account {
+        float: left;
+        padding: 0;
+        width: 21%;
+        text-align: right;
+        margin-top: 18px;
+    }
+    .header_top_account span {
+        display: block;
+        line-height: 2;
+    }
+    .header_top_account i {
+        display: none;
+    }
+    .header_top_content .header_top_favorites {
+        float: right;
+        padding-left: 0;
+    }
+    .header_top_favorites a {
+        display: none;
+    }
+    .header_top_favorites i {
+        margin: 0;
+        cursor: pointer;
+    }
+    .adc_comment textarea {
+        width: 100%;
+    }
+    .fb_box_one span {
+        display: inline-block;
+        width: 100%;
+        margin: 0;
+    }
+    .fb_box_two span {
+        margin-right: 0;
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
     }
 }
 
