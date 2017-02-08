@@ -13,7 +13,7 @@
 				<th >Alias</th>
 				<!-- <th >Description</th> -->
 				<th >Parent category name</th>
-				<th >Yes/No</th>
+				<th >Publish</th>
 				<th >&nbsp;</th>
 	        </tr>
 	        </thead>

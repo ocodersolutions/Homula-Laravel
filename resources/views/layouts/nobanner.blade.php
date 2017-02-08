@@ -240,7 +240,7 @@
 												<ul class="header_sub_menu">
 													@foreach ($sub_menu as $value)
 														<li>
-															<a href="{{$value['link']}}">{!!$value['icon']!!} {{$value['name']}}</a>
+															<a href="{{$value['link']}}"><img src="{!!$value['icon']!!}" alt=""> {{$value['name']}}</a>
 														</li>
 													@endforeach
 													<li class="clr"></li>

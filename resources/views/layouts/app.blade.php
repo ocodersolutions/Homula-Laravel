@@ -223,6 +223,9 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-sm-12 header_menu_content">
+								<div class="hmc_show_menu">
+									<i class="fa fa-bars" aria-hidden="true"></i>
+								</div>
 								<ul class="header_main_menu">
 									@foreach ($menus as $menu)
 										@php
@@ -236,7 +239,7 @@
 												<ul class="header_sub_menu">
 													@foreach ($sub_menu as $value)
 														<li>
-															<a href="{{$value['link']}}">{!!$value['icon']!!} {{$value['name']}}</a>
+															<a href="{{$value['link']}}"><img src="{!!$value['icon']!!}" alt=""> {{$value['name']}}</a>
 														</li>
 													@endforeach
 													<li class="clr"></li>

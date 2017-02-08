@@ -21,7 +21,7 @@
                     <th >Link</th>
                     <th >Target</th>
                     <th data-sort="published" class="sort">
-                        Yes/No
+                        Publish
                         <span class="published fa fa-sort"></span>
                     </th>
                     <th >&nbsp;</th>

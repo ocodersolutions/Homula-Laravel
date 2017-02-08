@@ -7,6 +7,9 @@ li {
     font-family: 'Open Sans', sans-serif;
 	font-size: 14px;
 }
+a:hover {
+    text-decoration: none;
+}
 .clr {
     clear: both;
 }
@@ -1129,7 +1132,6 @@ p.box_items_title {
     }
 }
 
-
 .customizer {
     bottom: 15px;
     position: fixed;
@@ -1282,4 +1284,115 @@ p.box_items_title {
     padding: 6px 12px;
     overflow: hidden;
     text-transform: uppercase;
+}
+
+.sub_cat_news_nav {
+    background: white;
+    z-index: 2;
+    border-bottom: 1px solid #ddd;
+    padding: 0;
+}
+.sub_cat_news_nav li {
+    width: 25%;
+    float: left;
+    text-align: center;
+    display: inline-block;
+    letter-spacing: .1rem;
+    padding: 15px 0;
+}
+.sub_cat_news_nav li a {
+    color: #000;
+    border-bottom: 1px solid white;
+    cursor: pointer;
+    letter-spacing: .1rem;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    transition: border 1s;
+    white-space: nowrap;
+}
+.sub_cat_news_nav li a:hover {
+    text-decoration: none;
+}
+.sub_cat_news_nav li a:focus {
+    text-decoration: none;
+}
+.sub_cat_news_nav li a.active {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.scn_item {
+    border: 1px solid #eee;
+    padding: 10px;
+    min-height: 620px;
+    margin: 10px 0 15px;
+}
+.snc_item_top {
+    margin-bottom: 25px;
+}
+.snc_it_author_avatar {
+    float: left;
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.snc_it_author_avatar img {
+    width: 100%;
+    height: 40px;
+}
+.snc_it_author_info h3 {
+    margin: 0;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.snc_it_author_info span {
+    color: skyblue;
+}
+.snc_item_thumbnail img {
+    width: 100%;
+    height: 235px;
+}
+.snc_item_name {
+    margin: 15px 0;
+}
+.snc_item_name span {
+    text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.snc_item_name span:after {
+    content: "";
+    height: 1px;
+    background: #000;
+    display: block;
+    width: 90px;
+    position: relative;
+    top: 2px;
+}
+.snc_item_title a {
+    color: rgb(51, 51, 51);
+}
+.snc_item_title a:hover {
+    text-decoration: none;
+}
+.snc_item_title h3 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}
+.snc_item_main_content .read_more {
+    display: block;
+    text-align: right;
+    right: 0;
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+    text-transform: uppercase;
+}
+.snc_item_comment span {
+    font-size: 10px;
+    cursor: pointer;
+}
+.snc_item_comment .comment_2 {
+    margin-left: 10px;
 }

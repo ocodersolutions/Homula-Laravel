@@ -18,11 +18,6 @@ class HomeController extends Controller
         //$this->middleware('auth');
     }
 
-    /**
-     * Show the application dashboard.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function index()
     {
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
@@ -64,8 +59,4 @@ class HomeController extends Controller
 
     }
 
-    public function article_detail() {
-        $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
-        return view('frontend.article-detail', compact('menus'));
-    }
 }

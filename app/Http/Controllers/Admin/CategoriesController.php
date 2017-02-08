@@ -13,22 +13,13 @@ class CategoriesController extends Controller
     {
         $this->middleware('auth');
     }
-    /**
-     * Display a listing of the resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
+    
     public function index()
     {
         $categories = Categories::paginate(10);
         return view('admin.categories.home', ['categories' => $categories]);
     }
 
-    /**
-     * Show the form for creating a new resource.
-     *
-     * @return \Illuminate\Http\Response
-     */
     public function create()
     {
         $categories = Categories::all();
@@ -36,34 +27,6 @@ class CategoriesController extends Controller
         return view('admin.categories.edit', ['categories' => $categories, 'categories_level' => $categories_level]);
     }
 
-    /**
-     * Store a newly created resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @return \Illuminate\Http\Response
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function show($id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function edit($id)
     {
         $categories_item = Categories::findOrFail($id);
@@ -72,13 +35,6 @@ class CategoriesController extends Controller
         return view('admin.categories.edit',compact('categories', 'categories_item', 'categories_level'));
     }
 
-    /**
-     * Update the specified resource in storage.
-     *
-     * @param  \Illuminate\Http\Request  $request
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
     public function update(Request $request)
     {
         $id = $request->get("id");
@@ -117,22 +73,13 @@ class CategoriesController extends Controller
         return redirect('admin/categories/create');
     }
 
-    /**
-     * Remove the specified resource from storage.
-     *
-     * @param  int  $id
-     * @return \Illuminate\Http\Response
-     */
-    public function destroy($id)
-    {
-        //
-    }
     public function delete($id)
     {
         $categories = Categories::find($id);
         $categories->delete();
         return redirect('admin/categories');
     }
+
     public static function getCat($id) {
         $categories_item = Categories::findOrFail($id);
         return $categories_item;

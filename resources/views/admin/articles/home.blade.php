@@ -22,7 +22,7 @@
 				<th >Content</th>
 				<th >Excerpt</th>
 				<th >Category name</th>
-				<th >Yes/No</th>
+				<th >Publish</th>
 				<th >Created_at</th>
 				<th >Updated_at</th>
 				<th >&nbsp;</th>

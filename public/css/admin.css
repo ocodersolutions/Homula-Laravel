@@ -44,6 +44,7 @@
 .generate_input img {
   max-width: 100%;
   max-height: 100%;
+  background: blue;
 }
 .generate_input input[type=text] {
   padding: 0 122px 0 45px;
