@@ -95,6 +95,13 @@ Route::group(['middleware' => ['role:admin']], function() {
         Route::post('/cat/save', 'GalleryController@saveCat');
         Route::get('/cat/delete/{id}', 'GalleryController@deleteCat');
     });
+
+    //Agents
+    Route::get('admin/agents', 'Admin\AgentsController@index');
+    Route::get('admin/agents/create', 'Admin\AgentsController@create');
+    Route::post('admin/agents/save', 'Admin\AgentsController@update');
+    Route::get('admin/agents/edit/{id}', 'Admin\AgentsController@edit');
+    Route::get('admin/agents/delete/{id}', 'Admin\AgentsController@delete');
 });
 
 Route::group(['middleware' => ['role:owner|register']], function() {
@@ -122,6 +129,8 @@ Menu::make('MyNavBar', function($menu) {
     $menu->add('Categories', 'admin/categories')->attr(array('pre_icon' => 'tag'))->active('admin/categories/*');
 
     $menu->add('Articles', 'admin/articles')->attr(array('pre_icon' => 'file-text'))->active('admin/articles/*');
+
+    $menu->add('Agents', 'admin/agents')->attr(array('pre_icon' => 'users'))->active('admin/agents/*');
 
 //    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
 });
