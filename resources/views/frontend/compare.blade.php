@@ -1,4 +1,4 @@
-@extends('layouts.nobanner')
+@extends('layouts.frontend')
 
 @section('title', 'Homepage')
 

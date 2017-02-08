@@ -1,4 +1,4 @@
-@extends('layouts.nobanner')
+@extends('layouts.frontend')
 
 @section('content')
 <div class="article_detail">

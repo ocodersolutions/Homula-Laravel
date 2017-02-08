@@ -254,11 +254,7 @@
 						</div>
 					</div>
 				</div>
-				<div class="header_bot">
-					<div class="header_bot_video">
-						<h1>HOMULA IS THE REAL-ESTATE FOMULA</h1>
-					</div>
-				</div>
+				@yield('banner')
 			</div>
 			<div id="main-content">
 				@yield('content')
