@@ -33,10 +33,10 @@ class FrontendController extends Controller
         $categories = Categories::where('alias','=', $alias)->get()->first();
         $group_cat = Categories::where('parent_id', '=', $categories->parent_id)->get();
         $articles = Articles::where('categories_id', '=', $categories->id)->get();
-        $articles_agent = Articles::where('id','>=', 18)->take(36)->get();
+        $agents = Agents::all();
         $articles_hot = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
         // echo '<pre>'; var_dump($group_cat); echo '<pre>';
-        return view('frontend.news-cat', compact('menus', 'categories', 'articles', 'group_cat','articles_agent','articles_hot'));
+        return view('frontend.news-cat', compact('menus', 'categories', 'articles', 'group_cat','agents','articles_hot'));
     }
 
     public function agents() {

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Menus;
 use App\Models\Articles;
+use App\Models\Agents;
 
 class HomeController extends Controller
 {
@@ -22,9 +23,9 @@ class HomeController extends Controller
     {
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
         $articles = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
-        $articles_agent = Articles::where('id','>=', 18)->take(36)->get();
+        $agents = Agents::all();
         $articles_news = Articles::where([['id','>=', 54],['id','<',72]])->orderBy('id','desc')->get();
-        return view('home', compact('menus', 'articles', 'articles_agent', 'articles_news'));//->orderBy('id','desc')
+        return view('home', compact('menus', 'articles', 'agents', 'articles_news'));//->orderBy('id','desc')
     }
 
     public function compare()

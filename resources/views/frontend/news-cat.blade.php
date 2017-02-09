@@ -65,20 +65,20 @@
 				<div class="row">
 					<div class="col-sm-12">
 						<div id="owl-demo-agent" class="owl-carousel owl-theme">	
-							@foreach ($articles_agent as $agent)
+							@foreach ($agents as $agent)
 								<div class="item">
 						    		<div class="top_agents_content">
 						    			<div class="avartar_agents">
-						    				<a href="{{$agent->link}}" target="_blank"><img width="225" height="300" src="{{URL::asset($agent->thumbnail)}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{$agent->title}} real estate professional on Homula"></a>
+						    				<a href="" target="_blank"><img width="225" height="300" src="{{$agent->thumbnail}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{$agent->name}} real estate professional on Homula"></a>
 					    				</div>
 					    				<div class="detail_agents">
-					    					<p><a href="{{$agent->link}}" target="_blank">
-					    					<b>{{$agent->title}}</b></a></p>
-					    					<p>{{$agent->alias}}</p>
-					    					<p>{!!$agent->content!!}</p><p></p>
+					    					<p><a href="" target="_blank">
+					    					<b>{{$agent->name}}</b></a></p>
+					    					<p>{{$agent->spoken_language}}</p>
+					    					<p>{!!$agent->email!!}</p><p></p>
 				    					</div>
 				    					<div class="foot-agent-content" style="">
-				    						<a href="{{$agent->link}}" target="_blank" class="btn btn-primary">Contact now</a>
+				    						<a href="" target="_blank" class="btn btn-primary">Contact now</a>
 			    						</div>
 		    						</div>
 	    						</div>
