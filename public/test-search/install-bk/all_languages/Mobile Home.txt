@@ -1,0 +1,72 @@
+﻿Arabic:
+البيوت المتنقلة
+Bulgarian:
+Мобилни дом
+Catalan:
+Mobil Home
+Chinese Simplified:
+移动首页
+Czech:
+Mobile Home
+Danish:
+Mobile Startside
+Dutch:
+Stacaravan
+English:
+Mobile Home
+Estonian:
+Mobile Avaleht
+Finnish:
+Mobiili kotiin
+French:
+Maison mobile
+German:
+Mobil-Home
+Greek:
+Τροχόσπιτο
+Haitian Creole:
+Kay mobil, kay
+Hebrew:
+בית נייד
+Hindi:
+मोबाइल होम
+Hungarian:
+Mobil Home
+Indonesian:
+Mobile Home
+Italian:
+Casa mobile
+Japanese:
+モバイル ホーム
+Korean:
+모바일 홈
+Latvian:
+Mobilās mājas
+Lithuanian:
+Mobile Pradžia
+Norwegian:
+Mobile hjem
+Polish:
+Mobile – strona główna
+Portuguese:
+Casa móvel
+Romanian:
+Mobile Home
+Russian:
+Дом на колесах
+Slovak:
+Mobilných domov
+Slovenian:
+Mobilni dom
+Spanish:
+Casa móvil
+Swedish:
+Husbil
+Thai:
+บ้านเคลื่อนที่
+Turkish:
+Mobil ana sayfası
+Ukrainian:
+Мобільний будинок
+Vietnamese:
+Nhà di động

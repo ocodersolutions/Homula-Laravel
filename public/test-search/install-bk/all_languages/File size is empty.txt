@@ -1,0 +1,72 @@
+﻿Arabic:
+حجم الملف فارغ
+Bulgarian:
+Размерът на файла е празен
+Catalan:
+Mida del fitxer és buit
+Chinese Simplified:
+文件大小为空
+Czech:
+Velikost souboru je prázdný
+Danish:
+Filstørrelsen er tom
+Dutch:
+Bestandsgrootte is leeg
+English:
+File size is empty
+Estonian:
+Faili suurus on tühi
+Finnish:
+Tiedostokoko on tyhjä
+French:
+Taille du fichier est vide
+German:
+Größe der Datei ist leer
+Greek:
+Μέγεθος αρχείου είναι κενό
+Haitian Creole:
+Fichier taille vid
+Hebrew:
+גודל הקובץ הוא ריק
+Hindi:
+फ़ाइल का आकार खाली है
+Hungarian:
+Reszelő méret üres
+Indonesian:
+Ukuran file kosong
+Italian:
+Dimensione del file è vuoto
+Japanese:
+ファイル サイズが空です。
+Korean:
+파일 크기 비어 있습니다.
+Latvian:
+Fails ir tukšs
+Lithuanian:
+Failo dydis yra tuščias
+Norwegian:
+Filstørrelsen er tom
+Polish:
+Rozmiar pliku jest pusty
+Portuguese:
+Tamanho do arquivo está vazio
+Romanian:
+Dimensiunea fişierului este gol
+Russian:
+Размер файла пуст
+Slovak:
+Veľkosť súboru je prázdny
+Slovenian:
+Velikost datoteke je prazno
+Spanish:
+Tamaño de archivo está vacío
+Swedish:
+Filstorleken är tom
+Thai:
+ขนาดแฟ้มว่างเปล่า
+Turkish:
+Dosya boyutu boş
+Ukrainian:
+Розмір файлу пуста
+Vietnamese:
+Kích thước tập tin là có sản phẩm nào

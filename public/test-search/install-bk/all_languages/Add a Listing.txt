@@ -1,0 +1,52 @@
+﻿Arabic:
+إضافة إدخال قائمة
+Bulgarian:
+Добавяне на списък
+Catalan:
+Afegeix una llista
+Chinese Simplified:
+添加列表
+Czech:
+Přidat výpis
+Danish:
+Tilføje en notering
+Dutch:
+Een vermelding toevoegen
+English:
+Add a Listing
+Estonian:
+Lisa nimekiri
+Finnish:
+Lisää luettelo
+French:
+Ajouter une liste
+German:
+Eine Liste hinzufügen
+Greek:
+Προσθήκη καταχώρησης
+Haitian Creole:
+Ajoute yon ki nan lis
+Hebrew:
+הוספת רישום
+Hindi:
+एक सूची में जोड़ें
+Hungarian:
+Listaelem hozzáadása
+Indonesian:
+Menambahkan daftar
+Italian:
+Aggiungi un'inserzione
+Japanese:
+リストを追加します。
+Korean:
+목록 추가
+Latvian:
+Pievienot sarakstu
+Lithuanian:
+Pridėti sąrašą
+Norwegian:
+Legge til en oppføring
+Polish:
+Dodać listę
+Portuguese:
+Adicionar uma listagem

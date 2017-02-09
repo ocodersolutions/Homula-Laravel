@@ -1,0 +1,82 @@
+﻿Arabic:
+اختر غرفة نوم
+Bulgarian:
+Изберете спалнята
+Catalan:
+Seleccioneu l'habitació
+Chinese Simplified:
+选择卧室
+Czech:
+Vybrat pokoj
+Danish:
+Vælg soveværelse
+Dutch:
+Selecteer slaapkamer
+English:
+Select Bedroom
+Estonian:
+Valige magamistuba
+Finnish:
+Valitse makuuhuone
+French:
+Sélectionnez la chambre à coucher
+German:
+Wählen Sie Schlafzimmer
+Greek:
+Επιλέξτε υπνοδωμάτιο
+Haitian Creole:
+Fè chwa chanm
+Hebrew:
+לבחור חדר שינה
+Hindi:
+शयन कक्ष का चयन करें
+Hmong Daw:
+Xaiv chav pw
+Hungarian:
+Jelölje ki a hálószoba
+Indonesian:
+Pilih kamar tidur
+Italian:
+Selezionare la camera da letto
+Japanese:
+ベッドルームを選択します。
+Klingon:
+Bedroom wIv
+Korean:
+침실을 선택
+Latvian:
+Izvēlieties guļamistaba
+Lithuanian:
+Pasirinkite miegamieji
+Malay:
+Pilih bilik tidur
+Norwegian:
+Velg soverom
+Persian:
+را انتخاب کنید اتاق خواب
+Polish:
+Wybierz pokój
+Portuguese:
+Selecione o quarto
+Romanian:
+Selectaţi dormitor
+Russian:
+Выберите номер
+Slovak:
+Vyberte spálne
+Slovenian:
+Izberite spalnico
+Spanish:
+Seleccione dormitorio
+Swedish:
+Välj sovrum
+Thai:
+เลือกห้องนอน
+Turkish:
+Yatak odası seçin
+Ukrainian:
+Виберіть спальні
+Urdu:
+سونے کے کمرے منتخب کریں
+Vietnamese:
+Chọn phòng ngủ

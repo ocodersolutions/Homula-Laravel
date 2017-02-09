@@ -1,0 +1,72 @@
+﻿Arabic:
+على الأقل
+Bulgarian:
+най-малко
+Catalan:
+com a mínim
+Chinese Simplified:
+至少
+Czech:
+nejméně
+Danish:
+mindst
+Dutch:
+ten minste
+English:
+at least
+Estonian:
+vähemalt
+Finnish:
+vähintään
+French:
+au moins
+German:
+mindestens
+Greek:
+τουλάχιστον
+Haitian Creole:
+pi piti
+Hebrew:
+לפחות
+Hindi:
+कम से कम
+Hungarian:
+legalább
+Indonesian:
+setidaknya
+Italian:
+almeno
+Japanese:
+少なくとも
+Korean:
+적어도
+Latvian:
+vismaz
+Lithuanian:
+ne mažiau kaip
+Norwegian:
+minst
+Polish:
+co najmniej
+Portuguese:
+pelo menos
+Romanian:
+cel puțin
+Russian:
+по крайней мере
+Slovak:
+aspoň
+Slovenian:
+vsaj
+Spanish:
+por lo menos
+Swedish:
+minst
+Thai:
+น้อย
+Turkish:
+en az
+Ukrainian:
+принаймні
+Vietnamese:
+tối thiểu

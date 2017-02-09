@@ -1,0 +1,72 @@
+﻿Arabic:
+الرجوع للخلف
+Bulgarian:
+Върни се назад
+Catalan:
+Tornar enrere
+Chinese Simplified:
+回去
+Czech:
+Vrať se
+Danish:
+Gå tilbage
+Dutch:
+Terug
+English:
+Go back
+Estonian:
+Mine tagasi
+Finnish:
+Mene takaisin
+French:
+Retour
+German:
+Zurück
+Greek:
+Πήγαινε πίσω
+Haitian Creole:
+Tounen
+Hebrew:
+תחזור
+Hindi:
+पस जाओ
+Hungarian:
+menj vissza
+Indonesian:
+Kembali
+Italian:
+Indietro
+Japanese:
+戻ってください
+Korean:
+뒤로 이동
+Latvian:
+iet atpakaļ
+Lithuanian:
+grįžk atgal
+Norwegian:
+gå tilbake
+Polish:
+Przejdź wstecz
+Portuguese:
+Voltar
+Romanian:
+întoarce-te
+Russian:
+Вернуться
+Slovak:
+vráť sa
+Slovenian:
+vrni se
+Spanish:
+Volver
+Swedish:
+Gå tillbaka
+Thai:
+ย้อนกลับ
+Turkish:
+Geri Git
+Ukrainian:
+Повертатися
+Vietnamese:
+Quay lại

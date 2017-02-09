@@ -1,0 +1,72 @@
+﻿Arabic:
+وضع علامة على إدخال القائمة هذا للعثور عليه بسهولة في المستقبل
+Bulgarian:
+Маркиране на този списък, за да го намерите по-лесно в бъдеще
+Catalan:
+Marcar aquesta llista per trobar-lo fàcilment en el futur
+Chinese Simplified:
+标记此发现它很容易在将来的列表
+Czech:
+Označit tento výpis zobrazíte ji snadno v budoucnosti
+Danish:
+Markere denne liste til at finde det let i fremtiden
+Dutch:
+Deze aanbieding te vinden het gemakkelijk in toekomst markeren
+English:
+Mark this listing to find it easily in future
+Estonian:
+Märgi see loetelu hõlpsalt tulevikus leidmiseks
+Finnish:
+Merkitä tämän luettelon löytää helposti tulevaisuudessa
+French:
+Marquer cette liste pour le trouver facilement dans l'avenir
+German:
+Markieren Sie dieses Angebot, es einfach in Zukunft zu finden
+Greek:
+Επισημάνετε αυτήν τη λίστα για να το βρείτε εύκολα στο μέλλον
+Haitian Creole:
+Fè mak sa a ki nan lis pou jwenn li byen nan lavni
+Hebrew:
+לסמן רישום זה כדי למצוא אותה בקלות בעתיד
+Hindi:
+यह आसानी से भविष्य में खोजने के लिए इस नामांकन चिह्नित करें
+Hungarian:
+Ez a listaelem a jövőben könnyen talál ez megjelölése
+Indonesian:
+Tandai listing ini untuk menemukannya dengan mudah di masa depan
+Italian:
+Contrassegnare questa inserzione di trovarlo facilmente in futuro
+Japanese:
+それを容易に見つけることは、このリストをマークします。
+Korean:
+나중에 쉽게 찾을 수이 목록 표시
+Latvian:
+Atzīmēt šo sarakstu, lai atrastu viegli nākotnē
+Lithuanian:
+Pažymėti šį sąrašą jį rasti lengvai ateityje
+Norwegian:
+Merk at oppføringen skal finne det enkelt i fremtiden
+Polish:
+Oznaczyć tę listę, aby odnaleźć łatwo w przyszłości
+Portuguese:
+Marcar esta listagem para encontrá-lo facilmente no futuro
+Romanian:
+Marca această listă pentru a găsi cu uşurinţă în viitor
+Russian:
+Марк этот список, чтобы найти его легко в будущем
+Slovak:
+Označiť tento zoznam nájsť ľahko v budúcnosti
+Slovenian:
+Označite to kotacijo najti zlahka v prihodnosti
+Spanish:
+Marcar este anuncio para encontrar fácilmente en el futuro
+Swedish:
+Markera denna notering hitta den lätt i framtiden
+Thai:
+ทำเครื่องหมายรายการนี้เพื่อค้นหาได้ง่ายในอนาคต
+Turkish:
+İleride kolayca bulmak için listeyi işaretle
+Ukrainian:
+Позначити цей список, щоб знайти його легко в майбутньому
+Vietnamese:
+Đánh dấu Sửa danh sách để tìm thấy nó một cách dễ dàng trong tương lai

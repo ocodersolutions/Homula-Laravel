@@ -1,0 +1,80 @@
+﻿Arabic:
+أعلاه
+Bulgarian:
+По-горе
+Catalan:
+Per sobre de
+Chinese Simplified:
+以上
+Czech:
+Nad
+Danish:
+Ovenfor
+Dutch:
+Boven
+English:
+Above
+Estonian:
+Eespool
+Finnish:
+Edellä
+French:
+Ci-dessus
+German:
+Oben
+Greek:
+Πάνω από
+Haitian Creole:
+An ro
+Hebrew:
+מעל
+Hindi:
+इसके बाद के संस्करण
+Hmong Daw:
+Saum
+Hungarian:
+A fenti
+Indonesian:
+Di atas
+Italian:
+Di sopra
+Japanese:
+上記
+Korean:
+위
+Latvian:
+Virs
+Lithuanian:
+Virš
+Malay:
+Di atas
+Norwegian:
+Ovenfor
+Persian:
+بالا
+Polish:
+Powyżej
+Portuguese:
+Acima
+Romanian:
+De mai sus
+Russian:
+Выше
+Slovak:
+Vyššie
+Slovenian:
+Zgoraj
+Spanish:
+Por encima de
+Swedish:
+Ovan
+Thai:
+ข้างต้น
+Turkish:
+Yukarıda
+Ukrainian:
+Вище
+Urdu:
+کے اوپر
+Vietnamese:
+Ở trên

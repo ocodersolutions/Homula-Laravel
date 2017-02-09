@@ -1,0 +1,72 @@
+﻿Arabic:
+معلومات الاتصال
+Bulgarian:
+Информация за контакти
+Catalan:
+Informació de contacte
+Chinese Simplified:
+联系信息
+Czech:
+Kontaktní informace
+Danish:
+Kontaktoplysninger
+Dutch:
+Contact informatie
+English:
+Contact Information
+Estonian:
+Kontaktandmed
+Finnish:
+Yhteystiedot
+French:
+Informations de contact
+German:
+Kontaktinformationen
+Greek:
+Πληροφορίες επαφής
+Haitian Creole:
+Enfòmasyon sou kontak
+Hebrew:
+פרטי איש קשר
+Hindi:
+संपर्क जानकारी
+Hungarian:
+Elérhetőségi adatok
+Indonesian:
+Informasi kontak
+Italian:
+Informazioni di contatto
+Japanese:
+連絡先情報
+Korean:
+연락처 정보
+Latvian:
+Kontaktinformācija
+Lithuanian:
+Kontaktinė informacija
+Norwegian:
+Kontaktinformasjon
+Polish:
+Informacje o kontakcie
+Portuguese:
+Informações de contato
+Romanian:
+Informaţii de contact
+Russian:
+Контактная информация
+Slovak:
+Kontaktné informácie
+Slovenian:
+Kontaktne informacije
+Spanish:
+Información de contacto
+Swedish:
+Kontaktinformation
+Thai:
+ข้อมูลการติดต่อ
+Turkish:
+İletişim bilgileri
+Ukrainian:
+Контактна інформація
+Vietnamese:
+Thông tin liên lạc

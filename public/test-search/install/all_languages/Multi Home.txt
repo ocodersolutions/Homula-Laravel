@@ -1,0 +1,72 @@
+﻿Arabic:
+الصفحة الرئيسية المتعددة
+Bulgarian:
+Мултифункционална дом
+Catalan:
+Multi casa
+Chinese Simplified:
+多家
+Czech:
+Multi Home
+Danish:
+Multi Startside
+Dutch:
+Multi-Home
+English:
+Multi Home
+Estonian:
+Multi Avaleht
+Finnish:
+Multi-Home
+French:
+Multi Accueil
+German:
+Multi-Startseite
+Greek:
+Multi Home
+Haitian Creole:
+Baryè kay
+Hebrew:
+בית מרובה
+Hindi:
+मल्टी होम
+Hungarian:
+Multi-Kezdőlap
+Indonesian:
+Multi rumah
+Italian:
+Multi-Home
+Japanese:
+マルチ ホーム
+Korean:
+멀티 홈
+Latvian:
+Multi mājas
+Lithuanian:
+Multi namuose
+Norwegian:
+Multi-Hjem
+Polish:
+Multi Home
+Portuguese:
+Multi Home
+Romanian:
+Multi Home
+Russian:
+Multi дома
+Slovak:
+Multi domov
+Slovenian:
+Multi Domov
+Spanish:
+Multi hogar
+Swedish:
+Multi hem
+Thai:
+หลายบ้าน
+Turkish:
+Çoklu giriş
+Ukrainian:
+Multi-Головна
+Vietnamese:
+Trang chủ đa

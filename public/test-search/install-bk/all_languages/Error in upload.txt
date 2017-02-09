@@ -1,0 +1,72 @@
+﻿Arabic:
+خطأ في تحميل
+Bulgarian:
+Грешка при качване
+Catalan:
+Error en carregar
+Chinese Simplified:
+上载中的错误
+Czech:
+Chyba při nahrávání
+Danish:
+Fejl i upload
+Dutch:
+Fout in upload
+English:
+Error in upload
+Estonian:
+Üleslaadimise tõrge
+Finnish:
+Palvelimeen lataamisen virhe
+French:
+Erreur de téléchargement
+German:
+Fehler beim upload
+Greek:
+Σφάλμα κατά την αποστολή
+Haitian Creole:
+Fè ki mal lè téléchargement
+Hebrew:
+שגיאה בעת טעינת
+Hindi:
+अपलोड करने में त्रुटि
+Hungarian:
+Hiba történt a feltöltés
+Indonesian:
+Kesalahan dalam meng-upload
+Italian:
+Errore nel caricamento
+Japanese:
+アップロードのエラー
+Korean:
+업로드 오류
+Latvian:
+Augšupielādes kļūda
+Lithuanian:
+Įkėlimo klaida
+Norwegian:
+Feil under opplasting
+Polish:
+Wystąpił błąd podczas wysyłania
+Portuguese:
+Erro no carregamento
+Romanian:
+Eroare la încărcare
+Russian:
+Ошибка при загрузке
+Slovak:
+Chyba v nahrať
+Slovenian:
+Napaka v upload
+Spanish:
+Error en la carga
+Swedish:
+Fel i uppladdning
+Thai:
+ข้อผิดพลาดในการอัปโหลด
+Turkish:
+Karşıya yükleme hatası
+Ukrainian:
+Помилка завантаження
+Vietnamese:
+Lỗi trong tải lên

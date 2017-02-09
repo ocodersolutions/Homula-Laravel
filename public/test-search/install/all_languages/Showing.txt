@@ -1,0 +1,72 @@
+﻿Arabic:
+إظهار
+Bulgarian:
+Показване
+Catalan:
+S'estan mostrant
+Chinese Simplified:
+显示
+Czech:
+Zobrazení
+Danish:
+Viser
+Dutch:
+Weergegeven:
+English:
+Showing
+Estonian:
+Mis näitab
+Finnish:
+Näyttäminen
+French:
+Montrant
+German:
+Anzeigen
+Greek:
+Εμφάνιση
+Haitian Creole:
+Montre
+Hebrew:
+מציג
+Hindi:
+दिखा रहा है
+Hungarian:
+Megjelenítés
+Indonesian:
+Menampilkan
+Italian:
+Mostrando
+Japanese:
+表示中
+Korean:
+게재
+Latvian:
+Rāda
+Lithuanian:
+Rodyti
+Norwegian:
+Viser
+Polish:
+Pokazywanie
+Portuguese:
+Mostrando
+Romanian:
+Afişare
+Russian:
+Показаны
+Slovak:
+Zobrazenie
+Slovenian:
+Prikazuje
+Spanish:
+Mostrando
+Swedish:
+Visar
+Thai:
+แสดง
+Turkish:
+Gösterilen
+Ukrainian:
+Показ результатів
+Vietnamese:
+Hiển thị

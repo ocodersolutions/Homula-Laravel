@@ -1,0 +1,72 @@
+﻿Arabic:
+أعلى
+Bulgarian:
+Нагоре
+Catalan:
+Part superior
+Chinese Simplified:
+返回页首
+Czech:
+Nahoru
+Danish:
+Toppen
+Dutch:
+Boven
+English:
+Top
+Estonian:
+TOP
+Finnish:
+Yläreunaan
+French:
+Retour au début
+German:
+Nach oben
+Greek:
+Επάνω
+Haitian Creole:
+Tèt
+Hebrew:
+העליון
+Hindi:
+शीर्ष
+Hungarian:
+Top
+Indonesian:
+Atas
+Italian:
+In alto
+Japanese:
+ページのトップへ
+Korean:
+맨 위로
+Latvian:
+Top
+Lithuanian:
+Viršų
+Norwegian:
+Toppen
+Polish:
+Do góry
+Portuguese:
+Início
+Romanian:
+Top
+Russian:
+Вверх
+Slovak:
+Zhora
+Slovenian:
+Vrh
+Spanish:
+Arriba
+Swedish:
+Topp
+Thai:
+ด้านบน
+Turkish:
+Sayfanın Üstü
+Ukrainian:
+Топ
+Vietnamese:
+Đầu trang

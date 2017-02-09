@@ -1,0 +1,72 @@
+﻿Arabic:
+إضافة قائمة
+Bulgarian:
+Добавяне на списък
+Catalan:
+Llista d'afegir
+Chinese Simplified:
+添加列表
+Czech:
+Přidat výpis
+Danish:
+Tilføje notering
+Dutch:
+Vermelding toevoegen
+English:
+Add Listing
+Estonian:
+Lisa nimekiri
+Finnish:
+Luettelon lisääminen
+French:
+Ajouter la liste des pièces justificatives
+German:
+Eintrag hinzufügen
+Greek:
+Προσθέστε την καταχώρηση
+Haitian Creole:
+Ajoute ki nan lis
+Hebrew:
+הוספת רישום
+Hindi:
+लिस्टिंग जोड़ें
+Hungarian:
+Listaelem hozzáadása
+Indonesian:
+Menambahkan Listing
+Italian:
+Aggiungi la quotazione
+Japanese:
+リスティングを追加します。
+Korean:
+목록 추가
+Latvian:
+Pievienot sarakstu
+Lithuanian:
+Pridėti sąrašą
+Norwegian:
+Legge til oppføringen
+Polish:
+Dodać listę
+Portuguese:
+Adicionar anúncio
+Romanian:
+Adauga Listing
+Russian:
+Добавить вхождение
+Slovak:
+Pridať zoznam
+Slovenian:
+Dodaj seznam
+Spanish:
+Añadir anuncio
+Swedish:
+Lägga till notering
+Thai:
+เพิ่มรายการ
+Turkish:
+Liste ekleme
+Ukrainian:
+Додати запис
+Vietnamese:
+Thêm danh sách

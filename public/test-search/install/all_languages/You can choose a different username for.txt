@@ -1,0 +1,76 @@
+﻿Arabic:
+يمكنك اختيار اسم مستخدم مختلف عن
+Bulgarian:
+Можете да изберете друго потребителско име за
+Catalan:
+Vostè pot triar un nom d'usuari diferent per a
+Chinese Simplified:
+您可以选择不同的用户名
+Czech:
+Můžete zvolit různé uživatelské jméno pro
+Danish:
+Du kan vælge et andet brugernavn til
+Dutch:
+U kunt een andere gebruikersnaam voor
+English:
+You can choose a different username for
+Estonian:
+Saate valida erinevaid kasutajanimi
+Finnish:
+Voit valita eri käyttäjänimi
+French:
+Vous pouvez choisir un nom d'utilisateur différent pour
+German:
+Sie können einen anderen Benutzernamen für
+Greek:
+Μπορείτε να επιλέξετε ένα διαφορετικό όνομα χρήστη για
+Haitian Creole:
+Ou ka chwazi yon lòt D' pou
+Hebrew:
+באפשרותך לבחור שם משתמש אחר עבור
+Hindi:
+आप किसी भिन्न उपयोगकर्ता नाम के लिए चुन सकते हैं
+Hmong Daw:
+Tej zaum koj yuav xaiv ib hom username rau
+Hungarian:
+Választhat, hogy egy eltérő felhasználónév számára
+Indonesian:
+Anda dapat memilih username yang berbeda untuk
+Italian:
+È possibile scegliere un nome utente diverso per
+Japanese:
+別のユーザ名を選択することができます。
+Korean:
+에 대 한 다른 사용자를 선택할 수 있습니다.
+Latvian:
+Var izvēlēties citu lietotājvārdu
+Lithuanian:
+Galite pasirinkti kitą vardą
+Norwegian:
+Du kan velge et annet brukernavn for
+Persian:
+شما می توانید نام کاربری مختلف برای انتخاب
+Polish:
+Można wybrać różne nazwy użytkownika dla
+Portuguese:
+Você pode escolher um nome de usuário diferente para
+Romanian:
+Puteţi alege un alt nume de utilizator pentru
+Russian:
+Вы можете выбрать другое имя пользователя для
+Slovak:
+Môžete vybrať iné meno používateľa pre
+Slovenian:
+Izberete lahko različne uporabniško ime za
+Spanish:
+Puede elegir un nombre de usuario diferente para
+Swedish:
+Du kan välja ett annat användarnamn för
+Thai:
+คุณสามารถเลือกชื่อผู้ใช้ที่แตกต่างกันสำหรับ
+Turkish:
+Sen-ebilmek seçmek için farklı bir kullanıcı adı
+Ukrainian:
+Ви можете вибрати інше ім'я користувача для
+Vietnamese:
+Bạn có thể chọn một tên người dùng khác cho

@@ -1,0 +1,72 @@
+﻿Arabic:
+الرجاء إدخال الخاص بك
+Bulgarian:
+Моля, въведете вашия
+Catalan:
+Si us plau introdueixi el seu
+Chinese Simplified:
+请输入您
+Czech:
+Zadejte prosím vaše
+Danish:
+Indtast venligst dine
+Dutch:
+Voer uw
+English:
+Please enter your
+Estonian:
+Palun sisestage oma
+Finnish:
+Kirjoita oman
+French:
+Veuillez entrer votre
+German:
+Bitte geben Sie Ihre
+Greek:
+Παρακαλούμε εισάγετε σας
+Haitian Creole:
+Souple antre nou
+Hebrew:
+נא הזן את
+Hindi:
+कृपया दर्ज करें अपने
+Hungarian:
+Adja meg a
+Indonesian:
+Masukkan Anda
+Italian:
+Inserisci il tuo
+Japanese:
+入力してください、
+Korean:
+입력 하십시오 귀하의
+Latvian:
+Lūdzu, ievadiet savu
+Lithuanian:
+Prašome įvesti jūsų
+Norwegian:
+Skriv inn din
+Polish:
+Wprowadź swój
+Portuguese:
+Por favor, digite seu
+Romanian:
+Vă rugăm să introduceţi dvs.
+Russian:
+Пожалуйста, введите ваш
+Slovak:
+Zadajte prosím vaše
+Slovenian:
+Prosimo vnesite vaše
+Spanish:
+Introduzca su
+Swedish:
+Ange din
+Thai:
+กรุณาใส่ของคุณ
+Turkish:
+Lütfen girin,
+Ukrainian:
+Будь ласка, введіть ваш
+Vietnamese:
+Vui lòng nhập của bạn

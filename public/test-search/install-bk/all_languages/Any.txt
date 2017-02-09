@@ -1,0 +1,72 @@
+﻿Arabic:
+أي
+Bulgarian:
+Всеки
+Catalan:
+Qualsevol
+Chinese Simplified:
+任何
+Czech:
+Jakýkoli
+Danish:
+Enhver
+Dutch:
+Elke
+English:
+Any
+Estonian:
+Mis tahes
+Finnish:
+Kaikki
+French:
+Tout
+German:
+Alle
+Greek:
+Κάθε
+Haitian Creole:
+Nenpòt
+Hebrew:
+כל
+Hindi:
+किसी भी
+Hungarian:
+Bármely
+Indonesian:
+Setiap
+Italian:
+Qualsiasi
+Japanese:
+任意
+Korean:
+모든
+Latvian:
+Jebkuru
+Lithuanian:
+Bet koks
+Norwegian:
+Alle
+Polish:
+Wszelkie
+Portuguese:
+Qualquer
+Romanian:
+Orice
+Russian:
+Любое
+Slovak:
+Akékoľvek
+Slovenian:
+Koli
+Spanish:
+Cualquier
+Swedish:
+Alla
+Thai:
+ใด ๆ
+Turkish:
+Herhangi bir
+Ukrainian:
+Будь-який
+Vietnamese:
+Bất kỳ

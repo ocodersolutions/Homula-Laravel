@@ -1,0 +1,72 @@
+﻿Arabic:
+الفعل رأيتم هذا الإدراج
+Bulgarian:
+Вие вече сте видели този списък
+Catalan:
+Ja he vist aquest anunci
+Chinese Simplified:
+您已经看到此列表
+Czech:
+Už jste viděli tento výpis
+Danish:
+Du har allerede set denne notering
+Dutch:
+U hebt al gezien deze aanbieding
+English:
+You have already seen this listing
+Estonian:
+Olete juba näinud seda loetelu
+Finnish:
+Tämä luettelo on jo nähneet.
+French:
+Vous avez déjà vu cette liste
+German:
+Sie haben bereits gesehen, dieses Angebot
+Greek:
+Έχετε ήδη δει αυτή την καταχώρηση
+Haitian Creole:
+Nou te deja wè ki nan lis sa a
+Hebrew:
+ראית כבר רישום זה
+Hindi:
+आप पहले से ही इस नामांकन देखा है
+Hungarian:
+Már láttuk a listaelem
+Indonesian:
+Anda telah melihat listing ini
+Italian:
+Avete già visto questa inserzione
+Japanese:
+このリストを既に見てきました
+Korean:
+이 리스트를 이미 본
+Latvian:
+Tu jau redzēji šo sarakstu
+Lithuanian:
+Jūs jau matė šį sąrašą
+Norwegian:
+Du har allerede sett denne oppføringen
+Polish:
+Już zobaczyliście tę listę
+Portuguese:
+Você já viu esta listagem
+Romanian:
+Aţi văzut deja acest cota
+Russian:
+Вы уже видели этот список
+Slovak:
+Už ste videli tento zoznam
+Slovenian:
+Ste že videli to kotacijo
+Spanish:
+Ya han visto este anuncio
+Swedish:
+Du har redan sett denna notering
+Thai:
+คุณได้ดูรายการนี้แล้ว
+Turkish:
+Zaten bu listenin gördük
+Ukrainian:
+Ви вже бачили цей список
+Vietnamese:
+Bạn đã nhìn thấy danh sách này

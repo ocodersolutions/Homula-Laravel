@@ -1,0 +1,74 @@
+﻿Arabic:
+قم بالتبديل إلى وضع النص
+Bulgarian:
+Преминете в режим на текст
+Catalan:
+Activeu el mode de text
+Chinese Simplified:
+切换到文本模式
+Czech:
+Přepnutí do textového režimu
+Danish:
+Skifte til teksttilstand
+Dutch:
+Overschakelen naar de tekstmodus
+English:
+Switch to text mode
+Estonian:
+Teksti lülitumine
+Finnish:
+Vaihda teksti-tilaan
+French:
+Passer en mode texte
+German:
+In den Textmodus umschalten
+Greek:
+Μεταβείτε σε λειτουργία κειμένου
+Haitian Creole:
+Ta chanje a yon mòd tèks
+Hebrew:
+כדי לעבור למצב טקסט
+Hindi:
+पाठ मोड पर स्विच करें
+Hmong Daw:
+Hloov rau cov zajlus hom
+Hungarian:
+Váltson a szöveg mód
+Indonesian:
+Beralih ke mode teks
+Italian:
+Passare alla modalità testo
+Japanese:
+テキスト モードに切り替える
+Korean:
+텍스트 모드로 전환
+Latvian:
+Pārslēgtos uz teksta režīmā
+Lithuanian:
+Perjungti teksto režimą
+Norwegian:
+Bytte til tekstmodus
+Polish:
+Przełączyć się do trybu tekst
+Portuguese:
+Alterne para o modo de texto
+Romanian:
+Comutarea de la modul text
+Russian:
+Текстовый режим
+Slovak:
+Prepnutie do režimu s textom
+Slovenian:
+Preklopiti v način besedilo
+Spanish:
+Cambiar a modo de texto
+Swedish:
+Växla till textläget
+Thai:
+สลับไปยังโหมดข้อความ
+Turkish:
+Metin moduna geçme
+Ukrainian:
+Переключитися до режиму тексту
+Vietnamese:
+Chuyển sang chế độ văn bản

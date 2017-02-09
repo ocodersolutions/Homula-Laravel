@@ -1,0 +1,72 @@
+﻿Arabic:
+ReCAPTCHA لم يكن إدخاله بشكل صحيح
+Bulgarian:
+ReCAPTCHA не е въведена правилно
+Catalan:
+El reCAPTCHA no era introduït correctament
+Chinese Simplified:
+ReCAPTCHA 输入不正确
+Czech:
+ReCAPTCHA nebyla zadána správně
+Danish:
+ReCAPTCHA var ikke angivet korrekt
+Dutch:
+De reCAPTCHA was niet goed ingevoerd
+English:
+The reCAPTCHA wasn't entered correctly
+Estonian:
+Selle reCAPTCHA ei olnud õigesti sisestatud
+Finnish:
+ReCAPTCHA ei ollut määritetty oikein
+French:
+Le reCAPTCHA n'était pas entré correctement
+German:
+Die ReCAPTCHA wurde nicht korrekt eingegeben.
+Greek:
+ReCAPTCHA του δεν ήταν σωστή καταχώρηση
+Haitian Creole:
+ReCAPTCHA la pa t rantre kòrèkteman
+Hebrew:
+ReCAPTCHA לא הוזנו בצורה נכונה
+Hindi:
+ReCAPTCHA सही ढंग से दर्ज किया गया नहीं था
+Hungarian:
+A nem volt helyesen be a reCAPTCHA
+Indonesian:
+ReCAPTCHA tidak dimasukkan dengan benar
+Italian:
+Il reCAPTCHA non è stato immesso correttamente
+Japanese:
+キャプチャが正しく入力されていません。
+Korean:
+Recaptcha는 올바르게 입력 되지 않았습니다.
+Latvian:
+ReCAPTCHA nebija pareizi ievadīti
+Lithuanian:
+Į reCAPTCHA buvo ne teisingai įvesti
+Norwegian:
+ReCAPTCHA var ikke angitt på riktig måte
+Polish:
+ReCAPTCHA nie została poprawnie wpisana
+Portuguese:
+O reCAPTCHA não foi digitado corretamente
+Romanian:
+ReCAPTCHA nu a fost introdus corect
+Russian:
+ReCAPTCHA не был введен в правильно
+Slovak:
+ReCAPTCHA nebol zadaný správne
+Slovenian:
+Je reCAPTCHA ni bil pravilno vnesen.
+Spanish:
+No se ha especificado correctamente el reCAPTCHA
+Swedish:
+ReCAPTCHA angett inte korrekt
+Thai:
+ReCAPTCHA ไม่ได้ใส่อย่างถูกต้อง
+Turkish:
+ReCAPTCHA doğru girilmiş değildi
+Ukrainian:
+На reCAPTCHA не було введено
+Vietnamese:
+ReCAPTCHA không được nhập chính xác

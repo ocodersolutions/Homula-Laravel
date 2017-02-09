@@ -1,0 +1,72 @@
+﻿Arabic:
+اسم المستخدم
+Bulgarian:
+Потребителско име
+Catalan:
+Nom d'usuari
+Chinese Simplified:
+用户名
+Czech:
+Uživatelské jméno
+Danish:
+Brugernavn
+Dutch:
+Gebruikersnaam
+English:
+Username
+Estonian:
+Kasutajanimi
+Finnish:
+Käyttäjänimi
+French:
+Nom d'utilisateur
+German:
+Benutzername
+Greek:
+Όνομα χρήστη
+Haitian Creole:
+D'
+Hebrew:
+שם משתמש
+Hindi:
+उपयोगकर्ता नाम
+Hungarian:
+Felhasználónév
+Indonesian:
+Username
+Italian:
+Nome utente
+Japanese:
+ユーザー名
+Korean:
+사용자 이름
+Latvian:
+Lietotājvārds
+Lithuanian:
+Vartotojo vardas
+Norwegian:
+Brukernavn
+Polish:
+Nazwa_użytkownika
+Portuguese:
+Nome de usuário
+Romanian:
+Numele de utilizator
+Russian:
+Имя пользователя
+Slovak:
+Username
+Slovenian:
+Uporabniško ime
+Spanish:
+Nombre de usuario
+Swedish:
+Användarnamn
+Thai:
+ชื่อผู้ใช้
+Turkish:
+Kullanıcı adı
+Ukrainian:
+Ім'я користувача
+Vietnamese:
+Tên người dùng

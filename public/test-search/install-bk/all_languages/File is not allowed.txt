@@ -1,0 +1,72 @@
+﻿Arabic:
+غير مسموح بالملف
+Bulgarian:
+Файлът не е позволено
+Catalan:
+Fitxer no és permès
+Chinese Simplified:
+文件不是允许
+Czech:
+Soubor není povoleno.
+Danish:
+Filen er ikke tilladt
+Dutch:
+Bestand is niet toegestaan
+English:
+File is not allowed
+Estonian:
+Fail pole lubatud
+Finnish:
+Tiedosto ei ole sallittu
+French:
+Fichier n'est pas autorisé
+German:
+Datei ist nicht zulässig.
+Greek:
+Το αρχείο δεν επιτρέπεται
+Haitian Creole:
+Fichier pa pèmèt
+Hebrew:
+הקובץ אינו מותר
+Hindi:
+फ़ाइल की अनुमति नहीं है
+Hungarian:
+Fájl nem engedélyezett.
+Indonesian:
+File tidak diperbolehkan
+Italian:
+File non è permesso
+Japanese:
+ファイルが許可されていません
+Korean:
+파일은 허용 되지 않습니다.
+Latvian:
+Failam nav atļauta
+Lithuanian:
+Failas yra neleistina
+Norwegian:
+Filen er ikke tillatt
+Polish:
+Plik nie jest dozwolone
+Portuguese:
+Arquivo não é permitido
+Romanian:
+Fişierul nu este permisă
+Russian:
+Файл не допускается
+Slovak:
+Súbor nie je povolená
+Slovenian:
+Datoteke ni dovoljeno
+Spanish:
+Archivo no está permitido
+Swedish:
+Filen är inte tillåtet
+Thai:
+แฟ้มไม่ได้รับอนุญาต
+Turkish:
+Dosya izin verilmez
+Ukrainian:
+Файл не допускається
+Vietnamese:
+Tệp là không được phép

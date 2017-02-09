@@ -1,0 +1,72 @@
+﻿Arabic:
+وكيل عقارات
+Bulgarian:
+Агент за недвижими имоти
+Catalan:
+Agent de béns arrels
+Chinese Simplified:
+房地产经纪人
+Czech:
+Realitní Agent
+Danish:
+Ejendomsmægler
+Dutch:
+Real Estate Agent
+English:
+Real Estate Agent
+Estonian:
+Real Estate Agent
+Finnish:
+Kiinteistönvälittäjän
+French:
+Agent immobilier
+German:
+Immobilienmakler
+Greek:
+Κτηματομεσίτης
+Haitian Creole:
+Ajan imobilye
+Hebrew:
+סוכן נדל ן
+Hindi:
+रियल एस्टेट एजेंट
+Hungarian:
+Ingatlanügynök
+Indonesian:
+Agen real estat
+Italian:
+Agente immobiliare
+Japanese:
+不動産エージェント
+Korean:
+부동산 에이전트
+Latvian:
+Nekustamā īpašuma aģents
+Lithuanian:
+Nekilnojamojo turto agentas
+Norwegian:
+Eiendomsmegler
+Polish:
+Agent nieruchomości
+Portuguese:
+Agente imobiliário
+Romanian:
+Agent imobiliar
+Russian:
+Агент по недвижимости
+Slovak:
+Realitný Agent
+Slovenian:
+Nepremičninski posrednik
+Spanish:
+Agente de bienes raíces
+Swedish:
+Fastighetsmäklare
+Thai:
+คนขายอสังหาริมทรัพย์
+Turkish:
+Emlakçı
+Ukrainian:
+Агент з нерухомості
+Vietnamese:
+Đại lý bất động sản

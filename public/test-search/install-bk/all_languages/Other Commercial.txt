@@ -1,0 +1,72 @@
+﻿Arabic:
+التجارية الأخرى
+Bulgarian:
+Други търговски
+Catalan:
+Altres comercial
+Chinese Simplified:
+其他商业
+Czech:
+Další komerční
+Danish:
+Andre kommercielle
+Dutch:
+Andere commerciële
+English:
+Other Commercial
+Estonian:
+Muu kaubandus
+Finnish:
+Muut kaupalliset
+French:
+Autre Commercial
+German:
+Andere kommerzielle
+Greek:
+Άλλες εμπορικές
+Haitian Creole:
+Lòt Commercial
+Hebrew:
+מסחריים אחרים
+Hindi:
+अन्य वाणिज्यिक
+Hungarian:
+Egyéb kereskedelmi
+Indonesian:
+Komersial lainnya
+Italian:
+Altri commerciali
+Japanese:
+その他の商業
+Korean:
+기타 상업
+Latvian:
+Pārējās kravas
+Lithuanian:
+Kitos prekybos
+Norwegian:
+Andre kommersielle
+Polish:
+Inne komercyjne
+Portuguese:
+Outros comerciais
+Romanian:
+Alte utilitare
+Russian:
+Другие коммерческие
+Slovak:
+Iné obchodné
+Slovenian:
+Druge komercialne
+Spanish:
+Otro comercial
+Swedish:
+Andra kommersiella
+Thai:
+พาณิชย์อื่น ๆ
+Turkish:
+Diğer ticari
+Ukrainian:
+Інші комерційні
+Vietnamese:
+Thương mại khác

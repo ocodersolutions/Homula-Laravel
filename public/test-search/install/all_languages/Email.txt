@@ -1,0 +1,72 @@
+﻿Arabic:
+البريد الإلكتروني
+Bulgarian:
+Имейл
+Catalan:
+Correu electrònic
+Chinese Simplified:
+电子邮件
+Czech:
+E-mail
+Danish:
+E-mail
+Dutch:
+E-mail
+English:
+Email
+Estonian:
+E-post
+Finnish:
+Sähköposti
+French:
+Messagerie
+German:
+E-Mail
+Greek:
+Ηλεκτρονικό ταχυδρομείο
+Haitian Creole:
+Mel
+Hebrew:
+דוא
+Hindi:
+ईमेल
+Hungarian:
+Elektronikus levél
+Indonesian:
+Email
+Italian:
+Posta elettronica
+Japanese:
+電子メール
+Korean:
+메일 주소
+Latvian:
+E-pasts
+Lithuanian:
+Elektroniniu paštu
+Norwegian:
+E-post
+Polish:
+Adres e-mail
+Portuguese:
+Email
+Romanian:
+E-mail
+Russian:
+Отправить по электронной почте
+Slovak:
+E-mailom
+Slovenian:
+Email
+Spanish:
+Correo electrónico
+Swedish:
+E-post
+Thai:
+อีเมล
+Turkish:
+E-posta
+Ukrainian:
+Електронна пошта
+Vietnamese:
+Thư điện tử

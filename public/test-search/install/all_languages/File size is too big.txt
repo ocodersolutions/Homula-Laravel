@@ -1,0 +1,72 @@
+﻿Arabic:
+حجم الملف كبير جداً
+Bulgarian:
+Размерът на файла е твърде голям
+Catalan:
+Mida del fitxer és massa gran
+Chinese Simplified:
+文件大小来说太大
+Czech:
+Velikost souboru je příliš velký
+Danish:
+Filstørrelsen er for stor
+Dutch:
+Bestandsgrootte is te groot
+English:
+File size is too big
+Estonian:
+Faili maht on liiga suur
+Finnish:
+Tiedostokoko on liian suuri
+French:
+Taille du fichier est trop gros
+German:
+Größe der Datei ist zu groß
+Greek:
+Μέγεθος αρχείου είναι πολύ μεγάλο
+Haitian Creole:
+Fichier taille twò gwo
+Hebrew:
+גודל הקובץ גדול מדי
+Hindi:
+फ़ाइल का आकार बहुत बड़ा है
+Hungarian:
+Fájl mérete túl nagy
+Indonesian:
+Ukuran file terlalu besar
+Italian:
+Dimensione del file è troppo grande
+Japanese:
+ファイル サイズが大きすぎます
+Korean:
+파일 크기가 너무 큽니다.
+Latvian:
+Faila izmērs ir pārāk liels
+Lithuanian:
+Failo dydis yra per didelis
+Norwegian:
+Filstørrelsen er for stor
+Polish:
+Rozmiar pliku jest zbyt duży
+Portuguese:
+Tamanho do arquivo é muito grande
+Romanian:
+Dimensiunea fişierului este prea mare
+Russian:
+Размер файла слишком велик
+Slovak:
+Veľkosť súboru je príliš veľký
+Slovenian:
+Velikost datoteke prevelika
+Spanish:
+Tamaño del archivo es demasiado grande
+Swedish:
+Storleken är för stor
+Thai:
+แฟ้มมีขนาดใหญ่เกินไป
+Turkish:
+Dosya boyutu çok büyük
+Ukrainian:
+Розмір файлу є занадто великою
+Vietnamese:
+Kích thước tập tin là quá lớn

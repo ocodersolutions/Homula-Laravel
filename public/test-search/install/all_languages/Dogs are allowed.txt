@@ -1,0 +1,72 @@
+﻿Arabic:
+كلاب المسموح به
+Bulgarian:
+Кучета, които са разрешени
+Catalan:
+S'admeten gossos
+Chinese Simplified:
+允许的狗
+Czech:
+Psy
+Danish:
+Hunde tilladt
+Dutch:
+Honden toegelaten
+English:
+Dogs allowed
+Estonian:
+Lubatud koerad
+Finnish:
+Koiria
+French:
+Chiens admis
+German:
+Hunde sind erlaubt
+Greek:
+Σκύλων επιτρέπονται
+Haitian Creole:
+Chen te pèmèt
+Hebrew:
+כלבים מותר
+Hindi:
+कुत्तों की अनुमति
+Hungarian:
+Kutyák megengedve
+Indonesian:
+Anjing diperbolehkan
+Italian:
+Cani ammessi
+Japanese:
+ペット同伴可
+Korean:
+개 허용
+Latvian:
+Suņi, kas ļāva
+Lithuanian:
+Šunys, leidžiama
+Norwegian:
+Hunder tillatt
+Polish:
+Psy dozwolone
+Portuguese:
+Cães permitidos
+Romanian:
+Câini permis
+Russian:
+Разрешён
+Slovak:
+Psy povolené
+Slovenian:
+Psov dovoljeno
+Spanish:
+Admiten perros
+Swedish:
+Hundar tillåtna
+Thai:
+สุนัขที่ได้รับอนุญาต
+Turkish:
+İzin verilen köpekler
+Ukrainian:
+Допускаються собаки
+Vietnamese:
+Chó được cho phép

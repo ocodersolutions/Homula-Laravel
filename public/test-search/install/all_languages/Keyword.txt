@@ -1,0 +1,72 @@
+﻿Arabic:
+الكلمات الرئيسية
+Bulgarian:
+Ключова дума
+Catalan:
+Paraula clau
+Chinese Simplified:
+关键字
+Czech:
+Klíčové slovo
+Danish:
+Nøgleord
+Dutch:
+Trefwoord
+English:
+Keyword
+Estonian:
+Märksõna
+Finnish:
+Avainsana
+French:
+Mot clé
+German:
+Schlüsselwort
+Greek:
+Λέξη-κλειδί
+Haitian Creole:
+Mot
+Hebrew:
+מילת מפתח
+Hindi:
+खोजशब्द
+Hungarian:
+Kulcsszó
+Indonesian:
+Kata kunci
+Italian:
+Parola chiave
+Japanese:
+キーワード
+Korean:
+키워드
+Latvian:
+Atslēgvārds
+Lithuanian:
+Raktažodis
+Norwegian:
+Nøkkelord
+Polish:
+Słowo kluczowe
+Portuguese:
+Palavra-chave
+Romanian:
+Cuvinte cheie
+Russian:
+Ключевое слово
+Slovak:
+Kľúčové slovo
+Slovenian:
+Ključne besede
+Spanish:
+Palabra clave
+Swedish:
+Nyckelord
+Thai:
+คำสำคัญ
+Turkish:
+Anahtar kelime
+Ukrainian:
+Ключове слово
+Vietnamese:
+Từ khóa

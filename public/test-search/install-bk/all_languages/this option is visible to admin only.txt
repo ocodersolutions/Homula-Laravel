@@ -1,0 +1,72 @@
+﻿Arabic:
+هذا الخيار مرئياً للمشرف فقط
+Bulgarian:
+тази опция е видима за admin само
+Catalan:
+Aquesta opció és visible per l'admin només
+Chinese Simplified:
+此选项是只有管理员可见
+Czech:
+Tato možnost je viditelná pouze administrátor
+Danish:
+denne indstilling er synlig for admin kun
+Dutch:
+deze optie is zichtbaar voor admin alleen
+English:
+this option is visible to admin only
+Estonian:
+antud suvand on nähtaval ainult admin
+Finnish:
+Tämä vaihtoehto on näkyvissä vain Admin
+French:
+Cette option est visible uniquement admin
+German:
+Diese Option wird angezeigt, nur admin
+Greek:
+Αυτή η επιλογή είναι ορατές μόνο admin
+Haitian Creole:
+opsyon sa a sèlman admin apab wè sa
+Hebrew:
+אפשרות זו גלויה רק מנהל
+Hindi:
+यह विकल्प केवल व्यवस्थापक करने के लिए दिखाई दे रहा है
+Hungarian:
+Ez a beállítás akkor admin csak látható
+Indonesian:
+pilihan ini terlihat hanya admin
+Italian:
+Questa opzione è visibile solo admin
+Japanese:
+このオプションは管理者にのみ表示されます。
+Korean:
+이 옵션은 관리자만 볼 수
+Latvian:
+Šī opcija ir redzama tikai admin
+Lithuanian:
+Ši pasirinktis yra matomas tik admin
+Norwegian:
+Dette alternativet er synlig for admin bare
+Polish:
+Ta opcja jest widoczna tylko administrator
+Portuguese:
+Esta opção é visível para o administrador apenas
+Romanian:
+Această opţiune este vizibilă la admin numai
+Russian:
+Этот параметр доступен только администратору
+Slovak:
+Táto možnosť nie je viditeľná len admin
+Slovenian:
+Ta možnost je vidna samo admin
+Spanish:
+Esta opción es visible para el administrador sólo
+Swedish:
+Det här alternativet är synliga för admin endast
+Thai:
+ตัวเลือกนี้จะมองเห็น admin เท่านั้น
+Turkish:
+Bu seçeneği yalnızca yönetici tarafından görülebilir
+Ukrainian:
+Цей параметр буде видимим для адміністратора
+Vietnamese:
+tùy chọn này được hiển thị cho quản trị chỉ

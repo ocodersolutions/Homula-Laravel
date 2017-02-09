@@ -1,0 +1,72 @@
+﻿Arabic:
+وقد كان يحب إدخال القائمة هذا لك
+Bulgarian:
+Този списък е бил хареса от вас
+Catalan:
+Aquest anunci ha estat agradat per vostè
+Chinese Simplified:
+此列表就一直喜欢你
+Czech:
+Tento výpis byl rád vy
+Danish:
+Denne liste har været ønsket af dig
+Dutch:
+Deze aanbieding heeft geweest graag door u
+English:
+This listing has been liked by you
+Estonian:
+See loetelu on soovinud teie poolt
+Finnish:
+Tämä luettelo on ollut halunnut sinun
+French:
+Cette liste a été aimée par vous
+German:
+Dieses Angebot wurde von Ihnen mochte wurde
+Greek:
+Αυτή η λίστα έχει ήδη άρεσε από εσάς
+Haitian Creole:
+Ki nan lis sa a te renmen ou
+Hebrew:
+רישום זה אוהב מצידך
+Hindi:
+इस सूची आपके द्वारा पसंद किया गया है
+Hungarian:
+A listaelem van már tetszett az Ön által
+Indonesian:
+Daftar ini telah disukai oleh Anda
+Italian:
+Questa inserzione è stata piaciuta da voi
+Japanese:
+このリストが好きされています。
+Korean:
+당신이이 리스트를 좋아
+Latvian:
+Šo sarakstu patika, ko jūs
+Lithuanian:
+Šis sąrašas buvo patiko jums
+Norwegian:
+Denne oppføringen har blitt likt av du
+Polish:
+Ta lista została lubiła przez użytkownika
+Portuguese:
+Esta listagem tem sido apreciada por você
+Romanian:
+Această listă a fost-a plăcut de tine
+Russian:
+Понравился этот список вами
+Slovak:
+Tento zoznam bol líbil vám
+Slovenian:
+Ta seznam je bil všeč, jih boste
+Spanish:
+Este anuncio ha sido querido por usted
+Swedish:
+Denna lista har varit gillade du
+Thai:
+รายการนี้มีการชอบ โดยคุณ
+Turkish:
+Bu liste tarafından sevdim
+Ukrainian:
+Вам сподобався цей список
+Vietnamese:
+Danh sách này đã được thích bởi bạn

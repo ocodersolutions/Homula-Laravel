@@ -1,0 +1,72 @@
+﻿Arabic:
+رسالة من جهة الاتصال بنا الصفحة من
+Bulgarian:
+Съобщение от контакт нас в страницата на
+Catalan:
+Missatge del contacte nosaltres pàgina de
+Chinese Simplified:
+消息从联系人页
+Czech:
+Zpráva od kontaktu nás stránky
+Danish:
+Meddelelse fra kontakt os side i
+Dutch:
+Bericht van het contact ons pagina van
+English:
+Message from the contact us page of
+Estonian:
+Lehekülje meile kontaktilt saadud sõnumi
+Finnish:
+Viestin yhteystiedon meille sivu
+French:
+Message de contact nous page
+German:
+Nachricht vom Kontakt Seite
+Greek:
+Μήνυμα από την επαφή μας σελίδα
+Haitian Creole:
+A mesaj kontak a nou nan paj de
+Hebrew:
+הודעה מאיש הקשר לנו נסיך
+Hindi:
+संपर्क में आने से हमें पृष्ठ का संदेश
+Hungarian:
+Üzenet a kapcsolat velünk oldal
+Indonesian:
+Pesan dari kontak kami Halaman
+Italian:
+Messaggio dal contatto pagina del
+Japanese:
+連絡先から私たちのページをメッセージします。
+Korean:
+메시지 접촉에서 우리 페이지의
+Latvian:
+Ziņojums no kontaktpersonas mums page
+Lithuanian:
+Pranešimą iš kontakto mus puslapyje
+Norwegian:
+Melding fra kontakten oss-siden i
+Polish:
+Komunikat kontaktu z nami strony
+Portuguese:
+Mensagem de contato nos página de
+Romanian:
+Mesaj la persoana de contact-ne pagină de
+Russian:
+Сообщение от контакта с нами страница из
+Slovak:
+Správy z kontaktu nás stránke
+Slovenian:
+Sporočilo iz stika nas stran
+Spanish:
+Mensaje desde el contacto nosotros página de
+Swedish:
+Meddelande från kontakten oss sida i
+Thai:
+ข้อความจากติดต่อเราหน้าของ
+Turkish:
+Kişiden ileti bize sayfası
+Ukrainian:
+Повідомлення з контакту нам сторінку
+Vietnamese:
+Thông điệp từ liên hệ với chúng tôi trang của

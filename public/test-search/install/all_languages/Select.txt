@@ -1,0 +1,72 @@
+﻿Arabic:
+حدد
+Bulgarian:
+Изберете
+Catalan:
+Seleccioneu
+Chinese Simplified:
+选择
+Czech:
+Vybrat
+Danish:
+Vælg
+Dutch:
+Selecteer
+English:
+Select
+Estonian:
+Valige
+Finnish:
+Valitse
+French:
+Sélectionnez
+German:
+Wählen Sie
+Greek:
+Επιλέξτε
+Haitian Creole:
+Fè chwa
+Hebrew:
+בחר
+Hindi:
+का चयन करें
+Hungarian:
+Válassza ki
+Indonesian:
+Pilih
+Italian:
+Selezionare
+Japanese:
+選択
+Korean:
+선택
+Latvian:
+Atlasiet
+Lithuanian:
+Pasirinkite
+Norwegian:
+Velg
+Polish:
+Wybierz
+Portuguese:
+Selecione
+Romanian:
+Selectaţi
+Russian:
+Выберите
+Slovak:
+Vyberte
+Slovenian:
+Izberite
+Spanish:
+Seleccione
+Swedish:
+Välj
+Thai:
+เลือก
+Turkish:
+Seçin
+Ukrainian:
+Виберіть
+Vietnamese:
+Chọn

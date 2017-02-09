@@ -1,0 +1,50 @@
+body{
+background-color:#EFEFEA;
+font: 14px Verdana,Arial,Helvetica,sans-serif;
+}
+#container{
+margin:0 auto;
+width:700px;
+min-height:300px;
+background-color:#FFFFE1;
+border:1px solid #DDDD9D;
+border-radius: 5px 5px 5px 5px;
+padding:10px 30px;
+}
+#container table{
+width:100%;
+}
+tr.headrow td{
+font-face:verdana;
+font-size:150%;
+padding:5px 10px 5px 0;
+background-color:#f9edbe;
+border:1px solid #DDDD9D;
+border-radius: 5px 5px 5px 5px;
+}
+
+tr.headrow td span{
+padding-left:10px;
+}
+
+tr.datarow td{
+padding:20px 10px 0 10px;
+font-size:110%;
+}
+
+tr.datarow td input{
+font-size:110%;
+}
+tr.datarow td.splmsg{
+font-size:90%;
+}
+tr.submitrow td{
+padding-top:30px;
+padding-bottom:30px;
+text-align:center;
+}
+
+tr.submitrow td input{
+font-size:150%;
+padding:5px 20px;
+}

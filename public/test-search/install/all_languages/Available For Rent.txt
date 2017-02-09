@@ -1,0 +1,72 @@
+﻿Arabic:
+للإيجار
+Bulgarian:
+За под наем
+Catalan:
+En lloguer
+Chinese Simplified:
+租金
+Czech:
+Na nájemné
+Danish:
+På leje
+Dutch:
+Op huur
+English:
+Available for rent
+Estonian:
+Üüri
+Finnish:
+Vuokra
+French:
+Le loyer
+German:
+Für die Miete
+Greek:
+Ενοίκιο
+Haitian Creole:
+Sou lwaye
+Hebrew:
+בהשכרה
+Hindi:
+किराए पर
+Hungarian:
+A bérleti díj
+Indonesian:
+Sewa
+Italian:
+Per l'affitto
+Japanese:
+家賃
+Korean:
+임대료에
+Latvian:
+Par īres maksu
+Lithuanian:
+Dėl nuomos
+Norwegian:
+På leie
+Polish:
+Czynszu
+Portuguese:
+Em aluguel
+Romanian:
+Pe chirie
+Russian:
+По аренде
+Slovak:
+Na prenájom
+Slovenian:
+Na najemnino
+Spanish:
+En alquiler
+Swedish:
+Hyran
+Thai:
+ในการเช่า
+Turkish:
+Kira
+Ukrainian:
+На оренду
+Vietnamese:
+Vào tiền thuê nhà

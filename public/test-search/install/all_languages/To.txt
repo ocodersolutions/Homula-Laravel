@@ -1,0 +1,72 @@
+﻿Arabic:
+إلى
+Bulgarian:
+За да
+Catalan:
+Per
+Chinese Simplified:
+自
+Czech:
+Do
+Danish:
+Til
+Dutch:
+Aan
+English:
+To
+Estonian:
+-
+Finnish:
+-
+French:
+À
+German:
+An
+Greek:
+Για να
+Haitian Creole:
+Pou
+Hebrew:
+כדי
+Hindi:
+करने के लिए
+Hungarian:
+A
+Indonesian:
+Untuk
+Italian:
+A
+Japanese:
+宛先
+Korean:
+받는 사람
+Latvian:
+Lai
+Lithuanian:
+Į
+Norwegian:
+Til
+Polish:
+Do
+Portuguese:
+Para
+Romanian:
+Pentru a
+Russian:
+Кому
+Slovak:
+Na
+Slovenian:
+Za
+Spanish:
+Para
+Swedish:
+Till
+Thai:
+ถึง
+Turkish:
+Hedef
+Ukrainian:
+Щоб
+Vietnamese:
+Để

@@ -1,0 +1,72 @@
+﻿Arabic:
+الرمز البريدي
+Bulgarian:
+Пощенски код
+Catalan:
+Codi postal
+Chinese Simplified:
+邮政编码
+Czech:
+Poštovní směrovací číslo
+Danish:
+Postnummer
+Dutch:
+Postcode
+English:
+Postal
+Estonian:
+Sihtnumber
+Finnish:
+Postinumero
+French:
+Code postal
+German:
+Postleitzahl
+Greek:
+Ταχυδρομικός κώδικας
+Haitian Creole:
+Kòd postal
+Hebrew:
+מיקוד
+Hindi:
+पोस्टल कोड
+Hungarian:
+Postai irányítószám
+Indonesian:
+Kode pos
+Italian:
+Codice postale
+Japanese:
+郵便
+Korean:
+우편 번호
+Latvian:
+Pasta indekss
+Lithuanian:
+Pašto kodas
+Norwegian:
+Postnummer
+Polish:
+Kod pocztowy
+Portuguese:
+Código postal
+Romanian:
+Cod poştal
+Russian:
+Почтовый индекс
+Slovak:
+Poštové smerovacie číslo
+Slovenian:
+Poštna številka
+Spanish:
+Código postal
+Swedish:
+Postnummer
+Thai:
+รหัสไปรษณีย์
+Turkish:
+Posta kodu
+Ukrainian:
+Поштовий індекс
+Vietnamese:
+Mã bưu chính

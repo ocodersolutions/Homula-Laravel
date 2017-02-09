@@ -1,0 +1,72 @@
+﻿Arabic:
+أرسل لنا رسالة
+Bulgarian:
+Изпратете ни съобщение
+Catalan:
+Envia'ns un missatge
+Chinese Simplified:
+向我们发送一条消息
+Czech:
+Pošlete nám zprávu
+Danish:
+Send os en meddelelse
+Dutch:
+Stuur ons een bericht
+English:
+Send us a message
+Estonian:
+Saada meile teade
+Finnish:
+Lähetä meille viesti
+French:
+Envoyez nous un message
+German:
+Senden Sie uns eine Nachricht
+Greek:
+Να μας στείλετε ένα μήνυμα
+Haitian Creole:
+Voye yon mesaj nou
+Hebrew:
+שלח לנו הודעה
+Hindi:
+हमें एक संदेश भेजें
+Hungarian:
+Üzenet küldése
+Indonesian:
+Kirim pesan
+Italian:
+Inviaci un messaggio
+Japanese:
+私たちにメッセージを送信します。
+Korean:
+우리에 게 보내기
+Latvian:
+Sūtiet mums ziņu
+Lithuanian:
+Siųskite mums laišką
+Norwegian:
+Send oss en melding
+Polish:
+Wyślij do nas wiadomość
+Portuguese:
+Envie-em uma mensagem
+Romanian:
+Trimite-ne un mesaj
+Russian:
+Отправить нам сообщение
+Slovak:
+Nám pošlite správu
+Slovenian:
+Pošljite nam sporočilo
+Spanish:
+Envíenos un mensaje
+Swedish:
+Skicka oss ett meddelande
+Thai:
+ส่งข้อความถึงเรา
+Turkish:
+Bize mesaj göndermek
+Ukrainian:
+Відправити нам повідомлення
+Vietnamese:
+Gửi cho chúng tôi một tin nhắn

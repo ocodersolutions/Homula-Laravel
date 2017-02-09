@@ -1,0 +1,72 @@
+﻿Arabic:
+تسجيل الخروج
+Bulgarian:
+Изход
+Catalan:
+Logout
+Chinese Simplified:
+注销
+Czech:
+Odhlásit se
+Danish:
+Logout
+Dutch:
+Logout
+English:
+Logout
+Estonian:
+Logi välja
+Finnish:
+Kirjaudu ulos
+French:
+Déconnexion
+German:
+Logout
+Greek:
+Logout
+Haitian Creole:
+Se
+Hebrew:
+יציאה מהמערכת
+Hindi:
+लॉग आउट
+Hungarian:
+Logout
+Indonesian:
+Logout
+Italian:
+Logout
+Japanese:
+ログアウト
+Korean:
+로그 아웃
+Latvian:
+Logout
+Lithuanian:
+Išsiregistruoti
+Norwegian:
+Logout
+Polish:
+Logout
+Portuguese:
+Logout
+Romanian:
+Logout
+Russian:
+Выход из системы
+Slovak:
+Odhlásiť
+Slovenian:
+Odjava
+Spanish:
+Cierre de sesión
+Swedish:
+Logga ut
+Thai:
+ออกจากระบบ
+Turkish:
+Logout
+Ukrainian:
+Вихід із системи
+Vietnamese:
+Đăng xuất

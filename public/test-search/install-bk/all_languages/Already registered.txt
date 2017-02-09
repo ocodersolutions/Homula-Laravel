@@ -1,0 +1,72 @@
+﻿Arabic:
+مسجل مسبقاً
+Bulgarian:
+Вече регистриран
+Catalan:
+Ja inscrit
+Chinese Simplified:
+已注册
+Czech:
+Již registrován
+Danish:
+Allerede registreret
+Dutch:
+Reeds geregistreerd
+English:
+Already registered
+Estonian:
+Juba registreeritud
+Finnish:
+Jo rekisteröity
+French:
+Déjà inscrit
+German:
+Bereits registriert
+Greek:
+Ήδη καταχωρηθεί
+Haitian Creole:
+Deja yo te anrejistre
+Hebrew:
+כבר רשום
+Hindi:
+पहले से ही पंजीकृत
+Hungarian:
+Már regisztrálva van
+Indonesian:
+Sudah terdaftar
+Italian:
+Già registrato
+Japanese:
+既に登録されています。
+Korean:
+이미 등록 된
+Latvian:
+Jau ir reģistrēta
+Lithuanian:
+Jau įregistruotas
+Norwegian:
+Allerede registrert
+Polish:
+Zarejestrowani
+Portuguese:
+Já registrado
+Romanian:
+Deja înregistrat
+Russian:
+Уже зарегистрированы
+Slovak:
+Už zaregistrovaných
+Slovenian:
+Že registrirana
+Spanish:
+Ya registrado
+Swedish:
+Redan registrerad
+Thai:
+ลงทะเบียนแล้ว
+Turkish:
+Zaten kayıtlı
+Ukrainian:
+Вже зареєстровані
+Vietnamese:
+Đã được đăng ký

@@ -1,0 +1,72 @@
+﻿Arabic:
+المتاحة
+Bulgarian:
+Налични
+Catalan:
+Disponible
+Chinese Simplified:
+可用
+Czech:
+K dispozici
+Danish:
+Tilgængelige
+Dutch:
+Beschikbaar
+English:
+Available
+Estonian:
+Saadaval
+Finnish:
+Käytettävissä
+French:
+Disponible
+German:
+Verfügbar
+Greek:
+Διαθέσιμο
+Haitian Creole:
+Disponib
+Hebrew:
+זמין
+Hindi:
+उपलब्ध
+Hungarian:
+Rendelkezésre álló
+Indonesian:
+Tersedia
+Italian:
+Disponibile
+Japanese:
+利用可能です
+Korean:
+사용 가능
+Latvian:
+Pieejams
+Lithuanian:
+Prieinama
+Norwegian:
+Tilgjengelig
+Polish:
+Dostępne
+Portuguese:
+Disponível
+Romanian:
+Disponibile
+Russian:
+Доступные
+Slovak:
+K dispozícii
+Slovenian:
+Na voljo
+Spanish:
+Disponible
+Swedish:
+Tillgängliga
+Thai:
+พร้อมใช้งาน
+Turkish:
+Kullanılabilir
+Ukrainian:
+Доступні
+Vietnamese:
+Có sẵn

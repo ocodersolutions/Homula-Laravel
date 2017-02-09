@@ -1,0 +1,72 @@
+﻿Arabic:
+قوائم مماثلة استناداً إلى معايير البحث الخاصة بك
+Bulgarian:
+Подобни списъци, въз основа на вашите критерии за търсене
+Catalan:
+Llistes similars segons els criteris de cerca
+Chinese Simplified:
+基于您的搜索条件类似的上市活动
+Czech:
+Podobné výpisy na základě kritérií hledání
+Danish:
+Lignende lister baseret på dine søgekriterier
+Dutch:
+Soortgelijke aanbiedingen op basis van uw zoekcriteria
+English:
+Similar listings based on your search criteria
+Estonian:
+Teie otsingukriteeriumidele põhineb sarnaseid loendeid
+Finnish:
+Samanlaisia luetteloita, hakuehtojen perusteella
+French:
+Listes semblables basés sur vos critères de recherche
+German:
+Ähnliche Angebote, die basierend auf Ihren Suchkriterien entsprechen
+Greek:
+Παρόμοια καταχωρήσεις με βάση τα κριτήρια αναζήτησής σας
+Haitian Creole:
+Annonces menm jan an, baze sou kritè recherche ou
+Hebrew:
+רישומים דומים בהתבסס על קריטריוני החיפוש
+Hindi:
+इसी तरह लिस्टिंग आपके खोज मापदंड पर आधारित
+Hungarian:
+A keresési feltételek alapján hasonló listings
+Indonesian:
+Daftar serupa yang didasarkan pada kriteria pencarian Anda
+Italian:
+Inserzioni simile basati su criteri di ricerca
+Japanese:
+同様のリストを検索条件に基づいて
+Korean:
+검색 조건에 따라 유사한 목록
+Latvian:
+Līdzīgus sarakstus, pamatojoties uz meklēšanas kritērijiem
+Lithuanian:
+Panašių aukcionai, remiantis jūsų ieškos kriterijus
+Norwegian:
+Lignende oppføringer basert på dine søkekriterier
+Polish:
+Podobnych list w oparciu o kryteria wyszukiwania
+Portuguese:
+Listagens semelhantes com base em seus critérios de pesquisa
+Romanian:
+Listări similare bazate pe criteriile de căutare
+Russian:
+Похожие объекты, основанные на критерии поиска
+Slovak:
+Podobné zoznamy založené na vaše vyhľadávacie kritériá
+Slovenian:
+Podobne oglasi, ki temelji na vaše iskalne pogoje
+Spanish:
+Anuncios similares basados en los criterios de búsqueda
+Swedish:
+Liknande listor som bygger på dina sökkriterier
+Thai:
+ตามเกณฑ์การค้นหารายการที่คล้ายกัน
+Turkish:
+Sizin arama ölçütüne göre benzer listeleri
+Ukrainian:
+Аналогічні списки, засновані на критерії пошуку
+Vietnamese:
+Các danh sách tương tự dựa trên các tiêu chí tìm kiếm của bạn

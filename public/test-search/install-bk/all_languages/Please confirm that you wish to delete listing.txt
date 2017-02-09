@@ -1,0 +1,72 @@
+﻿Arabic:
+الرجاء التأكد من أنك تريد حذف قائمة
+Bulgarian:
+Потвърдете, че желаете да изтриете регистрация
+Catalan:
+Si us plau Confirmeu que voleu esborrar la llista
+Chinese Simplified:
+请确认要删除列表
+Czech:
+Prosím potvrďte, že chcete odstranit seznam
+Danish:
+Bekræft, at du ønsker at slette notering
+Dutch:
+Gelieve te bevestigen dat u wenst te verwijderen aanbieding
+English:
+Please confirm that you wish to delete listing
+Estonian:
+Kinnitage, et soovite kustutada loetelu
+Finnish:
+Vahvista, että haluat poistaa luettelon
+French:
+Veuillez confirmer que vous souhaitez supprimer la liste des pièces justificatives
+German:
+Bitte bestätigen Sie, dass Sie Eintrag löschen wollen
+Greek:
+Σας παρακαλώ να επιβεβαιώσετε ότι θέλετε να διαγράψετε την καταχώρηση
+Haitian Creole:
+Souple konfime ke nou swete pou retire ki nan lis
+Hebrew:
+נא אשר כי ברצונך למחוק רישום
+Hindi:
+कृपया पुष्टि करते हैं कि आप नामांकन को हटाने के लिए चाहता हूँ
+Hungarian:
+Erősítse meg, hogy kívánja-e törölni a tőzsdei
+Indonesian:
+Silakan konfirmasi bahwa Anda ingin menghapus daftar
+Italian:
+Si prega di confermare che si desidera eliminare la quotazione
+Japanese:
+リストを削除することを確認してください。
+Korean:
+리스트를 삭제 하고자 하는 것을 확인 하십시오
+Latvian:
+Lūdzu, apstipriniet, ka vēlaties dzēst sarakstu
+Lithuanian:
+Patvirtinkite, kad norite panaikinti sąrašas
+Norwegian:
+Bekreft at du vil slette oppføringen
+Polish:
+Proszę potwierdzić, że chcesz usunąć listę
+Portuguese:
+Por favor, confirme que você deseja excluir cotação
+Romanian:
+Vă rugăm să confirmaţi că doriţi să ştergeţi cota
+Russian:
+Пожалуйста, подтвердите, что вы хотите удалить список
+Slovak:
+Potvrďte, že chcete odstrániť výpis
+Slovenian:
+Prosimo, potrdite, da želite izbrisati kotacijo
+Spanish:
+Confirme que desea eliminar anuncio
+Swedish:
+Bekräfta att du vill ta bort notering
+Thai:
+กรุณายืนยันว่า คุณต้องการลบรายการ
+Turkish:
+Listeyi silmek istediğiniz Lütfen onaylayın
+Ukrainian:
+Будь ласка, підтвердіть, що ви хочете, щоб видалити лістингу
+Vietnamese:
+Xin vui lòng xác nhận rằng bạn muốn xóa danh sách

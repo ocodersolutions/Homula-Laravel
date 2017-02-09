@@ -1,0 +1,72 @@
+﻿Arabic:
+الرجاء إدخال الرمز البريدي الصحيح كما أنه سيستخدم لعرض خريطة الأقمار الصناعية
+Bulgarian:
+Моля, въведете правилния пощенски код, той ще бъде използван за показване на спътникова карта
+Catalan:
+Si us plau introdueixi codi postal correcte com serà utilitzat per mostrar un mapa de satèl·lit
+Chinese Simplified:
+请输入正确的邮政编码，因为它将用于显示卫星地图
+Czech:
+Zadejte správné poštovní směrovací číslo, jak bude použit k zobrazení satelitní mapa
+Danish:
+Angiv venligst korrekt postnummer, som det vil blive brugt til at vise en satellit kort
+Dutch:
+Voer de juiste postcode zoals het zal worden gebruikt voor het weergeven van een satellietkaart
+English:
+Please enter correct postal code as it will be used to display a satellite map
+Estonian:
+Palun sisestage õige sihtnumber, nagu seda kasutatakse kuvamiseks satelliit kaart
+Finnish:
+Kirjoita oikea postinumero, koska sitä käytetään näyttämään satelliitti-kartta
+French:
+Veuillez entrer un code postal correct car il sera utilisé pour afficher une carte satellite
+German:
+Bitte geben Sie korrekte Postleitzahl, wie es verwendet wird, um eine Satelliten-Karte anzeigen
+Greek:
+Πληκτρολογήστε σωστό ταχυδρομικό κώδικα που θα χρησιμοποιείται για την εμφάνιση ενός χάρτη μέσω δορυφόρου
+Haitian Creole:
+Souple antre kòrèk kòd postal ke li ap itilize pou yo ekspoze yon kat satelit
+Hebrew:
+נא הזן מיקוד הנכון כפי ישמש להצגת מפת לווין
+Hindi:
+कृपया इसे एक उपग्रह मानचित्र प्रदर्शित करने के लिए इस्तेमाल किया जाएगा के रूप में सही पिन कोड दर्ज करें
+Hungarian:
+Adja meg a helyes irányítószámot, mint hogy fogja felhasználni a műholdas Térkép megjelenítése
+Indonesian:
+Masukkan kode pos yang benar seperti yang akan digunakan untuk menampilkan peta satelit
+Italian:
+Si prega di inserire codice postale corretto come esso verrà utilizzato per visualizzare una mappa satellitare
+Japanese:
+衛星地図を表示するために使用する正しい郵便番号コードを入力してください。
+Korean:
+위성 지도 표시 하는 데 사용 될 것입니다 올바른 우편 번호를 입력 하십시오.
+Latvian:
+Lūdzu, ievadiet pareizu pasta indeksu, kā tas tiks izmantoti, ekrānā rādot satelīta kartē
+Lithuanian:
+Prašome įvesti teisingą pašto kodą, kaip jis bus naudojamas rodyti palydoviniame žemėlapyje
+Norwegian:
+Skriv inn riktig postnummer som det vil bli brukt til å vise satellittkart
+Polish:
+Wprowadź poprawny kod pocztowy, jak będzie on używany do wyświetlania Mapa satelitarna
+Portuguese:
+Insira código postal correto como ele será ser usado para exibir um mapa satélite
+Romanian:
+Vă rugăm introduceţi codul poştal corect va fi utilizat pentru a afişa harta prin satelit
+Russian:
+Пожалуйста, введите правильный почтовый код, как он будет использоваться для отображения Спутниковая карта
+Slovak:
+Zadajte prosím správne poštové smerovacie číslo, ako sa použije na zobrazenie družicovej mape
+Slovenian:
+Prosimo, vnesite pravilno poštna številka, kot bo uporabljena za prikaz satelitskih zemljevidom
+Spanish:
+Introduzca código postal correcto que se utilizará para mostrar un mapa de satélite
+Swedish:
+Ange rätt postnummer som det kommer att användas för att visa en satellit karta
+Thai:
+กรุณาใส่รหัสไปรษณีย์ที่ถูกต้อง ตามที่จะถูกใช้เพื่อแสดงแผนที่ดาวเทียม
+Turkish:
+Lütfen bir uydu harita görüntülemek için kullanılacak doğru bir posta kodu girin
+Ukrainian:
+Будь ласка, введіть правильний поштовий індекс, як він буде використовуватися для відображення Супутникове карта
+Vietnamese:
+Vui lòng nhập mã bưu chính xác như nó sẽ được sử dụng để hiển thị một bản đồ vệ tinh

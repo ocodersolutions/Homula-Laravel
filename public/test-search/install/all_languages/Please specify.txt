@@ -1,0 +1,72 @@
+﻿Arabic:
+الرجاء تحديد
+Bulgarian:
+Моля уточнете
+Catalan:
+Si us plau especifiqueu
+Chinese Simplified:
+请指定
+Czech:
+Prosím zadejte
+Danish:
+Angiv
+Dutch:
+Gelieve te specificeren
+English:
+Please specify
+Estonian:
+Palun täpsustage
+Finnish:
+Määritä
+French:
+Veuillez préciser
+German:
+Bitte angeben
+Greek:
+Παρακαλείσθε να προσδιορίσετε
+Haitian Creole:
+Souple espesifye
+Hebrew:
+נא ציין
+Hindi:
+कृपया निर्दिष्ट करें
+Hungarian:
+Adjon meg
+Indonesian:
+Silakan tentukan
+Italian:
+Si prega di specificare
+Japanese:
+指定してください。
+Korean:
+지정 하십시오.
+Latvian:
+Lūdzu, norādiet
+Lithuanian:
+Prašome nurodyti
+Norwegian:
+Angi
+Polish:
+Określ
+Portuguese:
+Por favor especifique
+Romanian:
+Vă rugăm să precizați
+Russian:
+Пожалуйста, уточните
+Slovak:
+Uveďte
+Slovenian:
+Navedite
+Spanish:
+Por favor, especifique
+Swedish:
+Ange
+Thai:
+โปรดระบุ
+Turkish:
+Lütfen belirtin
+Ukrainian:
+Будь ласка, вкажіть
+Vietnamese:
+Vui lòng chỉ rõ

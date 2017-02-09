@@ -1,0 +1,72 @@
+﻿Arabic:
+البريد الإلكتروني الخاص بك
+Bulgarian:
+Вашия имейл
+Catalan:
+El seu e-mail
+Chinese Simplified:
+您的电子邮件
+Czech:
+Váš email
+Danish:
+Din email-adresse
+Dutch:
+Uw e-mailadres
+English:
+Your email
+Estonian:
+Teie e-posti
+Finnish:
+Sähköpostiosoitteesi
+French:
+Votre adresse de Courriel
+German:
+Ihre e-Mail
+Greek:
+Το email σας
+Haitian Creole:
+Email ou
+Hebrew:
+הדוא ל שלך
+Hindi:
+आपका ईमेल
+Hungarian:
+A elektronikus levél
+Indonesian:
+Email Anda
+Italian:
+Tua email
+Japanese:
+あなたの e メール
+Korean:
+귀하의 이메일
+Latvian:
+E-pasta
+Lithuanian:
+Savo elektroninio pašto adresą
+Norwegian:
+Din e-post
+Polish:
+Adres email
+Portuguese:
+Seu e-mail
+Romanian:
+Email-ul tau
+Russian:
+Ваш адрес электронной почты
+Slovak:
+Váš e-mail
+Slovenian:
+Vaš email
+Spanish:
+Tu correo electrónico
+Swedish:
+Din e-postadress
+Thai:
+อีเมล์ของคุณ
+Turkish:
+E-posta
+Ukrainian:
+Вашу адресу електронної пошти
+Vietnamese:
+Email của bạn

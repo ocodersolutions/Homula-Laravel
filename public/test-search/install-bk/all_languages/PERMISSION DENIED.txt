@@ -1,0 +1,72 @@
+﻿Arabic:
+تم رفض الإذن
+Bulgarian:
+РАЗРЕШЕНИЕТО Е ОТКАЗАНО
+Catalan:
+PERMÍS NEGAT
+Chinese Simplified:
+权限被拒绝
+Czech:
+OPRÁVNĚNÍ BYLA ODEPŘENA.
+Danish:
+TILLADELSE NÆGTET
+Dutch:
+TOESTEMMING GEWEIGERD
+English:
+PERMISSION DENIED
+Estonian:
+ÕIGUSEST KEELDUTI
+Finnish:
+ESTETTY
+French:
+AUTORISATION REFUSÉE
+German:
+ZUGRIFF VERWEIGERT
+Greek:
+ΔΕΝ ΈΧΕΤΕ ΔΙΚΑΊΩΜΑ ΠΡΌΣΒΑΣΗΣ
+Haitian Creole:
+PÈMISYON TE DEMANTI
+Hebrew:
+ההרשאה נדחתה
+Hindi:
+अनुमति इनकार कर दिया
+Hungarian:
+ENGEDÉLY MEGTAGADVA
+Indonesian:
+IZIN DITOLAK
+Italian:
+AUTORIZZAZIONE NEGATA
+Japanese:
+アクセスが拒否されました
+Korean:
+사용 권한 거부
+Latvian:
+PERMISSION DENIED
+Lithuanian:
+TEISĖS NESUTEIKTOS
+Norwegian:
+INGEN TILGANG
+Polish:
+ODMOWA UPRAWNIEŃ
+Portuguese:
+PERMISSÃO NEGADA
+Romanian:
+PERMISSION DENIED
+Russian:
+ОТСУТСТВУЕТ РАЗРЕШЕНИЕ
+Slovak:
+PR├¡STUP BOL ODMIETNUT├╜
+Slovenian:
+DOSTOP ZAVRNJEN
+Spanish:
+PERMISO DENEGADO
+Swedish:
+ÅTKOMST NEKAD
+Thai:
+สิทธิ์ในการปฏิเสธ
+Turkish:
+İZİN ENGELLENDİ
+Ukrainian:
+НЕМАЄ ДОСТУПУ
+Vietnamese:
+PERMISSION DENIED

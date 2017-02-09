@@ -1,0 +1,72 @@
+﻿Arabic:
+السكنية التجارية
+Bulgarian:
+Жилищни търговски
+Catalan:
+Residencial comercial
+Chinese Simplified:
+住宅商业
+Czech:
+Rezidenční Komerční
+Danish:
+Boligområder kommercielle
+Dutch:
+Residentiële commerciële
+English:
+Residential Commercial
+Estonian:
+Elamu kaubandus
+Finnish:
+Asuinrakennusten kaupallisiin
+French:
+Résidentiel Commercial
+German:
+Wohn-Commercial
+Greek:
+Κατοικίες εμπορική
+Haitian Creole:
+Rezidansyèl Commercial
+Hebrew:
+מסחרי למגורים
+Hindi:
+आवासीय वाणिज्यिक
+Hungarian:
+Lakossági kereskedelmi
+Indonesian:
+Pemukiman komersial
+Italian:
+Residenziali commerciali
+Japanese:
+住宅商業
+Korean:
+주거 상업
+Latvian:
+Dzīvojamo tirdzniecības
+Lithuanian:
+Gyvenamųjų komercinių
+Norwegian:
+Residential kommersielle
+Polish:
+Komercyjne mieszkalne
+Portuguese:
+Residencial comercial
+Romanian:
+Comercial rezidențiale
+Russian:
+Жилой коммерческой
+Slovak:
+Rezidenčné obchodné
+Slovenian:
+Stanovanjskih komercialne
+Spanish:
+Residencial comercial
+Swedish:
+Bostäder kommersiella
+Thai:
+พาณิชย์ที่อยู่อาศัย
+Turkish:
+Konut ticari
+Ukrainian:
+Житловий комерційних
+Vietnamese:
+Dân cư thương mại

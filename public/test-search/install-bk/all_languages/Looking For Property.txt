@@ -1,0 +1,72 @@
+﻿Arabic:
+تبحث
+Bulgarian:
+Търсене
+Catalan:
+A la recerca
+Chinese Simplified:
+看
+Czech:
+Hledat
+Danish:
+Leder
+Dutch:
+Op zoek
+English:
+Looking
+Estonian:
+Vaadates
+Finnish:
+Haku
+French:
+À la recherche
+German:
+Suchen
+Greek:
+Αναζήτηση
+Haitian Creole:
+Gade
+Hebrew:
+מבט
+Hindi:
+की तलाश
+Hungarian:
+Látszó
+Indonesian:
+Mencari
+Italian:
+Alla ricerca
+Japanese:
+探しています。
+Korean:
+찾고
+Latvian:
+Meklē
+Lithuanian:
+Ieškote
+Norwegian:
+Ser
+Polish:
+Szukasz
+Portuguese:
+Procurando
+Romanian:
+Căutarea
+Russian:
+Смотреть
+Slovak:
+Hľadáte
+Slovenian:
+Iskal
+Spanish:
+Buscando
+Swedish:
+Ser
+Thai:
+ค้นหา
+Turkish:
+Seyir
+Ukrainian:
+Дивлячись
+Vietnamese:
+Tìm kiếm

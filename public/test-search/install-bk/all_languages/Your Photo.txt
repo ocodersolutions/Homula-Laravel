@@ -1,0 +1,72 @@
+﻿Arabic:
+الصور الخاصة بك
+Bulgarian:
+Снимката
+Catalan:
+Seva foto
+Chinese Simplified:
+你的照片
+Czech:
+Vaše fotografie
+Danish:
+Dit foto
+Dutch:
+Uw foto
+English:
+Your Photo
+Estonian:
+Foto
+Finnish:
+Valokuva
+French:
+Votre Photo
+German:
+Ihr Foto
+Greek:
+Φωτογραφία σας
+Haitian Creole:
+Foto ou
+Hebrew:
+התמונות שלך
+Hindi:
+अपने फोटो
+Hungarian:
+A fénykép
+Indonesian:
+Foto Anda
+Italian:
+La tua foto
+Japanese:
+あなたの写真
+Korean:
+귀하의 사진
+Latvian:
+Fotoattēla
+Lithuanian:
+Nuotraukos
+Norwegian:
+Bildet ditt
+Polish:
+Twoje zdjΩcie
+Portuguese:
+Sua foto
+Romanian:
+Fotografia
+Russian:
+Ваше фото
+Slovak:
+Vaše fotografie
+Slovenian:
+Fotografije
+Spanish:
+Tu foto
+Swedish:
+Ditt foto
+Thai:
+รูปถ่ายของคุณ
+Turkish:
+Fotoğraf
+Ukrainian:
+Ваше фото
+Vietnamese:
+Hình ảnh của bạn

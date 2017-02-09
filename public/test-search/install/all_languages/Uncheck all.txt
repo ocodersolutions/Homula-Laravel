@@ -1,0 +1,80 @@
+﻿Arabic:
+إلغاء تحديد الكل
+Bulgarian:
+Размаркирай всички
+Catalan:
+Desmarca'ls tots
+Chinese Simplified:
+取消选中所有
+Czech:
+Zrušit zaškrtnutí všech
+Danish:
+Uncheck alle
+Dutch:
+Schakel alle
+English:
+Uncheck all
+Estonian:
+Tühjendage kõik
+Finnish:
+Poista kaikki
+French:
+Décocher tous
+German:
+Deaktivieren Sie alle
+Greek:
+Αποεπιλογή όλων
+Haitian Creole:
+Désactivez tout
+Hebrew:
+בטל בחירה
+Hindi:
+सब सही का निशान हटाएँ
+Hmong Daw:
+Uncheck tag nrho
+Hungarian:
+Törölje az összes
+Indonesian:
+Hapus centang semua
+Italian:
+Deseleziona tutto
+Japanese:
+すべてのチェック ボックスをオフします。
+Korean:
+모두 선택 취소
+Latvian:
+Noņemiet visus
+Lithuanian:
+Atžymėti visus
+Malay:
+Kosongkan Semua
+Norwegian:
+Fjern all merking
+Persian:
+عدم انتخاب همه
+Polish:
+Usuń zaznaczenie wszystkich
+Portuguese:
+Desmarcar tudo
+Romanian:
+Debifati toate
+Russian:
+Снять все
+Slovak:
+Zrušiť začiarknutie všetkých
+Slovenian:
+Počisti vse
+Spanish:
+Desactive todas
+Swedish:
+Avmarkera alla
+Thai:
+ยกเลิกเลือกทั้งหมด
+Turkish:
+Tüm işaretini kaldırın
+Ukrainian:
+Зняти всі прапорці
+Urdu:
+تمام بے نشان کریں
+Vietnamese:
+Bỏ chọn tất cả

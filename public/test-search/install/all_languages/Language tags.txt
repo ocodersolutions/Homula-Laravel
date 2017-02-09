@@ -1,0 +1,72 @@
+﻿Arabic:
+لغة العلامات
+Bulgarian:
+Етикети за език
+Catalan:
+Etiquetes de l'idioma
+Chinese Simplified:
+语言标记
+Czech:
+Značky jazyka
+Danish:
+Sprog tags
+Dutch:
+Taal tags
+English:
+Language tags
+Estonian:
+Keele sildid
+Finnish:
+Kielen Tagit
+French:
+Balises de langue
+German:
+Sprachtags
+Greek:
+Ετικέτες γλώσσα
+Haitian Creole:
+Balises lang
+Hebrew:
+שפת תגיות
+Hindi:
+भाषा टैग
+Hungarian:
+Nyelvi címkék
+Indonesian:
+Bahasa Tag
+Italian:
+Tag del linguaggio
+Japanese:
+言語タグ
+Korean:
+언어 태그
+Latvian:
+Valodas tags
+Lithuanian:
+Kalbos žymos
+Norwegian:
+Språket koder
+Polish:
+Znaczniki języka
+Portuguese:
+Marcas de idioma
+Romanian:
+Limba Tag-uri
+Russian:
+Языковые теги
+Slovak:
+Jazyk Tagy
+Slovenian:
+Jezik oznake
+Spanish:
+Etiquetas de idioma
+Swedish:
+Språk taggar
+Thai:
+แท็กภาษา
+Turkish:
+Dil
+Ukrainian:
+Мова теги
+Vietnamese:
+Ngôn ngữ tags

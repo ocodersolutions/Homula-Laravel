@@ -1,0 +1,74 @@
+﻿Arabic:
+المزيد من المعلومات
+Bulgarian:
+Повече информация
+Catalan:
+Més informació
+Chinese Simplified:
+更多的信息
+Czech:
+Další informace
+Danish:
+Mere Info
+Dutch:
+Meer Info
+English:
+More Info
+Estonian:
+Rohkem infot
+Finnish:
+Lisätietoja
+French:
+Plus d'Info
+German:
+Mehr Info
+Greek:
+Για περισσότερες πληροφορίες
+Haitian Creole:
+Plis enfòmasyon sou
+Hebrew:
+מידע נוסף
+Hindi:
+अधिक जानकारी
+Hmong Daw:
+Ntau cov Info
+Hungarian:
+További infó
+Indonesian:
+Info lebih lanjut
+Italian:
+Più informazioni
+Japanese:
+詳細情報
+Korean:
+더 많은 정보
+Latvian:
+Vairāk Info
+Lithuanian:
+Daugiau Info
+Norwegian:
+Mer Info
+Polish:
+Więcej informacji
+Portuguese:
+Mais informações
+Romanian:
+Mai multe informaţii
+Russian:
+Подробнее
+Slovak:
+Viac Info
+Slovenian:
+Več Info
+Spanish:
+Más información
+Swedish:
+Mer Info
+Thai:
+ข้อมูลเพิ่มเติม
+Turkish:
+Daha fazla bilgi
+Ukrainian:
+Більше інформації
+Vietnamese:
+Thông tin thêm

@@ -1,0 +1,72 @@
+﻿Arabic:
+اختياري
+Bulgarian:
+по избор
+Catalan:
+opcional
+Chinese Simplified:
+可选
+Czech:
+nepovinné
+Danish:
+valgfri
+Dutch:
+optionele
+English:
+optional
+Estonian:
+vabatahtlik
+Finnish:
+Valinnainen
+French:
+facultatif
+German:
+optional
+Greek:
+προαιρετική
+Haitian Creole:
+opsyonèl, ochwa
+Hebrew:
+אופציונלי
+Hindi:
+वैकल्पिक
+Hungarian:
+választható
+Indonesian:
+opsional
+Italian:
+opzionale
+Japanese:
+オプション
+Korean:
+선택 사항
+Latvian:
+pēc izvēles
+Lithuanian:
+neprivaloma
+Norwegian:
+valgfri
+Polish:
+opcjonalne
+Portuguese:
+opcionais
+Romanian:
+opţional
+Russian:
+Необязательный
+Slovak:
+voliteľné
+Slovenian:
+neobvezno
+Spanish:
+opcional
+Swedish:
+tillval
+Thai:
+ก็ได้
+Turkish:
+İsteğe bağlı
+Ukrainian:
+Факультативний
+Vietnamese:
+tùy chọn

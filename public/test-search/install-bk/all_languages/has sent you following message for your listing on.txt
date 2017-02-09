@@ -1,0 +1,72 @@
+﻿Arabic:
+وقد أرسل إليك بعد رسالة للقائمة الخاصة بك على
+Bulgarian:
+ви след съобщението за вашата регистрация на е изпратил
+Catalan:
+ha enviat a vostè després de missatge per a la seva inclusió en la llista
+Chinese Simplified:
+已发送您之后你上市的消息
+Czech:
+Poslal vás po zprávě pro váš výpis na
+Danish:
+har sendt dig efter meddelelsen for din notering på
+Dutch:
+heeft u het volgende bericht voor je aanbieding op gestuurd
+English:
+has sent you following message for your listing on
+Estonian:
+on saatnud teile sõnumi teie kandmise kohta
+Finnish:
+on lähettänyt sinulle seuraavan viestin tietosi
+French:
+vous a envoyé suite à message pour votre inscription
+German:
+hat Ihnen folgende Nachricht für Ihr Angebot auf gesendet
+Greek:
+σας μετά το μήνυμα για τη λίστα σας με έστειλε
+Haitian Creole:
+menm k'ap voye ou swiv mesaj pou ou sou ki nan lis
+Hebrew:
+שלח לך בעקבות הודעה עבור הרישום שלך ב-
+Hindi:
+आप निम्नलिखित संदेश पर अपनी लिस्टिंग के लिए भेज दिया है
+Hungarian:
+birtokol küldött Ön követően a tőzsdei üzenet
+Indonesian:
+telah dikirim Anda mengikuti pesan untuk listing Anda di
+Italian:
+ti ha inviato seguente messaggio per le tue inserzioni su
+Japanese:
+次のメッセージがリストを送信しています
+Korean:
+다음에 귀하의 목록에 대 한 메시지를 보냈습니다.
+Latvian:
+ir nosūtījusi jums pēc ziņojumu jūsu sarakstā
+Lithuanian:
+atsiuntė jums po pranešimo dėl savo aukcioną
+Norwegian:
+har sendt deg følgende melding for oppføringen på
+Polish:
+wysłał ci poniższy komunikat dla lista na
+Portuguese:
+lhe enviou seguinte mensagem para o seu anúncio em
+Romanian:
+a trimis după mesaj pentru cota dvs.
+Russian:
+прислал Вам следующее сообщение для вашего перечисления на
+Slovak:
+vám po správy pre svoj záznam na poslal
+Slovenian:
+has sent vi po sporočilo za svojo kotacijo na
+Spanish:
+te ha enviado tras mensaje de tu anuncio en
+Swedish:
+har skickat efter meddelande om din notering på
+Thai:
+มีส่งต่อข้อความสำหรับรายชื่อของคุณบน
+Turkish:
+size ileti için listeyi izleyen gönderdi
+Ukrainian:
+надіслав вам наступні повідомлення для вашої компанії, на
+Vietnamese:
+đã gửi cho bạn sau thông báo cho danh sách của bạn trên

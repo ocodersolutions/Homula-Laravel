@@ -1,0 +1,72 @@
+﻿Arabic:
+غرفة نوم
+Bulgarian:
+Спалня
+Catalan:
+Dormitori
+Chinese Simplified:
+卧室
+Czech:
+Ložnice
+Danish:
+Soveværelse
+Dutch:
+Slaapkamer
+English:
+Bedroom
+Estonian:
+Magamistuba
+Finnish:
+Makuuhuone
+French:
+Chambre à coucher
+German:
+Schlafzimmer
+Greek:
+Υπνοδωμάτιο
+Haitian Creole:
+Chanm
+Hebrew:
+חדר השינה
+Hindi:
+शयन कक्ष
+Hungarian:
+Bedroom
+Indonesian:
+Kamar tidur
+Italian:
+Camera da letto
+Japanese:
+ベッドルーム
+Korean:
+침실
+Latvian:
+Istabu
+Lithuanian:
+Miegamieji
+Norwegian:
+Soverom
+Polish:
+Sypialnia
+Portuguese:
+Quartos
+Romanian:
+Dormitor
+Russian:
+Спальня
+Slovak:
+Spálne
+Slovenian:
+Spalnica
+Spanish:
+Dormitorio
+Swedish:
+Sovrum
+Thai:
+ห้องนอน
+Turkish:
+Yatak odası
+Ukrainian:
+Спальня
+Vietnamese:
+Phòng ngủ

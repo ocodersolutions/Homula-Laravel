@@ -1,0 +1,72 @@
+﻿Arabic:
+المشتركة
+Bulgarian:
+Споделени
+Catalan:
+Compartides
+Chinese Simplified:
+共享
+Czech:
+Sdíleno
+Danish:
+Delt
+Dutch:
+Gedeeld
+English:
+Shared
+Estonian:
+Jagatud
+Finnish:
+Jaettu
+French:
+Partagé
+German:
+Geteilt
+Greek:
+Κοινή χρήση
+Haitian Creole:
+Pataje
+Hebrew:
+משותפים
+Hindi:
+साझा
+Hungarian:
+Megosztott
+Indonesian:
+Berbagi
+Italian:
+Condiviso
+Japanese:
+共有
+Korean:
+공유
+Latvian:
+Koplietota
+Lithuanian:
+Bendrai
+Norwegian:
+Delt
+Polish:
+Udostępnione
+Portuguese:
+Compartilhados
+Romanian:
+La comun de
+Russian:
+Общие
+Slovak:
+Zdieľané
+Slovenian:
+V skupni rabi
+Spanish:
+Compartida
+Swedish:
+Delade
+Thai:
+ใช้ร่วมกัน
+Turkish:
+Paylaşılan
+Ukrainian:
+Спільний доступ
+Vietnamese:
+Chia sẻ

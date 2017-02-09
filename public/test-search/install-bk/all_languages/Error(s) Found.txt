@@ -1,0 +1,72 @@
+﻿Arabic:
+العثور على خطأ (أخطاء)
+Bulgarian:
+Намерени грешки
+Catalan:
+Errors detectats
+Chinese Simplified:
+找到的错误
+Czech:
+Nalezeny chyby
+Danish:
+Fundne fejl
+Dutch:
+Fout(en) gevonden
+English:
+Error(s) Found
+Estonian:
+Leitud tõrkeid
+Finnish:
+Virhe(ttä) löytyi
+French:
+Glissait trouvé
+German:
+Fehler gefunden
+Greek:
+Σφάλματα που εντοπίστηκαν
+Haitian Creole:
+Erreurs te jwenn
+Hebrew:
+שגיאות שנמצאו
+Hindi:
+त्रुटि (याँ) पाया
+Hungarian:
+Hiba lépett fel
+Indonesian:
+Error(s) yang ditemukan
+Italian:
+Errori nel trovato
+Japanese:
+エラー
+Korean:
+오류 발견
+Latvian:
+Atrasta (s)
+Lithuanian:
+Rasta klaidų
+Norwegian:
+Feil funnet
+Polish:
+Liczba znalezionych błędów
+Portuguese:
+Erros encontrados
+Romanian:
+Erori găsite
+Russian:
+Ошибки найдены
+Slovak:
+Nájdené
+Slovenian:
+Najdene napake
+Spanish:
+Errores encontrados
+Swedish:
+PÃ ¥ trÃ¤ffade
+Thai:
+พบข้อผิดพลาด
+Turkish:
+Bulunamadı hataları
+Ukrainian:
+Знайдено помилки
+Vietnamese:
+Lỗi đã được tìm thấy

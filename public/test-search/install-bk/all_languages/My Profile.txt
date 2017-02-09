@@ -1,0 +1,72 @@
+﻿Arabic:
+التشكيل الجانبي
+Bulgarian:
+Профил
+Catalan:
+Perfil
+Chinese Simplified:
+配置文件
+Czech:
+Profil
+Danish:
+Profil
+Dutch:
+Profiel
+English:
+Profile
+Estonian:
+Profiili
+Finnish:
+Profiili
+French:
+Profil
+German:
+Profil anzeigen
+Greek:
+Προφίλ
+Haitian Creole:
+Wofil
+Hebrew:
+פרופיל
+Hindi:
+प्रोफ़ाइल
+Hungarian:
+Profil
+Indonesian:
+Profil
+Italian:
+Profilo
+Japanese:
+プロファイル
+Korean:
+프로 파일
+Latvian:
+Profils
+Lithuanian:
+Profilis
+Norwegian:
+Profil
+Polish:
+Profil
+Portuguese:
+Perfil
+Romanian:
+Profil
+Russian:
+Профиль
+Slovak:
+Profil
+Slovenian:
+Profil
+Spanish:
+Perfil
+Swedish:
+Profil
+Thai:
+ส่วนกำหนดค่า
+Turkish:
+Profil
+Ukrainian:
+Профіль
+Vietnamese:
+Hồ sơ

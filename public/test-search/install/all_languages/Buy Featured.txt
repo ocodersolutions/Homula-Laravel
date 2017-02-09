@@ -1,0 +1,72 @@
+﻿Arabic:
+شراء المميز
+Bulgarian:
+Купете актуални
+Catalan:
+Comprar recomanats
+Chinese Simplified:
+买特色
+Czech:
+Koupit nabízené
+Danish:
+Købe fremhævede
+Dutch:
+Aanbevolen kopen
+English:
+Buy Featured
+Estonian:
+Osta esiletõstetud
+Finnish:
+Osta Suositeltavat
+French:
+Acheter vedette
+German:
+Empfohlene kaufen
+Greek:
+Αγοράζουν προτεινόμενα
+Haitian Creole:
+Achte en
+Hebrew:
+לקנות נבחרים
+Hindi:
+खरीदें विशेष रुप से प्रदर्शित
+Hungarian:
+Kiemelt szálláshelyek az alábbi vásárolni
+Indonesian:
+Membeli Feature
+Italian:
+Acquistare consigliati
+Japanese:
+おすすめの購入
+Korean:
+주문 기능
+Latvian:
+Pirkt ieteicamās
+Lithuanian:
+Pirkti Teminiai
+Norwegian:
+Kjøpe Tilbudte
+Polish:
+Kup promowane
+Portuguese:
+Comprar indicados
+Romanian:
+Cumpara recomandate
+Russian:
+Купить лучшее
+Slovak:
+Kúpiť najlepšie
+Slovenian:
+Kupiti pokaže
+Spanish:
+Comprar destacados
+Swedish:
+Köpa erbjudna
+Thai:
+แนะนำการซื้อ
+Turkish:
+Seçme Al
+Ukrainian:
+Купити Рекомендовані
+Vietnamese:
+Mua đặc trưng

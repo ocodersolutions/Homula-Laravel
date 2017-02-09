@@ -1,0 +1,72 @@
+﻿Arabic:
+تم إرسال الرسالة
+Bulgarian:
+Съобщението е изпратено
+Catalan:
+S'ha enviat el missatge
+Chinese Simplified:
+邮件已发送
+Czech:
+Zpráva byla odeslána.
+Danish:
+Meddelelsen er blevet sendt
+Dutch:
+Bericht is verzonden
+English:
+Message has been sent
+Estonian:
+Sõnum on saadetud
+Finnish:
+Viesti on lähetetty
+French:
+Message a été envoyé.
+German:
+Nachricht wurde gesendet
+Greek:
+Το μήνυμα έχει αποσταλεί
+Haitian Creole:
+Mesaj te voye
+Hebrew:
+הודעה נשלחה
+Hindi:
+संदेश भेजा जा चुका है
+Hungarian:
+Üzenet elküldve
+Indonesian:
+Pesan sudah dikirim
+Italian:
+Messaggio è stato inviato
+Japanese:
+メッセージが送信されました
+Korean:
+메시지 전송
+Latvian:
+Ziņa ir nosūtīta
+Lithuanian:
+Pranešimas buvo išsiųstas
+Norwegian:
+Meldingen er sendt
+Polish:
+Wiadomość została wysłana
+Portuguese:
+Mensagem foi enviada
+Romanian:
+Mesajul a fost trimis
+Russian:
+Сообщение было отправлено
+Slovak:
+Spr├íva bola odoslan├í
+Slovenian:
+Sporočilo je bilo poslano
+Spanish:
+Mensaje ha sido enviado
+Swedish:
+Meddelande har skickats
+Thai:
+ได้มีส่งข้อความ
+Turkish:
+İleti gönderildi
+Ukrainian:
+Надіслати повідомлення
+Vietnamese:
+Tin nhắn đã được gửi

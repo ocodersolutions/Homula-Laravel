@@ -1,0 +1,72 @@
+﻿Arabic:
+إظهار صورة ملف التعريف
+Bulgarian:
+Покажи изображение на профил
+Catalan:
+Mostra la imatge de perfil
+Chinese Simplified:
+显示配置文件的图像
+Czech:
+Zobrazit obraz profilu
+Danish:
+Vis profil billede
+Dutch:
+Profielafbeelding weergeven
+English:
+Show profile image
+Estonian:
+Profiili pildi kuvamine
+Finnish:
+Näytä profiili kuva
+French:
+Afficher l'image de profil
+German:
+Profilbild anzeigen
+Greek:
+Εμφάνιση εικόνας προφίλ
+Haitian Creole:
+Montre estati wofil
+Hebrew:
+הצג תמונת פרופיל
+Hindi:
+प्रोफ़ाइल छवि दिखाएँ
+Hungarian:
+Profil kép megjelenítése
+Indonesian:
+Tampilkan profil gambar
+Italian:
+Visualizza il profilo immagine
+Japanese:
+プロフィール画像を表示します。
+Korean:
+프로필 이미지 표시
+Latvian:
+Parāda profila attēlu
+Lithuanian:
+Rodyti profilio vaizdą
+Norwegian:
+Vis profilbilde
+Polish:
+Pokaż profil obraz
+Portuguese:
+Mostrar imagem de perfil
+Romanian:
+Arată imagini profil
+Russian:
+Показать изображение профиля
+Slovak:
+Zobraziť profil image
+Slovenian:
+Pokaži profil sliko
+Spanish:
+Mostrar imagen de perfil
+Swedish:
+Visa profil bild
+Thai:
+แสดงรูปของโพรไฟล์
+Turkish:
+Profil resmi göster
+Ukrainian:
+Показати зображення профілю
+Vietnamese:
+Hiển thị hình ảnh hồ sơ

@@ -1,0 +1,72 @@
+﻿Arabic:
+كافة إدخالات القوائم
+Bulgarian:
+всички програми
+Catalan:
+tots els llistats
+Chinese Simplified:
+所有清单
+Czech:
+všechny výpisy
+Danish:
+alle lister
+Dutch:
+alle aanbiedingen
+English:
+all listings
+Estonian:
+kõik loendid
+Finnish:
+kaikki luettelot
+French:
+toutes les annonces
+German:
+Alle Angebote
+Greek:
+όλες οι καταχωρήσεις
+Haitian Creole:
+tout annonces
+Hebrew:
+כל הרישומים
+Hindi:
+सभी लिस्टिंग
+Hungarian:
+Premium listings
+Indonesian:
+semua listing
+Italian:
+tutte le inserzioni
+Japanese:
+すべてのリスト
+Korean:
+모든 명부 작성
+Latvian:
+visus sarakstus
+Lithuanian:
+visi aukcionai
+Norwegian:
+alle oppføringer
+Polish:
+wszystkie listy
+Portuguese:
+todos os anúncios
+Romanian:
+toate listele
+Russian:
+все результаты
+Slovak:
+všetky výpis
+Slovenian:
+Vsi oglasi
+Spanish:
+todos los anuncios
+Swedish:
+alla listor
+Thai:
+รายการทั้งหมด
+Turkish:
+tüm listeleri
+Ukrainian:
+всі списки
+Vietnamese:
+các bảng liệt kê tất cả các

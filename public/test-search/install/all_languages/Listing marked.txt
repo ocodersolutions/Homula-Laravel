@@ -1,0 +1,72 @@
+﻿Arabic:
+يحب
+Bulgarian:
+харесва
+Catalan:
+li agradava
+Chinese Simplified:
+很喜欢
+Czech:
+měl rád
+Danish:
+ønsket
+Dutch:
+vond
+English:
+liked
+Estonian:
+meeldib
+Finnish:
+halunnut
+French:
+aimé
+German:
+mochte
+Greek:
+άρεσε
+Haitian Creole:
+Aimé
+Hebrew:
+חן
+Hindi:
+अच्छा लगा
+Hungarian:
+tetszett
+Indonesian:
+menyukai
+Italian:
+è piaciuto
+Japanese:
+好き
+Korean:
+좋아
+Latvian:
+patika
+Lithuanian:
+patiko
+Norwegian:
+likte
+Polish:
+lubiła
+Portuguese:
+gostei
+Romanian:
+plăcut
+Russian:
+понравился
+Slovak:
+páčilo
+Slovenian:
+všeč
+Spanish:
+le gustaba
+Swedish:
+gillade
+Thai:
+ชอบ
+Turkish:
+sevdim
+Ukrainian:
+сподобалося
+Vietnamese:
+thích

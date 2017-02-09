@@ -1,0 +1,72 @@
+﻿Arabic:
+الرجاء تحميل الملفات السابقة أولاً
+Bulgarian:
+Моля качете първо предишните файлове
+Catalan:
+Si us plau carregui arxius de l'anteriors primer
+Chinese Simplified:
+请先上传以前的文件
+Czech:
+Prosím nejprve uložit předchozí soubory
+Danish:
+Upload venligst tidligere filer først
+Dutch:
+Upload eerst vorige bestanden
+English:
+Please upload previous files first
+Estonian:
+Palun esmalt eelmise failide üleslaadimine
+Finnish:
+Siirrä edellinen tiedostot ensin
+French:
+Veuillez télécharger les fichiers précédemment premier
+German:
+Bitte zuerst vorherige Dateien hochladen
+Greek:
+Σας παρακαλώ να αποστείλετε πρώτα προηγούμενα αρχεία
+Haitian Creole:
+Souple téléchargement ansyen lime premye
+Hebrew:
+נא להעלות קבצים הקודם תחילה
+Hindi:
+कृपया पहले पिछले फ़ाइलें अपलोड करें
+Hungarian:
+Kérjük először a korábbi fájlok feltöltése
+Indonesian:
+Silakan upload file sebelumnya pertama
+Italian:
+Si prega di caricare i file precedenti prima
+Japanese:
+以前のファイルを最初にアップロードしてください。
+Korean:
+먼저 이전 파일을 업로드 하시기 바랍니다
+Latvian:
+Lūdzu, augšupielādējiet failu, vispirms
+Lithuanian:
+Prašome pirma įkelti failai
+Norwegian:
+Last opp tidligere filer først
+Polish:
+Proszę przekazać najpierw poprzednie pliki
+Portuguese:
+Por favor carregue arquivos anteriores primeiro
+Romanian:
+Vă rugăm să încărcaţi fişierele anterioare prima
+Russian:
+Пожалуйста сначала загрузить предыдущие файлы
+Slovak:
+Prosím, odovzdajte najprv predchßdzaj·CE s·bory
+Slovenian:
+Prosimo, da naložite prejšnjih datotek najprej
+Spanish:
+Cargue los archivos anteriores primero
+Swedish:
+Vänligen ladda upp tidigare filer först
+Thai:
+กรุณาอัปโหลดแฟ้มก่อนหน้านี้ครั้งแรก
+Turkish:
+Lütfen önceki dosyaları ilk yükleme
+Ukrainian:
+Будь ласка, завантаження файлів, спочатку
+Vietnamese:
+Xin vui lòng tải lên tập tin trước đầu tiên

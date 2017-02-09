@@ -1,0 +1,72 @@
+﻿Arabic:
+تحديث قائمة
+Bulgarian:
+Актуализиране на списък
+Catalan:
+Llista d'Actualització
+Chinese Simplified:
+更新列表
+Czech:
+Aktualizovat seznam
+Danish:
+Opdatere notering
+Dutch:
+Update Listing
+English:
+Update Listing
+Estonian:
+Uuenda loetelu
+Finnish:
+Päivitä luettelo
+French:
+Mise à jour de la liste des pièces justificatives
+German:
+Update-Liste
+Greek:
+Η ενημερωμένη έκδοση λίστα
+Haitian Creole:
+À ki nan lis
+Hebrew:
+עדכון רישום
+Hindi:
+अद्यतन सूची
+Hungarian:
+Szövetszegély frissíteni
+Indonesian:
+Memperbarui daftar
+Italian:
+Aggiornamento elenco
+Japanese:
+リストを更新します。
+Korean:
+업데이트 목록
+Latvian:
+Atjaunināt sarakstā
+Lithuanian:
+Atnaujinti sąrašą
+Norwegian:
+Oppdater liste
+Polish:
+Lista aktualizacji
+Portuguese:
+Atualizar lista
+Romanian:
+Cota de actualizare
+Russian:
+Обновить список
+Slovak:
+Aktualizovať zoznam
+Slovenian:
+Posodobitev kotacijo
+Spanish:
+Anuncio de actualización
+Swedish:
+Uppdatera notering
+Thai:
+ปรับปรุงรายการ
+Turkish:
+Güncelleştirme listesi
+Ukrainian:
+Оновити список
+Vietnamese:
+Cập nhật danh sách

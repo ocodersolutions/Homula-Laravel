@@ -1,0 +1,72 @@
+﻿Arabic:
+حمام
+Bulgarian:
+Баня
+Catalan:
+Bany
+Chinese Simplified:
+浴室
+Czech:
+Koupelna
+Danish:
+Badeværelse
+Dutch:
+Badkamer
+English:
+Bathroom
+Estonian:
+Vannituba
+Finnish:
+Kylpyhuone
+French:
+Salle de bain
+German:
+Badezimmer
+Greek:
+Μπάνιο
+Haitian Creole:
+Sal de ben
+Hebrew:
+חדר אמבטיה
+Hindi:
+स्नानघर
+Hungarian:
+Fürdőszoba
+Indonesian:
+Kamar mandi
+Italian:
+Bagno
+Japanese:
+バスルーム
+Korean:
+욕실
+Latvian:
+Vannas istabā
+Lithuanian:
+Vonios kambarys
+Norwegian:
+Bad
+Polish:
+Łazienka
+Portuguese:
+Casa de banho
+Romanian:
+Baie
+Russian:
+Ванная комната
+Slovak:
+Kúpeľňa
+Slovenian:
+Kopalnica
+Spanish:
+Baño
+Swedish:
+Badrum
+Thai:
+ห้องน้ำ
+Turkish:
+Banyo
+Ukrainian:
+Ванна кімната
+Vietnamese:
+Phòng tắm

@@ -1,0 +1,72 @@
+﻿Arabic:
+العودة وحاول مرة أخرى
+Bulgarian:
+Върнете се и опитайте отново
+Catalan:
+Tornar enrere i provi una altra vegada
+Chinese Simplified:
+返回并再试一次
+Czech:
+Vraťte se a zkuste to znovu
+Danish:
+Gå tilbage, og prøv igen
+Dutch:
+Ga terug en probeer het opnieuw
+English:
+Go back and try again
+Estonian:
+Minge tagasi ja proovige uuesti
+Finnish:
+Palaa takaisin ja yritä uudelleen
+French:
+Revenir en arrière et essayez à nouveau
+German:
+Gehen Sie zurück und versuchen Sie es erneut
+Greek:
+Να επιστρέψετε και να προσπαθήσετε ξανά
+Haitian Creole:
+Bezwen tounen lakay yo ak eseye ankò
+Hebrew:
+חזור ונסה שוב
+Hindi:
+वापस जाएँ और पुन: प्रयास करें
+Hungarian:
+Lépjen vissza, és próbálja újra
+Indonesian:
+Kembali dan coba lagi
+Italian:
+Tornare indietro e riprovare
+Japanese:
+戻って、もう一度やり直してください。
+Korean:
+돌아가서 다시 시도
+Latvian:
+Dodieties atpakaļ un mēģiniet vēlreiz
+Lithuanian:
+Grįžkite atgal ir bandykite dar kartą
+Norwegian:
+Gå tilbake og prøv på nytt
+Polish:
+Wróć i spróbuj ponownie
+Portuguese:
+Volte e tente novamente
+Romanian:
+Du-te înapoi şi încercaţi din nou
+Russian:
+Вернитесь назад и попробуйте еще раз
+Slovak:
+Vrátiť späť a skúsiť znova
+Slovenian:
+Pojdi nazaj in poskusite znova
+Spanish:
+Vuelve atrás y vuelva a intentarlo
+Swedish:
+Gå tillbaka och försök igen
+Thai:
+ย้อนกลับ และลองอีกครั้ง
+Turkish:
+Geri dönün ve yeniden deneyin
+Ukrainian:
+Повернутися назад і повторити спробу
+Vietnamese:
+Quay trở lại và thử lại

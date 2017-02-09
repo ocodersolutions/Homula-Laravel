@@ -1,0 +1,72 @@
+﻿Arabic:
+الصفحة الرئيسية
+Bulgarian:
+Начало
+Catalan:
+Inici
+Chinese Simplified:
+首页
+Czech:
+Domů
+Danish:
+Startside
+Dutch:
+Home
+English:
+Home
+Estonian:
+Avaleht
+Finnish:
+Etusivu
+French:
+Accueil
+German:
+Startseite
+Greek:
+Αρχική σελίδα
+Haitian Creole:
+Kay
+Hebrew:
+הבית
+Hindi:
+होम
+Hungarian:
+Home
+Indonesian:
+Rumah
+Italian:
+Casa
+Japanese:
+ホーム
+Korean:
+홈
+Latvian:
+Mājas
+Lithuanian:
+Pagrindinis puslapis
+Norwegian:
+Hjem
+Polish:
+Strona główna
+Portuguese:
+Casa
+Romanian:
+Home
+Russian:
+Главная страница
+Slovak:
+Domov
+Slovenian:
+Domov
+Spanish:
+Inicio
+Swedish:
+Hem
+Thai:
+หน้าแรก
+Turkish:
+Ana sayfa
+Ukrainian:
+Головна
+Vietnamese:
+Trang chủ

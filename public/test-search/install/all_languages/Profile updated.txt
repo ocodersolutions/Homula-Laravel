@@ -1,0 +1,72 @@
+﻿Arabic:
+تحديث التشكيل الجانبي
+Bulgarian:
+Профил на актуализирана
+Catalan:
+Perfil d'Actualització
+Chinese Simplified:
+更新配置文件
+Czech:
+Profil aktualizován
+Danish:
+Profil opdateret
+Dutch:
+Profiel bijgewerkt
+English:
+Profile updated
+Estonian:
+Värskendatud profiil
+Finnish:
+Päivitetty profiili
+French:
+Profil mis à jour
+German:
+Profil aktualisiert
+Greek:
+Προφίλ updated
+Haitian Creole:
+Wofil à
+Hebrew:
+פרופיל עודכן
+Hindi:
+प्रोफ़ाइल अद्यतन
+Hungarian:
+A profil frissítése
+Indonesian:
+Profil diperbarui
+Italian:
+Profilo aggiornato
+Japanese:
+プロファイルの更新
+Korean:
+프로필 업데이트
+Latvian:
+Profilu, kas atjaunināta
+Lithuanian:
+Atnaujintas profilis
+Norwegian:
+Profilen som er oppdatert
+Polish:
+Profil zaktualizowane
+Portuguese:
+Perfil atualizado
+Romanian:
+Profil actualizate
+Russian:
+Обновление профиля
+Slovak:
+Profil aktualizované
+Slovenian:
+Profil posodobljen
+Spanish:
+Perfil actualizado
+Swedish:
+Profil uppdaterad
+Thai:
+ส่วนกำหนดค่าการปรับปรุง
+Turkish:
+Updated profili
+Ukrainian:
+Профіль Оновлено
+Vietnamese:
+Hồ sơ Cập Nhật

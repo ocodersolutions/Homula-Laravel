@@ -1,0 +1,72 @@
+﻿Arabic:
+ثنائية الاتجاه
+Bulgarian:
+Дуплекс
+Catalan:
+Dúplex
+Chinese Simplified:
+双面打印
+Czech:
+Oboustranný tisk
+Danish:
+Duplex
+Dutch:
+Duplex
+English:
+Duplex
+Estonian:
+Duplex
+Finnish:
+Kaksipuolinen tulostus
+French:
+Duplex
+German:
+Duplex
+Greek:
+Αμφίδρομη λειτουργία
+Haitian Creole:
+Duplex
+Hebrew:
+דופלקס
+Hindi:
+द्वैध
+Hungarian:
+Kétoldalas nyomtatás
+Indonesian:
+Duplex
+Italian:
+Duplex
+Japanese:
+両面印刷
+Korean:
+양면 인쇄
+Latvian:
+Abpusējās drukas
+Lithuanian:
+Dvipusis spausdinimas
+Norwegian:
+Dupleks
+Polish:
+Drukowanie dwustronne
+Portuguese:
+Duplex
+Romanian:
+Duplex
+Russian:
+Дуплекс
+Slovak:
+Obojstranná tlač
+Slovenian:
+Dupleks
+Spanish:
+Dúplex
+Swedish:
+Duplex
+Thai:
+เพล็กซ์
+Turkish:
+Çift yönlü
+Ukrainian:
+Двостороннє
+Vietnamese:
+Song

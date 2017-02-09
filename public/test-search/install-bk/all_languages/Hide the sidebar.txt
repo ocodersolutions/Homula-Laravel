@@ -1,0 +1,76 @@
+﻿Arabic:
+إخفاء الشريط الجانبي
+Bulgarian:
+Скриване на страничната лента
+Catalan:
+Amaga la barra lateral
+Chinese Simplified:
+隐藏侧边栏
+Czech:
+Skrýt boční panel
+Danish:
+Skjule indholdsoversigten
+Dutch:
+De zijbalk verbergen
+English:
+Hide the sidebar
+Estonian:
+Peida külgriba
+Finnish:
+Piilota sivupalkki
+French:
+Masquer la barre latérale
+German:
+Die Seitenleiste ausblenden
+Greek:
+Απόκρυψη sidebar
+Haitian Creole:
+Sere a le
+Hebrew:
+הסתר את סרגל צידי
+Hindi:
+साइडबार छुपाएँ
+Hmong Daw:
+Nkaum hauv sidebar
+Hungarian:
+Az oldalsáv elrejtése
+Indonesian:
+Menyembunyikan sidebar
+Italian:
+Nascondere la barra laterale
+Japanese:
+サイドバーを非表示に
+Korean:
+사이드바 숨기기
+Latvian:
+Paslēpt sānjoslu
+Lithuanian:
+Slėpti šoninę juostą
+Norwegian:
+Skjule sidepanelet
+Persian:
+پنهان کردن نوار جانبی
+Polish:
+Ukryj pasek boczny
+Portuguese:
+Ocultar a barra lateral
+Romanian:
+Ascundeţi bara laterală
+Russian:
+Скрыть боковую панель
+Slovak:
+Skryť sidebar
+Slovenian:
+Oče je
+Spanish:
+Ocultar la barra lateral
+Swedish:
+Dölja sidofältet
+Thai:
+ซ่อน sidebar
+Turkish:
+Kenar çubuğunu gizle
+Ukrainian:
+Приховати бічну панель
+Vietnamese:
+Ẩn thanh bên

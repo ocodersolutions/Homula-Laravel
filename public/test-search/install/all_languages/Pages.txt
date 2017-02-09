@@ -1,0 +1,76 @@
+﻿Arabic:
+صفحات
+Bulgarian:
+Страници
+Catalan:
+Pàgines
+Chinese Simplified:
+页
+Czech:
+Stránky
+Danish:
+Sider
+Dutch:
+Pagina 's
+English:
+Pages
+Estonian:
+Leheküljed
+Finnish:
+Sivut
+French:
+Pages
+German:
+Seiten
+Greek:
+Σελίδες
+Haitian Creole:
+Paj
+Hebrew:
+עמודים
+Hindi:
+पेज
+Hmong Daw:
+Nplooj ntawv
+Hungarian:
+Oldalak
+Indonesian:
+Halaman
+Italian:
+Pagine
+Japanese:
+ページ
+Korean:
+페이지
+Latvian:
+Lapas
+Lithuanian:
+Puslapių
+Norwegian:
+Sider
+Persian:
+صفحات
+Polish:
+Strony
+Portuguese:
+Páginas
+Romanian:
+Pagini
+Russian:
+Страниц
+Slovak:
+Stránky
+Slovenian:
+Strani
+Spanish:
+Páginas
+Swedish:
+Sidor
+Thai:
+เพ
+Turkish:
+Sayfaları
+Ukrainian:
+Сторінки
+Vietnamese:
+Các trang

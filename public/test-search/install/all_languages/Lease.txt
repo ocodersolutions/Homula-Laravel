@@ -1,0 +1,72 @@
+﻿Arabic:
+عقد الإيجار
+Bulgarian:
+Лизинг
+Catalan:
+Contracte d'arrendament
+Chinese Simplified:
+租赁
+Czech:
+Zapůjčení
+Danish:
+Leasing
+Dutch:
+Lease
+English:
+Lease
+Estonian:
+Üürilepingu
+Finnish:
+Vuokrasopimuksen
+French:
+Contrat de location
+German:
+Mietvertrag
+Greek:
+Εκμίσθωση
+Haitian Creole:
+Location
+Hebrew:
+רשיון חכירה
+Hindi:
+पट्टा
+Hungarian:
+Lízing
+Indonesian:
+Sewa
+Italian:
+Contratto di locazione
+Japanese:
+リース
+Korean:
+임대
+Latvian:
+Līzings
+Lithuanian:
+Nuomos
+Norwegian:
+Leieavtalen
+Polish:
+Dzierżawa
+Portuguese:
+Locação
+Romanian:
+Leasing
+Russian:
+Аренда
+Slovak:
+Prenájom
+Slovenian:
+Najem
+Spanish:
+Arrendamiento
+Swedish:
+Leasing
+Thai:
+เช่าซื้อ
+Turkish:
+Kira
+Ukrainian:
+Оренда
+Vietnamese:
+Cho thuê

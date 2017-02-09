@@ -1,0 +1,72 @@
+﻿Arabic:
+الذهاب إلى بلدي القوائم
+Bulgarian:
+Преминаване към моите списъци
+Catalan:
+Anar a les meves llistes
+Chinese Simplified:
+转到我的节目表
+Czech:
+Přejít na moje výpisy
+Danish:
+Gå til min programoversigter
+Dutch:
+Ga naar mijn aanbiedingen
+English:
+Go To My Listings
+Estonian:
+Minge lehele Minu Listings
+Finnish:
+Siirry Omat luettelot
+French:
+Aller à mes annonces
+German:
+Gehen Sie auf meine Angebote
+Greek:
+Μεταβείτε μου καταχωρήσεις
+Haitian Creole:
+Ale pou m' Annonces
+Hebrew:
+ללכת על רישומי אזור
+Hindi:
+अपनी लिस्टिंग के लिए जाओ
+Hungarian:
+Ugrás a Listázásaim
+Indonesian:
+Pergi ke daftar saya
+Italian:
+Vai a mie inserzioni
+Japanese:
+私のリストに行く
+Korean:
+내 목록으로 이동
+Latvian:
+Dodieties uz savu sarakstu
+Lithuanian:
+Eikite Į mano aukcionai
+Norwegian:
+Gå til min Listings
+Polish:
+Przejdź do mój program telewizyjny
+Portuguese:
+Ir para meus Imóveis
+Romanian:
+Du-te la meu Listings
+Russian:
+Перейти К моей листинги
+Slovak:
+Prejsť na mojej výpisy
+Slovenian:
+Pojdi na moji oglasi
+Spanish:
+Ir a mis anuncios
+Swedish:
+Gå till mina listor
+Thai:
+ไปที่รายการของฉัน
+Turkish:
+Benim listeleri git
+Ukrainian:
+Перейти до мого листинги
+Vietnamese:
+Đi đến danh sách của tôi

@@ -1,0 +1,82 @@
+﻿Arabic:
+حدد الحمام
+Bulgarian:
+Изберете баня
+Catalan:
+Seleccioneu el bany
+Chinese Simplified:
+选择浴室
+Czech:
+Vybrat koupelna
+Danish:
+Vælg badeværelse
+Dutch:
+Selecteer badkamer
+English:
+Select Bathroom
+Estonian:
+Valige vannituba
+Finnish:
+Valitse Kylpyhuone
+French:
+Sélectionnez une salle de bains
+German:
+Wählen Sie Badezimmer
+Greek:
+Επιλέξτε μπάνιο
+Haitian Creole:
+Fè chwa sal de ben
+Hebrew:
+בחר אמבטיה
+Hindi:
+बाथरूम का चयन करें
+Hmong Daw:
+Xaiv hoob nab
+Hungarian:
+Válassza ki a fürdőszoba
+Indonesian:
+Pilih kamar mandi
+Italian:
+Selezionare bagno
+Japanese:
+浴室を選択します
+Klingon:
+puchpa' wIv
+Korean:
+목욕탕을 선택
+Latvian:
+Atlasiet vannas istabā
+Lithuanian:
+Pasirinkite vonios kambarys
+Malay:
+Pilih bilik mandi
+Norwegian:
+Velg bad
+Persian:
+را انتخاب کنید حمام
+Polish:
+Wybierz łazienka
+Portuguese:
+Selecione a casa de banho
+Romanian:
+Selectaţi baie
+Russian:
+Выберите Ванная комната
+Slovak:
+Výber Kúpeľňa
+Slovenian:
+Izberite kopalnica
+Spanish:
+Seleccione el cuarto de baño
+Swedish:
+Välj badrum
+Thai:
+เลือกห้องน้ำ
+Turkish:
+Banyo seçin
+Ukrainian:
+Виберіть ванної
+Urdu:
+غسُل خانہ منتخب کریں
+Vietnamese:
+Chọn phòng tắm

@@ -1,0 +1,74 @@
+﻿Arabic:
+في علامة تبويب جديدة
+Bulgarian:
+в нов раздел
+Catalan:
+en tabulador nou
+Chinese Simplified:
+在新选项卡
+Czech:
+v nové kartě
+Danish:
+i nyt faneblad
+Dutch:
+in nieuw tabblad
+English:
+in new tab
+Estonian:
+uues vahekaardis
+Finnish:
+uudessa välilehdessä
+French:
+dans un nouvel onglet
+German:
+in neuem tab
+Greek:
+στη νέα καρτέλα
+Haitian Creole:
+nan nouvo onglet
+Hebrew:
+בכרטיסיה חדשה
+Hindi:
+नए टैब में
+Hmong Daw:
+nyob hauv cov tshiab tab
+Hungarian:
+új lapon
+Indonesian:
+di tab baru
+Italian:
+in nuova scheda
+Japanese:
+新しいタブで
+Korean:
+새 탭에서
+Latvian:
+jaunā cilnē
+Lithuanian:
+naujame skirtuke
+Norwegian:
+i ny fane
+Polish:
+w nowej zakładce
+Portuguese:
+em nova aba
+Romanian:
+în noua filă
+Russian:
+в новой вкладке
+Slovak:
+na novej karte
+Slovenian:
+v novem zavihku
+Spanish:
+en una nueva pestaña
+Swedish:
+i ny flik
+Thai:
+ในแท็บใหม่
+Turkish:
+yeni bir sekme
+Ukrainian:
+у новій вкладці
+Vietnamese:
+trong tab mới

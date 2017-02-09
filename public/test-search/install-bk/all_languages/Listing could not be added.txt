@@ -1,0 +1,72 @@
+﻿Arabic:
+لا يمكن إضافة إدخال قائمة
+Bulgarian:
+Списък не можа да бъде добавен
+Catalan:
+No s'ha pogut afegir la llista
+Chinese Simplified:
+无法添加上市
+Czech:
+Nelze přidat výpis
+Danish:
+Notering kunne ikke tilføjes
+Dutch:
+Aanbieding kan niet worden toegevoegd
+English:
+Listing could not be added
+Estonian:
+Loetelu ei saa lisada
+Finnish:
+Luetteloon ei voi lisätä
+French:
+Liste des pièces justificatives n'a pas pu être ajouté
+German:
+Eintrag konnte nicht hinzugefügt werden
+Greek:
+Δεν ήταν δυνατή η προσθήκη της λίστας
+Haitian Creole:
+Annonce te kapab pa être ajouté
+Hebrew:
+לא היתה אפשרות להוסיף רישום
+Hindi:
+लिस्टिंग जोड़ा नहीं जा सका
+Hungarian:
+Nem adható hozzá a tőzsdei
+Indonesian:
+Daftar tidak bisa ditambahkan
+Italian:
+Elenco potrebbe non essere aggiunto
+Japanese:
+リストを追加できませんでした。
+Korean:
+목록에 추가할 수 없습니다.
+Latvian:
+Sarakstu nevarēja pievienot
+Lithuanian:
+Įtraukimo į sąrašą negalima įtraukti
+Norwegian:
+Oppføringen kan ikke legges til
+Polish:
+Nie można dodać listę
+Portuguese:
+Listagem não pôde ser adicionada
+Romanian:
+Cota nu ar putea fi adăugate
+Russian:
+Список не может быть добавлен
+Slovak:
+Nie je možné pridať zoznam
+Slovenian:
+Kotacija ni mogoče dodati
+Spanish:
+No se pudo agregar anuncio
+Swedish:
+Notering kunde inte läggas
+Thai:
+ไม่สามารถเพิ่มรายการ
+Turkish:
+Liste eklenemedi
+Ukrainian:
+Не вдалося додати список
+Vietnamese:
+Không thể thêm danh sách

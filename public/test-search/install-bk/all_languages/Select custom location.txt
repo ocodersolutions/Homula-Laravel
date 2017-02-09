@@ -1,0 +1,74 @@
+﻿Arabic:
+حدد موقع مخصص
+Bulgarian:
+Изберете местоположение по избор
+Catalan:
+Seleccioni la localització de costum
+Chinese Simplified:
+选择自定义位置
+Czech:
+Vyberte vlastní umístění.
+Danish:
+Vælg brugerdefineret placering
+Dutch:
+Selecteer aangepaste locatie
+English:
+Select custom location
+Estonian:
+Valige kohandatud asukoht
+Finnish:
+Valitse mukautettu sijainti
+French:
+Sélectionnez l'emplacement personnalisé
+German:
+Wählen Sie benutzerdefinierten Speicherort
+Greek:
+Επιλέξτε προσαρμοσμένη θέση
+Haitian Creole:
+Fè chwa personnalisé kote yo ye
+Hebrew:
+בחר מיקום מותאם אישית
+Hindi:
+कस्टम स्थान का चयन करें
+Hmong Daw:
+Xaiv qhov chaw muaj kev cai
+Hungarian:
+Jelölje be az egyéni helyen
+Indonesian:
+Pilih lokasi kustom
+Italian:
+Selezionare il percorso personalizzato
+Japanese:
+カスタムの場所を選択します。
+Korean:
+사용자 정의 위치 선택
+Latvian:
+Atlasiet pielāgotus atrašanās vietas
+Lithuanian:
+Pasirinkite vartotojo vietą
+Norwegian:
+Velg egendefinert plassering
+Polish:
+Wybierz niestandardową lokalizację
+Portuguese:
+Selecione local personalizado
+Romanian:
+Selectaţi amplasarea particularizată
+Russian:
+Выберите пользовательское местоположение
+Slovak:
+Zvoľte vlastné umiestnenie
+Slovenian:
+Izberite mesto po meri
+Spanish:
+Seleccione ubicación personalizada
+Swedish:
+Välj anpassad plats
+Thai:
+เลือกตำแหน่งที่ตั้งที่กำหนดเอง
+Turkish:
+Özel konum seçin
+Ukrainian:
+Виберіть розташування, в якому
+Vietnamese:
+Chọn vị trí tùy chỉnh

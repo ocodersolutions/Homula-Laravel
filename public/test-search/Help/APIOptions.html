@@ -1,0 +1,156 @@
+﻿<html>
+	
+<head>
+	<title>API Options</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Personal Edition 3.8.0.560">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "index.html?" + sTopicUrl;
+			}
+			else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+			{
+				top.FrameTOC.SelectTocItem("APIOptions");
+			}
+		});
+	</script>
+</head>
+
+<body>
+
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>API Options</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; <a href="AdminOptions.html">Admin Options</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="AdminOptions.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Adsenseorotherads.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Contactuspage.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">Using the undermentioned API options you can fetch data from an external data source. For ex, if you have already have a listing database with latitude and longitudes, you can use it with this script. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">1) JSON listings data source URL:</span><span class="rvts6"> You can fetch listings from an external database to this script. In order to do so, you'll need to write a script that reads data from your external database and outputs data in JSON format. The required JSON format is:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">({"5":{"id":"6","la":"43.5864","lo":"-79.6227","lt":"3","pr":"0","classification":"Available","su":"land-d"},</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp;"6":{"id":"7","la":"43.589","lo":"-79.6441","lt":"3","pr":"0","classification":"Available","su":"land-d"},</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp;"8":{"id":"10","la":"43.5615","lo":"-79.6269","lt":"3","pr":"0","classification":"Available","su":"land-a"},</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp;"12":{"id":"14","la":"30.3206","lo":"76.3951","pr":"100000","classification":"Available","su":"shared-d"},</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp;"13":{"id":"15","la":"43.6833","lo":"-79.7667","pr":"1000","classification":"Available","su":"land-d"},</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp;"14":{"id":"17","la":"25.1448","lo":"83.1347","pr":"0","classification":"Available","su":"shared-a"},</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp;"16":{"id":"19","la":"28.6353","lo":"77.225","pr":"0","classification":"Sale","su":"bachelor-d"} })</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Here </span><span class="rvts7">la</span><span class="rvts6"> is latitude and </span><span class="rvts7">lo</span><span class="rvts6"> is longitude. &nbsp;The above mentioned data should be wrapped in jQuery callback function which is dynamically sent to your URL. So for ex, if your your custom script is in php then it should print the data, in this format:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts21">print $_GET</span><span class="rvts22">[</span><span class="rvts23">'callback'</span><span class="rvts22">]</span><span class="rvts21">.</span><span class="rvts23">'('</span><span class="rvts21">.</span><span class="rvts6">[{"la":"43.589","lo":"-79.6441"},{"la":"43.6915","lo":"-79.5091"},.....]</span><span class="rvts21">.</span><span class="rvts23">')'</span><span class="rvts21">;</span></p>
+<p class="rvps2"><span class="rvts21"><br/></span></p>
+<p class="rvps2"><span class="rvts24">Please look at an example file name </span><span class="rvts25">'jsonDataTest.php'</span><span class="rvts24"> provided with this script. The function getMarkersJson2() returns data in JSON format i.e. </span><span class="rvts6">[{"la":"43.589","lo":"-79.6441"},{"la":"43.6915","lo":"-79.5091"},.....] and then we wrapped it with the callback function before outputting. The classified script can support 10s of thousands markers without any problem.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Following GET parameters will be sent to your URL from the search form: category, subcategories, price, requery, city. So you can fetch them like this:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">$_GET['category'] </span><span class="rvts6">: &nbsp;The category selected in the search form.</span></p>
+<p class="rvps2"><span class="rvts7">$_GET['subcategories']</span><span class="rvts6"> : Selected subcategories separated by a comma, for ex: Activities,Classes,Events</span></p>
+<p class="rvps2"><span class="rvts7">$_GET['price']</span><span class="rvts6"> : Selected price range without the currency sign, for ex 400-800</span></p>
+<p class="rvps2"><span class="rvts7">$_GET['requery']</span><span class="rvts6"> : Specific query entered by the viewer in Keyword/Street/ID/Postal text box.</span></p>
+<p class="rvps2"><span class="rvts7">$_GET['city'] </span><span class="rvts6">: The city name entered in the city text box on the search form.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">So its upon your custom function to fetch these parameters and output latitude, longitude data based on this search criteria.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">2) JSON URL for text results on map:</span><span class="rvts6"> This is the url of the page which should return text results in map mode. You can refer to $allTextListings in function getTextDataJson of functions.inc.php to view the correct format of data that will be returned.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;div id="textrecord-17" class="textrecord"&gt;</span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;div class="textimage"&gt;&lt;img width="80" src="images/no-image.png"&gt;&lt;/div&gt;</span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;div class="textcontent"&gt;Content goes here for listing #17&lt;/div&gt;</span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;span class="textlatlong" style="display:none;"&gt;25.1448,83.1347&lt;/span&gt;</span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;/div&gt;</span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;div id="textrecord-15" class="textrecord"&gt;</span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;div class="textimage"&gt;&lt;img width="80" src="images/no-image.png"&gt;&lt;/div&gt;</span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;div class="textcontent"&gt;Content goes here for listing #15&lt;/div&gt;</span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;span class="textlatlong" style="display:none;"&gt;25.1241,83.1154&lt;/span&gt;</span></p>
+<p class="rvps2"><span class="rvts28"><br/></span></p>
+<p class="rvps2"><span class="rvts28">&lt;/div&gt;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Here 17 is the listing id so div id is textrecord-17 and 25.1448,83.1347 are the latitude &amp; longitude of the listing, separated by a coma. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">3) JSON marker data URL:</span><span class="rvts6"> This is the url of the page which should return marker data when a marker is clicked and the data returned by your URL is shown in the marker balloon. The data outputted should be in json format and wrapped in jQuery callback function as mentioned above. Following GET parameter is passed on to the external URL: latlng . Your script can use it to query your database for the listing/s at this particular latitude and longitude.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">$_GET['latlng']</span><span class="rvts6"> : latlng will have latitude and longitude separated by comma, for ex: 43.6548,-79.5642 . Please look at the provided example file name ajaxTest.php</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The output data can contain html too but as mentioned above, the entire data should be json encoded before outputting. In php it can be easily done i.e. you can convert a string of data to json encoded string using json_encode function. You can output multiple listing data, If there are multiple listings related to same latitude and longitude. You custom function will have full control on how you want the marker pop to look like. So in our example php file, we use a function markerData to fetch the data related to the provided latitude, longitude. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts26">print </span><span class="rvts21">$_GET</span><span class="rvts22">[</span><span class="rvts23">'callback'</span><span class="rvts22">]</span><span class="rvts21">.</span><span class="rvts23">'('</span><span class="rvts21">.$markerData</span><span class="rvts22">[</span><span class="rvts27">0</span><span class="rvts22">]</span><span class="rvts21">.</span><span class="rvts23">')'</span><span class="rvts21">;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">so the output for a single marker pop looks like this:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts21">$_GET</span><span class="rvts22">[</span><span class="rvts23">'callback'</span><span class="rvts22">]</span><span class="rvts21">.</span><span class="rvts6">("This is the marker data related to the coordinates: 43.6548,-79.5642")</span><span class="rvts21">.</span><span class="rvts23">')';</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">or even return complex html data, for ex:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts21">$_GET</span><span class="rvts22">[</span><span class="rvts23">'callback'</span><span class="rvts22">]</span><span class="rvts21">.</span><span class="rvts6">("&lt;div class='markerInfo' &nbsp;&gt;&lt;h4&gt;Praesent ac nisl eu mi viverra posuere eu at ante. Ut sem leo, ultrices sed vestibulum vitae, adipis&lt;\/h4&gt;&lt;font style='font-size:85%;'&gt;&lt;b&gt;Community - Volunteers&lt;\/b&gt; (#20), &lt;b&gt;Phone:&lt;\/b&gt; 123-456-7890, &lt;b&gt;Address:&lt;\/b&gt; 1234 Sample street, &lt;b&gt;City:&lt;\/b&gt; Etobicoke&lt;\/font&gt;&lt;br \/&gt;&lt;div class='mapInfoText' style='float:left; width:70%; padding:10px 10px 0 0;'&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. In placerat accumsan enim ac aliquam. Etiam vitae nibh eget ante pellentesque posuere. Cras odio nunc, interdum vel semper vitae, posuere eget metus. Fusce ac tellus nulla, et pharetra magna. Duis sit amet pellentesque magna. Vestibulum vel arcu nisi, vitae sodales nulla. Maecenas fringilla d.... &lt;br \/&gt;&lt;a class='btn pull-right' style='margin-top:5px;' target='_blank' href='index.php?ptype=viewFullListing&amp;reid=20'&gt;Direct Link&lt;\/a&gt; &lt;a class='btn btn-info pull-right' style='margin-top:5px; margin-right:5px;' href='#' id='theListingLink'&gt;&lt;span id='20'&gt;More Info&lt;\/span&gt;&lt;\/a&gt;&lt;\/div&gt;&lt;div class='mapInfoPic'&gt;&lt;a href='gallery.php?adid=20'&gt;&lt;img height='120' src='timthumb.php?h=120&amp;src=http:\/\/www.codiator.com\/real-estate-made-easy\/uploads\/scottwills_city_1328159416.jpg' \/&gt;&lt;\/a&gt;&lt;\/div&gt;&lt;\/div&gt;")</span><span class="rvts21">.</span><span class="rvts23">')';</span></p>
+<p class="rvps2"><span class="rvts23"><br/></span></p>
+<p class="rvps2"><span class="rvts6">As you see the above data is json encoded so it automatically escapes the data. The data outputted by your custom URL would be shown in the marker balloon of the clicked marker. If you also want to implement 'More Info' button, which when clicked shows a dynamic page over the map, you'll need to make sure that the link has the following format:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">&lt;a href='#' </span><span class="rvts7">id='theListingLink'</span><span class="rvts6">&gt;&lt;span </span><span class="rvts7">id='20'</span><span class="rvts6">&gt;More Info&lt;/span&gt;&lt;/a&gt;</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The &lt;a element should have the id='theListingLink' and &lt;span inside it should have the id of the listing in question. For ex, here the id=20' means that we want to fetch listing #20 when 'more Info' link is clicked. The listing id would be passed to the URL mentioned below.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">4) JSON full listing data URL:</span><span class="rvts6"> This is the url of the page which should return data for a particular listing identified by id returned by 'More Info' link as mentioned above. This is optional, i.e. if you don't want to implement 'More Info' button/link. The data returned is shown in the dynamic page which is shown above the map when 'More Info' button is being clicked. Please look at the test file name listingJsonTest.php which outputs the entire listing content in JSON format for the listing identified by </span><span class="rvts7">id</span><span class="rvts6"> in an external database.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">print $_GET['callback'].'('.getMapListingTest($_GET['id']).')';</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">The function getMapListingTest($_GET['id']) returns the json encoded data for the listing identified by</span><span class="rvts7"> id</span><span class="rvts6">.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+<p class="rvps3"><span class="rvts9">Created with the Personal Edition of HelpNDoc: </span><a class="rvts10" href="http://www.helpndoc.com/help-authoring-tool">Create HTML Help, DOC, PDF and print manuals from 1 single source</a></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Ravinder Mann - Fine Themes - All Rights Reserved</div>
+		</div>
+	</body>
+	
+</html>
+

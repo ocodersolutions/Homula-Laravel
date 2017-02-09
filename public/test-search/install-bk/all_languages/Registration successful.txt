@@ -1,0 +1,72 @@
+﻿Arabic:
+التسجيل الناجح
+Bulgarian:
+Успешна регистрация
+Catalan:
+Registre d'èxit
+Chinese Simplified:
+注册成功
+Czech:
+Registrace úspěšná
+Danish:
+Registrering vellykket
+Dutch:
+Succesvolle registratie
+English:
+Registration successful
+Estonian:
+Registreerimise eduka
+Finnish:
+Rekisteröinti onnistui
+French:
+Inscription réussie
+German:
+Registrierung erfolgreich
+Greek:
+Επιτυχής καταχώρηση
+Haitian Creole:
+Enskripsyon siksè
+Hebrew:
+רישום מוצלח
+Hindi:
+सफल पंजीकरण
+Hungarian:
+Sikeres regisztráció
+Indonesian:
+Pendaftaran sukses
+Italian:
+Registrazione di successo
+Japanese:
+登録成功
+Korean:
+등록 성공
+Latvian:
+Veiksmīgas reģistrācijas
+Lithuanian:
+Registracijos sėkmingai
+Norwegian:
+Vellykket registrering
+Polish:
+Rejestracji pomyślnych
+Portuguese:
+Registo com êxito
+Romanian:
+Înregistrare de succes
+Russian:
+Регистрация успешных
+Slovak:
+Zápis úspešným
+Slovenian:
+Registracije, ki so uspešno
+Spanish:
+Registro exitoso
+Swedish:
+Registrering framgångsrika
+Thai:
+การลงทะเบียน
+Turkish:
+Kayıt başarılı
+Ukrainian:
+Реєстрація успішним
+Vietnamese:
+Đăng ký thành công

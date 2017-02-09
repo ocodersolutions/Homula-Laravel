@@ -1,0 +1,72 @@
+﻿Arabic:
+قائمة المفضلة
+Bulgarian:
+Списък на Предпочитани
+Catalan:
+Llista de preferit
+Chinese Simplified:
+最喜欢的上市
+Czech:
+Oblíbené výpis
+Danish:
+Foretrukne notering
+Dutch:
+Favoriete aanbieding
+English:
+Like Listing
+Estonian:
+Lemmikute loetelu
+Finnish:
+Suosikki listalle
+French:
+Liste des favoris
+German:
+Favoriten Liste
+Greek:
+Λίστα αγαπημένων
+Haitian Creole:
+Pi renmen ki nan lis
+Hebrew:
+רישום מועדפים
+Hindi:
+पसंदीदा लिस्टिंग
+Hungarian:
+Kedvenc tőzsdei
+Indonesian:
+Daftar favorit
+Italian:
+Elenco preferito
+Japanese:
+お気に入りの一覧
+Korean:
+즐겨찾기 목록
+Latvian:
+Izlases saraksts
+Lithuanian:
+Parankinių sąrašas
+Norwegian:
+Favoritt liste
+Polish:
+Lista ulubionych
+Portuguese:
+Lista de favorita
+Romanian:
+Cota preferat
+Russian:
+Любимый список
+Slovak:
+Obľúbený výpis
+Slovenian:
+Najljubši kotacijo
+Spanish:
+Lista de favorito
+Swedish:
+Favorit notering
+Thai:
+รายชื่อรายการโปรด
+Turkish:
+Favori listesi
+Ukrainian:
+Улюблений лістингу
+Vietnamese:
+Danh sách yêu thích

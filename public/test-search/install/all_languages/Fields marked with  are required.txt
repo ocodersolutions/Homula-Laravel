@@ -1,0 +1,72 @@
+﻿Arabic:
+* وضع علامة مطلوب
+Bulgarian:
+° маркиран се изисква
+Catalan:
+* marcat s'exigeix
+Chinese Simplified:
+＊ 标记是必需的
+Czech:
+| označené je vyžadována
+Danish:
+* markeret kræves
+Dutch:
+* gemarkeerd is vereist
+English:
+* marked is required
+Estonian:
+* märgistatud on nõutav
+Finnish:
+* merkitty vaaditaan
+French:
+* marqué est requis
+German:
+* gekennzeichnet ist erforderlich
+Greek:
+* σήμανση απαιτείται
+Haitian Creole:
+* make mande l
+Hebrew:
+* המסומנים נדרש
+Hindi:
+* चिह्नित की आवश्यकता है
+Hungarian:
+* jelölt szükség
+Indonesian:
+* ditandai diperlukan
+Italian:
+* Contrassegnato è richiesto
+Japanese:
+※ マークは必須です。
+Korean:
+* 표시는 필수
+Latvian:
+* atzīmēt, ir nepieciešama
+Lithuanian:
+* pažymėti reikia
+Norwegian:
+* merket kreves
+Polish:
+* oznaczone jest wymagane
+Portuguese:
+* marcado é necessário
+Romanian:
+* marcat este necesară
+Russian:
+* помечены не требуется
+Slovak:
+* označené požaduje
+Slovenian:
+* označena je potrebna
+Spanish:
+* marcados es necesario
+Swedish:
+* märkt krävs
+Thai:
+* ทำเครื่องหมายถูกต้อง
+Turkish:
+* işaretli gereklidir
+Ukrainian:
+* відмічені необхідна
+Vietnamese:
+* đánh dấu được yêu cầu

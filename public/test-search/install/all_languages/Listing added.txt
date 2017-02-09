@@ -1,0 +1,72 @@
+﻿Arabic:
+إضافة إدخال قائمة
+Bulgarian:
+Добавен списък
+Catalan:
+Llista d'afegit
+Chinese Simplified:
+添加列表
+Czech:
+Seznam přidán
+Danish:
+Notering tilføjet
+Dutch:
+Aanbieding toegevoegd
+English:
+Listing added
+Estonian:
+Lisatud loetelu
+Finnish:
+Lisätty luettelo
+French:
+Liste ajoutée
+German:
+Liste hinzugefügt
+Greek:
+Καταχώρηση προστέθηκε
+Haitian Creole:
+Annonce te ajoute
+Hebrew:
+פירוט נוסף
+Hindi:
+जोड़ा गया लिस्टिंग
+Hungarian:
+Tőzsdei hozzáadott
+Indonesian:
+Daftar yang ditambahkan
+Italian:
+Quotazione aggiunto
+Japanese:
+[リストの追加
+Korean:
+목록 추가
+Latvian:
+Sarakstā, kas pievienots
+Lithuanian:
+Papildomas sąrašas
+Norwegian:
+Oppføringen lagt
+Polish:
+Lista dodaje
+Portuguese:
+Listagem adicionada
+Romanian:
+Cota adaugă
+Russian:
+Добавлен список
+Slovak:
+Zaradenie do zoznamu pridané
+Slovenian:
+Seznam, ki se doda
+Spanish:
+Anuncio añadido
+Swedish:
+Notering lagts till
+Thai:
+เพิ่มรายการ
+Turkish:
+Listesi eklendi
+Ukrainian:
+Лістинг, додав
+Vietnamese:
+Danh sách được gửi

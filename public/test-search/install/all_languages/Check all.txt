@@ -1,0 +1,80 @@
+﻿Arabic:
+تحقق من كافة
+Bulgarian:
+Проверка на всички
+Catalan:
+Marca'ls tots
+Chinese Simplified:
+请检查所有
+Czech:
+Zaškrtnout vše
+Danish:
+Check alle
+Dutch:
+Controleer alle
+English:
+Check all
+Estonian:
+Kontrollida kõiki
+Finnish:
+Tarkista kaikki
+French:
+Cocher toutes les
+German:
+Überprüfen Sie alle
+Greek:
+Ελέγξτε όλες
+Haitian Creole:
+Chèk tout
+Hebrew:
+סמן את כל
+Hindi:
+सभी की जाँच करें
+Hmong Daw:
+Kos rau tag nrho
+Hungarian:
+Ellenőrizze az összes
+Indonesian:
+Memeriksa semua
+Italian:
+Controllare tutti i
+Japanese:
+すべてをチェックします。
+Korean:
+모두 확인
+Latvian:
+Pārbaudīt visus
+Lithuanian:
+Patikrinti visus
+Malay:
+Semak semua
+Norwegian:
+Kryss av for alle
+Persian:
+بررسی همه
+Polish:
+Sprawdź wszystkie
+Portuguese:
+Verificar todos os
+Romanian:
+Verifica toate
+Russian:
+Проверить все
+Slovak:
+Skontrolovať všetky
+Slovenian:
+Preverite vse
+Spanish:
+Marque todas las
+Swedish:
+Kontrollera alla
+Thai:
+ตรวจสอบทั้งหมด
+Turkish:
+Tüm kontrol
+Ukrainian:
+Перевірити все
+Urdu:
+تمام پڑتال کریں
+Vietnamese:
+Kiểm tra tất cả

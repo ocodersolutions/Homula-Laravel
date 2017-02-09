@@ -1,0 +1,72 @@
+﻿Arabic:
+الرجاء إدخال البريد الإلكتروني الخاص بك
+Bulgarian:
+Моля, въведете вашия ИД на имейл
+Catalan:
+Si us plau introdueix el seu ID d'e-mail
+Chinese Simplified:
+请输入您的电子邮件 ID
+Czech:
+Prosím zadejte vaše ID e-mailu
+Danish:
+Indtast venligst dit e-mail-ID
+Dutch:
+Voer uw e-ID
+English:
+Please enter your email ID
+Estonian:
+Palun sisestage oma e-posti ID
+Finnish:
+Kirjoita sähköposti-ID
+French:
+Veuillez entrer votre identifiant de Courriel
+German:
+Bitte geben Sie Ihre e-Mail-ID
+Greek:
+Εισαγάγετε το ID σας ηλεκτρονικού ταχυδρομείου
+Haitian Creole:
+Souple antre ou Didantite kouryèll
+Hebrew:
+נא הזן את מזהה דואר אלקטרוני
+Hindi:
+कृपया अपना ईमेल आईडी दर्ज करें
+Hungarian:
+Adja meg a elektronikus levél azonosítás
+Indonesian:
+Masukkan ID email Anda
+Italian:
+Per favore Inserisci il tuo ID e-mail
+Japanese:
+お客様のメール ID を入力してください。
+Korean:
+귀하의 이메일 ID를 입력 하십시오.
+Latvian:
+Lūdzu, ievadiet savu e-pasta ID
+Lithuanian:
+Įveskite savo elektroninio pašto ID
+Norwegian:
+Skriv inn din e-ID
+Polish:
+Wprowadź swój identyfikator wiadomości e-mail
+Portuguese:
+Por favor, digite seu ID de correio electrónico
+Romanian:
+Vă rugăm să introduceţi ID-ul de e-mail
+Russian:
+Пожалуйста, введите свой электронный Идентификатор
+Slovak:
+Zadajte prosím váš email ID
+Slovenian:
+Prosim vnesite vaš email ID
+Spanish:
+Por favor, introduzca su ID de correo electrónico
+Swedish:
+Ange din e-post-ID
+Thai:
+กรุณาใส่รหัสอีเมล์ของคุณ
+Turkish:
+Lütfen e-posta kimliği girin
+Ukrainian:
+Будь ласка, введіть свій електронний Ідентифікатор
+Vietnamese:
+Hãy nhập ID email của bạn

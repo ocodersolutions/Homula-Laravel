@@ -1,0 +1,72 @@
+﻿Arabic:
+الزراعية
+Bulgarian:
+Земеделски
+Catalan:
+Agrícola
+Chinese Simplified:
+农业
+Czech:
+Zemědělské
+Danish:
+Landbrugsprodukter
+Dutch:
+Landbouw
+English:
+Agricultural
+Estonian:
+Põllumajandus
+Finnish:
+Maatalouden
+French:
+Agricole
+German:
+Landwirtschaft
+Greek:
+Γεωργικών
+Haitian Creole:
+Agrikòl
+Hebrew:
+חקלאי
+Hindi:
+कृषि
+Hungarian:
+Mezőgazdasági
+Indonesian:
+Pertanian
+Italian:
+Agricola
+Japanese:
+農業
+Korean:
+농업
+Latvian:
+Lauksaimniecības
+Lithuanian:
+Žemės ūkio
+Norwegian:
+Landbruk
+Polish:
+Rolnych
+Portuguese:
+Agrícolas
+Romanian:
+Agricole
+Russian:
+Сельского хозяйства
+Slovak:
+Poľnohospodárske
+Slovenian:
+Kmetijskih
+Spanish:
+Agrícola
+Swedish:
+Jordbruket
+Thai:
+ด้านการเกษตร
+Turkish:
+Tarım
+Ukrainian:
+Сільське господарство
+Vietnamese:
+Nông nghiệp

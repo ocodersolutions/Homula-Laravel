@@ -1,0 +1,121 @@
+﻿<html>
+	
+<head>
+	<title>Installation</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Personal Edition 3.8.0.560">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "index.html?" + sTopicUrl;
+			}
+			else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+			{
+				top.FrameTOC.SelectTocItem("Installation");
+			}
+		});
+	</script>
+</head>
+
+<body>
+
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>Installation</h1>
+				
+				<div id="topic_breadcrumb">
+					<a href="GettingStarted.html">Getting Started</a> &rsaquo;&rsaquo; </div>
+				</div>
+			<div id="topic_header_nav">
+				<a href="GettingStarted.html"><img src="img/arrow_up.png" alt="Parent"/></a>
+				
+				<a href="Systemrequirements.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="Configoptions.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts7">Installation</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">1. Download the zip archive of &nbsp;</span><span class="rvts7">Real estate made easy</span><span class="rvts6"> software on your computer.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">2. Unpack the zip archive.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">3. Upload the entire folder to your hosting space.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">4. Point your browser to the install folder, for ex if you uploaded the entire folder to myWebsite.com then point your browser to</span></p>
+<p class="rvps2"><span class="rvts6">http://www.myWebsite.com/install/</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">5. The script would automatically check for file and folder permissions.</span></p>
+<p class="rvps2"><span class="rvts6">Make sure that following files/folders are writable:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts14">uploads</span><span class="rvts13"> folder is fully writable (linux command: chmod -R 777 uploads)</span></p>
+<p class="rvps2"><span class="rvts14">site.inc.php</span><span class="rvts13"> file is writable &nbsp;(linux command: chmod 777 site.inc.php)</span></p>
+<p class="rvps2"><span class="rvts14">cache</span><span class="rvts13"> folder is writable &nbsp;(linux command: chmod 777 -R cache)</span></p>
+<p class="rvps2"><span class="rvts14">cache/index.html</span><span class="rvts13"> file is writable &nbsp; &nbsp; (linux command: chmod 777 cache/index.html)</span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13">If you use FileZilla client for FTP transfer then you can give 777 permission by right clicking on file/folder name and type 777 in 'Numeric value' box. While giving permissions to 'uploads' and 'cache' folder also select 'recurse into subdirectories' option.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">6. Once the script detects that all those files/folders are writable, it would prompt you for your </span><span class="rvts7">MySQL host, database name, username and password</span><span class="rvts6">. Specify those values and click on </span><span class="rvts7">Install</span><span class="rvts6"> button.</span></p>
+<p class="rvps2"><span class="rvts6">Please note:- While creating a new database on your hosting account, please make sure that you give full privileges to it. In case of cpanel, you can specify that on 2nd step i.e after you specify database name, select 'All' option on the privileges page.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">7. Specify the website name, admin username and password in next step. Save your admin username and password in a safe place for future reference.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">8. Click on </span><span class="rvts7">'Finalize installation'</span><span class="rvts6">. You may contact me, if you face any issue or problem while installing this software.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts20">Important:</span><span class="rvts19"> Please change back the permission of </span><span class="rvts20">site.inc.php </span><span class="rvts19">(linux command: </span><span class="rvts20">chmod 755 site.inc.php</span><span class="rvts19"> ). Make sure that </span><span class="rvts20">site.inc.php</span><span class="rvts19"> is not world writable as otherwise it would be a serious security threat.</span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p></p>
+<p class="rvps3"><span class="rvts9">Created with the Personal Edition of HelpNDoc: </span><a class="rvts10" href="http://www.helpndoc.com/help-authoring-tool">Single source CHM, PDF, DOC and HTML Help creation</a></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Ravinder Mann - Fine Themes - All Rights Reserved</div>
+		</div>
+	</body>
+	
+</html>
+

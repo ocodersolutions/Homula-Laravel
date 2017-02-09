@@ -1,0 +1,72 @@
+﻿Arabic:
+مزيد من المعلومات
+Bulgarian:
+Повече информация
+Catalan:
+Més informació
+Chinese Simplified:
+详细信息
+Czech:
+Další informace
+Danish:
+Yderligere oplysninger
+Dutch:
+Meer informatie
+English:
+More Information
+Estonian:
+Lisateabe saamiseks
+Finnish:
+Lisätietoja
+French:
+Plus d'informations
+German:
+Weitere Informationen
+Greek:
+Περισσότερες πληροφορίες
+Haitian Creole:
+Plis enfòmasyon
+Hebrew:
+מידע נוסף
+Hindi:
+अधिक जानकारी
+Hungarian:
+További információ
+Indonesian:
+Informasi lebih lanjut
+Italian:
+Ulteriori informazioni
+Japanese:
+詳細について
+Korean:
+자세한 정보
+Latvian:
+Plašāku informāciju
+Lithuanian:
+Daugiau informacijos
+Norwegian:
+Hvis du vil ha mer informasjon
+Polish:
+Więcej informacji
+Portuguese:
+Mais informações
+Romanian:
+Mai multe informaţii
+Russian:
+Дополнительная информация
+Slovak:
+Ďalšie informácie
+Slovenian:
+Več informacij
+Spanish:
+Más información
+Swedish:
+Mer Information
+Thai:
+ข้อมูลเพิ่มเติม
+Turkish:
+Daha fazla bilgi
+Ukrainian:
+Додаткові відомості
+Vietnamese:
+Biết thêm thông tin

@@ -1,0 +1,72 @@
+﻿Arabic:
+يوجد بالفعل
+Bulgarian:
+вече съществува
+Catalan:
+ja existeix
+Chinese Simplified:
+已经存在
+Czech:
+již existuje
+Danish:
+findes allerede
+Dutch:
+bestaat al
+English:
+already exists
+Estonian:
+on juba olemas
+Finnish:
+on jo olemassa
+French:
+existe déjà
+German:
+bereits vorhanden
+Greek:
+υπάρχει ήδη
+Haitian Creole:
+deja yon pwofon
+Hebrew:
+כבר קיים
+Hindi:
+पहले से मौजूद है
+Hungarian:
+már létezik
+Indonesian:
+sudah ada
+Italian:
+esiste già
+Japanese:
+既に存在します。
+Korean:
+이미 있습니다.
+Latvian:
+jau pastāv
+Lithuanian:
+jau yra
+Norwegian:
+finnes allerede
+Polish:
+już istnieje
+Portuguese:
+já existe
+Romanian:
+există deja
+Russian:
+уже существует
+Slovak:
+už existuje
+Slovenian:
+že obstaja
+Spanish:
+ya existe
+Swedish:
+Det finns redan
+Thai:
+มีอยู่แล้ว
+Turkish:
+zaten var
+Ukrainian:
+уже існує
+Vietnamese:
+đã tồn tại

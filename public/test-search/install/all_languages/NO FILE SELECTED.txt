@@ -1,0 +1,72 @@
+﻿Arabic:
+لا يوجد ملف محدد
+Bulgarian:
+НЯМА ИЗБРАН ФАЙЛ
+Catalan:
+CAP FITXER SELECCIONAT
+Chinese Simplified:
+没有选择文件
+Czech:
+NENÍ VYBRÁN ŽÁDNÝ SOUBOR
+Danish:
+INGEN VALGTE FIL
+Dutch:
+GEEN BESTAND GESELECTEERD
+English:
+NO FILE SELECTED
+Estonian:
+ÜHTKI FAILI POLE VALITUD
+Finnish:
+EI VALITTUJA TIEDOSTOJA
+French:
+AUCUN FICHIER SÉLECTIONNÉ
+German:
+KEINE DATEI AUSGEWÄHLT
+Greek:
+ΚΑΝΈΝΑ ΑΡΧΕΊΟ ΕΠΙΛΕΓΜΈΝΟ
+Haitian Creole:
+PA FICHIER TE CHWAZI
+Hebrew:
+אין קובץ שנבחר
+Hindi:
+कोई फ़ाइल चयनित नहीं
+Hungarian:
+NINCS KIJELÖLT FÁJL
+Indonesian:
+TIDAK ADA FILE YANG DIPILIH
+Italian:
+NESSUN FILE SELEZIONATO
+Japanese:
+ファイルが選択されていません。
+Korean:
+선택한 파일 없음
+Latvian:
+NAV ATLASĪTS NEVIENS FAILS
+Lithuanian:
+NR FAILO, PASIRINKTI
+Norwegian:
+INGEN FIL VALGT
+Polish:
+NIE PLIKU WYBRANEGO
+Portuguese:
+NENHUM ARQUIVO SELECIONADO
+Romanian:
+NICI UN FIŞIER SELECTAT
+Russian:
+ФАЙЛ НЕ ВЫБРАН
+Slovak:
+VYBRATÝ SÚBOR
+Slovenian:
+DATOTEKA NI IZBRANA
+Spanish:
+NINGÚN ARCHIVO SELECCIONADO
+Swedish:
+INGA MARKERADE FILEN
+Thai:
+ไม่มีแฟ้มที่เลือก
+Turkish:
+SEÇİLİ DOSYA
+Ukrainian:
+НЕМАЄ ВИДІЛЕНИХ ФАЙЛІВ
+Vietnamese:
+KHÔNG CÓ TỆP ĐÃ CHỌN

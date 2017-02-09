@@ -1,0 +1,72 @@
+﻿Arabic:
+المميز
+Bulgarian:
+Актуалните
+Catalan:
+Presentat
+Chinese Simplified:
+特色
+Czech:
+Nabízený
+Danish:
+Featured
+Dutch:
+Featured
+English:
+Featured
+Estonian:
+Esiletõstetud
+Finnish:
+Tarjottu
+French:
+En vedette
+German:
+Funktionsumfang
+Greek:
+Προτεινόμενα
+Haitian Creole:
+Pwezante
+Hebrew:
+מוצעים
+Hindi:
+विशेष रुप से प्रदर्शित
+Hungarian:
+Kiemelt
+Indonesian:
+Feature
+Italian:
+Primo piano
+Japanese:
+特集
+Korean:
+프리미엄
+Latvian:
+Featured
+Lithuanian:
+Teminiai
+Norwegian:
+Kjennetegnet
+Polish:
+Funkcjonalny
+Portuguese:
+Destaque
+Romanian:
+Recomandate
+Russian:
+Лучшее
+Slovak:
+Najlepšie
+Slovenian:
+Featured
+Spanish:
+Destacados
+Swedish:
+Featured
+Thai:
+เรื่องเด่น
+Turkish:
+Seçme
+Ukrainian:
+Рекомендовані
+Vietnamese:
+Đặc trưng

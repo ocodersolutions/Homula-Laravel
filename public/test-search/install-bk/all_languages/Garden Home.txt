@@ -1,0 +1,72 @@
+﻿Arabic:
+حديقة المنزل
+Bulgarian:
+Градина дом
+Catalan:
+Casa de jardí
+Chinese Simplified:
+花园里的家
+Czech:
+Zahrada domov
+Danish:
+Garden Startside
+Dutch:
+Garden Home
+English:
+Garden Home
+Estonian:
+Garden Avaleht
+Finnish:
+Puutarha-Home
+French:
+Maison de jardin
+German:
+Garten-Startseite
+Greek:
+Κήπος σπιτιού
+Haitian Creole:
+Kay jaden
+Hebrew:
+בית גן
+Hindi:
+गार्डन घर
+Hungarian:
+Garden Home
+Indonesian:
+Garden Home
+Italian:
+Casa giardino
+Japanese:
+庭の家
+Korean:
+가든 홈
+Latvian:
+Dārza mājas
+Lithuanian:
+Sodas pradžia
+Norwegian:
+Hage Hjem
+Polish:
+Ogród Home
+Portuguese:
+Casa Jardim
+Romanian:
+Gradina Home
+Russian:
+Дом сад
+Slovak:
+Záhrada domáce
+Slovenian:
+Garden Home
+Spanish:
+Casa de jardín
+Swedish:
+Trädgården hem
+Thai:
+บ้านสวน
+Turkish:
+Garden Home
+Ukrainian:
+Сад Головна
+Vietnamese:
+Garden Home

@@ -1,0 +1,72 @@
+﻿Arabic:
+تعيين قائمة نوع
+Bulgarian:
+Задаване на изброяване на тип
+Catalan:
+Set tipus a d'operació
+Chinese Simplified:
+集列表类型为
+Czech:
+Nastavit typ na výpis
+Danish:
+Angive notering type
+Dutch:
+Laat aanbieding te type
+English:
+Set listing type to
+Estonian:
+Määra tüüpi loend
+Finnish:
+Määritä luettelo tyyppi
+French:
+Liste des type de la valeur
+German:
+Inserat-Typ festlegen
+Greek:
+Σύνολο καταχωρήσεων τύπου
+Haitian Creole:
+Jeu ki bay lis tip pou
+Hebrew:
+בחר סוג רישום
+Hindi:
+लिस्टिंग के प्रकार सेट करें
+Hungarian:
+Listázás, típus beállítása
+Indonesian:
+Mengatur daftar jenis untuk
+Italian:
+Impostare il listato di tipo a
+Japanese:
+一覧タイプを設定します。
+Korean:
+목록 유형 설정
+Latvian:
+Iestatīt tipu sarakstu
+Lithuanian:
+Nustatyti sąrašą tipo
+Norwegian:
+Angi oppføringstype til
+Polish:
+Ustawianie, wyświetlanie typu
+Portuguese:
+Definir listagem tipo a
+Romanian:
+Setaţi listarea tip
+Russian:
+Задать список для типа
+Slovak:
+Nastavenie zoznamu typ
+Slovenian:
+Nastavite kotacijo tipa
+Spanish:
+Establecer tipo de anuncios
+Swedish:
+Ange notering typ
+Thai:
+ตั้งค่าชนิดการแสดงรายการ
+Turkish:
+Liste türü ayarla
+Ukrainian:
+Встановити лістинг типу
+Vietnamese:
+Set danh sách loại để

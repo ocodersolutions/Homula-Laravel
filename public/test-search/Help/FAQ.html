@@ -1,0 +1,148 @@
+﻿<html>
+	
+<head>
+	<title>FAQ</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Personal Edition 3.8.0.560">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "index.html?" + sTopicUrl;
+			}
+			else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+			{
+				top.FrameTOC.SelectTocItem("FAQ");
+			}
+		});
+	</script>
+</head>
+
+<body>
+
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>FAQ</h1>
+				
+				</div>
+			<div id="topic_header_nav">
+				<a href="CompleteChangelog.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts7">I get an error while I try to install this system.</span></p>
+<p class="rvps2"><span class="rvts6">Once the script detects that all those files/folders are writable, it would prompt you for your </span><span class="rvts7">MySQL host, database name, username and password</span><span class="rvts6">. Specify those values and click on </span><span class="rvts7">Install</span><span class="rvts6"> button.</span></p>
+<p class="rvps2"><span class="rvts6">Please note:- While creating a new database on your hosting account, please make sure that you give full privileges to it. In case of cpanel, you can specify that on 2nd step i.e after you specify database name, select 'All' option on the privileges page.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">Images in listings and my profile are not showing up.</span></p>
+<p class="rvps2"><span class="rvts6">Make sure that following file/folders are fully writable: uploads, cache and index.html inside cache folder. The images won't show up if they are not fully writable.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts14">uploads</span><span class="rvts13"> folder is fully writable (linux command: chmod 777 uploads)</span></p>
+<p class="rvps2"><span class="rvts14">cache</span><span class="rvts13"> folder is writable &nbsp;(linux command: chmod 777 cache)</span></p>
+<p class="rvps2"><span class="rvts14">cache/index.html</span><span class="rvts13"> file is writable &nbsp; &nbsp; (linux command: chmod 777 cache/index.html)</span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13">If you use FileZilla client for FTP transfer then you can give 777 permission by right clicking on file/folder name and type 777 in 'Numeric value' box. While giving permissions to 'uploads' and 'cache' folder also select 'recurse into subdirectories' option.</span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts14">Email system isn't working i.e when someone tries to contact me through the contact page or through the listing contact form.</span></p>
+<p class="rvps2"><span class="rvts13">Make sure that you've specified correct values under 'Email' section of 'Admin options' page. It is recommended that you use gmail or google apps email and password and leave the authentication type to gmail.</span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts14">I get a SMTP error when I try to use gmail as authentication type and my gmail/google apps email and password in admin options.</span></p>
+<p class="rvps2"><span class="rvts13">Please make sure that ssl module (for ex openssl) is enabled on your web server. If you don’t have access to your server configuration then ask your hosting provider to do it for you. This is required because Google smtp server only accepts secure/ssl connections.</span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts14">Map isn't showing correct location.</span></p>
+<p class="rvps2"><span class="rvts6">allow_url_fopen or cURL module should be enabled in your PHP in order for Google geocoding to work. The geocoding won't work if at least one of them is not enabled. Please contact your hosting provider and ask them to enable either one of those. If you've access to php.ini the edit it and add this line in the end </span></p>
+<p class="rvps2"><span class="rvts7">allow_url_fopen = on</span><span class="rvts6"> </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts13">or enable the cURL module.</span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts14">How to change website colors or theme of the search form?</span></p>
+<p class="rvps2"><span class="rvts13">You can login as admin and select colors or theme on 'Admin options' page.</span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts14">I've a problem which I am unable to resolve.</span></p>
+<p class="rvps2"><span class="rvts13">Feel free to contact me through the comments page or email at ravi@codiator.com</span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts38">I keep updating FAQ so you can view &nbsp;up to date FAQs here: </span><a class="rvts40" href="http://codecanyon.net/item/real-estate-made-simple-/faq/1520788" target="_blank">http://codecanyon.net/item/real-estate-made-simple-/faq/1520788</a></p>
+<p class="rvps2"><span class="rvts39"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p class="rvps2"><span class="rvts13"><br/></span></p>
+<p></p>
+<p class="rvps3"><span class="rvts9">Created with the Personal Edition of HelpNDoc: </span><a class="rvts10" href="http://www.helpndoc.com/feature-tour">Easily create HTML Help documents</a></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Ravinder Mann - Fine Themes - All Rights Reserved</div>
+		</div>
+	</body>
+	
+</html>
+

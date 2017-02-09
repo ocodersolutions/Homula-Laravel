@@ -1,0 +1,72 @@
+﻿Arabic:
+معرف البريد الإلكتروني غير صحيح
+Bulgarian:
+Невалиден ИД за електронна поща
+Catalan:
+ID de correu electrònic no és vàlida
+Chinese Simplified:
+电子邮件 ID 无效
+Czech:
+Neplatné ID e-mailu
+Danish:
+Ugyldig e-mail-ID
+Dutch:
+Ongeldige E-mail-ID
+English:
+Invalid E-mail ID
+Estonian:
+Lubamatu e-posti ID
+Finnish:
+Sähköposti tunnus ei kelpaa
+French:
+ID de courriel non valide
+German:
+Ungültige e-Mail-ID
+Greek:
+Μη έγκυρο Αναγνωριστικό ηλεκτρονικού ταχυδρομείου
+Haitian Creole:
+Non lèt elektwonik Didantite
+Hebrew:
+מזהה לא חוקי של דואר אלקטרוני
+Hindi:
+अमान्य ई-मेल आईडी
+Hungarian:
+Érvénytelen E-mail-azonosító
+Indonesian:
+E-mail ID salah
+Italian:
+ID di posta elettronica non valido
+Japanese:
+無効な電子メール ID
+Korean:
+잘못 된 전자 메일 ID
+Latvian:
+Nederīgs e-pasta ID
+Lithuanian:
+Neteisingas el. laiško ID
+Norwegian:
+Ugyldig ID for e-post
+Polish:
+Nieprawidłowy identyfikator wiadomości E-mail
+Portuguese:
+ID de correio electrónico inválido
+Romanian:
+ID incorect de poştă electronică
+Russian:
+Недопустимый Идентификатор электронной почты
+Slovak:
+Neplatná identifikácia E-mail
+Slovenian:
+Neveljaven e-poštni ID
+Spanish:
+ID de correo electrónico no válido
+Swedish:
+E-post-ID är ogiltigt
+Thai:
+รหัสอีเมล์ไม่ถูกต้อง
+Turkish:
+Geçersiz e-posta kimliği
+Ukrainian:
+Неприпустимий підпис електронної пошти
+Vietnamese:
+ID thư điện tử không hợp lệ

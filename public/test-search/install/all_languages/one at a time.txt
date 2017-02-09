@@ -1,0 +1,72 @@
+﻿Arabic:
+في وقت واحد
+Bulgarian:
+един по един
+Catalan:
+un a la vegada
+Chinese Simplified:
+一次一个
+Czech:
+jeden po druhém
+Danish:
+en ad gangen
+Dutch:
+een voor een
+English:
+one at a time
+Estonian:
+ükshaaval
+Finnish:
+yksi kerrallaan
+French:
+un à la fois
+German:
+einzeln
+Greek:
+ένα κάθε φορά
+Haitian Creole:
+yonn nan yon moman
+Hebrew:
+אחד בכל פעם
+Hindi:
+एक बार में
+Hungarian:
+egy egyszerre
+Indonesian:
+satu per satu waktu
+Italian:
+uno alla volta
+Japanese:
+一度に 1 つずつ
+Korean:
+한 번에 하나씩
+Latvian:
+vienlaikus
+Lithuanian:
+vienu metu
+Norwegian:
+én om gangen
+Polish:
+jednocześnie
+Portuguese:
+um de cada vez
+Romanian:
+unul la un timp
+Russian:
+один раз
+Slovak:
+naraz
+Slovenian:
+ena naenkrat
+Spanish:
+uno a la vez
+Swedish:
+en i taget
+Thai:
+ครั้งละหนึ่ง
+Turkish:
+teker teker
+Ukrainian:
+один за одним
+Vietnamese:
+tại một thời gian

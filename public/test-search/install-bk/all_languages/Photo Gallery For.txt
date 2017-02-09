@@ -1,0 +1,72 @@
+﻿Arabic:
+معرض صور عن
+Bulgarian:
+Фотогалерията, за
+Catalan:
+Galeria fotogràfica
+Chinese Simplified:
+为照片库
+Czech:
+Fotogalerie
+Danish:
+Billedgalleri til
+Dutch:
+Fotogalerij voor
+English:
+Photo Gallery For
+Estonian:
+Fotogalerii
+Finnish:
+Valokuvavalikoima
+French:
+Galerie de photos pour
+German:
+Foto-Galerie für
+Greek:
+Η συλλογή φωτογραφιών για
+Haitian Creole:
+Galerie foto pou
+Hebrew:
+גלריית התמונות
+Hindi:
+के लिए फोटो गैलरी
+Hungarian:
+A Photo Gallery
+Indonesian:
+Photo Gallery untuk
+Italian:
+Photo Gallery per
+Japanese:
+フォト ギャラリーについて
+Korean:
+포토 갤러리
+Latvian:
+Foto galerija
+Lithuanian:
+Foto galerija
+Norwegian:
+Fotogalleri For
+Polish:
+Galeria fotografii dla
+Portuguese:
+Galeria de fotos de
+Romanian:
+Galerie foto pentru
+Russian:
+Фотогалерея для
+Slovak:
+Fotogalérie na
+Slovenian:
+Foto galerija za
+Spanish:
+Galería de fotos para
+Swedish:
+Fotogalleri för
+Thai:
+Photo Gallery สำหรับ
+Turkish:
+Fotoğraf Galerisi
+Ukrainian:
+Фотогалерея для
+Vietnamese:
+Thư viện ảnh cho 

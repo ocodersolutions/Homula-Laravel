@@ -1,0 +1,72 @@
+﻿Arabic:
+الإدراج
+Bulgarian:
+Списък от
+Catalan:
+Llistat per
+Chinese Simplified:
+通过上市
+Czech:
+Seznam
+Danish:
+Notering ved
+Dutch:
+Aanbieding door
+English:
+Listing by
+Estonian:
+Loetelu
+Finnish:
+Luettelon mukaan
+French:
+Liste des pièces justificatives par
+German:
+Auflisten nach
+Greek:
+Λίστα από
+Haitian Creole:
+Liste par
+Hebrew:
+פירוט לפי
+Hindi:
+द्वारा लिस्टिंग
+Hungarian:
+Szerinti felsorolása
+Indonesian:
+Daftar oleh
+Italian:
+Inserite da
+Japanese:
+投稿リスト
+Korean:
+리스트에 따라
+Latvian:
+Sarakstu ar
+Lithuanian:
+Sąrašas
+Norwegian:
+Oppføringen av
+Polish:
+Lista przez
+Portuguese:
+Anunciado por
+Romanian:
+Cota de
+Russian:
+Список по
+Slovak:
+Výpis z
+Slovenian:
+Kotacijo z
+Spanish:
+Listado por
+Swedish:
+Notering av
+Thai:
+แสดงรายการโดย
+Turkish:
+Göre listeleme
+Ukrainian:
+Лістинг
+Vietnamese:
+Liệt kê theo

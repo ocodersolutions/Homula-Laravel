@@ -1,0 +1,76 @@
+﻿Arabic:
+قائمة مشابهة الفعل موجود
+Bulgarian:
+Подобни регистрационни вече съществува
+Catalan:
+Llista similar ja existeix
+Chinese Simplified:
+类似清单已经存在
+Czech:
+Podobné zobrazení již existuje
+Danish:
+Lignende notering allerede findes
+Dutch:
+Vergelijkbare lijst al bestaat
+English:
+Similar listing already exists
+Estonian:
+Sarnaste loetleb juba olemas
+Finnish:
+Samanlainen luettelo jo olemassa
+French:
+Liste similaire déjà existe
+German:
+Ähnliche Ergebnisse bereits vorhanden ist
+Greek:
+Παρόμοια απαριθμεί ήδη υπάρχει
+Haitian Creole:
+Menm jan an annonce deja existe
+Hebrew:
+רישום דומה כבר קיימת
+Hindi:
+इसी तरह लिस्टिंग पहले से मौजूद है
+Hmong Daw:
+Zoo diam twb tshwm sim
+Hungarian:
+Hasonló listázása már létezik
+Indonesian:
+Daftar serupa sudah ada
+Italian:
+Listato simile già esiste
+Japanese:
+同様のリストをすでに存在します。
+Korean:
+비슷한 목록에 이미 존재
+Latvian:
+Līdzīgi saraksts jau pastāv
+Lithuanian:
+Panašių sąrašas jau egzistuoja
+Norwegian:
+Lignende liste allerede finnes
+Persian:
+فهرست مشابه در حال حاضر وجود دارد
+Polish:
+Lista podobne już istnieje
+Portuguese:
+Listagem similar já existe
+Romanian:
+Listarea similare deja există
+Russian:
+Аналогичный список уже существует
+Slovak:
+Podobné výpis už existuje
+Slovenian:
+Podoben seznam že obstaja
+Spanish:
+Listado similar ya existe
+Swedish:
+Liknande notering redan finns
+Thai:
+มีการแสดงรายการคล้ายกันเรียบร้อยแล้ว
+Turkish:
+Benzer bir liste zaten var
+Ukrainian:
+Подібні лістинг вже існує
+Vietnamese:
+Danh sách tương tự đã tồn tại

@@ -1,0 +1,72 @@
+﻿Arabic:
+القوائم الخاصة بك
+Bulgarian:
+обява
+Catalan:
+seus llistats de
+Chinese Simplified:
+您的清单
+Czech:
+Vaše výpisy
+Danish:
+dine lister
+Dutch:
+uw aanbiedingen
+English:
+your listings
+Estonian:
+teie loendid
+Finnish:
+ohjelmatiedoista
+French:
+vos annonces
+German:
+Ihre Angebote
+Greek:
+Ελέγξτε τις καταχωρίσεις σας
+Haitian Creole:
+annonces ou
+Hebrew:
+את רישומי
+Hindi:
+अपनी लिस्टिंग
+Hungarian:
+a listák
+Indonesian:
+listing Anda
+Italian:
+le inserzioni
+Japanese:
+リスティング
+Korean:
+귀하의 리스팅
+Latvian:
+savus sarakstus
+Lithuanian:
+savo aukcioną
+Norwegian:
+oppføringene dine
+Polish:
+Twój list
+Portuguese:
+Listagens
+Romanian:
+listări dvs.
+Russian:
+ваши списки
+Slovak:
+vaše záznamy
+Slovenian:
+vaši oglasi
+Spanish:
+tus anuncios
+Swedish:
+programlistorna
+Thai:
+รายการของคุณ
+Turkish:
+listelerinizi
+Ukrainian:
+ваші записи
+Vietnamese:
+danh sách của bạn

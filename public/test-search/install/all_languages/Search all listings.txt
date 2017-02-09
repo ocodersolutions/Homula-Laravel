@@ -1,0 +1,72 @@
+﻿Arabic:
+البحث عن كافة إدخالات القوائم
+Bulgarian:
+Търсене на всички програми
+Catalan:
+Cercar tots els llistats
+Chinese Simplified:
+搜索所有清单
+Czech:
+Hledat všechny výpisy
+Danish:
+Søge alle lister
+Dutch:
+Zoeken in alle aanbiedingen
+English:
+Search all listings
+Estonian:
+Otsi kõik loendid
+Finnish:
+Etsi kaikki luettelot
+French:
+Toutes les annonces de recherche
+German:
+Suche alle Inserate
+Greek:
+Αναζήτηση όλων των καταχωρήσεων
+Haitian Creole:
+Recherche tout annonces
+Hebrew:
+חיפוש כל הרישומים
+Hindi:
+सभी लिस्टिंग खोज
+Hungarian:
+Search listings
+Indonesian:
+Cari semua listing
+Italian:
+Tutti gli annunci di ricerca
+Japanese:
+すべてのリストを検索します。
+Korean:
+모든 목록 검색
+Latvian:
+Meklēt visus sarakstus
+Lithuanian:
+Ieškoti visų aukcionai
+Norwegian:
+Søke alle oppføringer
+Polish:
+Przeszukaj wszystkie listy
+Portuguese:
+Pesquisar todos os anúncios
+Romanian:
+Toate listări de căutare
+Russian:
+Искать все
+Slovak:
+Hľadať všetky výpis
+Slovenian:
+Iskanje vseh oglasi
+Spanish:
+Buscar todos los anuncios
+Swedish:
+Sök alla listor
+Thai:
+ค้นหารายการทั้งหมด
+Turkish:
+Tüm listeleri arama
+Ukrainian:
+Пошук всі листинги
+Vietnamese:
+Tìm kiếm danh sách tất cả các

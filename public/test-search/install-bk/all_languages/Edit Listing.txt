@@ -1,0 +1,72 @@
+﻿Arabic:
+تحرير قائمة
+Bulgarian:
+Редактиране на списък
+Catalan:
+Edita la llista
+Chinese Simplified:
+编辑列表
+Czech:
+Upravit seznam
+Danish:
+Redigere notering
+Dutch:
+Aanbieding bewerken
+English:
+Edit Listing
+Estonian:
+Redigeeri loetelu
+Finnish:
+Muokkaa luetteloa
+French:
+Modifier la liste des pièces justificatives
+German:
+Inserat bearbeiten
+Greek:
+Επεξεργασία λίστας
+Haitian Creole:
+Edite ki nan lis
+Hebrew:
+עריכת רישום
+Hindi:
+सूची संपादित करें
+Hungarian:
+Tőzsdei szerkesztése
+Indonesian:
+Mengedit daftar
+Italian:
+Modifica inserzione
+Japanese:
+リストを編集します。
+Korean:
+목록 편집
+Latvian:
+Saraksta rediģēšana
+Lithuanian:
+Redaguoti sąrašą
+Norwegian:
+Rediger liste
+Polish:
+Edytuj listę
+Portuguese:
+Editar anúncio
+Romanian:
+Editare listă
+Russian:
+Изменить список
+Slovak:
+Upraviť zoznam
+Slovenian:
+Urejanje kotacijo
+Spanish:
+Modificar anuncio
+Swedish:
+Redigera notering
+Thai:
+แก้ไขรายการ
+Turkish:
+Liste Düzenle
+Ukrainian:
+Редагувати перелік
+Vietnamese:
+Chỉnh sửa danh sách

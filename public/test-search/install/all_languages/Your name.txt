@@ -1,0 +1,72 @@
+﻿Arabic:
+الاسم
+Bulgarian:
+Твоето име
+Catalan:
+El seu nom
+Chinese Simplified:
+您的姓名
+Czech:
+Tvoje jméno
+Danish:
+Dit navn
+Dutch:
+Uw naam
+English:
+Your name
+Estonian:
+Sinu nimi
+Finnish:
+Nimesi
+French:
+Votre nom
+German:
+Ihr Name
+Greek:
+Το όνομά σου
+Haitian Creole:
+non ou
+Hebrew:
+שמך
+Hindi:
+तुम्हारा नाम
+Hungarian:
+a neved
+Indonesian:
+Namamu
+Italian:
+Il tuo nome
+Japanese:
+お名前 *
+Korean:
+사용자 이름
+Latvian:
+tavs vārds
+Lithuanian:
+tavo vardas
+Norwegian:
+navnet ditt
+Polish:
+Imię i nazwisko
+Portuguese:
+Seu nome
+Romanian:
+numele tău
+Russian:
+Ваше имя
+Slovak:
+vaše meno
+Slovenian:
+tvoje ime
+Spanish:
+Te llamas
+Swedish:
+Ditt namn
+Thai:
+ชื่อของเธอ
+Turkish:
+Adınız
+Ukrainian:
+Твоє ім’я
+Vietnamese:
+Tên bạn

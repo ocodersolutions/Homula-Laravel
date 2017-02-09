@@ -1,0 +1,72 @@
+﻿Arabic:
+القطط يسمح
+Bulgarian:
+Котки, които са разрешени
+Catalan:
+Gats permès
+Chinese Simplified:
+允许的猫
+Czech:
+Kočky povoleno
+Danish:
+Katte tilladt
+Dutch:
+Katten toegestaan
+English:
+Cats allowed
+Estonian:
+Lubatud kassid
+Finnish:
+Sallittu kissojen
+French:
+Chats autorisés
+German:
+Katzen erlaubt
+Greek:
+Γάτες που επιτρέπεται
+Haitian Creole:
+Chat te pèmèt
+Hebrew:
+חתולים מותר
+Hindi:
+बिल्लियों की अनुमति दी
+Hungarian:
+Engedélyezett macskák
+Indonesian:
+Kucing diperbolehkan
+Italian:
+Gatti ha permessi
+Japanese:
+猫の許可
+Korean:
+허용 하는 고양이
+Latvian:
+Kaķi, kas ļāva
+Lithuanian:
+Leidžiama katės
+Norwegian:
+Kattene er tillatt
+Polish:
+Koty dozwolone
+Portuguese:
+Gatos permitidos
+Romanian:
+Pisici permis
+Russian:
+Кошки разрешено
+Slovak:
+Mačky povolené
+Slovenian:
+Mačke, dovoljeno
+Spanish:
+Gatos permitidos
+Swedish:
+Katter som tillåts
+Thai:
+แมวที่ได้รับอนุญาต
+Turkish:
+Kediler izin
+Ukrainian:
+Кішки, дозволив
+Vietnamese:
+Mèo được phép

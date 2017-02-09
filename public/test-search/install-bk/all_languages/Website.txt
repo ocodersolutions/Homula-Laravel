@@ -1,0 +1,72 @@
+﻿Arabic:
+موقع على شبكة الإنترنت
+Bulgarian:
+Уебсайт
+Catalan:
+Lloc web
+Chinese Simplified:
+网站
+Czech:
+Webové stránky
+Danish:
+Hjemmeside
+Dutch:
+Website
+English:
+Website
+Estonian:
+Veebileht
+Finnish:
+Web-sivuston
+French:
+Site Web
+German:
+Webseite
+Greek:
+Τοποθεσία Web
+Haitian Creole:
+Sit entènèt
+Hebrew:
+אתר האינטרנט
+Hindi:
+वेबसाइट
+Hungarian:
+Honlap
+Indonesian:
+Situs web
+Italian:
+Sito Web
+Japanese:
+ウェブサイト
+Korean:
+웹사이트
+Latvian:
+Mājas lapa
+Lithuanian:
+Svetainėje
+Norwegian:
+Nettsted
+Polish:
+Witryny sieci Web
+Portuguese:
+Sítio Web
+Romanian:
+Site-ul Web
+Russian:
+Веб-сайт
+Slovak:
+Webová stránka
+Slovenian:
+Spletna stran
+Spanish:
+Sitio Web
+Swedish:
+Webbplats
+Thai:
+เว็บไซต์
+Turkish:
+Web sitesi
+Ukrainian:
+Веб-сайт
+Vietnamese:
+Trang web

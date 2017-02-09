@@ -1,0 +1,72 @@
+﻿Arabic:
+لا يمكن إرسال رسالة
+Bulgarian:
+Съобщението не може да бъде изпратено
+Catalan:
+No es pot enviar missatge
+Chinese Simplified:
+没有发送消息
+Czech:
+Zprávu nelze odeslat.
+Danish:
+Meddelelsen kan ikke sendes
+Dutch:
+Bericht kan niet worden verzonden
+English:
+Message can not be sent
+Estonian:
+Sõnumi saatmist ei
+Finnish:
+Viestiä ei voi lähettää
+French:
+Message ne peut pas être envoyé
+German:
+Nachricht kann nicht gesendet werden
+Greek:
+Το μήνυμα δεν μπορεί να σταλεί
+Haitian Creole:
+Mesaj pa pou voye
+Hebrew:
+לא ניתן לשלוח הודעה
+Hindi:
+संदेश नहीं भेजा जा सकता
+Hungarian:
+Nem küldhető üzenet
+Indonesian:
+Pesan tidak dapat dikirim
+Italian:
+Messaggio non può essere inviato
+Japanese:
+メッセージの中には送信されないことができます。
+Korean:
+메시지를 보낼 수 있습니다.
+Latvian:
+Ziņojumu nevar nosūtīt
+Lithuanian:
+Pranešimo gali išsiųsti
+Norwegian:
+Meldingen kan ikke sendes.
+Polish:
+Nie może być wysłana wiadomość
+Portuguese:
+Mensagem não pode ser enviada
+Romanian:
+Mesajul nu poate fi trimis
+Russian:
+Сообщение не может быть отправлено
+Slovak:
+Správa môže neodošle
+Slovenian:
+Sporočilo se lahko pošlje ne
+Spanish:
+No se puede enviar el mensaje
+Swedish:
+Meddelandet kan inte skickas
+Thai:
+ไม่สามารถส่งข้อความ
+Turkish:
+İleti gönderilmedi
+Ukrainian:
+Неможливо надіслати повідомлення
+Vietnamese:
+Không thể gửi tin nhắn

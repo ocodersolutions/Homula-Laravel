@@ -1,0 +1,72 @@
+﻿Arabic:
+بدء تشغيل
+Bulgarian:
+Начало
+Catalan:
+Inici
+Chinese Simplified:
+启动
+Czech:
+Spustit
+Danish:
+Start
+Dutch:
+Start
+English:
+Start
+Estonian:
+Start
+Finnish:
+Käynnistä
+French:
+Début
+German:
+Start
+Greek:
+Έναρξη
+Haitian Creole:
+Kòmanse
+Hebrew:
+התחלה
+Hindi:
+प्रारंभ करें
+Hungarian:
+Indítsa el a
+Indonesian:
+Mulai
+Italian:
+Inizio
+Japanese:
+開始
+Korean:
+시작
+Latvian:
+Sākums
+Lithuanian:
+Pradėti
+Norwegian:
+Start
+Polish:
+Uruchom
+Portuguese:
+Início
+Romanian:
+Start
+Russian:
+Начало
+Slovak:
+Štart
+Slovenian:
+Start
+Spanish:
+Inicio
+Swedish:
+Starta
+Thai:
+เริ่มการทำงาน
+Turkish:
+Başlat
+Ukrainian:
+Почати
+Vietnamese:
+Bắt đầu

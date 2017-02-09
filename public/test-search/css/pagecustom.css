@@ -1,0 +1,17 @@
+.gm-style-iw
+{
+	width:450px !important;
+	height:400px !important;	
+}
+.gm-style-iw .markerInfo .mapInfoPic
+{
+	width:auto !important;	
+}
+.gm-style-iw .markerInfo
+{
+	height:400px !important;
+}
+.gm-style-iw .markerInfo h4
+{
+	margin:20px 0px 10px 0px !important;	
+}

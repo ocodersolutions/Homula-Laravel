@@ -1,0 +1,72 @@
+﻿Arabic:
+كلاب غير مسموح به
+Bulgarian:
+Не е позволено кучета
+Catalan:
+No s'admeten gossos
+Chinese Simplified:
+狗不允许
+Czech:
+Psi není povoleno
+Danish:
+Hunde ikke tilladt
+Dutch:
+Honden niet toegelaten
+English:
+Dogs not allowed
+Estonian:
+Koerte pole lubatud
+Finnish:
+Ei koiria
+French:
+Chiens non autorisés
+German:
+Hunde sind nicht erlaubt
+Greek:
+Σκύλους που δεν επιτρέπεται
+Haitian Creole:
+Chen pa te pèmèt
+Hebrew:
+כלבים אינם מותרים
+Hindi:
+कुत्तों की अनुमति नहीं है
+Hungarian:
+Kutyák nem engedélyezett
+Indonesian:
+Anjing tidak diizinkan
+Italian:
+Cani non ammessi
+Japanese:
+犬は許可されていません
+Korean:
+개 허용 되지 않습니다
+Latvian:
+Suņiem, kas nav atļauti
+Lithuanian:
+Šunys, neleidžiama
+Norwegian:
+Hunder er ikke tillatt
+Polish:
+Z psami
+Portuguese:
+Cães não permitidos
+Romanian:
+Nu este permis câini
+Russian:
+Собаки не допускается
+Slovak:
+Psov nie je povolené
+Slovenian:
+Psi, ni dovoljeno
+Spanish:
+No se admiten perros
+Swedish:
+Hundar tillåts inte
+Thai:
+สุนัขที่ไม่ได้รับอนุญาต
+Turkish:
+İzin verilmeyen köpekler
+Ukrainian:
+Не допускаються собаки
+Vietnamese:
+Chó không được phép

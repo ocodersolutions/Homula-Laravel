@@ -1,0 +1,72 @@
+﻿Arabic:
+البيع بالتجزئة
+Bulgarian:
+Търговия на дребно
+Catalan:
+Al detall
+Chinese Simplified:
+零售
+Czech:
+Maloobchod
+Danish:
+Detail
+Dutch:
+Retail
+English:
+Retail
+Estonian:
+Jaemüük
+Finnish:
+Vähittäiskaupan
+French:
+Vente au détail
+German:
+Einzelhandel
+Greek:
+Λιανικής πώλησης
+Haitian Creole:
+Au
+Hebrew:
+השוק
+Hindi:
+खुदरा
+Hungarian:
+Kiskereskedelmi
+Indonesian:
+Eceran
+Italian:
+Vendita al dettaglio
+Japanese:
+小売
+Korean:
+소매
+Latvian:
+Mazumtirdzniecības
+Lithuanian:
+Mažmeninės prekybos
+Norwegian:
+Selge i detalj
+Polish:
+Detaliczne
+Portuguese:
+Varejo
+Romanian:
+Cu amănuntul
+Russian:
+Розничная торговля
+Slovak:
+Maloobchodné
+Slovenian:
+Na drobno
+Spanish:
+Venta por menor
+Swedish:
+Detaljhandeln
+Thai:
+ขายปลีก
+Turkish:
+Perakende
+Ukrainian:
+Роздрібна торгівля
+Vietnamese:
+Bán lẻ

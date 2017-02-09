@@ -1,0 +1,76 @@
+﻿Arabic:
+هذا واحد فقط الوقت خطوة وبعد ذلك يمكنك أن تكون قادراً على تسجيل الدخول باستخدام حساب ألفيس بوك الخاص بك
+Bulgarian:
+Това е просто един път стъпка и по-късно да да можете да влезете с вашия акаунт на facebook
+Catalan:
+Això és només un un temps pas i més tard vostè would ser capaç de connectar utilitzant el seu compte de facebook
+Chinese Simplified:
+这只是一个时间的步骤和稍后您将能够使用您的 facebook 帐户登录
+Czech:
+To je jen jeden čas krok a později byste schopni přihlásit se pomocí účtu facebook
+Danish:
+Dette er blot en én gang skridt og senere du ville være i stand til at logge ind ved hjælp af din facebook-konto
+Dutch:
+Dit is slechts een een tijd stap en later u zou kunnen zijn om in te loggen met uw facebook-account
+English:
+This is just a one time step and later you would be able to login using your facebook account
+Estonian:
+See on lihtsalt üks samm ajal ja hiljem avamisel saama sisse logida, kasutades oma facebook kontole
+Finnish:
+Tämä on vain yksi vaihe aika ja myöhemmin samalla voi kirjautua käyttämällä facebook-tiliä
+French:
+C'est juste une étape de temps et plus tard vous le feriez pour être capable de se connecter en utilisant votre compte facebook
+German:
+Dies ist nur eine eine Zeit Schritt und später würden Sie in der Lage, mit Ihrem Facebook-Konto einloggen
+Greek:
+Αυτό είναι ένα μόνο μια φορά βήμα και αργότερα θα είναι σε θέση να συνδεθείτε χρησιμοποιώντας το λογαριασμό σας facebook
+Haitian Creole:
+Sa se jis yon youn fwa étape Et pita nou ta kapab connexion w ap itilize kont anbank facebook ou
+Hebrew:
+זוהי רק אחת מאוחר יותר שהיית והזמן שלב יהיה באפשרותך להתחבר באמצעות חשבון פייסבוק שלך
+Hindi:
+यह सिर्फ एक एक है समय कदम है और बाद में तुम होगा आपके facebook खाते का उपयोग कर लॉगिन करने में समर्थ होना
+Hmong Daw:
+Qhov no yog vim muaj ib sij hawm cov kauj ruam thiab tom qab ntawd koj yuav tau siv koj tus account facebook login
+Hungarian:
+Ez egyike csak egy időben lépést, és később lenne képes-hoz logika használ-a facebook számla kell
+Indonesian:
+Ini adalah hanya salah satu waktu langkah dan kemudian Anda akan dapat login menggunakan account facebook Anda
+Italian:
+Questo è solo uno passo il tempo e più tardi si sarebbe essere in grado di effettuare il login utilizzando il tuo account facebook
+Japanese:
+これは 1 つだけです時間ステップと後であなたがするだろうあなたの facebook のアカウントを使用してログインすることができます
+Korean:
+이것은 단지 하나의 단계 시간과 나중 것이 귀하의 페이 스 북 계정을 사용 하 여 로그인 할 수
+Latvian:
+Tas ir tikai viens solis laikā un vēlāk būtu jābūt iespējai ieiet ar savu facebook kontu
+Lithuanian:
+Tai tik vienas žingsnis metu ir vėliau jums galėtų prisijungti naudojant savo facebook sąskaitą
+Norwegian:
+Dette er bare en gang trinn og senere du ville være i stand til å logikk å bruke facebook-kontoen
+Persian:
+این تنها یکی است گام زمان و بعد به شما خواهد بود قادر به ورود به حساب فیس بوک خود را با استفاده از
+Polish:
+Jest to tylko jeden raz krok i później będzie mieć możliwość zalogowania przy użyciu konta facebook
+Portuguese:
+Este é apenas um tempo passo, e mais tarde você iria ser capaz de fazer o login usando sua conta do facebook
+Romanian:
+Acesta este doar un unul timp pas şi mai târziu aţi putea autentifica folosind contul facebook
+Russian:
+Это всего лишь один раз шаг и позднее вы будет иметь возможность войти в систему с помощью учетной записи facebook
+Slovak:
+To je len jeden čas krok a neskôr by ste byť schopní sa prihlásiť pomocou konta facebook
+Slovenian:
+To je samo en čas korak in pozneje bi se lahko prijavite preko facebook račun
+Spanish:
+Esto es sólo una hora paso y más tarde lo haría poder iniciar sesión utilizando tu cuenta de facebook
+Swedish:
+Detta är bara en en tid steg och senare du skulle kunna logga in med ditt facebook-konto
+Thai:
+นี้เป็นเพียงแบบหนึ่งเวลาขั้นตอน และรุ่นที่ใหม่กว่าคุณอาจจะไม่สามารถเข้าสู่ระบบโดยใช้บัญชี facebook ของคุณ
+Turkish:
+Bu ise sadece bir kez adım ve daha sonra yaptığınız facebook hesabınızı kullanarak giriş yapabilmek
+Ukrainian:
+Це тільки один часу крок і пізніше ви б бути в змозі увійти за допомогою свого облікового запису facebook
+Vietnamese:
+Đây là chỉ là một trong một thời gian bước và sau đó bạn sẽ có thể đăng nhập bằng cách sử dụng tài khoản facebook của bạn

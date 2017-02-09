@@ -1,0 +1,72 @@
+﻿Arabic:
+يرجى التسجيل
+Bulgarian:
+Моля, регистрирайте се
+Catalan:
+Si us plau entreu
+Chinese Simplified:
+请注册
+Czech:
+Zaregistrujte se prosím
+Danish:
+Registrer
+Dutch:
+Gelieve te registreren
+English:
+Please register
+Estonian:
+Palun Registreeru
+Finnish:
+Rekisteröidy
+French:
+Veuillez vous inscrire
+German:
+Bitte registrieren Sie sich
+Greek:
+Παρακαλούμε εγγραφείτε
+Haitian Creole:
+Souple anrejistre
+Hebrew:
+נא רשום
+Hindi:
+कृपया रजिस्टर
+Hungarian:
+Kérjük regisztráljon
+Indonesian:
+Silakan mendaftar
+Italian:
+Si prega di registrarsi
+Japanese:
+ご登録します。
+Korean:
+등록 하시기 바랍니다
+Latvian:
+Lūdzu, Reģistrējieties
+Lithuanian:
+Prašome registruotis
+Norwegian:
+Vennligst registrer deg
+Polish:
+Zarejestruj
+Portuguese:
+Cadastre-se
+Romanian:
+Vă rugăm să înregistraţi
+Russian:
+Пожалуйста зарегистрируйтесь
+Slovak:
+Prosím zaregistrujte sa
+Slovenian:
+Prosimo register
+Spanish:
+Regístrese
+Swedish:
+Vänligen registrera
+Thai:
+กรุณาลงทะเบียน
+Turkish:
+Lütfen kayıt
+Ukrainian:
+Будь ласка, зареєструйтесь
+Vietnamese:
+Xin vui lòng đăng ký

@@ -1,0 +1,74 @@
+﻿Arabic:
+خط العرض
+Bulgarian:
+Географска ширина
+Catalan:
+Latitud
+Chinese Simplified:
+纬度
+Czech:
+Zeměpisná šířka
+Danish:
+Latitude
+Dutch:
+Latitude
+English:
+Latitude
+Estonian:
+Laiuskraad
+Finnish:
+Pohjoista leveyttä
+French:
+Latitude
+German:
+Breitengrad
+Greek:
+Γεωγραφικό πλάτος
+Haitian Creole:
+Latitude
+Hebrew:
+Latitude
+Hindi:
+अक्षांश
+Hmong Daw:
+Latitude
+Hungarian:
+Szélesség
+Indonesian:
+Latitude
+Italian:
+Latitudine
+Japanese:
+緯度
+Korean:
+위도
+Latvian:
+Platuma
+Lithuanian:
+Platumos
+Norwegian:
+Breddegrad
+Polish:
+Notebook Latitude
+Portuguese:
+Latitude
+Romanian:
+Latitudine
+Russian:
+Широта
+Slovak:
+Zemepisná šírka
+Slovenian:
+Širine
+Spanish:
+Latitud
+Swedish:
+Latitud
+Thai:
+ละติจูด
+Turkish:
+Enlem
+Ukrainian:
+Широта
+Vietnamese:
+Vĩ độ

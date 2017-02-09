@@ -1,0 +1,72 @@
+﻿Arabic:
+القطط غير مسموح به
+Bulgarian:
+Не е позволено котки
+Catalan:
+Gats no permès
+Chinese Simplified:
+不允许使用的猫
+Czech:
+Kočky není povoleno
+Danish:
+Katte ikke tilladt
+Dutch:
+Katten niet toegestaan
+English:
+Cats not allowed
+Estonian:
+Ei ole lubatud kassid
+Finnish:
+Kissat, ei sallita
+French:
+Chats non autorisés
+German:
+Katzen nicht erlaubt
+Greek:
+Γάτες που δεν επιτρέπεται
+Haitian Creole:
+Chat pa te pèmèt
+Hebrew:
+חתולים אינם מותרים
+Hindi:
+बिल्लियों की अनुमति नहीं है
+Hungarian:
+Macskák nem engedélyezett
+Indonesian:
+Kucing tidak diperbolehkan
+Italian:
+Gatti non consentiti
+Japanese:
+猫は許可されていません
+Korean:
+고양이 허용 되지 않습니다
+Latvian:
+Kaķi, kas nav atļauti
+Lithuanian:
+Kačių, neleidžiama
+Norwegian:
+Kattene er ikke tillatt
+Polish:
+Koty niedozwolone
+Portuguese:
+Gatos não permitidos
+Romanian:
+Pisici nepermisă
+Russian:
+Кошки не допускается
+Slovak:
+Mačky, ktoré nie je povolené
+Slovenian:
+Mačke, ni dovoljeno
+Spanish:
+Gatos no permitidos
+Swedish:
+Katter som tillåts inte
+Thai:
+แมวที่ไม่ได้รับอนุญาต
+Turkish:
+Kediler verilmiyor
+Ukrainian:
+Кішки, не допускається
+Vietnamese:
+Mèo không được phép

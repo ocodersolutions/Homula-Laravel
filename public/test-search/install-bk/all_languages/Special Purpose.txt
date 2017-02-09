@@ -1,0 +1,72 @@
+﻿Arabic:
+الغرض الخاص
+Bulgarian:
+Специално предназначение
+Catalan:
+Propòsit especial
+Chinese Simplified:
+特殊用途
+Czech:
+Účelové
+Danish:
+Særlige formål
+Dutch:
+Special Purpose
+English:
+Special Purpose
+Estonian:
+Eriotstarbelised
+Finnish:
+Erityistä tarkoitusta varten
+French:
+Usage spécial
+German:
+Zweckgesellschaft
+Greek:
+Ειδικού σκοπού
+Haitian Creole:
+Rezon èspesyal
+Hebrew:
+העדשות
+Hindi:
+विशेष उद्देश्य
+Hungarian:
+Különleges rendeltetésű
+Indonesian:
+Tujuan khusus
+Italian:
+Usi speciali
+Japanese:
+特別な目的
+Korean:
+특수 목적
+Latvian:
+Īpašam nolūkam
+Lithuanian:
+Specialiosios paskirties
+Norwegian:
+Spesielle formål
+Polish:
+Specjalnego przeznaczenia
+Portuguese:
+Fins especiais
+Romanian:
+Speciala
+Russian:
+Специального назначения
+Slovak:
+Účelové
+Slovenian:
+Posebni namen
+Spanish:
+Propósito especial
+Swedish:
+Särskilda ändamål
+Thai:
+วัตถุประสงค์พิเศษ
+Turkish:
+Özel amaçlı
+Ukrainian:
+Спеціального призначення
+Vietnamese:
+Mục đích đặc biệt

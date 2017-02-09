@@ -1,0 +1,72 @@
+﻿Arabic:
+انقر فوق إرسال رسالة إلى الملصق لإدخال القائمة هذا
+Bulgarian:
+Щракнете по-горе, за да изпратите съобщение до постер на този списък
+Catalan:
+Feu clic damunt d'enviar un missatge al cartell d'aquest anunci
+Chinese Simplified:
+单击上面，将消息发送到此列表的海报
+Czech:
+Klepněte na odkaz poslat vzkaz na plakát tento výpis
+Danish:
+Klik herover for at sende en meddelelse til plakat af denne notering
+Dutch:
+Klik hierboven een boodschap aan de affiche van deze aanbieding
+English:
+Click above to send a message to the poster of this listing
+Estonian:
+Klõpsake ülaltoodud sõnumi saata see loetelu plakat
+Finnish:
+Valitse yläpuolelle haluat lähettää viestin luettelon juliste
+French:
+Cliquez ci-dessus pour envoyer un message à l'affiche de cette liste
+German:
+Klicken Sie zum Senden einer Nachricht an das Plakat dieser Auflistung oben
+Greek:
+Κάντε κλικ στο παραπάνω, για να στείλετε ένα μήνυμα σε αφίσας αυτής της λίστας
+Haitian Creole:
+Sur pi wo pase pou voye yon mesaj pou afich ki nan lis sa a
+Hebrew:
+לחץ מעל כדי לשלוח הודעה למפרסם רישום זה
+Hindi:
+इस नामांकन के पोस्टर के लिए एक संदेश भेजने के लिए ऊपर क्लिक करें
+Hungarian:
+Kattintson a fenti üzenetet szeretne küldeni egy e tőzsdei jegyzés posztert
+Indonesian:
+Klik di atas untuk mengirim pesan ke poster listing ini
+Italian:
+Clicca qui sopra per inviare un messaggio per il poster di questa inserzione
+Japanese:
+上記一覧のポスターにメッセージを送信するクリックします。
+Korean:
+위의 메시지를 보내려면이 리스트의 포스터를 클릭
+Latvian:
+Noklikšķiniet augstāk, lai ziņojumu nosūtītu šo sarakstu plakāts
+Lithuanian:
+Spustelėkite aukščiau esantį mygtuką Siųsti pranešimą į šį sąrašą plakatas
+Norwegian:
+Klikk ovenfor hvis du vil sende en melding til plakat for denne oppføringen
+Polish:
+Kliknij powyżej, aby wysłać wiadomość do plakatu tę listę
+Portuguese:
+Clique acima para enviar uma mensagem para o cartaz desta listagem
+Romanian:
+Faceţi clic mai sus pentru a trimite un mesaj la posterul de această listă
+Russian:
+Щелкните выше, чтобы отправить сообщение на постер этот список
+Slovak:
+Vyššie kliknite pre odoslanie správy na plagát tento zoznam
+Slovenian:
+Kliknite nad sporočilo poslati plakat to kotacijo
+Spanish:
+Haga clic en anterior para enviar un mensaje al cartel de este anuncio
+Swedish:
+Klicka ovan för att skicka ett meddelande till affisch av denna notering
+Thai:
+คลิกที่ด้านบนเพื่อส่งข้อความไปที่โปสเตอร์ของรายการนี้
+Turkish:
+Yukarıdaki liste poster için ileti göndermek için tıklatın
+Ukrainian:
+Клацніть вище, щоб відправити повідомлення на плакаті цей список
+Vietnamese:
+Click vào ở trên để gửi thư tới người gửi danh sách này

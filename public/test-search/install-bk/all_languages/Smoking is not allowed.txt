@@ -1,0 +1,72 @@
+﻿Arabic:
+التدخين غير مسموح به
+Bulgarian:
+Пушенето не е позволено
+Catalan:
+No es permet fumar
+Chinese Simplified:
+不允许吸烟
+Czech:
+Kouření není povoleno
+Danish:
+Rygning ikke tilladt
+Dutch:
+Roken niet toegestaan
+English:
+Smoking not allowed
+Estonian:
+Suitsetamine keelatud
+Finnish:
+Tupakointi kielletty
+French:
+Ne pas fumer
+German:
+Rauchen nicht erlaubt
+Greek:
+Το κάπνισμα δεν επιτρέπεται
+Haitian Creole:
+Fimen pa te pèmèt
+Hebrew:
+עישון אסור
+Hindi:
+धूम्रपान की अनुमति नहीं है
+Hungarian:
+Nem engedélyezett a dohányzás
+Indonesian:
+Merokok tidak diperbolehkan
+Italian:
+Non è permesso fumare
+Japanese:
+喫煙不可
+Korean:
+흡연 허용 되지 않습니다
+Latvian:
+Smēķēšana nav atļauta
+Lithuanian:
+Nėra leidžiama rūkyti
+Norwegian:
+Røyking er ikke tillatt
+Polish:
+Palenie niedozwolone
+Portuguese:
+Fumadores não permitidos
+Romanian:
+Fumatul nu este permis
+Russian:
+Курение не разрешено
+Slovak:
+Fajčenie nie je povolené
+Slovenian:
+Kajenje ni dovoljeno
+Spanish:
+Fumar no permitido
+Swedish:
+Rökning tillåts inte
+Thai:
+การสูบบุหรี่ไม่ได้รับอนุญาต
+Turkish:
+İzin yasaktır
+Ukrainian:
+Паління не дозволено
+Vietnamese:
+Hút thuốc không được phép

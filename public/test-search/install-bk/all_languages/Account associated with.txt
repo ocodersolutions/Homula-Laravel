@@ -1,0 +1,72 @@
+﻿Arabic:
+الحساب المقترن
+Bulgarian:
+Акаунт, свързан с
+Catalan:
+Compte associat
+Chinese Simplified:
+与关联的帐户
+Czech:
+Účet spojený s
+Danish:
+Konto tilknyttet
+Dutch:
+Account is gekoppeld
+English:
+Account associated with
+Estonian:
+Seotud konto
+Finnish:
+Liitetty tilinimi
+French:
+Compte associé
+German:
+Konto zugeordnet
+Greek:
+Λογαριασμός που σχετίζεται με
+Haitian Creole:
+Compte asosye ak
+Hebrew:
+החשבון המשויך
+Hindi:
+खाते के साथ जुड़े
+Hungarian:
+A fiókhoz társított
+Indonesian:
+Account yang terkait dengan
+Italian:
+Account associato
+Japanese:
+関連付けられているアカウント
+Korean:
+연결 된 계정
+Latvian:
+Kontu, kas saistīts ar
+Lithuanian:
+Sąskaitos, susijusios su
+Norwegian:
+Kontoen som er knyttet til
+Polish:
+Konto skojarzone z
+Portuguese:
+Conta associada
+Romanian:
+Contul asociat cu
+Russian:
+Учетная запись, связанная с
+Slovak:
+Konto súvisiace s kontom
+Slovenian:
+Račun, ki so povezane z
+Spanish:
+Cuenta asociada
+Swedish:
+Kontot kopplat till
+Thai:
+บัญชีที่เกี่ยวข้องกับ
+Turkish:
+İlişkili hesap
+Ukrainian:
+Пов'язаний з обліковим записом
+Vietnamese:
+Tài khoản liên kết với 

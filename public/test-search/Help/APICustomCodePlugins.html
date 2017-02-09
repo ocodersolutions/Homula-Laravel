@@ -1,0 +1,258 @@
+﻿<html>
+	
+<head>
+	<title>API - Custom Code/Plugins</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="generator" content="HelpNDoc Personal Edition 3.8.0.560">
+	<link type="text/css" rel="stylesheet" media="all" href="css/reset.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/base.css" />
+	<link type="text/css" rel="stylesheet" media="all" href="css/hnd.css" />
+	<!--[if lte IE 8]>
+		<link type="text/css" rel="stylesheet" media="all" href="css/ielte8.css" />
+	<![endif]-->
+	<style type="text/css">
+		#topic_header
+		{
+			background-color: #EFEFEF;
+		}
+	</style>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/hnd.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function()
+		{
+			if (top.frames.length == 0)
+			{
+				var sTopicUrl = top.location.href.substring(top.location.href.lastIndexOf("/") + 1, top.location.href.length);
+				top.location.href = "index.html?" + sTopicUrl;
+			}
+			else if (top && top.FrameTOC && top.FrameTOC.SelectTocItem)
+			{
+				top.FrameTOC.SelectTocItem("APICustomCodePlugins");
+			}
+		});
+	</script>
+</head>
+
+<body>
+
+	<div id="topic_header">
+			<div id="topic_header_content">
+				<h1>API - Custom Code/Plugins</h1>
+				
+				</div>
+			<div id="topic_header_nav">
+				<a href="Logout.html"><img src="img/arrow_left.png" alt="Previous"/></a>
+				
+				<a href="HowtofindwhatversionIhave.html"><img src="img/arrow_right.png" alt="Next"/></a>
+				
+				</div>
+			<div class="clear"></div>
+		</div>
+	<div id="topic_content">
+		
+<p></p>
+<p class="rvps2"><span class="rvts6">The version 1.4 and above would support custom plugins and hooks. You can implement custom plugins or code by using the filter hook functionality. The data would be first passed by reference through your custom function.</span></p>
+<p class="rvps2"><span class="rvts6">So your function can change it or completely create new data. Multiple functions can be registered for the same hook and they will be executed one after another i.e. in the order they were registered and returned data will be passed by reference on to another registered function. </span><span class="rvts7">The function should return the data in same format as it was passed</span><span class="rvts6">. For ex, if string was passed to your custom function handler then string should be returned after necessary modification. If your custom function doesn't return the data, then code ahead of it may not work as it was supposed to.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts30">Your custom plugin/code should be in </span><span class="rvts31">plugins/Custom-Folder/default.php </span><span class="rvts30">and it will be automatically loaded by the script.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Here </span><span class="rvts7">Custom-Folder</span><span class="rvts6"> is the folder name of your custom plugin/code. In order to hook into one of the functions, you should first register it.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts29">Register a function to a hook:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">@param </span><span class="rvts7">hook_name</span><span class="rvts6"> (String) The name of the hook to which custom function would be registered</span></p>
+<p class="rvps2"><span class="rvts6">@param </span><span class="rvts7">handler</span><span class="rvts6"> (String) function name. Custom function through which the data would be passed and returned for further processing.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">register_plugin(hook_name, handler);</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">for ex: </span></p>
+<p class="rvps2"><span class="rvts7">register_plugin("searchResults","searchFunction");</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts29">De-register a function from a hook:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">@param </span><span class="rvts7">hook_name</span><span class="rvts6"> (String) The name of the hook to which custom function which was registered earlier would be de-registered</span></p>
+<p class="rvps2"><span class="rvts6">@param </span><span class="rvts7">handler</span><span class="rvts6"> (String) function name. Custom function name which was registered with this hook earlier.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">deregister_plugin(hook_name, handler);</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">for ex:</span></p>
+<p class="rvps2"><span class="rvts7">deregister_plugin("searchResults","searchFunction");</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts29">Add a member menu:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">@param </span><span class="rvts7">$menu_name</span><span class="rvts6"> (String) Name of the menu to be shown in the left sidebar.</span></p>
+<p class="rvps2"><span class="rvts6">@param </span><span class="rvts7">$handler</span><span class="rvts6"> (String) The custom function that would output/print the custom data &nbsp;when $menu_name is clicked.</span></p>
+<p class="rvps2"><span class="rvts6">@param </span><span class="rvts7">$member_level</span><span class="rvts6"> (int) The member level to which this menu should be accessible. 9 is for admin and 1 is for all other users.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">add_member_menu($menu_name,$handler,$member_level);</span><br/><span class="rvts7"><br/></span></p>
+<p class="rvps2"><span class="rvts6">for ex, </span><span class="rvts7">add_member_menu("Menu Name","Handler",1);</span></p>
+<p class="rvps2"><span class="rvts7"><br/></span></p>
+<p class="rvps2"><span class="rvts6">function Handler(){</span></p>
+<p class="rvps2"><span class="rvts6">print "Here goes the content for my custom page. This can be a form too.";</span></p>
+<p class="rvps2"><span class="rvts6">}</span><br/><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts29">Currently the following hooks are supported:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps4"><span class="rvts7">searchResults</span><span class="rvts6"> : This hook is related to the text home page search results. Registering your custom function to this hook would enable you to update its look n feel or format. Entire data shown is first passed through all the custom functions registered with this hook.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Parameter passed to the custom function: String by reference, &amp;$vargs where $vargs contains the complete html data of the current page of the listings on text home page.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Register with this hook:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">register_plugin("searchResults","searchFunction");</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">For ex, the following registered custom function would change the word 'alert-success' with 'alert-info', which happens to be a class name, in the data and return the updated data for printing or to another registered function.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">function searchFunction(&amp;$sargs){</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;$sargs=str_replace('alert-success', 'alert-info', $sargs);</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;return $sargs;</span></p>
+<p class="rvps2"><span class="rvts6">}</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">searchResultsRecords :</span><span class="rvts6"> The hook passes the search record arrays to the registered functions. The registered functions can do modification to the data and return the modified array.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Parameter passed to the custom function: Listing Array by reference, &amp;$vargs.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Register with this hook:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">register_plugin("searchResultsRecords","searchRecordsFunction");</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">viewFullListing</span><span class="rvts6">: Functions registered with this hook are executed when full listing is shown. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Register with this hook:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">register_plugin("viewFullListing","viewFunction");</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">function viewFunction(&amp;$vargs){</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;$vargs[0]=str_replace("Description", "Information", $vargs[0]);</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;return $vargs;</span></p>
+<p class="rvps2"><span class="rvts6">}</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Parameter passed to the custom function: Array by reference, &amp;$vargs</span></p>
+<p class="rvps2"><span class="rvts6">$vargs[0] is the complete html listing. </span></p>
+<p class="rvps2"><span class="rvts6">$vargs[1] is the record array fetched directly from the database for a listing.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Following are the keys of the $vargs[1] record array:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">id </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">int</span></p>
+<p class="rvps2"><span class="rvts6">user_id </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">int</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">subcategory </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">price </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">int</span></p>
+<p class="rvps2"><span class="rvts6">city </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">state </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">country </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">description </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">relistingby </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">listing_by_other </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">contact_name </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">contact_phone </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">contact_email </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">contact_website String</span></p>
+<p class="rvps2"><span class="rvts6">contact_address String</span></p>
+<p class="rvps2"><span class="rvts6">show_image </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">pictures </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">ip </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">dttm </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">datetime</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">dttm_modified </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">datetime</span></p>
+<p class="rvps2"><span class="rvts6">address </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">postal </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">varchar(25)</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">category </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">headline </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">useremail </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">permanent </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">int</span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span></p>
+<p class="rvps2"><span class="rvts6">latitude </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">float</span></p>
+<p class="rvps2"><span class="rvts6">longitude </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">float</span></p>
+<p class="rvps2"><span class="rvts6">listing_type </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">int</span></p>
+<p class="rvps2"><span class="rvts6">listing_expire </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">String</span></p>
+<p class="rvps2"><span class="rvts6">featured_till </span><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;</span><span class="rvts6">datetime</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">You can access them like this: $vargs[1]['id'] , $vargs[1]['user_id'] and so on.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">addListingForm</span><span class="rvts6">: Functions registered with this hook are executed when add listing form is shown. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Parameter passed to the custom function: String by reference, &amp;$vargs where $vargs contains the complete html data of the 'Add listing' form.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">allMarkers:</span><span class="rvts6"> The hook passes the Array of markers, as per the search criteria set in the search form, to your custom function.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Parameter passed to the custom function: Array by reference, &amp;$vargs where $vargs contains all the markers for the listings that match the search criteria set in the search form.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Sample Array of 2 records that is passed to your custom function:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Array</span></p>
+<p class="rvps2"><span class="rvts6">(</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;[0] =&gt; Array</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;(</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[la] =&gt; 30.3644</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[lo] =&gt; 76.3866</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;)</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;[1] =&gt; Array</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;(</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[la] =&gt; 43.5877</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;[lo] =&gt; -79.6213</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp; &nbsp; &nbsp;)</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">)</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Here 'la' is latitude and 'lo' is the longitude. The format of the returned array should be similar to the above one. This hook is useful is you want to append some extra records to the existing records.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">markerRecord:</span><span class="rvts6"> &nbsp;The hook passes the Array of marker data identified by a latitude and longitude.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Parameter passed to the custom function: Array by reference, &amp;$vargs where $vargs contains the marker data of a listing/s related to a give latitude and longitude.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Sample Array that is passed to your custom function:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Array ( [0] =&gt; Array ( [id] =&gt; 5002 [user_id] =&gt; 1 [subcategory] =&gt; Commercial [price] =&gt; 0 [city] =&gt; Mississauga [state] =&gt; ON [country] =&gt; Canada [description] =&gt; This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline.This is a test headline. [relistingby] =&gt; owner [listing_by_other] =&gt; [contact_name] =&gt; Ravi [contact_phone] =&gt; [contact_email] =&gt; test@finethemes.com [contact_website] =&gt; [contact_address] =&gt; [show_image] =&gt; yes [pictures] =&gt; [ip] =&gt; [dttm] =&gt; 2013-04-08 10:45:41 [dttm_modified] =&gt; 2013-04-08 10:45:41 [address] =&gt; 171 Mississauga Valley Blvd. [postal] =&gt; [category] =&gt; Housing [headline] =&gt; This is a test headline.This is a test headline.This is a test headline. [useremail] =&gt; [permanent] =&gt; 0 [latitude] =&gt; 43.5877 [longitude] =&gt; -79.6213 [listing_type] =&gt; 1 [listing_expire] =&gt; [featured_till] =&gt; 0000-00-00 00:00:00 ) ) ""</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">getMarkerInfo</span><span class="rvts6">: Functions registered with this hook are executed when marker balloon is shown after a marker on map is clicked. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Parameter passed to the custom function: String by reference, &amp;$vargs where $vargs contains the complete html data that would be shown inside the marker balloon.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Register with this hook:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">register_plugin("getMarkerInfo","markerFunction");</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Following example handler function replaces &nbsp;'More Info' with 'Extra Information'. You can also use preg_replace or other functions to do much more:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">function markerFunction(&amp;$vargs){</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;$vargs=str_replace('More Info', 'Extra Information', $vargs);</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;return $vargs;</span></p>
+<p class="rvps2"><span class="rvts6">}</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">sidebarTextResults</span><span class="rvts6">: Functions registered with this hook are executed when text results in the map sidebar are loaded.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Register with this hook:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">register_plugin("sidebarTextResults","sidebarFunction");</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">function sidebarFunction(&amp;$sargs){</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;$sargs=str_replace('Price', '&lt;b&gt;Value&lt;/b&gt;', $sargs);</span></p>
+<p class="rvps2"><span class="rvts6"> &nbsp; &nbsp;return $sargs;</span></p>
+<p class="rvps2"><span class="rvts6">}</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Parameter passed to the custom function: String by reference, &amp;$sargs</span></p>
+<p class="rvps2"><span class="rvts6">$sargs is the complete text data shown in the map sidebar. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts7">sitefooter</span><span class="rvts6">: Functions registered with this hook are executed when footer is being rendered. </span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Parameter passed to the custom function: String by reference, &amp;$vargs where $vargs contains the complete html data of the footer.</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">Register with this hook:</span></p>
+<p class="rvps2"><span class="rvts6"><br/></span></p>
+<p class="rvps2"><span class="rvts6">register_plugin("sitefooter","footerFunction");</span></p>
+<p></p>
+<p class="rvps3"><span class="rvts9">Created with the Personal Edition of HelpNDoc: </span><a class="rvts10" href="http://www.helpndoc.com">Free HTML Help documentation generator</a></p>
+</div>
+	
+	<div id="topic_footer">
+
+			<div id="topic_footer_content">
+				Ravinder Mann - Fine Themes - All Rights Reserved</div>
+		</div>
+	</body>
+	
+</html>
+

@@ -1,0 +1,72 @@
+﻿Arabic:
+تحديث الصور للقائمة الخاصة بك
+Bulgarian:
+Актуализиране на изображения за вашия списък
+Catalan:
+Imatges per a l'anunci d'Actualització
+Chinese Simplified:
+更新您的列表中的图像
+Czech:
+Aktualizovat obrázky pro váš výpis
+Danish:
+Opdatere billeder til din fortegnelse
+Dutch:
+Update beelden voor uw aanbieding
+English:
+Update images for your listing
+Estonian:
+Uuenda luetteloasi pilte
+Finnish:
+Päivitä tietosi kuvia
+French:
+Mise à jour des images pour votre inscription
+German:
+Bilder für Ihr Angebot aktualisieren
+Greek:
+Εικόνες ενημέρωση για τη λίστα σας
+Haitian Creole:
+À zidòl pou ou ki nan lis
+Hebrew:
+עדכון תמונות עבור הרישום שלך
+Hindi:
+छवियाँ आपकी लिस्टिंग के लिए अद्यतन
+Hungarian:
+A tőzsdei lemezképek frissítése
+Indonesian:
+Memperbarui gambar untuk listing Anda
+Italian:
+Aggiornamento immagini per le tue inserzioni
+Japanese:
+イメージ リストを更新します。
+Korean:
+귀하의 목록에 대 한 이미지 업데이트
+Latvian:
+Atjaunināt savu sarakstu attēlus
+Lithuanian:
+Atnaujinti savo aukcioną atvaizdai
+Norwegian:
+Oppdatere bilder for oppføringen
+Polish:
+Aktualizacja obrazów lista
+Portuguese:
+Atualizar as imagens para o seu anúncio
+Romanian:
+Imagini de actualizare pentru listarea dvs.
+Russian:
+Обновление изображения для отображения в списке
+Slovak:
+Aktualizácia obrazy pre váš záznam
+Slovenian:
+Posodobitev slike za vaš kotacijo
+Spanish:
+Actualización de imágenes para tu anuncio
+Swedish:
+Uppdatera bilder för din notering
+Thai:
+ปรับปรุงรูปภาพสำหรับรายชื่อของคุณ
+Turkish:
+Girişiniz için güncelleştirme görüntüleri
+Ukrainian:
+Оновити зображення для вашої компанії
+Vietnamese:
+Cập Nhật hình ảnh cho danh sách của bạn

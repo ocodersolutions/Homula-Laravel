@@ -1,0 +1,72 @@
+﻿Arabic:
+معرف قائمة
+Bulgarian:
+ИД на регистрация
+Catalan:
+Llista id
+Chinese Simplified:
+上市 id
+Czech:
+Seznam id
+Danish:
+Notering-id
+Dutch:
+Aanbieding id
+English:
+Listing id
+Estonian:
+Loetelu id
+Finnish:
+Luettelon tunnus
+French:
+Id de la liste des pièces justificatives
+German:
+Inserat id
+Greek:
+Αναγνωριστικού ενημερωτικό
+Haitian Creole:
+Annonce didantite
+Hebrew:
+מזהה רישום
+Hindi:
+लिस्टिंग आईडी
+Hungarian:
+Listaelem-azonosító
+Indonesian:
+Daftar id
+Italian:
+Identificazione di quotazione
+Japanese:
+リスト id
+Korean:
+목록 id
+Latvian:
+Saraksta id
+Lithuanian:
+Sąrašo id
+Norwegian:
+Liste-id
+Polish:
+Lista identyfikatorów
+Portuguese:
+Id do anúncio
+Romanian:
+ID-ul cota
+Russian:
+Список id
+Slovak:
+Výpis Identifikácia
+Slovenian:
+Seznam id
+Spanish:
+Id de anuncio
+Swedish:
+Notering id
+Thai:
+หมายเลขรายการ
+Turkish:
+Liste numarası
+Ukrainian:
+Лістинг id
+Vietnamese:
+Danh sách id

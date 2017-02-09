@@ -1,0 +1,72 @@
+﻿Arabic:
+بكالوريوس
+Bulgarian:
+Бакалавърска
+Catalan:
+Llicenciatura en
+Chinese Simplified:
+学士学位
+Czech:
+Bakalářské
+Danish:
+Bachelor
+Dutch:
+Bachelor in
+English:
+Bachelor
+Estonian:
+Bakalaureus
+Finnish:
+Poikamies
+French:
+Bachelor
+German:
+Bachelor
+Greek:
+Πτυχίο
+Haitian Creole:
+Moun ki pa marye
+Hebrew:
+תואר ראשון
+Hindi:
+स्नातक
+Hungarian:
+Bachelor
+Indonesian:
+Sarjana
+Italian:
+Bachelor
+Japanese:
+学士
+Korean:
+학사
+Latvian:
+Bakalaura
+Lithuanian:
+Bakalauro
+Norwegian:
+Bachelor
+Polish:
+Licencjat
+Portuguese:
+Bacharel
+Romanian:
+Bachelor
+Russian:
+Бакалавр
+Slovak:
+Bakalár
+Slovenian:
+Bachelor
+Spanish:
+Licenciatura
+Swedish:
+Fil kand
+Thai:
+ปริญญาตรี
+Turkish:
+Lisans
+Ukrainian:
+Бакалавр
+Vietnamese:
+Cử nhân

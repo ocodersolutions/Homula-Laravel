@@ -1,0 +1,72 @@
+﻿Arabic:
+القوائم الإيجار
+Bulgarian:
+Наем на регистрации
+Catalan:
+Llistats de lloguer
+Chinese Simplified:
+租赁订单
+Czech:
+Pronájem výpisy
+Danish:
+Leje programoversigter
+Dutch:
+Autoverhuur aanbiedingen
+English:
+Rental Listings
+Estonian:
+Rentimise Listings
+Finnish:
+Ohjelmatietojen vuokrauksesta
+French:
+Annonces de location
+German:
+Vermietung Angebote
+Greek:
+Ενοικίαση καταχωρήσεις
+Haitian Creole:
+Location Annonces
+Hebrew:
+השכרת רישומים
+Hindi:
+किराए पर लेने की लिस्टिंग
+Hungarian:
+Bérleti Listings
+Indonesian:
+Sewa listing
+Italian:
+Noleggio inserzioni
+Japanese:
+賃貸物件情報
+Korean:
+대 여 목록
+Latvian:
+Nomas sarakstus
+Lithuanian:
+Nuomos aukcione
+Norwegian:
+Utleie oversikt
+Polish:
+Wynajem Listings
+Portuguese:
+Listagens de aluguer
+Romanian:
+Listele de închiriere
+Russian:
+Аренда листинги
+Slovak:
+Požicovna výpisy
+Slovenian:
+Najem oglasi
+Spanish:
+Anuncios de alquiler
+Swedish:
+Hyra tablåer
+Thai:
+รายการเช่า
+Turkish:
+Araba listeleri
+Ukrainian:
+Прокат листинги
+Vietnamese:
+Danh sách cho thuê

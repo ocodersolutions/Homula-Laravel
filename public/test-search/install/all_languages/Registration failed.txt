@@ -1,0 +1,72 @@
+﻿Arabic:
+تسجيل فشل
+Bulgarian:
+Регистрацията е неуспешна
+Catalan:
+Ha fallat el registre
+Chinese Simplified:
+注册失败
+Czech:
+Registrace selhala
+Danish:
+Registreringen mislykkedes
+Dutch:
+Registratie is mislukt
+English:
+Registration failed
+Estonian:
+Registreerimine nurjus
+Finnish:
+Rekisteröinti epäonnistui
+French:
+Inscription a échoué
+German:
+Registrierung fehlgeschlagen
+Greek:
+Αποτυχημένη δήλωση
+Haitian Creole:
+Enskripsyon echwe
+Hebrew:
+רישום נכשלה
+Hindi:
+पंजीकरण में विफल हुआ
+Hungarian:
+Nem sikerült a regisztráció
+Indonesian:
+Pendaftaran gagal
+Italian:
+Registrazione non riuscita
+Japanese:
+登録に失敗しました
+Korean:
+등록 실패
+Latvian:
+Reģistrācija neizdevās
+Lithuanian:
+Registracijos, nepavyko
+Norwegian:
+Registreringen mislyktes
+Polish:
+Rejestracja nie powiodło się
+Portuguese:
+Falhado de registro
+Romanian:
+Înregistrare nereușită
+Russian:
+Ошибка регистрации
+Slovak:
+Zlyhal zápis
+Slovenian:
+Registracija ni uspela
+Spanish:
+Error de registro
+Swedish:
+Registreringen misslyckades
+Thai:
+ไม่สามารถลงทะเบียน
+Turkish:
+Kayıt başarısız oldu
+Ukrainian:
+Не зареєстрована
+Vietnamese:
+Đăng ký thất bại

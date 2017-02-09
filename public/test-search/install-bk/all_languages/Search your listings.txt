@@ -1,0 +1,72 @@
+﻿Arabic:
+البحث في القوائم الخاصة بك
+Bulgarian:
+Търсене на обява
+Catalan:
+Seus llistats de cerca
+Chinese Simplified:
+搜索您的清单
+Czech:
+Hledat své výpisy
+Danish:
+Søge dine lister
+Dutch:
+Zoeken in uw aanbiedingen
+English:
+Search your listings
+Estonian:
+Otsida teie loendid
+Finnish:
+Etsi ohjelmatiedoista
+French:
+Vos annonces de recherche
+German:
+Suchen Sie Ihre Angebote
+Greek:
+Αναζήτηση σας καταχωρήσεις
+Haitian Creole:
+Recherche annonces ou
+Hebrew:
+חפש את רישומי
+Hindi:
+आपकी लिस्टिंग खोज
+Hungarian:
+A listák keresése
+Indonesian:
+Cari listing Anda
+Italian:
+Le inserzioni di ricerca
+Japanese:
+リスティングを検索します。
+Korean:
+귀하의 목록 검색
+Latvian:
+Meklēt savus sarakstus
+Lithuanian:
+Ieškoti savo aukcioną
+Norwegian:
+Søk i oppføringene
+Polish:
+Wyszukiwanie Twój list
+Portuguese:
+Pesquisar listagens
+Romanian:
+Dumneavoastră listări de căutare
+Russian:
+Искать ваши списки
+Slovak:
+Vyhľadávanie vaše zoznamy
+Slovenian:
+Iskanje vašo oglasi
+Spanish:
+Buscar tus anuncios
+Swedish:
+Sök programlistorna
+Thai:
+ค้นหารายการของคุณ
+Turkish:
+Arama, listeleme
+Ukrainian:
+Пошук довідниках
+Vietnamese:
+Tìm kiếm danh sách của bạn

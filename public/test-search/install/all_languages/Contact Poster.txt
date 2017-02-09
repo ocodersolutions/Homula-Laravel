@@ -1,0 +1,72 @@
+﻿Arabic:
+جهة الاتصال
+Bulgarian:
+Контакт
+Catalan:
+Contacte
+Chinese Simplified:
+联系人
+Czech:
+Kontakt
+Danish:
+Kontakt
+Dutch:
+Contact
+English:
+Contact Poster
+Estonian:
+Kontakt
+Finnish:
+Yhteystiedot
+French:
+Contact
+German:
+Kontakt
+Greek:
+Επαφή
+Haitian Creole:
+Kontak
+Hebrew:
+איש קשר
+Hindi:
+संपर्क
+Hungarian:
+Kapcsolattartó
+Indonesian:
+Kontak
+Italian:
+Contatto
+Japanese:
+お問い合わせ
+Korean:
+연락처
+Latvian:
+Kontaktpersona
+Lithuanian:
+Kontaktas
+Norwegian:
+Kontakt
+Polish:
+Kontakt
+Portuguese:
+Contato
+Romanian:
+Contact
+Russian:
+Контакт
+Slovak:
+Kontakt
+Slovenian:
+Stik
+Spanish:
+Contacto
+Swedish:
+Kontakt
+Thai:
+ติดต่อ
+Turkish:
+İlgili kişi
+Ukrainian:
+Контакт
+Vietnamese:
+Liên hệ

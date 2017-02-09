@@ -1,0 +1,72 @@
+﻿Arabic:
+الرجاء المحاولة مرة أخرى
+Bulgarian:
+Моля опитайте отново
+Catalan:
+Si us plau provi una altra vegada
+Chinese Simplified:
+请再试一次
+Czech:
+Opakujte akci
+Danish:
+Prøv igen
+Dutch:
+Probeer het opnieuw
+English:
+Please try again
+Estonian:
+Palun proovige uuesti
+Finnish:
+Yritä uudelleen
+French:
+Veuillez essayer à nouveau
+German:
+Bitte versuchen Sie es erneut
+Greek:
+Προσπαθήστε ξανά
+Haitian Creole:
+Souple eseye ankò
+Hebrew:
+נא נסה שוב
+Hindi:
+कृपया पुन: प्रयास करें
+Hungarian:
+Legyen szíves megpróbál újra
+Indonesian:
+Silakan coba lagi
+Italian:
+Prova di nuovo
+Japanese:
+もう一度試してください。
+Korean:
+다시 시도 하십시오.
+Latvian:
+Lūdzu, mēģiniet vēlreiz
+Lithuanian:
+Bandykite dar kartą
+Norwegian:
+Prøv på nytt
+Polish:
+Spróbuj ponownie
+Portuguese:
+Por favor tente novamente
+Romanian:
+Vă rugăm să încercaţi din nou
+Russian:
+Пожалуйста, попробуйте снова
+Slovak:
+Skúste znova
+Slovenian:
+Prosimo, poskusite znova
+Spanish:
+Vuelva a intentarlo
+Swedish:
+Försök igen
+Thai:
+กรุณาลองอีกครั้ง
+Turkish:
+Lütfen yeniden deneyin
+Ukrainian:
+Будь ласка, спробуйте ще раз
+Vietnamese:
+Xin vui lòng thử lại

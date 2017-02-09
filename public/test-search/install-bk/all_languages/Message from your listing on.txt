@@ -1,0 +1,72 @@
+﻿Arabic:
+رسالة من القائمة الخاصة بك على
+Bulgarian:
+Съобщение от вашия списък на
+Catalan:
+Missatge de la seva inclusió en la llista
+Chinese Simplified:
+您的列表上的消息
+Czech:
+Zpráva od vašeho výpisu na
+Danish:
+Meddelelse fra din notering på
+Dutch:
+Bericht uit uw aanbieding op
+English:
+Message from your listing on
+Estonian:
+Sõnumi teie noteerimise kohta
+Finnish:
+Mainoksesi viesti
+French:
+Message de votre inscription
+German:
+Nachricht aus Ihrem Angebot auf
+Greek:
+Μήνυμα από σας καταχώρηση σχετικά με
+Haitian Creole:
+Mesaj de liste ou sou
+Hebrew:
+הודעת הרישום שלך ב-
+Hindi:
+संदेश पर अपनी लिस्टिंग से
+Hungarian:
+A tőzsdei üzenetét
+Indonesian:
+Pesan dari daftar Anda pada
+Italian:
+Messaggio dal vostro elenco su
+Japanese:
+自分のリスティングからのメッセージ
+Korean:
+메시지에 귀하의 목록에서
+Latvian:
+Ziņojumu no jūsu sarakstā
+Lithuanian:
+Pranešimą iš savo aukcioną
+Norwegian:
+Melding fra din liste på
+Polish:
+Komunikat Lista na
+Portuguese:
+Mensagem de sua cotação de
+Romanian:
+Mesaj de la cota dvs.
+Russian:
+Сообщение от ваш листинг на
+Slovak:
+Správy z vášho zoznamu na
+Slovenian:
+Sporočila iz vaše kotacijo na
+Spanish:
+Mensaje de tu anuncio en
+Swedish:
+Meddelande från din notering på
+Thai:
+ข้อความจากรายชื่อของคุณบน
+Turkish:
+Liste üzerinde mesaj
+Ukrainian:
+Повідомлення від лістинг на
+Vietnamese:
+Thông điệp từ danh sách của bạn trên 

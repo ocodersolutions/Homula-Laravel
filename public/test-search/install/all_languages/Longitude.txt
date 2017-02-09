@@ -1,0 +1,74 @@
+﻿Arabic:
+خط الطول
+Bulgarian:
+Географска дължина
+Catalan:
+Longitud
+Chinese Simplified:
+经度
+Czech:
+Zeměpisná délka
+Danish:
+Længdegrad
+Dutch:
+Lengtegraad
+English:
+Longitude
+Estonian:
+Pikkuskraad
+Finnish:
+Pituutta
+French:
+Longitude
+German:
+Länge
+Greek:
+Γεωγραφικό μήκος
+Haitian Creole:
+Lonjitid
+Hebrew:
+קו אורך
+Hindi:
+देशांतर
+Hmong Daw:
+Longitude
+Hungarian:
+Hosszúság
+Indonesian:
+Garis bujur
+Italian:
+Longitudine
+Japanese:
+経度
+Korean:
+경도
+Latvian:
+Garuma
+Lithuanian:
+Vakarų ilgumos
+Norwegian:
+Lengdegrad
+Polish:
+Długości geograficznej zachodniej
+Portuguese:
+Meridiano
+Romanian:
+Longitudine
+Russian:
+Долгота
+Slovak:
+Zemepisná dĺžka
+Slovenian:
+Dolžine
+Spanish:
+Longitud
+Swedish:
+Longitud
+Thai:
+ลองจิจูด
+Turkish:
+Boylam
+Ukrainian:
+Довгота
+Vietnamese:
+Kinh độ

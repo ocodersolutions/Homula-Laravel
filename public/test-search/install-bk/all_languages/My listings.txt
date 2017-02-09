@@ -1,0 +1,72 @@
+﻿Arabic:
+بلدي القوائم
+Bulgarian:
+Моите списъци
+Catalan:
+El meu llistes
+Chinese Simplified:
+我的节目表
+Czech:
+Moje výpisy
+Danish:
+Min programoversigter
+Dutch:
+Mijn aanbiedingen
+English:
+My listings
+Estonian:
+Minu loendeid
+Finnish:
+Omat luettelot
+French:
+Mes annonces
+German:
+Meine Angebote
+Greek:
+Οι καταχωρήσεις μου
+Haitian Creole:
+Annonces mwen
+Hebrew:
+רישומי אזור
+Hindi:
+अपनी लिस्टिंग
+Hungarian:
+Én listings
+Indonesian:
+Listing saya
+Italian:
+Mie inserzioni
+Japanese:
+私のリスト
+Korean:
+내 목록
+Latvian:
+Mani saraksti
+Lithuanian:
+Mano aukcionai
+Norwegian:
+Min listings
+Polish:
+Moje listy
+Portuguese:
+Minhas listas
+Romanian:
+Listele mele
+Russian:
+Мои списки
+Slovak:
+Moje zoznamy
+Slovenian:
+Moji oglasi
+Spanish:
+Mis anuncios
+Swedish:
+Mina listor
+Thai:
+รายการของฉัน
+Turkish:
+Benim listeleri
+Ukrainian:
+Мої об'єкти
+Vietnamese:
+Danh sách của tôi

@@ -1,0 +1,72 @@
+﻿Arabic:
+تسجيل الدخول
+Bulgarian:
+Вход
+Catalan:
+Inici de sessió
+Chinese Simplified:
+登录
+Czech:
+Přihlášení
+Danish:
+Login
+Dutch:
+Login
+English:
+Login
+Estonian:
+Logi sisse
+Finnish:
+Kirjautuminen
+French:
+Ouverture de session
+German:
+Login
+Greek:
+Σύνδεση
+Haitian Creole:
+Connexion
+Hebrew:
+כניסה
+Hindi:
+लॉगिन
+Hungarian:
+Login
+Indonesian:
+Login
+Italian:
+Login
+Japanese:
+ログイン
+Korean:
+로그인
+Latvian:
+Pieteikšanās
+Lithuanian:
+Prisijungti
+Norwegian:
+Logg inn
+Polish:
+Zaloguj się
+Portuguese:
+Login
+Romanian:
+Login
+Russian:
+Вход
+Slovak:
+Prihlásenie
+Slovenian:
+Prijava
+Spanish:
+Inicio de sesión
+Swedish:
+Inloggning
+Thai:
+เข้าสู่ระบบ
+Turkish:
+Oturum açma
+Ukrainian:
+Логін
+Vietnamese:
+Đăng nhập

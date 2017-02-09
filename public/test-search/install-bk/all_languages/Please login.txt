@@ -1,0 +1,72 @@
+﻿Arabic:
+الرجاء تسجيل الدخول
+Bulgarian:
+Моля влезте
+Catalan:
+Si us plau accedeixi
+Chinese Simplified:
+请登录
+Czech:
+Přihlaste se
+Danish:
+Venligst login
+Dutch:
+Gelieve in te loggen
+English:
+Please login
+Estonian:
+Palun Logi sisse
+Finnish:
+Kirjaudu sisään
+French:
+Veuillez-vous connecter
+German:
+Bitte einloggen
+Greek:
+Παρακαλούμε συνδεθείτε
+Haitian Creole:
+Souple connexion
+Hebrew:
+אנא התחבר
+Hindi:
+कृपया लॉगिन
+Hungarian:
+Jelentkezz
+Indonesian:
+Silahkan login
+Italian:
+Effettua il login
+Japanese:
+ログインしてください。
+Korean:
+로그인을 하십시오
+Latvian:
+Lūdzu, piesakieties
+Lithuanian:
+Prašome prisijungti
+Norwegian:
+Vennligst logg inn
+Polish:
+Zaloguj się
+Portuguese:
+Faça o seu login
+Romanian:
+Vă rugăm să login
+Russian:
+Пожалуйста, авторизуйтесь
+Slovak:
+Prihláste sa prosím
+Slovenian:
+Prosimo prijavite
+Spanish:
+Inicie sesión
+Swedish:
+Vänligen logga in
+Thai:
+กรุณาเข้าสู่ระบบ
+Turkish:
+Lütfen giriş yapın
+Ukrainian:
+Будь ласка, Логін
+Vietnamese:
+Vui lòng đăng nhập

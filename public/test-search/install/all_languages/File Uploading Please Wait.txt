@@ -1,0 +1,72 @@
+﻿Arabic:
+تحميل الملف الرجاء الانتظار
+Bulgarian:
+Качване на файл Моля, изчакайте
+Catalan:
+Arxiu que carrega si us plau esperi
+Chinese Simplified:
+文件上传请稍候
+Czech:
+Odesílání souboru čekejte prosím
+Danish:
+Fil upload Vent venligst
+Dutch:
+Bestand uploaden wacht
+English:
+File Uploading Please Wait
+Estonian:
+Faili üleslaadimine Palun oodake
+Finnish:
+Tiedoston lataaminen palvelimeen Odota
+French:
+Téléchargement de fichier Veuillez patienter
+German:
+Datei hochladen bitte warten
+Greek:
+Αποστολή αρχείου περιμένετε
+Haitian Creole:
+Fichier Téléchargement Tanpri ret tann
+Hebrew:
+טעינת הקובץ אנא המתן
+Hindi:
+फ़ाइल अपलोड कृपया प्रतीक्षा करें
+Hungarian:
+Várjon fájl feltöltése
+Indonesian:
+Meng-upload file tunggu
+Italian:
+Caricamento del file attendere prego
+Japanese:
+ファイルをアップロードするまでお待ちください。
+Korean:
+잠시 기다려 주세요 파일 업로드
+Latvian:
+Failu augšupielādes, lūdzu, uzgaidiet
+Lithuanian:
+Palaukite, failų įkėlimas
+Norwegian:
+Å laste opp filer vent
+Polish:
+Wysyłanie pliku Czekaj
+Portuguese:
+Upload de arquivo Aguarde
+Romanian:
+Fişier încărcarea aşteptaţi
+Russian:
+Загрузка файлов подождите, пожалуйста!
+Slovak:
+Súbor uploadu počkajte
+Slovenian:
+Nalaganje datoteke počakajte
+Spanish:
+Cargar el archivo espere
+Swedish:
+Fil uppladdning vänta
+Thai:
+อัปโหลดแฟ้มกรุณารอสักครู่
+Turkish:
+Dosya yükleniyor lütfen bekleyiniz
+Ukrainian:
+Завантаження файлу, будь ласка, зачекайте
+Vietnamese:
+Tải lên tập tin xin vui lòng chờ

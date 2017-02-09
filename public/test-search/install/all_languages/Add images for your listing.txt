@@ -1,0 +1,72 @@
+﻿Arabic:
+إضافة صور للقائمة الخاصة بك
+Bulgarian:
+Добавяне на изображения за вашия списък
+Catalan:
+Afegir imatges per a l'anunci
+Chinese Simplified:
+添加您的列表中的图像
+Czech:
+Přidat obrázky pro váš výpis
+Danish:
+Tilføje billeder til din fortegnelse
+Dutch:
+Afbeeldingen voor uw aanbieding toevoegen
+English:
+Add images for your listing
+Estonian:
+Luetteloasi piltide lisamine
+Finnish:
+Lisää kuvia tietosi
+French:
+Ajoutez des images pour votre inscription
+German:
+Fügen Sie Bilder für Ihr Angebot
+Greek:
+Προσθέστε εικόνες για τη λίστα σας
+Haitian Creole:
+Ajoute zidòl pou ou ki nan lis
+Hebrew:
+הוספת תמונות עבור הרישום שלך
+Hindi:
+छवियाँ आपकी लिस्टिंग के लिए जोड़ें
+Hungarian:
+Képek a listaelem hozzáadása
+Indonesian:
+Menambahkan gambar untuk listing Anda
+Italian:
+Aggiungere le immagini per le tue inserzioni
+Japanese:
+イメージ リストを追加します。
+Korean:
+귀하의 목록에 대 한 이미지 추가
+Latvian:
+Pievienot savu sarakstu, attēlus
+Lithuanian:
+Pridėti atvaizdus savo aukcioną
+Norwegian:
+Legge til bilder for oppføringen
+Polish:
+Dodaj obrazy do lista
+Portuguese:
+Adicionar imagens para o seu anúncio
+Romanian:
+Adăugaţi imagini pentru listarea dvs.
+Russian:
+Добавление изображения для отображения в списке
+Slovak:
+Pridať obrázky do vášho zoznamu
+Slovenian:
+Dodajanje slike za vaš kotacijo
+Spanish:
+Añadir imágenes a tu anuncio
+Swedish:
+Lägga till bilder för din notering
+Thai:
+เพิ่มรูปภาพสำหรับรายชื่อของคุณ
+Turkish:
+Girişiniz için resim ekleme
+Ukrainian:
+Додавання зображень для вашої компанії
+Vietnamese:
+Thêm hình ảnh cho danh sách của bạn

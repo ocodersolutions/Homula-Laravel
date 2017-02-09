@@ -1,0 +1,72 @@
+﻿Arabic:
+غرفة صغيرة
+Bulgarian:
+малки стая
+Catalan:
+Habitació petita
+Chinese Simplified:
+小房间
+Czech:
+malý pokoj
+Danish:
+lille værelse
+Dutch:
+kleine kamer
+English:
+Den
+Estonian:
+väike ruum
+Finnish:
+pieni huone
+French:
+petite salle
+German:
+kleines Zimmer
+Greek:
+μικρό δωμάτιο
+Haitian Creole:
+ti chanm
+Hebrew:
+חדר קטן
+Hindi:
+छोटे कमरे
+Hungarian:
+kis szoba
+Indonesian:
+kamar kecil
+Italian:
+piccola stanza
+Japanese:
+小部屋
+Korean:
+작은 방
+Latvian:
+nelielā telpā
+Lithuanian:
+nedidelė salė
+Norwegian:
+lite rom
+Polish:
+Mały pokój
+Portuguese:
+quarto pequeno
+Romanian:
+cameră mică
+Russian:
+Малый зал
+Slovak:
+malá miestnosť
+Slovenian:
+mala soba
+Spanish:
+pequeña habitación
+Swedish:
+litet rum
+Thai:
+ห้องเล็ก
+Turkish:
+küçük oda
+Ukrainian:
+маленькій кімнаті
+Vietnamese:
+căn phòng nhỏ

@@ -1,0 +1,80 @@
+﻿Arabic:
+حدد نمط
+Bulgarian:
+Изберете стил
+Catalan:
+Selecciona l'estil
+Chinese Simplified:
+选择样式
+Czech:
+Vybrat styl
+Danish:
+Vælg stil
+Dutch:
+Selecteer stijl
+Estonian:
+Vali laad
+Finnish:
+Valitse tyyli
+French:
+Sélectionnez le Style
+German:
+Wählen Sie Stil
+Greek:
+Επιλέξτε στυλ
+Haitian Creole:
+Fè chwa fason
+Hebrew:
+בחר סגנון
+Hindi:
+शैली का चयन करें
+Hmong Daw:
+Xaiv cov Style
+Hungarian:
+Válassza ki a stílus
+Indonesian:
+Pilih gaya
+Italian:
+Selezionare lo stile
+Japanese:
+スタイルを選択します
+Klingon:
+Style wIv
+Korean:
+스타일 선택
+Latvian:
+Izvēlieties stilu
+Lithuanian:
+Pasirinkite stilių
+Malay:
+Pilih gaya
+Norwegian:
+Velg stil
+Persian:
+انتخاب سبک
+Polish:
+Wybierz styl
+Portuguese:
+Selecione o estilo
+Romanian:
+Selectaţi stil
+Russian:
+Выбрать стиль
+Slovak:
+Vyberte štýl
+Slovenian:
+Izberite slog
+Spanish:
+Seleccione el estilo
+Swedish:
+Välj stil
+Thai:
+เลือกลักษณะ
+Turkish:
+Stil seçin
+Ukrainian:
+Виберіть стиль
+Urdu:
+طرز منتخب کریں
+Vietnamese:
+Chọn kiểu

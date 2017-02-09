@@ -1,0 +1,76 @@
+﻿Arabic:
+إظهار الشريط الجانبي
+Bulgarian:
+Показвай страничната лента
+Catalan:
+Mostra la barra lateral
+Chinese Simplified:
+显示侧边栏
+Czech:
+Zobrazit boční panel
+Danish:
+Vis indholdsoversigten
+Dutch:
+De zijbalk weergeven
+English:
+Show the sidebar
+Estonian:
+Kuva külgriba
+Finnish:
+Näytä sivupalkki
+French:
+Montrer la barre latérale
+German:
+Die Sidebar anzeigen
+Greek:
+Εμφάνιση της πλευρικής εργαλειοθήκης
+Haitian Creole:
+Montre le a
+Hebrew:
+הצג את הסרגל הצידי
+Hindi:
+साइडबार दिखाएँ
+Hmong Daw:
+Qhia cov sidebar
+Hungarian:
+Az oldalsáv megjelenítése
+Indonesian:
+Tampilkan sidebar
+Italian:
+Visualizza la barra laterale
+Japanese:
+サイドバーを表示します。
+Korean:
+사이드바 표시
+Latvian:
+Rādīt sānjoslu
+Lithuanian:
+Rodyti šoninę juostą
+Norwegian:
+Vis sidepanelet
+Persian:
+نمایش نوار جانبی
+Polish:
+Pokaż pasek boczny
+Portuguese:
+Mostrar a barra lateral
+Romanian:
+Afişează bara laterală
+Russian:
+Показать боковой панели
+Slovak:
+Zobraziť bočný panel
+Slovenian:
+Pokaži v stransko vrstico
+Spanish:
+Mostrar la barra lateral
+Swedish:
+Visa sidofältet
+Thai:
+แสดง sidebar
+Turkish:
+Kenar çubuğunu göster
+Ukrainian:
+Показати на бічній панелі
+Vietnamese:
+Hiển thị thanh bên

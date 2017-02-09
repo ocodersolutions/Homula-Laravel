@@ -1,0 +1,72 @@
+﻿Arabic:
+النطاق السعري
+Bulgarian:
+Ценови диапазон
+Catalan:
+Rang de preus
+Chinese Simplified:
+价格范围
+Czech:
+Cenové rozpětí
+Danish:
+Prisinterval
+Dutch:
+Prijsklasse
+English:
+Price Range
+Estonian:
+Hinnavahemik
+Finnish:
+Hinta
+French:
+Gamme de prix
+German:
+Preisspanne
+Greek:
+Εύρος τιμής
+Haitian Creole:
+Prix de
+Hebrew:
+טווח מחירים
+Hindi:
+मूल्य सीमा
+Hungarian:
+Ártartomány
+Indonesian:
+Kisaran harga
+Italian:
+Fascia di prezzo
+Japanese:
+価格帯
+Korean:
+가격 범위
+Latvian:
+Cenu diapazons
+Lithuanian:
+Kainų intervalas
+Norwegian:
+Prisklasse
+Polish:
+Przedział cenowy
+Portuguese:
+Faixa de preço
+Romanian:
+Intervalul de preţ
+Russian:
+Диапазон цен
+Slovak:
+Rozpätie cien
+Slovenian:
+Razpon cen
+Spanish:
+Rango de precios
+Swedish:
+Prisklass
+Thai:
+ช่วงราคา
+Turkish:
+Fiyat aralığı
+Ukrainian:
+Діапазон цін
+Vietnamese:
+Phạm vi giá

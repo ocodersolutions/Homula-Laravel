@@ -1,0 +1,72 @@
+﻿Arabic:
+حذف الصورة
+Bulgarian:
+Изтриване на картина
+Catalan:
+Suprimir la imatge
+Chinese Simplified:
+删除图片
+Czech:
+Odstranit obrázek
+Danish:
+Slet billede
+Dutch:
+Afbeelding verwijderen
+English:
+Delete Picture
+Estonian:
+Pildi kustutamiseks
+Finnish:
+Kuvan poistaminen
+French:
+Supprimer l'image
+German:
+Bild löschen
+Greek:
+Διαγραφή εικόνας
+Haitian Creole:
+Retire foto
+Hebrew:
+מחיקת תמונה
+Hindi:
+चित्र हटाएँ
+Hungarian:
+Kép törlése
+Indonesian:
+Menghapus gambar
+Italian:
+Eliminare foto
+Japanese:
+画像を削除します。
+Korean:
+그림 삭제
+Latvian:
+Dzēst attēlu
+Lithuanian:
+Naikinti paveikslėlį
+Norwegian:
+Slett bilde
+Polish:
+Usuń obraz
+Portuguese:
+Excluir imagem
+Romanian:
+Şterge imagine
+Russian:
+Удаление рисунка
+Slovak:
+Odstránenie obrázka
+Slovenian:
+Brisanje slike
+Spanish:
+Eliminar imagen
+Swedish:
+Ta bort bild
+Thai:
+ลบรูปภาพ
+Turkish:
+Resmi silme
+Ukrainian:
+Видалити зображення
+Vietnamese:
+Xóa hình ảnh

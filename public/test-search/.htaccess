@@ -1,0 +1,11 @@
+# BEGIN Expires
+
+<IfModule mod_rewrite.c>
+RewriteEngine on
+#RewriteRule Home/?$  index.php?ptype=home [L]
+#RewriteRule contact-us/?$  index.php?ptype=contactus [L]
+#RewriteRule listings/?$  index.php?ptype=listings [L]
+#RewriteRule ^city/([^/]*)$ index.php?city=$1 [L]
+RewriteRule ^([^-]*)/([^-]*)/id-([^-]*)-([^-]*)-(.*)$ index.php?ptype=viewFullListing&reid=$3&region=$4 [L]
+#RewriteRule ^([^-]*)-([0-9]+)/?$ index.php?ptype=page&id=$2 [L]
+</IfModule>

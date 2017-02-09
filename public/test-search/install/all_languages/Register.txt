@@ -1,0 +1,72 @@
+﻿Arabic:
+سجل
+Bulgarian:
+Регистрирайте се
+Catalan:
+Registrar-se
+Chinese Simplified:
+注册
+Czech:
+Registrace
+Danish:
+Registrer
+Dutch:
+Registreren
+English:
+Register
+Estonian:
+Registreeru
+Finnish:
+Rekisteröidy
+French:
+S'inscrire
+German:
+Registrieren
+Greek:
+Εγγράψου
+Haitian Creole:
+Anrejistre
+Hebrew:
+אוגר
+Hindi:
+पंजीकृत करें
+Hungarian:
+Regisztráció
+Indonesian:
+Daftar
+Italian:
+Registro
+Japanese:
+登録
+Korean:
+등록
+Latvian:
+Reģistrēties
+Lithuanian:
+Užsiregistruok
+Norwegian:
+Registrering
+Polish:
+Rejestr
+Portuguese:
+Registre-se
+Romanian:
+Înregistrează-te
+Russian:
+Регистрация
+Slovak:
+Zaregistrovať sa
+Slovenian:
+Registracija
+Spanish:
+Registro
+Swedish:
+Registrera dig
+Thai:
+การลงทะเบียน
+Turkish:
+Kayıt ol
+Ukrainian:
+Зареєструватися
+Vietnamese:
+Đăng ký

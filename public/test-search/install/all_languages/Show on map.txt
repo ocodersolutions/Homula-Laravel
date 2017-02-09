@@ -1,0 +1,72 @@
+﻿Arabic:
+على خريطة
+Bulgarian:
+На картата
+Catalan:
+El mapa
+Chinese Simplified:
+地图上
+Czech:
+Na mapě
+Danish:
+På kort
+Dutch:
+Op kaart
+English:
+Show on map
+Estonian:
+Kaardil
+Finnish:
+Kartalla
+French:
+Sur la carte
+German:
+Auf Karte anzeigen
+Greek:
+Στον χάρτη
+Haitian Creole:
+Nan kat
+Hebrew:
+על המפה
+Hindi:
+मानचित्र पर
+Hungarian:
+Térkép
+Indonesian:
+Pada peta
+Italian:
+Su mappa
+Japanese:
+地図
+Korean:
+지도에
+Latvian:
+Kartē
+Lithuanian:
+Žemėlapyje
+Norwegian:
+På kart
+Polish:
+Na mapie
+Portuguese:
+Mapa
+Romanian:
+Pe hartă
+Russian:
+На карте
+Slovak:
+Na mape
+Slovenian:
+Na zemljevidu
+Spanish:
+En el mapa
+Swedish:
+På karta
+Thai:
+บนแผนที่
+Turkish:
+Harita üzerinde
+Ukrainian:
+На карті
+Vietnamese:
+Trên bản đồ

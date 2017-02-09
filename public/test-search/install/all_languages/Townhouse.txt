@@ -1,0 +1,72 @@
+﻿Arabic:
+تاونهاوس
+Bulgarian:
+Townhouse
+Catalan:
+Townhouse
+Chinese Simplified:
+联排
+Czech:
+Městský dům
+Danish:
+Byhus
+Dutch:
+Dorpshuis
+English:
+Townhouse
+Estonian:
+Townhouse
+Finnish:
+Rivitalo
+French:
+Maison en rangée
+German:
+Stadthaus
+Greek:
+Μεζονέτα
+Haitian Creole:
+Maison
+Hebrew:
+קומפלקס נופש
+Hindi:
+Townhouse पुनरारंभ
+Hungarian:
+Townhouse
+Indonesian:
+Townhouse
+Italian:
+Casa a schiera
+Japanese:
+タウンハウス
+Korean:
+타운 하우스
+Latvian:
+Townhouse
+Lithuanian:
+Kamienicy
+Norwegian:
+Rekkehus
+Polish:
+Dom szeregowy
+Portuguese:
+Moradia em banda
+Romanian:
+Townhouse
+Russian:
+Таунхаус
+Slovak:
+Townhouse
+Slovenian:
+Townhouse
+Spanish:
+Casa adosada
+Swedish:
+Radhus
+Thai:
+ทาวน์เฮ้าส์
+Turkish:
+Townhouse
+Ukrainian:
+Таунхаус
+Vietnamese:
+Nhà phố

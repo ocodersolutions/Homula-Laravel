@@ -1,0 +1,72 @@
+﻿Arabic:
+إدخالات القوائم
+Bulgarian:
+списъци
+Catalan:
+llistes
+Chinese Simplified:
+节目表
+Czech:
+výpisy
+Danish:
+programoversigter
+Dutch:
+aanbiedingen
+English:
+listings
+Estonian:
+loendid
+Finnish:
+ohjelmatiedot
+French:
+listes
+German:
+Angebote
+Greek:
+καταχωρήσεις
+Haitian Creole:
+annonces
+Hebrew:
+רישומים
+Hindi:
+लिस्टिंग
+Hungarian:
+Listings
+Indonesian:
+listing
+Italian:
+inserzioni
+Japanese:
+物件情報
+Korean:
+리스팅
+Latvian:
+saraksti
+Lithuanian:
+Aukcionai
+Norwegian:
+listings
+Polish:
+program telewizyjny
+Portuguese:
+bens imóveis
+Romanian:
+Listings
+Russian:
+списки
+Slovak:
+výpisy
+Slovenian:
+oglasi
+Spanish:
+anuncios
+Swedish:
+tablåer
+Thai:
+รายการ
+Turkish:
+listeleri
+Ukrainian:
+списки
+Vietnamese:
+các bảng liệt kê

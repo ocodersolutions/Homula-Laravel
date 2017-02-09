@@ -1,0 +1,72 @@
+﻿Arabic:
+وضع قائمة
+Bulgarian:
+Показване на състоянието
+Catalan:
+Llista d'estatus
+Chinese Simplified:
+列出的状态
+Czech:
+Zobrazení stavu
+Danish:
+Notering status
+Dutch:
+Status aanbieding
+English:
+Listing status
+Estonian:
+Noteerimise olek
+Finnish:
+Luettelon tila
+French:
+Statut de la liste des pièces justificatives
+German:
+Auflisten des status
+Greek:
+Καταχώρηση κατάστασης
+Haitian Creole:
+Estati ki nan lis
+Hebrew:
+מצב רישום
+Hindi:
+लिस्टिंग की स्थिति
+Hungarian:
+Listázási állapota
+Indonesian:
+Daftar status
+Italian:
+Status di quotazione
+Japanese:
+現在のステータス
+Korean:
+목록 상태
+Latvian:
+Sarakstā statuss
+Lithuanian:
+Įtraukimo į sąrašą statusas
+Norwegian:
+Oppføringen-status
+Polish:
+Wyświetlanie stanu
+Portuguese:
+Listagem de status
+Romanian:
+Listează starea
+Russian:
+Список статуса
+Slovak:
+Výpis stavu
+Slovenian:
+Stanje kotacijo
+Spanish:
+Estado de anuncio
+Swedish:
+Notering status
+Thai:
+สถานะของรายการ
+Turkish:
+Liste durumu
+Ukrainian:
+Лістинг статус
+Vietnamese:
+Danh sách trạng thái

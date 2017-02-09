@@ -1,0 +1,72 @@
+﻿Arabic:
+تسجيل الدخول هنا
+Bulgarian:
+Вход
+Catalan:
+Entra aquí
+Chinese Simplified:
+在这里登录
+Czech:
+Přihlašte se zde
+Danish:
+Login her
+Dutch:
+Login hier
+English:
+Login here
+Estonian:
+Siin sisselogimine
+Finnish:
+Kirjaudu täällä
+French:
+Identifiez-vous ici
+German:
+Hier einloggen
+Greek:
+Login εδώ
+Haitian Creole:
+Connexion isit la
+Hebrew:
+כניסה למערכת:
+Hindi:
+यहाँ लॉगिन
+Hungarian:
+Bejelentkezés itt
+Indonesian:
+Login disini
+Italian:
+Accedi qui
+Japanese:
+ここのログイン
+Korean:
+여기에서 로그인
+Latvian:
+Pieslēdzieties šeit
+Lithuanian:
+Prisijungimas
+Norwegian:
+Kundelogin
+Polish:
+Zaloguj się tutaj
+Portuguese:
+Entre aqui
+Romanian:
+Autentificaţi-vă aici
+Russian:
+Вход здесь
+Slovak:
+Prihláste sa tu
+Slovenian:
+Prijava tukaj
+Spanish:
+Inicio de sesión aquí
+Swedish:
+Logga in här
+Thai:
+เข้าสู่ระบบที่นี่
+Turkish:
+Buradan oturum aç
+Ukrainian:
+Увійти сюди
+Vietnamese:
+Đăng nhập ở đây

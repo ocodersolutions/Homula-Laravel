@@ -1,0 +1,74 @@
+﻿Arabic:
+ستتمكن من اختيار العنوان بواسطة النقر فوق على الخريطة
+Bulgarian:
+Ще можете да изберете адреса, като щракнете върху карта
+Catalan:
+Vostè serà capaç d'escollir l'adreça fent clic al mapa
+Chinese Simplified:
+您可以选择通过单击地图上的地址
+Czech:
+Budete moci zvolit adresu klepnutím na mapě
+Danish:
+Du vil kunne vælge adresse ved at klikke på kort
+Dutch:
+U zult kunnen Kies het adres door te klikken op kaart
+English:
+You'll be able to choose the address by clicking on map
+Estonian:
+Te peate saama valida aadress kaardil klõpsates
+Finnish:
+Voi valita osoitteen klikkaamalla kartta
+French:
+Vous serez en mesure de choisir l'adresse en cliquant sur la carte
+German:
+Sie werden in der Lage, die Adresse zu wählen, klicken Sie auf Karte
+Greek:
+Θα μπορέσετε να επιλέξετε τη διεύθυνση κάνοντας κλικ στο χάρτη
+Haitian Creole:
+Ou ap kapab chwazi adrès la klike sou kat
+Hebrew:
+תהיה לך אפשרות לבחור את הכתובת על-ידי לחיצה על המפה
+Hindi:
+आप मानचित्र पर क्लिक करके पते का चयन करने में सक्षम हो जाएगा
+Hmong Daw:
+Koj yuav tau xaiv qhov chaw uas txhaj rau cob qhia
+Hungarian:
+Meg fogjuk tenni, kiválaszthatja a cím mellett csattanó-on Térkép
+Indonesian:
+Anda dapat memilih alamat dengan mengklik pada peta
+Italian:
+Sarete in grado di scegliere l'indirizzo cliccando sulla mappa
+Japanese:
+地図上をクリックして、アドレスを選択することができます。
+Korean:
+지도 클릭 하 여 주소를 선택할 수 있을 거 야
+Latvian:
+Jūs varēsiet izvēlēties adresi kartē, noklikšķinot uz
+Lithuanian:
+Jūs galėsite pasirinkti adresą, žemėlapyje spustelėdami
+Norwegian:
+Du vil kunne velge adressen ved å klikke på kart
+Polish:
+Będziesz mógł wybrać adres, klikając na mapie
+Portuguese:
+Você será capaz de escolher o endereço clicando no mapa
+Romanian:
+Veţi avea posibilitatea de a alege adresa făcând clic pe hartă
+Russian:
+Вы сможете выбрать адрес, нажав на карте
+Slovak:
+Budete môcť vybrať adresu kliknutím na mapu
+Slovenian:
+Boste lahko izberete naslov s klikom na zemljevid
+Spanish:
+Podrás elegir la dirección pulsando en el mapa
+Swedish:
+Du kommer att kunna välja adressen genom att klicka på karta
+Thai:
+คุณจะสามารถเลือกอยู่ โดยคลิกที่แผนที่
+Turkish:
+Harita üzerinde tıklayarak adresi seçin yapabileceksiniz
+Ukrainian:
+Ви зможете вибрати адресу, натиснувши на карті
+Vietnamese:
+Bạn sẽ có thể chọn địa chỉ bằng cách nhấp vào bản đồ

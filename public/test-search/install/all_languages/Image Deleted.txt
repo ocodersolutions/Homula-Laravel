@@ -1,0 +1,72 @@
+﻿Arabic:
+حذف الصورة
+Bulgarian:
+Изображение на изтрити
+Catalan:
+Imatge suprimit
+Chinese Simplified:
+删除图像
+Czech:
+Obrázek odstraněn
+Danish:
+Billedet slettet
+Dutch:
+Afbeelding verwijderd
+English:
+Image Deleted
+Estonian:
+Kustutatud pilt
+Finnish:
+Poistaa kuvan
+French:
+Image supprimé
+German:
+Bild gelöscht
+Greek:
+Εικόνα διαγραφεί
+Haitian Creole:
+Estati a Supprimé
+Hebrew:
+התמונה נמחקה
+Hindi:
+हटाए गए छवि
+Hungarian:
+A kép törölve
+Indonesian:
+Gambar yang dihapus
+Italian:
+Immagine cancellato
+Japanese:
+画像の削除
+Korean:
+이미지 삭제
+Latvian:
+Attēls izdzēsts
+Lithuanian:
+Panaikinti vaizdo
+Norwegian:
+Bildet som er slettet
+Polish:
+Obraz usunięte
+Portuguese:
+Imagem excluída
+Romanian:
+Imagini şterse
+Russian:
+Удалить изображение
+Slovak:
+Obrázok odstráni
+Slovenian:
+Slike, črta
+Spanish:
+Imagen eliminado
+Swedish:
+Bilden tas bort
+Thai:
+รูปที่ถูกลบ
+Turkish:
+Resim silindi
+Ukrainian:
+Зображення видалено
+Vietnamese:
+Hình ảnh bị xóa

@@ -1,0 +1,72 @@
+﻿Arabic:
+نرحب
+Bulgarian:
+Добре дошли
+Catalan:
+Benvingut
+Chinese Simplified:
+欢迎
+Czech:
+Vítej
+Danish:
+Velkommen
+Dutch:
+Welkom
+English:
+Welcome
+Estonian:
+Tere tulemast
+Finnish:
+Tervetuloa
+French:
+Bienvenue
+German:
+Willkommen
+Greek:
+Καλώς όρισες
+Haitian Creole:
+Byenvini
+Hebrew:
+ברוך הבא
+Hindi:
+स्वागत है
+Hungarian:
+üdvözlet
+Indonesian:
+Selamat datang
+Italian:
+Benvenuti
+Japanese:
+ようこそ
+Korean:
+환영 합니다
+Latvian:
+laipni lūdzam
+Lithuanian:
+sveikas atvykęs
+Norwegian:
+velkommen
+Polish:
+Serdecznie Witamy
+Portuguese:
+Bem-vindo
+Romanian:
+bun venit
+Russian:
+Добро пожаловать
+Slovak:
+vitaj
+Slovenian:
+dobrodošli
+Spanish:
+Bienvenido
+Swedish:
+Välkommen
+Thai:
+ยินดีต้อนรับ
+Turkish:
+Hoş Geldiniz
+Ukrainian:
+Прошу
+Vietnamese:
+Chào mừng

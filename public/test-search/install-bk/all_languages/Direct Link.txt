@@ -1,0 +1,80 @@
+﻿Arabic:
+رابط مباشر
+Bulgarian:
+Пряка връзка
+Catalan:
+Enllaç directe
+Chinese Simplified:
+直接链接
+Czech:
+Přímá vazba
+Danish:
+Direkte Link
+Dutch:
+Directe Link
+English:
+Direct Link
+Estonian:
+Otsene seos
+Finnish:
+Suora linkki
+French:
+Lien direct
+German:
+Direktlink
+Greek:
+Άμεσος σύνδεσμος
+Haitian Creole:
+Lyen dirèk
+Hebrew:
+קישור ישיר
+Hindi:
+सीधा लिंक
+Hmong Daw:
+Direct Link
+Hungarian:
+Közvetlen Link
+Indonesian:
+Link langsung
+Italian:
+Link diretto
+Japanese:
+直接リンク
+Korean:
+직접 링크
+Latvian:
+Tieša saite
+Lithuanian:
+Tiesioginė nuoroda
+Malay:
+Pautan terus
+Norwegian:
+Direkte kobling
+Persian:
+لینک مستقیم
+Polish:
+Bezpośredni Link
+Portuguese:
+Link direto
+Romanian:
+Direct Link
+Russian:
+Прямая связь
+Slovak:
+Priamy odkaz
+Slovenian:
+Neposredna povezava
+Spanish:
+Enlace directo
+Swedish:
+Direkt länk
+Thai:
+เชื่อมโยงโดยตรง
+Turkish:
+Doğrudan bağlantı
+Ukrainian:
+Прямі посилання
+Urdu:
+براہ راست ربط
+Vietnamese:
+Trực tiếp liên kết

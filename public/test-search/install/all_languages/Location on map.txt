@@ -1,0 +1,72 @@
+﻿Arabic:
+الموقع على الخريطة
+Bulgarian:
+Местонахождение на картата
+Catalan:
+Localització en el mapa
+Chinese Simplified:
+地图上的位置
+Czech:
+Umístění na mapě
+Danish:
+Placering på kort
+Dutch:
+Locatie op kaart
+English:
+Location on map
+Estonian:
+Asukoha kaart
+Finnish:
+Sijainti kartalla
+French:
+Emplacement sur la carte
+German:
+Lage auf Karte
+Greek:
+Θέση στον χάρτη
+Haitian Creole:
+Kote yo ye nan kat
+Hebrew:
+מיקום במפה
+Hindi:
+स्थान मानचित्र पर
+Hungarian:
+Elhelyezés-ra Térkép
+Indonesian:
+Lokasi pada peta
+Italian:
+Posizione sulla mappa
+Japanese:
+地図上の位置
+Korean:
+지도에 위치
+Latvian:
+Atrašanās vieta kartē
+Lithuanian:
+Vietą žemėlapyje
+Norwegian:
+Plassering på kartet
+Polish:
+Położenie na mapie
+Portuguese:
+Localização no mapa
+Romanian:
+Amplasarea pe hartă
+Russian:
+Расположение на карте
+Slovak:
+Umiestnenie na mape
+Slovenian:
+Lokacijo na zemljevidu
+Spanish:
+Ubicación en el mapa
+Swedish:
+Plats på kartan
+Thai:
+ตำแหน่งบนแผนที่
+Turkish:
+Haritada konumu
+Ukrainian:
+Розташування на карті
+Vietnamese:
+Vị trí trên bản đồ

@@ -1,0 +1,76 @@
+﻿Arabic:
+على وشك الانتهاء
+Bulgarian:
+Почти Съставено
+Catalan:
+Gairebé fet
+Chinese Simplified:
+几乎做
+Czech:
+Už to skoro
+Danish:
+Næsten færdig
+Dutch:
+Bijna klaar
+English:
+Almost done
+Estonian:
+Peaaegu valmis
+Finnish:
+Melkein valmis
+French:
+Presque terminé
+German:
+Fast fertig
+Greek:
+Σχεδόν τελειώσει
+Haitian Creole:
+Prèske fi ni
+Hebrew:
+כמעט לעשות
+Hindi:
+लगभग हो गया
+Hmong Daw:
+Twb yuav tag
+Hungarian:
+Majdnem kész
+Indonesian:
+Hampir selesai
+Italian:
+Quasi fatto
+Japanese:
+ほぼ完了
+Korean:
+거의 다
+Latvian:
+Gandrīz izdarīts
+Lithuanian:
+Beveik baigta
+Norwegian:
+Nesten ferdig
+Persian:
+تقریبا انجام شده
+Polish:
+Prawie gotowe
+Portuguese:
+Quase pronto
+Romanian:
+Aproape gata
+Russian:
+Почти сделано
+Slovak:
+Skoro hotoví
+Slovenian:
+Skoraj končano
+Spanish:
+Casi terminado
+Swedish:
+Nästan klar
+Thai:
+เกือบเสร็จ
+Turkish:
+Neredeyse bitti
+Ukrainian:
+Майже Готово
+Vietnamese:
+Gần như hoàn tất

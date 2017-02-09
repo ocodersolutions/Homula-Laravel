@@ -1,0 +1,72 @@
+﻿Arabic:
+أي مجموعة
+Bulgarian:
+Всеки диапазон
+Catalan:
+Qualsevol interval
+Chinese Simplified:
+任何范围
+Czech:
+Každý rozsah
+Danish:
+Helst område
+Dutch:
+Wordt een eventueel bereik
+English:
+Any Range
+Estonian:
+Suvalist vahemikku
+Finnish:
+Kaikki alueen
+French:
+Toute la gamme
+German:
+Auswahl
+Greek:
+Κάθε περιοχή
+Haitian Creole:
+De tout
+Hebrew:
+בכל טווח
+Hindi:
+किसी भी श्रेणी
+Hungarian:
+Bármilyen tartományt
+Indonesian:
+Berbagai
+Italian:
+Qualsiasi intervallo
+Japanese:
+任意の範囲
+Korean:
+모든 범위
+Latvian:
+Jebkuru diapazonu
+Lithuanian:
+Bet kokį diapazoną
+Norwegian:
+Ethvert område
+Polish:
+Dowolnego zakresu
+Portuguese:
+Qualquer intervalo
+Romanian:
+Orice zonă
+Russian:
+Любой интервал
+Slovak:
+Ľubovoľný rozsah
+Slovenian:
+Poljuben obseg
+Spanish:
+Cualquier rango
+Swedish:
+Ett textområde
+Thai:
+ช่วงใด ๆ
+Turkish:
+Herhangi bir aralığı
+Ukrainian:
+Будь-який діапазон
+Vietnamese:
+Bất kỳ phạm vi

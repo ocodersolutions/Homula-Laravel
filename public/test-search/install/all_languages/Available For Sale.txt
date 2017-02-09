@@ -1,0 +1,72 @@
+﻿Arabic:
+متاحة للبيع
+Bulgarian:
+Налични за продажба
+Catalan:
+Disponible per a la venda
+Chinese Simplified:
+发售
+Czech:
+K dispozici pro prodej
+Danish:
+Tilgængelige til salg
+Dutch:
+Beschikbaar voor verkoop
+English:
+Available For Sale
+Estonian:
+Müügiks saadaval
+Finnish:
+Myytävissä olevat
+French:
+Disponible à la vente
+German:
+Zur Veräußerung verfügbare
+Greek:
+Διαθέσιμα προς πώληση
+Haitian Creole:
+Ki disponib pou vann
+Hebrew:
+למכירה
+Hindi:
+बिक्री के लिए उपलब्ध
+Hungarian:
+Eladásra rendelkezésre
+Indonesian:
+Tersedia untuk dijual
+Italian:
+Disponibili per la vendita
+Japanese:
+販売可能
+Korean:
+판매 가능
+Latvian:
+Pieejami pārdošanai
+Lithuanian:
+Galima parduoti
+Norwegian:
+Tilgjengelig For salg
+Polish:
+Dostępne do sprzedaży
+Portuguese:
+Disponíveis para venda
+Romanian:
+Disponibile pentru vânzare
+Russian:
+Доступные для продажи
+Slovak:
+K dispozícii na predaj
+Slovenian:
+Na voljo za prodajo
+Spanish:
+Disponibles para la venta
+Swedish:
+Tillgängliga för försäljning
+Thai:
+การจำหน่าย
+Turkish:
+Satışa
+Ukrainian:
+Наявні для продажу
+Vietnamese:
+Có sẵn để bán
