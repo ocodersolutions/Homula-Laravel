@@ -29,6 +29,7 @@ Route::get('profile', 'FrontendController@index');
 
 Route::get('news/{alias}','FrontendController@news_cat');
 Route::get('articles/{alias}','FrontendController@news_detail');
+Route::get('agents', 'FrontendController@agents');
 
 Route::get('properties-management', function(){
     return view('frontend.properties-management');

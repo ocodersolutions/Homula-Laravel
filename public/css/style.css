@@ -1396,3 +1396,125 @@ p.box_items_title {
 .snc_item_comment .comment_2 {
     margin-left: 10px;
 }
+.search-agents h3 {
+    width: 100%;
+    font-size: 30px;
+    padding: 35px 0;
+    background: #fff;
+    text-align: center;
+    color: #039be5;
+    border-bottom: 1px solid rgba(0,0,0,0.12);
+    margin: 0;
+}
+.search-agents-main {
+    margin-bottom: 0;
+    text-align: center;
+    color: #039be5;
+    background-image: url(../images/search_agents_bg.jpg);
+    background-position: center 65%;
+    border-radius: 0;
+    height: 125px;
+    width: 100%;
+    box-shadow: 0 10px 18px -13px #000;
+    box-sizing: content-box;
+}
+.search-agents-content {
+    height: 47px;
+    width: 500px;
+    margin: 0 auto;
+    border-top-width: 5px;
+}
+.search-agents-content form {
+    position: relative;
+}
+.search-agents-content form input[type=text] {
+    margin-top: 30px;
+    width: 100%;
+    border-radius: 8px;
+    height: 47px;
+    border: 0;
+    padding: 10px;
+}
+.search-agents-content form button {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 47px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    border: 0;
+    background: #e91e63 none repeat scroll 0 0;
+    color: #fff;
+}
+.search-agents-content form button i {
+    margin-right: 5px;
+    font-size: 18px;
+}
+h1.agents-content-title {
+    margin: 0 0 25px 0;
+    background: #fff;
+    text-align: center;
+    color: #039be5;
+    font-size: 28px;
+    line-height: 60px;
+    font-weight: bold;
+}
+.agents-content > div {
+    background: #fff;
+}
+.agents-item {
+    padding: 14px 0px 30px 0px;
+    background: #fff;
+}
+.agents-item-content {
+    box-shadow: 0 0 12px #b8b8b8;
+    overflow: hidden;
+    padding: 10px;
+    min-height: 305px;
+}
+.aic-image {
+    width: 40%;
+    float: left;
+}
+.aic-image img {
+    width: 100%;
+}
+.aic-information {
+    float: left;
+    width: 60%;
+    padding-left: 30px;
+}
+.aic-information h2 {
+    margin: 0 0 20px 0;
+    line-height: 0;
+}
+.aic-information h2 a {
+    font-size: 20px;
+    color: #0a368a;
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1;
+}
+.aic-information h2 a:hover {
+    text-decoration: none;
+}
+.aic-information div h3 {
+    margin: 0;
+    color: #039be5;
+    font-size: 18px;
+}
+.aic-information div span {
+    color: #212121;
+    margin-bottom: 10px;
+    display: inline-block;
+} 
+.aic-infor-link i {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #3097D1;
+    border-radius: 50%;
+    line-height: 27px;
+    text-align: center;
+    font-size: 16px;
+    margin-right: 5px;
+}

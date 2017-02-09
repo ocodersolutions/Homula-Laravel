@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Models\Menus;
 use App\Models\Categories;
 use App\Models\Articles;
+use App\Models\Agents;
 
 class FrontendController extends Controller
 {
@@ -36,5 +37,11 @@ class FrontendController extends Controller
         $articles_hot = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
         // echo '<pre>'; var_dump($group_cat); echo '<pre>';
         return view('frontend.news-cat', compact('menus', 'categories', 'articles', 'group_cat','articles_agent','articles_hot'));
+    }
+
+    public function agents() {
+        $agents = Agents::all();
+        $articles_hot = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
+        return view('frontend.agents', compact('agents', 'articles_hot'));
     }
 }
