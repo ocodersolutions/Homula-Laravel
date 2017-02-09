@@ -21,13 +21,13 @@ class FrontendController extends Controller
         return view('frontend.profile');
     }
 
-    public function articles_detail($alias) {
+    public function news_detail($alias) {
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
         $articles = Articles::where('alias','=',$alias)->get()->first();
-        return view('frontend.article-detail', compact('menus', 'articles'));
+        return view('frontend.news-detail', compact('menus', 'articles'));
     }
 
-    public function categories_news($alias) {
+    public function news_cat($alias) {
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
         $categories = Categories::where('alias','=', $alias)->get()->first();
         $group_cat = Categories::where('parent_id', '=', $categories->parent_id)->get();
@@ -35,6 +35,6 @@ class FrontendController extends Controller
         $articles_agent = Articles::where('id','>=', 18)->take(36)->get();
         $articles_hot = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
         // echo '<pre>'; var_dump($group_cat); echo '<pre>';
-        return view('frontend.categories-news', compact('menus', 'categories', 'articles', 'group_cat','articles_agent','articles_hot'));
+        return view('frontend.news-cat', compact('menus', 'categories', 'articles', 'group_cat','articles_agent','articles_hot'));
     }
 }
