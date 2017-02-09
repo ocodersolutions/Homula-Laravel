@@ -43,6 +43,7 @@ class AgentsController extends Controller
             $agents->thumbnail = $post_data['thumbnail'];
             $agents->area_work = $post_data['area_work'];
             $agents->spoken_language = $post_data['spoken_language'];
+            $agents->experience = $post_data['experience'];
             $result = $agents->save();
         } else {
             $agents = Agents::findOrFail($id);

@@ -154,7 +154,7 @@
 									</div>
 									<div class="aic-infor-exp">
 										<h3>EXPERIENCE</h3>
-										<span>4.5 Years</span>
+										<span>{!! $agent->experience !!}</span>
 									</div>
 									<div class="aic-infor-link">
 										<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>

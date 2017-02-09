@@ -8,5 +8,5 @@ class Agents extends Model
 {
 	public $timestamps = false;
 	
-    protected $fillable = ['name','email','alias','thumbnail','area_work','spoken_language'];
+    protected $fillable = ['name','email','alias','thumbnail','area_work','spoken_language','experience'];
 }

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 09, 2017 at 05:19 AM
+-- Generation Time: Feb 09, 2017 at 04:51 AM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.5
 
@@ -33,51 +33,50 @@ CREATE TABLE `agents` (
   `alias` varchar(255) NOT NULL,
   `thumbnail` varchar(255) NOT NULL,
   `area_work` varchar(255) NOT NULL,
-  `spoken_language` varchar(255) NOT NULL,
-  `experience` varchar(255) NOT NULL
+  `spoken_language` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `agents`
 --
 
-INSERT INTO `agents` (`id`, `name`, `email`, `alias`, `thumbnail`, `area_work`, `spoken_language`, `experience`) VALUES
-(1, 'Dany Azar', 'danyazar@realestate.homula.com', 'dany-azar', '/uploads/top_agents/agentphoto-1.png', 'First time buyers<br> York region', 'English Arabic some french', '2 Years'),
-(2, 'Samir Arora', 'samirarora@realestate.homula.com', 'samir-arora', '/uploads/top_agents/agentphoto-2.png', 'Head Office<br> 211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'www.SamirArora.ca'),
-(3, 'Sameer Amini', 'sameeramini@realestate.homula.com', 'sameer-amini', '/uploads/top_agents/agentphoto-3.png', 'Toronto + Durham Region', 'Farsi, Urdu, Dari, English', ''),
-(4, 'John Redmond', 'johnredmond@realestate.homula.com', 'john-redmond', '', 'Effectivity Real Estate<br> Wardrobe Street 90210', '', ''),
-(5, 'Bill Kaluski', 'billkaluski@realestate.homula.com', 'bill-kaluski', '/uploads/top_agents/agentphoto-4.jpg', 'Toronto York Region Simcoe Region Durham Region', 'English', '4.5 Years'),
-(6, 'Sarah Zamanifar', 'sarahzamanifar@realestate.homula.com', 'sarah-zamanifar', '/uploads/top_agents/agentphoto-5.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'http://realestate.homula.com/contact-agent/'),
-(7, 'Alaadin Zahran', 'alaadinzahran@realestate.homula.com', 'alaadin-zahran', '/uploads/top_agents/agentphoto-6.png', '95 Queen Street South, Unit A<br> Mississauga ON L5M 1K7', '', 'http://realestate.homula.com/contact-agent/'),
-(8, 'Nedi Vozis-Penev', 'vozispenev@realestate.homula.com', 'nedi-vozis-penev', '/uploads/top_agents/agentphoto-7.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'http://realestate.homula.com/contact-agent/'),
-(9, 'Paul Tobias', 'paultobias@realestate.homula.com', 'paul-tobias', '/uploads/top_agents/agentphoto-8.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'http://realestate.homula.com/contact-agent/'),
-(10, 'Frank Talaei', 'franktalaei@realestate.homula.com', 'frank-talaei', '/uploads/top_agents/agentphoto-9.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'http://realestate.homula.com/contact-agent/'),
-(11, 'Ying-Ho Tam', 'yinghotam@realestate.homula.com', 'ying-ho-tam', '/uploads/top_agents/agentphoto-10.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'http://realestate.homula.com/contact-agent/'),
-(12, 'Simone Sue-A-Quan', 'sueaquan@realestate.homula.com', 'simone-sue-a-quan', '/uploads/top_agents/agentphoto-11.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'http://realestate.homula.com/contact-agent/'),
-(13, 'Arun Sharma', 'arunsharma@realestate.homula.com', 'arun-sharma', '/uploads/top_agents/agentphoto-12.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'http://realestate.homula.com/contact-agent/'),
-(14, 'Naz Sala', 'nazsala@realestate.homula.com', 'naz-sala', '', 'Markham, Richmond Hill, North York, Toronto, Stouffville, <br>', 'English, Farsi', '3 Years'),
-(15, 'Fara Sadeghi', 'farasadeghi@realestate.homula.com', 'fara-sadeghi', '/uploads/top_agents/agentphoto-13.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'http://realestate.homula.com/contact-agent/'),
-(16, 'Farah Ravji', 'farahravji@realestate.homula.com', 'farah-ravji', '/uploads/top_agents/agentphoto-14.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'http://realestate.homula.com/contact-agent/'),
-(17, 'Rajiv Rajak', 'rajivrajak@realestate.homula.com', 'rajiv-rajak', '/uploads/top_agents/agentphoto-15.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'http://realestate.homula.com/contact-agent/'),
-(18, 'Brian Pcolinsky', 'brianpcolinsky@realestate.homula.com', 'brian-pcolinsky', '/uploads/top_agents/agentphoto-16.png', '95 Queen Street South, Unit A<br> Mississauga ON L5M 1K7', '', 'http://realestate.homula.com/contact-agent/'),
-(19, 'Anda Panait-Rodgers', 'andapanaitrodgers@realestate.homula.com', 'anda-panait-rodgers', '/uploads/top_agents/agentphoto-17.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'http://realestate.homula.com/contact-agent/'),
-(20, 'Allen Naseri', 'allennaseri@realestate.homula.com', 'allen-naseri', '/uploads/top_agents/agentphoto-18.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'http://realestate.homula.com/contact-agent/'),
-(21, 'Joe Montimurro', 'joemontimurro@realestate.homula.com', 'joe-montimurro', '/uploads/top_agents/agentphoto-19.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'http://realestate.homula.com/contact-agent/'),
-(22, 'Mihan Manteghi', 'mihanmanteghi@realestate.homula.com', 'mihan-manteghi', '/uploads/top_agents/agentphoto-20.png', '', '', 'http://realestate.homula.com/contact-agent/'),
-(23, 'Silvia Moreno-IP', 'silviamoreno@realestate.homula.com', 'silvia-moreno-ip', '/uploads/top_agents/agentphoto-21.png', 'Greater Toronto Area with focus on York Region<br>', 'English, Spanish, French', '1 Years'),
-(24, 'Jahleeki Lowe', 'jahleekilowe@realestate.homula.com', 'jahleeki-lowe', '/uploads/top_agents/agentphoto-22.png', '3082 Bloor St. West<br> Toronto ON M8X 1C8', '', 'http://realestate.homula.com/contact-agent/'),
-(25, 'Mimi Long', 'mimilong@realestate.homula.com', 'mimi-long', '/uploads/top_agents/agentphoto-23.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'www.MimiLongHome.com'),
-(26, 'Behnam Ghasemian', 'behnamghasemian@realestate.homula.com', 'behnam-ghasemian', '/uploads/top_agents/agentphoto-24.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'www.BehnamGhasemian.com'),
-(27, 'Melissa Gholamhassani', 'melissagholamhassani@realestate.homula.com', 'melissa-gholamhassani', '/uploads/top_agents/agentphoto-25.png', 'Richmond Hill, New Market, North york', 'English, Persian, Turkish', '6 Months'),
-(28, 'Eliza Hilario', 'elizahilario@realestate.homula.com', 'eliza-hilario', '/uploads/top_agents/agentphoto-26.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'www.HilarioHomes.com'),
-(29, 'Serge Jovicic', 'sergejovicic@realestate.homula.com', 'serge-jovicic', '/uploads/top_agents/agentphoto-27.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'www.SergeJovicic.com'),
-(30, 'John Jay Kim', 'johnjaykim@realestate.homula.com', 'john-jay-kim', '/uploads/top_agents/agentphoto-28.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', ''),
-(31, 'Mahi Gholami', 'mahigholami@realestate.homula.com', 'mahi-gholami', '/uploads/top_agents/agentphoto-29.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'www.YourDreamHomeRealty.com'),
-(32, 'Matthew Dumouchel', 'matthewdumouchel@realestate.homula.com', 'matthew-dumouchel', '/uploads/top_agents/agentphoto-30.png', '10 Yonge St., Unit 113-115<br> Toronto ON M5E 1R4', '', 'www.MatthewDumouchel.com'),
-(33, 'Janina Crone', 'janinacrone@realestate.homula.com', 'janina-crone', '/uploads/top_agents/agentphoto-31.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'www.janinacrone.com'),
-(34, 'Julia Crane', 'juliacrane@realestate.homula.com', 'julia-crane', '/uploads/top_agents/agentphoto-32.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'www.JuliaCrane.ca'),
-(35, 'Willie L. Christian', 'willielchristian@realestate.homula.com', 'willie-l-christian', '/uploads/top_agents/agentphoto-33.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', '', 'www.TorontoandGTAproperties.com'),
-(36, 'Harry Cardoso', 'harrycardoso@realestate.homula.com', 'harry-cardoso', '/uploads/top_agents/agentphoto-34.png', 'Thornhill Office<br>10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '', 'www.harryHOMEsales.com');
+INSERT INTO `agents` (`id`, `name`, `email`, `alias`, `thumbnail`, `area_work`, `spoken_language`) VALUES
+(1, 'Dany Azar', 'danyazar@realestate.homula.com', 'dany-azar', '/uploads/top_agents/agentphoto-1.png', 'First time buyers<br> York region', 'English Arabic some french'),
+(2, 'Samir Arora', 'samirarora@realestate.homula.com', 'samir-arora', '/uploads/top_agents/agentphoto-2.png', 'Head Office<br> 211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(3, 'Sameer Amini', 'sameeramini@realestate.homula.com', 'sameer-amini', '/uploads/top_agents/agentphoto-3.png', 'Toronto + Durham Region', 'Farsi, Urdu, Dari, English'),
+(4, 'John Redmond', 'johnredmond@realestate.homula.com', 'john-redmond', '', 'Effectivity Real Estate<br> Wardrobe Street 90210', ''),
+(5, 'Bill Kaluski', 'billkaluski@realestate.homula.com', 'bill-kaluski', '/uploads/top_agents/agentphoto-4.jpg', 'Toronto York Region Simcoe Region Durham Region', 'English'),
+(6, 'Sarah Zamanifar', 'sarahzamanifar@realestate.homula.com', 'sarah-zamanifar', '/uploads/top_agents/agentphoto-5.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(7, 'Alaadin Zahran', 'alaadinzahran@realestate.homula.com', 'alaadin-zahran', '/uploads/top_agents/agentphoto-6.png', '95 Queen Street South, Unit A<br> Mississauga ON L5M 1K7', ''),
+(8, 'Nedi Vozis-Penev', 'vozispenev@realestate.homula.com', 'nedi-vozis-penev', '/uploads/top_agents/agentphoto-7.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(9, 'Paul Tobias', 'paultobias@realestate.homula.com', 'paul-tobias', '/uploads/top_agents/agentphoto-8.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(10, 'Frank Talaei', 'franktalaei@realestate.homula.com', 'frank-talaei', '/uploads/top_agents/agentphoto-9.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(11, 'Ying-Ho Tam', 'yinghotam@realestate.homula.com', 'ying-ho-tam', '/uploads/top_agents/agentphoto-10.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(12, 'Simone Sue-A-Quan', 'sueaquan@realestate.homula.com', 'simone-sue-a-quan', '/uploads/top_agents/agentphoto-11.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(13, 'Arun Sharma', 'arunsharma@realestate.homula.com', 'arun-sharma', '/uploads/top_agents/agentphoto-12.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(14, 'Naz Sala', 'nazsala@realestate.homula.com', 'naz-sala', '', 'Markham, Richmond Hill, North York, Toronto, Stouffville, <br>', 'English, Farsi'),
+(15, 'Fara Sadeghi', 'farasadeghi@realestate.homula.com', 'fara-sadeghi', '/uploads/top_agents/agentphoto-13.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(16, 'Farah Ravji', 'farahravji@realestate.homula.com', 'farah-ravji', '/uploads/top_agents/agentphoto-14.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(17, 'Rajiv Rajak', 'rajivrajak@realestate.homula.com', 'rajiv-rajak', '/uploads/top_agents/agentphoto-15.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(18, 'Brian Pcolinsky', 'brianpcolinsky@realestate.homula.com', 'brian-pcolinsky', '/uploads/top_agents/agentphoto-16.png', '95 Queen Street South, Unit A<br> Mississauga ON L5M 1K7', ''),
+(19, 'Anda Panait-Rodgers', 'andapanaitrodgers@realestate.homula.com', 'anda-panait-rodgers', '/uploads/top_agents/agentphoto-17.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(20, 'Allen Naseri', 'allennaseri@realestate.homula.com', 'allen-naseri', '/uploads/top_agents/agentphoto-18.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(21, 'Joe Montimurro', 'joemontimurro@realestate.homula.com', 'joe-montimurro', '/uploads/top_agents/agentphoto-19.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(22, 'Mihan Manteghi', 'mihanmanteghi@realestate.homula.com', 'mihan-manteghi', '/uploads/top_agents/agentphoto-20.png', '', ''),
+(23, 'Silvia Moreno-IP', 'silviamoreno@realestate.homula.com', 'silvia-moreno-ip', '/uploads/top_agents/agentphoto-21.png', 'Greater Toronto Area with focus on York Region<br>', 'English, Spanish, French'),
+(24, 'Jahleeki Lowe', 'jahleekilowe@realestate.homula.com', 'jahleeki-lowe', '/uploads/top_agents/agentphoto-22.png', '3082 Bloor St. West<br> Toronto ON M8X 1C8', ''),
+(25, 'Mimi Long', 'mimilong@realestate.homula.com', 'mimi-long', '/uploads/top_agents/agentphoto-23.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(26, 'Behnam Ghasemian', 'behnamghasemian@realestate.homula.com', 'behnam-ghasemian', '/uploads/top_agents/agentphoto-24.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(27, 'Melissa Gholamhassani', 'melissagholamhassani@realestate.homula.com', 'melissa-gholamhassani', '/uploads/top_agents/agentphoto-25.png', 'Richmond Hill, New Market, North york', 'English, Persian, Turkish'),
+(28, 'Eliza Hilario', 'elizahilario@realestate.homula.com', 'eliza-hilario', '/uploads/top_agents/agentphoto-26.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(29, 'Serge Jovicic', 'sergejovicic@realestate.homula.com', 'serge-jovicic', '/uploads/top_agents/agentphoto-27.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(30, 'John Jay Kim', 'johnjaykim@realestate.homula.com', 'john-jay-kim', '/uploads/top_agents/agentphoto-28.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(31, 'Mahi Gholami', 'mahigholami@realestate.homula.com', 'mahi-gholami', '/uploads/top_agents/agentphoto-29.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(32, 'Matthew Dumouchel', 'matthewdumouchel@realestate.homula.com', 'matthew-dumouchel', '/uploads/top_agents/agentphoto-30.png', '10 Yonge St., Unit 113-115<br> Toronto ON M5E 1R4', ''),
+(33, 'Janina Crone', 'janinacrone@realestate.homula.com', 'janina-crone', '/uploads/top_agents/agentphoto-31.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(34, 'Julia Crane', 'juliacrane@realestate.homula.com', 'julia-crane', '/uploads/top_agents/agentphoto-32.png', '10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', ''),
+(35, 'Willie L. Christian', 'willielchristian@realestate.homula.com', 'willie-l-christian', '/uploads/top_agents/agentphoto-33.png', '211 Consumers Rd., Suite 105<br> Toronto ON M2J 4G8', ''),
+(36, 'Harry Cardoso', 'harrycardoso@realestate.homula.com', 'harry-cardoso', '/uploads/top_agents/agentphoto-34.png', 'Thornhill Office<br>10 Royal Orchard Blvd, Suite 1<br> Thornhill ON L3T 3C3', '');
 
 -- --------------------------------------------------------
 

@@ -20,6 +20,7 @@
 				<th >Thumbnail</th>
 				<th >Area work</th>
 				<th >Spoken language</th>
+				<th >Experience</th>
 				<th >&nbsp;</th>
 	        </tr>
 	        </thead>
@@ -36,6 +37,7 @@
 					</td>
 					<td > {!!$agent->area_work!!} </td>
 					<td > {!!$agent->spoken_language!!} </td>
+					<td > {!!$agent->experience!!} </td>
 					<td style="width: 162px;">
 						<a href="{{ url('admin/agents/edit/'. $agent->id) }}" class="btn btn-info">Update</a>
 						<a href="{{ url('admin/agents/delete/' . $agent->id) }}" class="btn btn-danger">Delete</a>

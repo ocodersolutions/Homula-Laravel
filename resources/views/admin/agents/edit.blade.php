@@ -100,6 +100,16 @@
                     </div>
                     <div class="hr-line-dashed"></div>    
 
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Experience
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='experience' value="{{old('experience') ? old('experience') : ($agents ? $agents->experience : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>   
+
                 </div>
             </div>
         </div>
