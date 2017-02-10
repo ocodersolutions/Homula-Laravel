@@ -27,9 +27,14 @@ Route::get('compare', 'HomeController@compare');
 Route::get('compare/remove-all', 'HomeController@remove_all_session_compare');
 Route::get('profile', 'FrontendController@index');
 
+// news
 Route::get('news/{alias}','FrontendController@news_cat');
 Route::get('articles/{alias}','FrontendController@news_detail');
+
+// agents
 Route::get('agents', 'FrontendController@agents');
+Route::get('agents/{alias}', 'FrontendController@agents_detail');
+
 
 Route::get('properties-management', function(){
     return view('frontend.properties-management');

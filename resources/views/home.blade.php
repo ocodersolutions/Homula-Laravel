@@ -98,16 +98,16 @@
 								<div class="item">
 						    		<div class="top_agents_content">
 						    			<div class="avartar_agents">
-						    				<a href="" target="_blank"><img width="225" height="300" src="{{$agent->thumbnail}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{$agent->name}} real estate professional on Homula"></a>
+						    				<a href="/agents/{{$agent->alias}}" target="_blank"><img width="225" height="300" src="{{$agent->thumbnail}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{$agent->name}} real estate professional on Homula"></a>
 					    				</div>
 					    				<div class="detail_agents">
-					    					<p><a href="" target="_blank">
+					    					<p><a href="/agents/{{$agent->alias}}" target="_blank">
 					    					<b>{{$agent->name}}</b></a></p>
 					    					<p>{{$agent->spoken_language}}</p>
 					    					<p>{!!$agent->email!!}</p><p></p>
 				    					</div>
 				    					<div class="foot-agent-content" style="">
-				    						<a href="" target="_blank" class="btn btn-primary">Contact now</a>
+				    						<a href="/agents/{{$agent->alias}}" target="_blank" class="btn btn-primary">Contact now</a>
 			    						</div>
 		    						</div>
 	    						</div>

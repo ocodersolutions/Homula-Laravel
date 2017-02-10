@@ -44,4 +44,15 @@ class FrontendController extends Controller
         $articles_hot = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
         return view('frontend.agents', compact('agents', 'articles_hot'));
     }
+
+    public function agents_detail($alias) {
+        $agents_detail = Agents::where('alias','=',$alias)->get()->first();
+        if(!$agents_detail) {
+            return redirect('agents');
+        }
+
+        $agents = Agents::all();
+        $articles_hot = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
+        return view('frontend.agents-detail', compact('agents_detail', 'agents', 'articles_hot'));
+    }
 }

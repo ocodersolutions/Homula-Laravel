@@ -37,6 +37,26 @@ $(document).ready(function(){
     });
 
     /*
+     * nav agents detail
+     */
+    $(".agents-detail-nav ul li").click(function(){
+        $(this).parent().find('li').removeClass('active');
+        $(this).addClass('active');
+        if($(this).hasClass('about-ag')) {
+            $('.agents-detail-nav-content p').css('display','none');
+            $('.adnc-about').css('display','block');
+        }
+        else if($(this).hasClass('agents-properties-ag')) {
+            $('.agents-detail-nav-content p').css('display','none');
+            $('.adnc-agents-properties').css('display','block');
+        }
+        else {
+            $('.agents-detail-nav-content p').css('display','none');
+            $('.adnc-rate').css('display','block');
+        }
+    });
+
+    /*
      * position fixed with sidebar of page article-detail
      */
     $(document).scroll(function(){

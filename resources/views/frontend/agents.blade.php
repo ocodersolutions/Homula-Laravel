@@ -1,89 +1,87 @@
 @extends('layouts.frontend')
 
 @section('banner')
-<style type="text/css">
-	.header_bot {
-		border-bottom: none;
-		margin-bottom: 60px;
-	}
-	.header_bot_video {
-		background: url(/images/agents_header_bg.jpg);
-		background-size: cover;
-	    background-position: center center;
-	    background-repeat: no-repeat;
-	}
-	.shadow-box {
-	    background-color: rgba(255, 255, 255, 0.7);
-	    height: 100%;
-	    width: 70%;
-	    margin: 0 auto;
-	    position: relative;
-	    margin-top: 45px;
-	}
-	.shadow-box h1 {
-	    color: #0a368a;
-	    padding-top: 30px;
-	    font-size: 30px;
-	    font-weight: bold;
-	    margin: 20px 0;
-	    position: static;
-	    text-transform: uppercase;
-	}
-	.shadow-box p {
-	    font-size: 20px;
-	    color: #777777;
-	    text-align: center;
-	    font-weight: 600;
-	    line-height: 24px;
-	}
-	.group_button {
-		width: 70%;
-		margin: 0 auto;
-	}
-	.button-row {
-		display: inline-block;
-	}
-	.button-row {
-		float: left;
-	    width: 50%;
-	    padding: 30px 55px;
-	    box-sizing: border-box;
-	}
-	.shadow-box .form-control {
-	    border: 1px solid red;
-	    width: 100%;
-	    float: right;
-	    background: white;
-	    border-radius: 4px;
-	    color: rgba(0,0,0,0.7);
-	    font-size: 16px;
-	    height: 48px;
-	    line-height: 48px;
-	    padding: 0 5px;
-	    position: relative;
-	    transition: box-shadow .12s linear;
-	    font-weight: 600;
-	}
-	.shadow-box button {
-	    background-color: #0a368a;
-	    margin: 0px;
-	    height: 50px;
-	    width: 100%;
-	    border-radius: 4px;
-	    border: 0;
-	    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
-	    color: #fff;
-	    font-size: 13px;
-	    font-weight: 600;
-	    padding: 6px 12px;
-	    overflow: hidden;
-	    position: relative;
-	    text-transform: uppercase;
+	<style type="text/css">
+		.header_bot {
+			border-bottom: none;
+			margin-bottom: 60px;
+		}
+		.header_bot_video {
+			background: url(/images/agents_header_bg.jpg);
+			background-size: cover;
+		    background-position: center center;
+		    background-repeat: no-repeat;
+		}
+		.shadow-box {
+		    background-color: rgba(255, 255, 255, 0.7);
+		    height: 100%;
+		    width: 70%;
+		    margin: 0 auto;
+		    position: relative;
+		    margin-top: 45px;
+		}
+		.shadow-box h1 {
+		    color: #0a368a;
+		    padding-top: 30px;
+		    font-size: 30px;
+		    font-weight: bold;
+		    margin: 20px 0;
+		    position: static;
+		    text-transform: uppercase;
+		}
+		.shadow-box p {
+		    font-size: 20px;
+		    color: #777777;
+		    text-align: center;
+		    font-weight: 600;
+		    line-height: 24px;
+		}
+		.group_button {
+			width: 70%;
+			margin: 0 auto;
+		}
+		.button-row {
+			display: inline-block;
+		}
+		.button-row {
+			float: left;
+		    width: 50%;
+		    padding: 30px 55px;
+		    box-sizing: border-box;
+		}
+		.shadow-box .form-control {
+		    border: 1px solid red;
+		    width: 100%;
+		    float: right;
+		    background: white;
+		    border-radius: 4px;
+		    color: rgba(0,0,0,0.7);
+		    font-size: 16px;
+		    height: 48px;
+		    line-height: 48px;
+		    padding: 0 5px;
+		    position: relative;
+		    transition: box-shadow .12s linear;
+		    font-weight: 600;
+		}
+		.shadow-box button {
+		    background-color: #0a368a;
+		    margin: 0px;
+		    height: 50px;
+		    width: 100%;
+		    border-radius: 4px;
+		    border: 0;
+		    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
+		    color: #fff;
+		    font-size: 13px;
+		    font-weight: 600;
+		    padding: 6px 12px;
+		    overflow: hidden;
+		    position: relative;
+		    text-transform: uppercase;
 
-	}
-	
-
-</style>
+		}
+	</style>
 
 	<div class="header_bot">
 		<div class="header_bot_video">
@@ -133,7 +131,7 @@
 							<div class="agents-item-content">
 								<div class="aic-image">
 									<div class="aic-image-inner">
-										<a href="">
+										<a href="/agents/{{$agent->alias}}">
 											@if ($agent->thumbnail != '')
 												<img src="{{$agent->thumbnail}}" alt="">
 											@else 
@@ -143,7 +141,7 @@
 									</div>
 								</div>
 								<div class="aic-information">
-									<h2><a href="">{{$agent->name}}</a></h2>
+									<h2><a href="/agents/{{$agent->alias}}">{{$agent->name}}</a></h2>
 									<div class="aic-infor-area-work">
 										<h3>AREAS YOU WORK IN</h3>
 										<span>{!!$agent->area_work!!}</span>
@@ -181,16 +179,16 @@
 								<div class="item">
 						    		<div class="top_agents_content">
 						    			<div class="avartar_agents">
-						    				<a href="" target="_blank"><img width="225" height="300" src="{{$agent->thumbnail}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{$agent->name}} real estate professional on Homula"></a>
+						    				<a href="/agents/{{$agent->alias}}" target="_blank"><img width="225" height="300" src="{{$agent->thumbnail}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{$agent->name}} real estate professional on Homula"></a>
 					    				</div>
 					    				<div class="detail_agents">
-					    					<p><a href="" target="_blank">
+					    					<p><a href="/agents/{{$agent->alias}}" target="_blank">
 					    					<b>{{$agent->name}}</b></a></p>
 					    					<p>{{$agent->spoken_language}}</p>
 					    					<p>{!!$agent->email!!}</p><p></p>
 				    					</div>
 				    					<div class="foot-agent-content" style="">
-				    						<a href="" target="_blank" class="btn btn-primary">Contact now</a>
+				    						<a href="/agents/{{$agent->alias}}" target="_blank" class="btn btn-primary">Contact now</a>
 			    						</div>
 		    						</div>
 	    						</div>

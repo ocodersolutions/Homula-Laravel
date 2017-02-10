@@ -1518,3 +1518,127 @@ h1.agents-content-title {
     font-size: 16px;
     margin-right: 5px;
 }
+
+.agents-detail-page {
+    background: rgba(0, 0, 0, 0.09);
+}
+.adp-title {
+    text-align: center;
+    font-weight: normal;
+    color: #223c6e;
+    border-bottom: 0;
+    margin: 0 0 10px 0;
+    text-transform: uppercase;
+    font-size: 28px;
+    line-height: 60px;
+}
+.adp-module {
+    background: linear-gradient(to right, #081838 ,#213a6b, #223c6e);
+    border: 1px solid #eee;
+    margin-bottom: 30px;
+}
+.adp-module-content {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.agents-card-img {
+    color: #fff;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    line-height: 20px;
+}
+.agents-card-img-content {
+    text-align: right;
+    padding-top: 12px;
+}
+.agents-card-img-content img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 7px solid;
+    margin-bottom: 8px;
+}
+.agent-card-link {
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2px;
+}
+.agents-card-info {
+    border-left: 6px solid #fff;
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.agents-card-info-content div {
+    margin: 10px 0;
+    color: #fff;
+}
+.agents-card-info-content div strong {
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.agents-detail-contact-form {
+    margin-bottom: 15px;
+    color: #fff;
+}
+.agents-detail-contact-form h2 {
+    text-align: center;
+    font-size: 16px;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+}
+.agents-card-form form input, .agents-card-form form textarea {
+    color: #999;
+    background-color: #fff;
+    height: 35px;
+    padding: 0px 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+    border: 0;
+    width: 100%;
+}
+.agents-card-form form button {
+    text-transform: capitalize;
+    margin: 10px auto;
+    margin-left: 50%;
+    transform: translate(-50%);
+    border: 0;
+    padding: 5px 10px;
+    background-color: #039be5;
+    font-weight: bold;
+}
+.agents-detail-nav ul {
+    display: block;
+    border-bottom: 1px solid #cecece;
+    padding-bottom: 10px;
+    background-color: inherit;
+    margin: 0px 0px 10px 0px;
+    box-shadow: none;
+    padding-left: 0;
+}
+.agents-detail-nav ul li {
+    width: auto;
+    border: 1px solid #cacaca;
+    margin-right: 2px;
+    display: inline-block;
+}
+.agents-detail-nav ul li span {
+    color: #0a368a;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+}
+.agents-detail-nav ul li.active span {
+    background: #0a368a;
+    color: #fff;
+}
+.agents-detail-nav-content p {
+    display: none;
+    padding: 12px;
+    background: #fff;
+    border: 1px solid #7584a2;
+    color: #000;
+    margin-bottom: 70px;
+}
+.agents-detail-nav-content p.adnc-about {
+    display: block;
+}
