@@ -18,7 +18,7 @@
 					</ul>
 					<div class="sub_cat_news_content">
 						<div class="row">
-						@foreach ($articles as $article)
+						@foreach ($news_detail as $article)
 							<div class="col-sm-3">
 								<div class="scn_item">
 									<div class="snc_item_top">
@@ -31,19 +31,19 @@
 										</div>
 									</div>
 									<div class="snc_item_thumbnail">
-										<a href="/articles/{{$article->alias}}"><img src="{{$article->thumbnail}}" alt=""></a>
+										<a href="/news-detail/{{$article->alias}}"><img src="{{$article->thumbnail}}" alt=""></a>
 									</div>
 									<div class="snc_item_main_content">
 										<div class="snc_item_name">
 											<span>{{$categories->name}}</span>
 										</div>
 										<div class="snc_item_title">
-											<a href="/articles/{{$article->alias}}"><h3>{{$article->title}}</h3></a>
+											<a href="/news-detail/{{$article->alias}}"><h3>{{$article->title}}</h3></a>
 										</div>
 										<div class="snc_item_excerpt">
 											<p>{!!$article->excerpt!!}</p>
 										</div>
-										<a href="/articles/{{$article->alias}}" class="read_more">Read more</a>
+										<a href="/news-detail/{{$article->alias}}" class="read_more">Read more</a>
 										<div class="snc_item_comment">
 											<span class="comment_1">Add Comment</span>
 											<span class="comment_2">0 Comment</span>

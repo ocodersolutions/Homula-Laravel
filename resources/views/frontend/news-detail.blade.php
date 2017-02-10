@@ -6,15 +6,15 @@
 		<div class="row">
 			<div class="col-sm-12 article_details_title">
 				<p class="article_details_first_line"></p>
-		        <h1>{{$articles->title}}</h1>
+		        <h1>{{$news_detail->title}}</h1>
 		    </div>
 			<div class="col-sm-9 content">
 				<div class="adc_wrap">
 					<div class="article_detail_content">
-						<p>{!!$articles->content!!}</p>
+						<p>{!!$news_detail->content!!}</p>
 					</div>
 					<div class="article_detail_comment">
-						<h2 class="ad_comments_title">One thought on “{{$articles->title}}”</h2>
+						<h2 class="ad_comments_title">One thought on “{{$news_detail->title}}”</h2>
 						<ol class="ad_comment_list">
 							<div class="ad_comment_author">
 								<img src="http://1.gravatar.com/avatar/a9f1749c94744124d5f4e90e1e8936e4?s=50&d=mm&r=g" alt="">

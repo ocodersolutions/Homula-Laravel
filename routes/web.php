@@ -29,7 +29,7 @@ Route::get('profile', 'FrontendController@index');
 
 // news
 Route::get('news/{alias}','FrontendController@news_cat');
-Route::get('articles/{alias}','FrontendController@news_detail');
+Route::get('news-detail/{alias}','FrontendController@news_detail');
 
 // agents
 Route::get('agents', 'FrontendController@agents');
