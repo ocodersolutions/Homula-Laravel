@@ -13,7 +13,8 @@
         <!-- Styles -->
         <link rel="stylesheet" href="{{ URL::asset('css/bootstrap.min.css') }}"   crossorigin="anonymous">
         
-
+        <!-- Ads style -->
+        <link href="{!! asset('assets/css/ads.css') !!}" media="all" rel="stylesheet" type="text/css" />
 
         <!-- CSS Files -->
         <link rel="shortcut icon" href="{{ asset('assets/favicon.ico') }}" />

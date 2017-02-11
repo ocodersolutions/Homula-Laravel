@@ -97,6 +97,70 @@
 							</div>
 						</div>
 					</div>
+					<div class="calg_content_2">
+						<div class="calg_content_2_block_1">
+							<div class="calg_c2b1_left">
+								<div class="calg_c2b1_left_inner">
+									<span>All (1)</span>
+									<i class="fa fa-chevron-down" aria-hidden="true"></i>
+								</div>
+								<ul>
+									<li>All (1)</li>
+								</ul>
+							</div>
+							<div class="calg_c2b1_left">
+								<div class="calg_c2b1_left_inner">
+									<span>New to Old</span>
+									<i class="fa fa-chevron-down" aria-hidden="true"></i>
+								</div>
+								<ul class="calg_c2b1_left_no_bg">
+									<li>Name A-Z</li>
+									<li>Name Z-A</li>
+									<li>New to Old</li>
+									<li>Old to New</li>
+								</ul>
+							</div>
+						</div>
+						<div class="calg_content_2_block_2">
+							<p><span>Upload</span> images here</p>
+							<img title="Click and drag to add Chrysanthemum.jpg" src="https://mlsvc01-prod.s3.amazonaws.com/f958ef46601/6630c99c-4863-4d76-8b6d-74112d808418-thumbnail.jpg">
+						</div>
+					</div>
+					<div class="calg_content_3">
+						<div class="calg_content_3_block_1">
+							<div class="calg_c3b1_inner">
+								<h3>Backgrounds</h3>
+								<div class="calg_c3b1_content">
+									<div class="calg_b3_div_public">
+										<p>Outer Background</p>
+										<span>&nbsp;</span>
+									</div>
+									<div class="calg_c3b1_hcn">
+										<span>Change Pattern</span>
+									</div>
+									<div class="calg_b3_div_public">
+										<p>Inner Background</p>
+										<span class="hv_inner">&nbsp;</span>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="calg_content_3_block_1">
+							<div class="calg_c3b1_inner">
+								<h3>Styles</h3>
+								<div class="calg_c3b1_content">
+									<div class="calg_b3_div_public">
+										<p>Button & Dividers</p>
+										<span class="hv_button">&nbsp;</span>
+									</div>
+									<div class="calg_b3_div_public">
+										<p>Headlines</p>
+										<span class="hv_head">&nbsp;</span>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
 			<div class="content_ads_right">

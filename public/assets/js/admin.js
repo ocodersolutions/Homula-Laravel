@@ -173,5 +173,36 @@ jQuery(document).ready(function ($) {
             alert("error");
         });
     })
+    /*
+     * js advertisement page
+     */
+    $('.content_ads_left_nav span').click(function(){
+        if(!$(this).hasClass('active')) {
+            $(".content_ads_left_nav span").removeClass('active');
+            $(this).addClass('active');
+            $(".calg_content_1, .calg_content_2, .calg_content_3").css("display","none");
+            if($(this).hasClass("calv_build")) {
+                $(".calg_content_1").css("display","block");
+            }
+            else if ($(this).hasClass("calv_images")) {
+                $(".calg_content_2").css("display","block");
+            }
+            else {
+                $(".calg_content_3").css("display","block");
+            }
+        }
+    });
+    $(".calg_c2b1_left_inner").click(function(){
+        if($(this).hasClass("active")) {
+            $(this).removeClass("active");
+            $(this).parent().find("ul").hide();
+        }
+        else {
+            $(".calg_c2b1_left ul").hide();
+            $(".calg_c2b1_left .calg_c2b1_left_inner").removeClass("active");
+            $(this).addClass("active");
+            $(this).parent().find("ul").show();
+        }
+    });
 })
 
