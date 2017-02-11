@@ -204,5 +204,10 @@ jQuery(document).ready(function ($) {
             $(this).parent().find("ul").show();
         }
     });
+    // $(".cadsrb_click").click(function(){
+    //     $(this).hide();
+    //     $(this).parent().find(".cadsrb_show").show();
+    //     $(this).parent().find(".cadsrb_focus").forcus();
+    // });
 })
 
