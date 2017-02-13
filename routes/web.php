@@ -42,7 +42,7 @@ Route::get('properties-management', function(){
 
 // ads
 Route::get('advertisement', 'Admin\AdminController@ads');
-Route::get('advertisement/create', 'Admin\AdminController@ads_save');
+Route::get('advertisement/create/{id}', 'Admin\AdminController@ads_save');
 
 /**
  * admin

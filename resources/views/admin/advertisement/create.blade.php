@@ -172,53 +172,7 @@
 				</div>
 				<div class="content_ads_right_bottom">
 					<div class="cadsrb_content">
-						<div class="cadsrb_content_inner">
-							<p class="cadsrb_content_title">Volume XX | Month Day 20XX</p>
-							<div class="cadsrb_content_block_1">
-								<img image-type="logo-image" alt="" class="" style="" width="220" border="0" hspace="0" vspace="0" src="https://static.ctctcdn.com/galileo/images/templates/Galileo_ImagePlaceholder/340x165.png"     onclick="BrowseServer('cadsrb_img_1', '{{URL::asset('/filemanager/index.html')}}')">
-								<input type="hidden"  id="cadsrb_img_1">
-								<div>
-									<input class="cadsrb_input_focus" type="text" value="Your monthly news & updates">
-								</div>
-								<p>
-									<textarea class="cadsrb_input_focus">Get readers excited about your newsletter with a quick introduction that highlights your main topic, and let the rest of the email cover the details.</textarea>
-								</p>
-								<span><input class="cadsrb_input_focus" type="text" value="Visit our Website"></span>
-								<p class="h_line"></p>
-							</div>
-							<div class="cadsrb_content_block_2">
-								<div class="cadsrb_cb2_left">
-									<span><input class="cadsrb_input_focus" type="text" value="Upcoming Events"></span>
-									<p><textarea class="cadsrb_input_focus" name="" id="">Keep your message brief, friendly, and to the point. If readers need to know more than you can fit here, add a link to an outside resource that covers the rest.</textarea></p>
-									<a href="javascript:;"><input class="cadsrb_input_focus" type="text" value="Link to Additional Resources"></a>
-								</div>
-								<div class="cadsrb_cb2_right">
-									<img image-type="" alt="" class="" style="" width="260" border="0" hspace="0" vspace="0" src="https://static.ctctcdn.com/galileo/images/templates/Galileo_ImagePlaceholder/340x205.png" onclick="BrowseServer('cadsrb_img_1', '{{URL::asset('/filemanager/index.html')}}')">
-								</div>
-								<div class="clr"></div>
-								<p class="h_line"></p>
-							</div>
-							<div class="cadsrb_content_block_2">
-								<div class="cadsrb_cb2_left">
-									<span><input type="text" class="cadsrb_input_focus" value="Service Spotlight"></span>
-									<p><textarea name="" id="" class="cadsrb_input_focus">Think about the purpose of your email: You want readers to respond in a certain way, so use specific call-to-actions such as visit our website, shop the sale now, or sign up for specials.</textarea></p>
-									<a href="javascript:;"><input type="text" class="cadsrb_input_focus" value="Link to Additional Resources"></a>
-								</div>
-								<div class="cadsrb_cb2_right">
-									<img image-type="" alt="" class="" style="" width="260" border="0" hspace="0" vspace="0" src="https://static.ctctcdn.com/galileo/images/templates/Galileo_ImagePlaceholder/340x205.png" onclick="BrowseServer('cadsrb_img_1', '{{URL::asset('/filemanager/index.html')}}')">
-								</div>
-								<div class="clr"></div>
-							</div>
-							<div class="cadsrb_content_block_4">
-								<p class="cadsrb_pb4_first">Name | Company | Phone | Fax | Email | Website</p>
-								<p class="cadsrb_pb4_last">STAY CONNECTED</p>
-								<div class="cards_cb4_icon">
-									<i class="fa fa-facebook" aria-hidden="true"></i>
-									<i class="fa fa-twitter" aria-hidden="true"></i>
-									<i class="fa fa-linkedin" aria-hidden="true"></i>
-								</div>
-							</div>
-						</div>
+						{!! $ads->content !!}
 					</div>
 				</div>
 			</div>

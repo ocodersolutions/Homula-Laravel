@@ -204,14 +204,15 @@ jQuery(document).ready(function ($) {
             $(this).parent().find("ul").show();
         }
     });
-    // $(".cadsrb_click").click(function(){
-    //     $(this).hide();
-    //     $(this).parent().find(".cadsrb_show").show();
-    //     $(this).parent().find(".cadsrb_focus").forcus();
-    // });
+    
+    
+    $(".change_img_temp").click(function(){
+        var url = window.location.protocol + "//" + window.location.host + "/" + "filemanager/index.html";
+        var input_id = $(this).parent().find("input[type=hidden]").attr("id");
+        BrowseServer(input_id,url);
+    });
 
-
-    $( "#cadsrb_img_1" ).on( "change", function() {
+    $( "#cadsrb_img_1, #cadsrb_img_2, #cadsrb_img_3" ).on( "change", function() {
         $(this).parent().find("img").attr("src",$(this).val());
     });
 })

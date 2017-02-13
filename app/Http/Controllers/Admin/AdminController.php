@@ -4,6 +4,7 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+use App\Models\Ads;
 
 class AdminController extends Controller
 {
@@ -19,9 +20,11 @@ class AdminController extends Controller
     }
 
     public function ads(){
-        return view('admin.advertisement.home');
+        $ads = Ads::All();
+        return view('admin.advertisement.home', compact('ads'));
     }
-    public function ads_save(){
-        return view('admin.advertisement.create');
+    public function ads_save($id){
+        $ads = Ads::findOrFail($id);
+        return view('admin.advertisement.create', compact('ads'));
     }
 }

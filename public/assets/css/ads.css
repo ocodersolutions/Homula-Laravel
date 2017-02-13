@@ -318,7 +318,7 @@
 }
 p.h_line {
   height: 1px;
-  margin: 0;
+  margin: 10px 0;
   border-bottom: 1px solid #000;
 }
 .cadsrb_content_block_2 {
@@ -614,11 +614,48 @@ p.h_line {
   background-color: #ebedee;
   border-color: #0078c1;
 }
-.ads-tc-item .select_pre span:first-child {
-  // border-top-right-radius: 0;
-  // border-bottom-right-radius: 0;
+.ads_template2_content {
+  border: 1px solid;
+  text-align: center;
+  padding: 10px 0;
+  background: #fff;
 }
-.ads-tc-item .select_pre span:last-child {
-  // border-top-left-radius: 0;
-  // border-bottom-left-radius: 0;
+.ads_template2_content img {
+  cursor: pointer;
 }
+.ads_template3_content {
+  padding: 10px 20px;
+  border: 1px solid;
+  background: #fff;
+}
+.ads_tem3c_top_block1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.ads_tem3c_top_block1 img {
+  cursor: pointer;
+}
+.ads_tem3c_top_block2 textarea, .ads_tem3c_top_block3 textarea, .ads_tem3c_bot_block1 textarea {
+  width: 100%;
+  border: 0;
+  color: #000;
+  font-size: 14px;
+}
+.ads_tem3c_bot_block1 textarea {
+  text-align: center;
+}
+.ads_tem3c_bot_block1 input {
+  width: 100%;
+  text-align: center;
+  color: #000;
+  border: 0;
+}
+.ads_tem3c_bot_block2 {
+  text-align: center;
+  margin-top: 10px;
+  color: #fff;
+}
+.ads_tem3c_top_block2 textarea:focus, .ads_tem3c_top_block3 textarea:focus, .ads_tem3c_bot_block1 textarea:focus,
+.ads_tem3c_bot_block1 input:focus {
+  outline: 2px solid blue;
+} 
