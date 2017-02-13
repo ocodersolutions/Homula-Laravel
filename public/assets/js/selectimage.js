@@ -62,7 +62,10 @@ function OpenServerBrowser( url, width, height )
 
 function SetUrl( url, width, height, alt )
 {
+	// console.log(urlobj);
 	document.getElementById(urlobj).value = url ;
 	oWindow = null;
+	var idName = '#'+urlobj;
+	$(idName).trigger("change");
 }
 //End Generate SelectImage

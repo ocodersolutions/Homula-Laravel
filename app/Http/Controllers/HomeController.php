@@ -41,7 +41,7 @@ class HomeController extends Controller
         // }
         // $articles_news = Articles::where($news_string)->orderBy('id','desc')->get();
         // die($news);
-        $articles_news = Articles::where([['id','>=',54],['id','<',72]]);
+        $articles_news = Articles::where([['id','>=',54],['id','<',72]])->orderBy('id','desc')->get();
         return view('home', compact('menus', 'articles', 'agents', 'articles_news'));//->orderBy('id','desc')
     }
 

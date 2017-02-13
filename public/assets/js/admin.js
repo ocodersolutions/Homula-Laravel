@@ -209,5 +209,10 @@ jQuery(document).ready(function ($) {
     //     $(this).parent().find(".cadsrb_show").show();
     //     $(this).parent().find(".cadsrb_focus").forcus();
     // });
+
+
+    $( "#cadsrb_img_1" ).on( "change", function() {
+        $(this).parent().find("img").attr("src",$(this).val());
+    });
 })
 

@@ -40,9 +40,9 @@ Route::get('properties-management', function(){
     return view('frontend.properties-management');
 });
 
-Route::get('advertisement', function(){
-    return view('advertisement');
-});
+// ads
+Route::get('advertisement', 'Admin\AdminController@ads');
+Route::get('advertisement/create', 'Admin\AdminController@ads_save');
 
 /**
  * admin
@@ -140,6 +140,8 @@ Menu::make('MyNavBar', function($menu) {
     $menu->add('Articles', 'admin/articles')->attr(array('pre_icon' => 'file-text'))->active('admin/articles/*');
 
     $menu->add('Agents', 'admin/agents')->attr(array('pre_icon' => 'address-book'))->active('admin/agents/*');
+
+    $menu->add('Advertisement', 'advertisement')->attr(array('pre_icon' => ''))->active('advertisement/*');
 
 //    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
 });
