@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 13, 2017 at 11:03 AM
+-- Generation Time: Feb 10, 2017 at 12:12 PM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.5
 
@@ -19,28 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `laravel-demo`
 --
-
--- --------------------------------------------------------
-
---
--- Table structure for table `ads`
---
-
-CREATE TABLE `ads` (
-  `id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `thumbnail` varchar(255) NOT NULL,
-  `content` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `ads`
---
-
-INSERT INTO `ads` (`id`, `name`, `thumbnail`, `content`) VALUES
-(1, 'Basic Newsletter', '/images/ads/template-1.png', '<div class="cadsrb_content_inner">\n							<p class="cadsrb_content_title">Volume XX | Month Day 20XX</p>\n							<div class="cadsrb_content_block_1">\n								<img image-type="logo-image" alt="" class="change_img_temp" style="" width="220" border="0" hspace="0" vspace="0" src="/images/ads/image.png">\n								<input type="hidden"  id="cadsrb_img_1">\n								<div>\n									<input class="cadsrb_input_focus" type="text" value="Your monthly news & updates">\n								</div>\n								<p>\n									<textarea class="cadsrb_input_focus">Get readers excited about your newsletter with a quick introduction that highlights your main topic, and let the rest of the email cover the details.</textarea>\n								</p>\n								<span><input class="cadsrb_input_focus" type="text" value="Visit our Website"></span>\n								<p class="h_line"></p>\n							</div>\n							<div class="cadsrb_content_block_2">\n								<div class="cadsrb_cb2_left">\n									<span><input class="cadsrb_input_focus" type="text" value="Upcoming Events"></span>\n									<p><textarea class="cadsrb_input_focus" name="" id="">Keep your message brief, friendly, and to the point. If readers need to know more than you can fit here, add a link to an outside resource that covers the rest.</textarea></p>\n									<a href="javascript:;"><input class="cadsrb_input_focus" type="text" value="Link to Additional Resources"></a>\n								</div>\n								<div class="cadsrb_cb2_right">\n									<img image-type="" alt="" class="change_img_temp" style="" width="260" border="0" hspace="0" vspace="0" src="/images/ads/image.png" >\n									<input type="hidden"  id="cadsrb_img_2">\n								</div>\n								<div class="clr"></div>\n								<p class="h_line"></p>\n							</div>\n							<div class="cadsrb_content_block_2">\n								<div class="cadsrb_cb2_left">\n									<span><input type="text" class="cadsrb_input_focus" value="Service Spotlight"></span>\n									<p><textarea name="" id="" class="cadsrb_input_focus">Think about the purpose of your email: You want readers to respond in a certain way, so use specific call-to-actions such as visit our website, shop the sale now, or sign up for specials.</textarea></p>\n									<a href="javascript:;"><input type="text" class="cadsrb_input_focus" value="Link to Additional Resources"></a>\n								</div>\n								<div class="cadsrb_cb2_right">\n									<img image-type="" alt="" class="change_img_temp" style="" width="260" border="0" hspace="0" vspace="0" src="/images/ads/image.png" >\n									<input type="hidden"  id="cadsrb_img_3">\n								</div>\n								<div class="clr"></div>\n							</div>\n							<div class="cadsrb_content_block_4">\n								<p class="cadsrb_pb4_first">Name | Company | Phone | Fax | Email | Website</p>\n								<p class="cadsrb_pb4_last">STAY CONNECTED</p>\n								<div class="cards_cb4_icon">\n									<i class="fa fa-facebook" aria-hidden="true"></i>\n									<i class="fa fa-twitter" aria-hidden="true"></i>\n									<i class="fa fa-linkedin" aria-hidden="true"></i>\n								</div>\n							</div>\n						</div>'),
-(2, 'Blank', '/images/ads/template-2.png', '<div class="ads_template2_content"> 							<img src="/images/ads/image.png" alt="" class="change_img_temp" > 							<input type="hidden" id="cadsrb_img_1"> 						</div>'),
-(3, 'Basic Letter', '/images/ads/template-3.png', '<div class="ads_template3_content">\r\n							<div class="ads_tem3c_top">\r\n								<div class="ads_tem3c_top_block1">\r\n									<img src="/images/ads/image.png" alt="" class="change_img_temp" >\r\n									<input type="hidden" id="cadsrb_img_1">\r\n								</div>\r\n								<div class="ads_tem3c_top_block2">\r\n									<textarea name="" id="" rows="8">Letter-style emails are best used for addressing a single topic. Write in a professional yet friendly fashion, and be as specific as possible about what you''re trying to communicate.\r\n\r\nIf you need the recipient to perform an action in response to your message, add a link. Use a specific request for the link, such as confirm your membership, share with friends, or visit our website. Call-to-Action Link</textarea>\r\n								</div>\r\n								<div class="ads_tem3c_top_block3">\r\n									<textarea name="" id="" rows="8">Thanks for doing business with us.\r\n\r\nSincerely,\r\n\r\nYour Name\r\nCompany Name\r\nWebsite\r\nPhone</textarea>\r\n									<p class="h_line"></p>\r\n								</div>\r\n							</div>\r\n							<div class="ads_tem3c_bot">\r\n								<div class="ads_tem3c_bot_block1">\r\n									<textarea name="" id="" rows="3">Company Address\r\nCity, State Zip Code\r\n									</textarea>\r\n									<input type="text" value="See what''s happening on our social sites">\r\n								</div>\r\n								<div class="ads_tem3c_bot_block2 cards_cb4_icon">\r\n									<i class="fa fa-facebook" aria-hidden="true"></i>\r\n									<i class="fa fa-twitter" aria-hidden="true"></i>\r\n									<i class="fa fa-linkedin" aria-hidden="true"></i>\r\n								</div>\r\n							</div>\r\n						</div>');
 
 -- --------------------------------------------------------
 
@@ -460,12 +438,6 @@ INSERT INTO `users` (`id`, `username`, `image`, `phone_number`, `address`, `emai
 --
 
 --
--- Indexes for table `ads`
---
-ALTER TABLE `ads`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `agents`
 --
 ALTER TABLE `agents`
@@ -537,11 +509,6 @@ ALTER TABLE `users`
 -- AUTO_INCREMENT for dumped tables
 --
 
---
--- AUTO_INCREMENT for table `ads`
---
-ALTER TABLE `ads`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 --
 -- AUTO_INCREMENT for table `agents`
 --
