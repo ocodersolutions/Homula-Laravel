@@ -25,23 +25,23 @@ class HomeController extends Controller
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
         $articles = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
         $agents = Agents::all();
-        $news = Categories::where('alias','=','news')->get();
-        $news_cat = Categories::where('parent_id','=',$news->id)->get();
-        $news_string = "[['categories_id','=',";
-        $i = 1;
-        $leng = count($news_cat);
-        foreach( $news_cat as $cat) {            
-            if($i == $leng) {
-                $news_string .= $cat->id . "]]";
-            }
-            else {
-                $news_string .= $cat->id . "],['categories_id','=',";
-            }
-            $i++;
-        }
-        $articles_news = Articles::where($news_string)->orderBy('id','desc')->get();
-        die($news);
-        // $articles_news = Articles::where([['id','>=',54],['id','<',72]])->orderBy('id','desc')->get();
+        // $news = Categories::where('alias','=','news')->get()->first();
+        // $news_cat = Categories::where('parent_id','=',$news->id)->get();
+        // $news_string = "[['categories_id','=',";
+        // $i = 1;
+        // $leng = count($news_cat);
+        // foreach( $news_cat as $cat) {            
+        //     if($i == $leng) {
+        //         $news_string .= $cat->id . "]]";
+        //     }
+        //     else {
+        //         $news_string .= $cat->id . "],['categories_id','=',";
+        //     }
+        //     $i++;
+        // }
+        // $articles_news = Articles::where($news_string)->orderBy('id','desc')->get();
+        // die($news_cat);
+        $articles_news = Articles::where([['id','>=',54],['id','<',72]])->orderBy('id','desc')->get();
         return view('home', compact('menus', 'articles', 'agents', 'articles_news'));//->orderBy('id','desc')
     }
 
