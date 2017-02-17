@@ -56,4 +56,8 @@ class FrontendController extends Controller
         $properties = Properties::orderBy('id','desc')->take(10)->get();
         return view('frontend.agents-detail', compact('agents_detail', 'agents', 'properties'));
     }
+
+    public function properties($id) {
+        return view('frontend.properties');
+    }
 }

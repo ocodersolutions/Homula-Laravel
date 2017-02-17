@@ -484,11 +484,11 @@
 	
 
 	<script type="text/javascript" src="{{ URL::asset('js/custom.js') }}"></script>
-	<script type="text/javascript" src="{{ URL::asset('js/jquery-1.12.4.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/bootstrap.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min-org.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/typed.js') }}"></script>
+	<script type="text/javascript" src="{{ URL::asset('js/jssor.slider-21.1.6.mini.js') }}"></script>
 
 </body>
 </html>
