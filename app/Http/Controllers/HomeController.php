@@ -7,6 +7,7 @@ use App\Models\Menus;
 use App\Models\Articles;
 use App\Models\Agents;
 use App\Models\Categories;
+use App\Models\Properties;
 
 class HomeController extends Controller
 {
@@ -23,7 +24,7 @@ class HomeController extends Controller
     public function index()
     {
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
-        $articles = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
+        $properties = Properties::orderBy('id','desc')->take(10)->get();
         $agents = Agents::all();
         $news = Categories::where('alias','=','news')->get()->first();
         $news_cat = Categories::where('parent_id','=',$news->id)->get();
@@ -33,7 +34,7 @@ class HomeController extends Controller
             array_push($cat_arr, $cat->id); 
         }
         $articles_news = Articles::whereIn('categories_id',$cat_arr)->orderBy('id','desc')->get();
-        return view('home', compact('menus', 'articles', 'agents', 'articles_news'));
+        return view('home', compact('menus', 'properties', 'agents', 'articles_news'));
     }
 
     public function compare()
