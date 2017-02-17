@@ -97,10 +97,10 @@
 					<div class="hot_properties_overflow">
 						<div class="content_one_ads">
 							<div id="owl-demo-home" class="owl-carousel owl-theme">
-								@foreach ($articles_hot as $post)
+								@foreach ($properties as $post)
 									<div class="item">
 									    <div class="hot_properties_item">
-									        <a href="{{$post->link}}" target="_blank">
+									        <a href="/properties/{{$post->id}}" target="_blank">
 									            <div class="hot_properties_item_top">
 									                <div class="item_img"><img width="480" height="320" src="{{URL::asset($post->thumbnail)}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image-C3615220-9.jpg">										                </div>
 									                <div class="visite_libre">
@@ -110,11 +110,11 @@
 									            </div>
 									        </a>
 									        <div class="hot_properties_item_bot">
-									        	<b>{{$post->alias}}</b>
+									        	<b>{{$post->price}}</b>
 									            <p class="main_p">{{$post->content}}</p>
-									            <p><a href="{{$post->link}}" target="_blank">{{$post->title}}</a>
+									            <p><a href="{{$post->link}}" target="_blank">{{$post->address}}</a>
 									            </p>
-									            <p class="min_p">{!!$post->excerpt!!}</p>
+									            <p class="min_p">{!!$post->city!!}</p>
 									        </div>
 									    </div>
 									</div>	

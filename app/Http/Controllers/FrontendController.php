@@ -7,6 +7,7 @@ use App\Models\Menus;
 use App\Models\Categories;
 use App\Models\Articles;
 use App\Models\Agents;
+use App\Models\Properties;
 
 class FrontendController extends Controller
 {
@@ -34,15 +35,15 @@ class FrontendController extends Controller
         $group_cat = Categories::where('parent_id', '=', $categories->parent_id)->get();
         $news_detail = Articles::where('categories_id', '=', $categories->id)->get();
         $agents = Agents::all();
-        $articles_hot = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
+        $properties = Properties::orderBy('id','desc')->take(10)->get();
         // echo '<pre>'; var_dump($group_cat); echo '<pre>';
-        return view('frontend.news-cat', compact('menus', 'categories', 'news_detail', 'group_cat','agents','articles_hot'));
+        return view('frontend.news-cat', compact('menus', 'categories', 'news_detail', 'group_cat','agents','properties'));
     }
 
     public function agents() {
         $agents = Agents::all();
-        $articles_hot = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
-        return view('frontend.agents', compact('agents', 'articles_hot'));
+        $properties = Properties::orderBy('id','desc')->take(10)->get();
+        return view('frontend.agents', compact('agents', 'properties'));
     }
 
     public function agents_detail($alias) {
@@ -52,7 +53,7 @@ class FrontendController extends Controller
         }
 
         $agents = Agents::all();
-        $articles_hot = Articles::where([['id','>=', 8],['id', '<', 18]])->orderBy('id','desc')->get();
-        return view('frontend.agents-detail', compact('agents_detail', 'agents', 'articles_hot'));
+        $properties = Properties::orderBy('id','desc')->take(10)->get();
+        return view('frontend.agents-detail', compact('agents_detail', 'agents', 'properties'));
     }
 }
