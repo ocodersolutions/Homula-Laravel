@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 17, 2017 at 03:02 AM
+-- Generation Time: Feb 09, 2017 at 05:19 AM
 -- Server version: 10.1.13-MariaDB
 -- PHP Version: 7.0.5
 
@@ -19,28 +19,6 @@ SET time_zone = "+00:00";
 --
 -- Database: `laravel-demo`
 --
-
--- --------------------------------------------------------
-
---
--- Table structure for table `ads`
---
-
-CREATE TABLE `ads` (
-  `id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
-  `thumbnail` varchar(255) NOT NULL,
-  `content` text NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `ads`
---
-
-INSERT INTO `ads` (`id`, `name`, `thumbnail`, `content`) VALUES
-(1, 'Basic Newsletter', '/images/ads/template-1.png', '<div class="cadsrb_content_inner">\r\n							<p class="cadsrb_content_title"><input type="text" value="Volume XX | Month Day 20XX"></p>\r\n							<div class="cadsrb_content_block_1">\r\n								<img image-type="logo-image" alt="" class="change_img_temp" style="" width="220" border="0" hspace="0" vspace="0" src="/images/ads/image.png">\r\n								<input type="hidden"  id="cadsrb_img_1">\r\n								<div>\r\n									<input class="cadsrb_input_focus" type="text" value="Your monthly news & updates">\r\n								</div>\r\n								<p>\r\n									<textarea class="cadsrb_input_focus">Get readers excited about your newsletter with a quick introduction that highlights your main topic, and let the rest of the email cover the details.</textarea>\r\n								</p>\r\n								<span><input class="cadsrb_input_focus" type="text" value="Visit our Website"></span>\r\n								<p class="h_line"></p>\r\n							</div>\r\n							<div class="cadsrb_content_block_2">\r\n								<div class="cadsrb_cb2_left">\r\n									<span><input class="cadsrb_input_focus" type="text" value="Upcoming Events"></span>\r\n									<p><textarea class="cadsrb_input_focus" name="" id="">Keep your message brief, friendly, and to the point. If readers need to know more than you can fit here, add a link to an outside resource that covers the rest.</textarea></p>\r\n									<a href="javascript:;"><input class="cadsrb_input_focus" type="text" value="Link to Additional Resources"></a>\r\n								</div>\r\n								<div class="cadsrb_cb2_right">\r\n									<img image-type="" alt="" class="change_img_temp" style="" width="260" border="0" hspace="0" vspace="0" src="/images/ads/image.png" >\r\n									<input type="hidden"  id="cadsrb_img_2">\r\n								</div>\r\n								<div class="clr"></div>\r\n								<p class="h_line"></p>\r\n							</div>\r\n							<div class="cadsrb_content_block_2">\r\n								<div class="cadsrb_cb2_left">\r\n									<span><input type="text" class="cadsrb_input_focus" value="Service Spotlight"></span>\r\n									<p><textarea name="" id="" class="cadsrb_input_focus">Think about the purpose of your email: You want readers to respond in a certain way, so use specific call-to-actions such as visit our website, shop the sale now, or sign up for specials.</textarea></p>\r\n									<a href="javascript:;"><input type="text" class="cadsrb_input_focus" value="Link to Additional Resources"></a>\r\n								</div>\r\n								<div class="cadsrb_cb2_right">\r\n									<img image-type="" alt="" class="change_img_temp" style="" width="260" border="0" hspace="0" vspace="0" src="/images/ads/image.png" >\r\n									<input type="hidden"  id="cadsrb_img_3">\r\n								</div>\r\n								<div class="clr"></div>\r\n							</div>\r\n							<div class="cadsrb_content_block_4">\r\n								<p class="cadsrb_pb4_first">Name | Company | Phone | Fax | Email | Website</p>\r\n								<p class="cadsrb_pb4_last">STAY CONNECTED</p>\r\n								<div class="cards_cb4_icon">\r\n									<i class="fa fa-facebook" aria-hidden="true"></i>\r\n									<i class="fa fa-twitter" aria-hidden="true"></i>\r\n									<i class="fa fa-linkedin" aria-hidden="true"></i>\r\n								</div>\r\n							</div>\r\n						</div>'),
-(2, 'Blank', '/images/ads/template-2.png', '<div class="ads_template2_content"> 							<img src="/images/ads/image.png" alt="" class="change_img_temp" > 							<input type="hidden" id="cadsrb_img_1"> 						</div>'),
-(3, 'Basic Letter', '/images/ads/template-3.png', '<div class="ads_template3_content">\r\n							<div class="ads_tem3c_top">\r\n								<div class="ads_tem3c_top_block1">\r\n									<img src="/images/ads/image.png" alt="" class="change_img_temp" >\r\n									<input type="hidden" id="cadsrb_img_1">\r\n								</div>\r\n								<div class="ads_tem3c_top_block2">\r\n									<textarea name="" id="" rows="8">Letter-style emails are best used for addressing a single topic. Write in a professional yet friendly fashion, and be as specific as possible about what you''re trying to communicate.\r\n\r\nIf you need the recipient to perform an action in response to your message, add a link. Use a specific request for the link, such as confirm your membership, share with friends, or visit our website. Call-to-Action Link</textarea>\r\n								</div>\r\n								<div class="ads_tem3c_top_block3">\r\n									<textarea name="" id="" rows="8">Thanks for doing business with us.\r\n\r\nSincerely,\r\n\r\nYour Name\r\nCompany Name\r\nWebsite\r\nPhone</textarea>\r\n									<p class="h_line"></p>\r\n								</div>\r\n							</div>\r\n							<div class="ads_tem3c_bot">\r\n								<div class="ads_tem3c_bot_block1">\r\n									<textarea name="" id="" rows="3">Company Address\r\nCity, State Zip Code\r\n									</textarea>\r\n									<input type="text" value="See what''s happening on our social sites">\r\n								</div>\r\n								<div class="ads_tem3c_bot_block2 cards_cb4_icon">\r\n									<i class="fa fa-facebook" aria-hidden="true"></i>\r\n									<i class="fa fa-twitter" aria-hidden="true"></i>\r\n									<i class="fa fa-linkedin" aria-hidden="true"></i>\r\n								</div>\r\n							</div>\r\n						</div>');
 
 -- --------------------------------------------------------
 
@@ -375,36 +353,6 @@ INSERT INTO `permission_role` (`permission_id`, `role_id`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `properties`
---
-
-CREATE TABLE `properties` (
-  `id` int(11) NOT NULL,
-  `address` varchar(255) NOT NULL,
-  `thumbnail` varchar(255) NOT NULL,
-  `price` varchar(255) NOT NULL,
-  `city` varchar(255) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
---
--- Dumping data for table `properties`
---
-
-INSERT INTO `properties` (`id`, `address`, `thumbnail`, `price`, `city`) VALUES
-(1, '109 Holmes Ave, Toronto, M2N4M3, Ontario', '/uploads/hot_properties/hot_properties_item_1.jpg', '$ 2388000', '<p>Toronto</p>\r\n'),
-(2, '113 Laughton Ave, Toronto, M6N2X1, Ontario', '/uploads/hot_properties/hot_properties_item_2.jpg', '$ 729900', '<p>Toronto</p>\r\n'),
-(3, '170 Owen Blvd, Toronto, M2P1G7, Ontario', '/uploads/hot_properties/hot_properties_item_3.jpg', '$ 4280000', '<p>Toronto</p>\r\n'),
-(4, '38 Daniels St, Toronto, M8Y1M1, Ontario', '/uploads/hot_properties/hot_properties_item_4.jpg', '$ 1599900', '<p>Toronto</p>\r\n'),
-(5, '8 Fernside Crt, Toronto, M2N6A1, Ontario', '/uploads/hot_properties/hot_properties_item_5.jpg', '$ 1880000', '<p>Toronto</p>\r\n'),
-(6, '5 Swansea Meadows Dr Brampton, ON, L7A 1M5', '/uploads/hot_properties/hot_properties_item_6.jpg', '', ''),
-(7, '5 Swansea Meadows Dr Brampton, ON, L7A 1M5', '/uploads/hot_properties/hot_properties_item_7.jpg', '', ''),
-(8, '32 Valleyside Trail Brampton, ON, L6P 2G4', '/uploads/hot_properties/hot_properties_item_1.jpg', '', ''),
-(9, 'Brampton', '/uploads/hot_properties/hot_properties_item_2.jpg', '', ''),
-(10, '5 Swansea Meadows Dr	Brampton, ON, L7A 1M5', '/uploads/hot_properties/hot_properties_item_3.jpg', '', '');
-
--- --------------------------------------------------------
-
---
 -- Table structure for table `roles`
 --
 
@@ -490,12 +438,6 @@ INSERT INTO `users` (`id`, `username`, `image`, `phone_number`, `address`, `emai
 --
 
 --
--- Indexes for table `ads`
---
-ALTER TABLE `ads`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `agents`
 --
 ALTER TABLE `agents`
@@ -542,12 +484,6 @@ ALTER TABLE `permission_role`
   ADD KEY `permission_role_role_id_foreign` (`role_id`);
 
 --
--- Indexes for table `properties`
---
-ALTER TABLE `properties`
-  ADD PRIMARY KEY (`id`);
-
---
 -- Indexes for table `roles`
 --
 ALTER TABLE `roles`
@@ -574,11 +510,6 @@ ALTER TABLE `users`
 --
 
 --
--- AUTO_INCREMENT for table `ads`
---
-ALTER TABLE `ads`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
---
 -- AUTO_INCREMENT for table `agents`
 --
 ALTER TABLE `agents`
@@ -603,11 +534,6 @@ ALTER TABLE `menus`
 --
 ALTER TABLE `permissions`
   MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
---
--- AUTO_INCREMENT for table `properties`
---
-ALTER TABLE `properties`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 --
 -- AUTO_INCREMENT for table `roles`
 --
