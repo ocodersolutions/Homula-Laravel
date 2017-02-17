@@ -255,6 +255,12 @@
   margin-bottom: 10px;
   margin-top: 10px;
 }
+.cadsrb_content_title input {
+  background: none;
+  border: 0;
+  width: 100%;
+  text-align: center;
+}
 .cadsrb_content_block_1 {
   background: #fff;
   text-align: center;
@@ -300,7 +306,7 @@
   border: 0;
 }
 .cadsrb_content_block_1 > p textarea:focus, .cadsrb_content_block_1 > span input:focus, 
-.cadsrb_content_block_1 div input:focus {
+.cadsrb_content_block_1 div input:focus, .cadsrb_content_title input:focus {
   outline: 2px solid blue;
 } 
 .cadsrb_content_block_1 > span {
