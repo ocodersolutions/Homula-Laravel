@@ -111,6 +111,13 @@ Route::group(['middleware' => ['role:admin']], function() {
     Route::post('admin/agents/save', 'Admin\AgentsController@update');
     Route::get('admin/agents/edit/{id}', 'Admin\AgentsController@edit');
     Route::get('admin/agents/delete/{id}', 'Admin\AgentsController@delete');
+
+    //hot properties
+    Route::get('admin/properties', 'Admin\PropertiesController@index');
+    Route::get('admin/properties/create', 'Admin\PropertiesController@create');
+    Route::post('admin/properties/save', 'Admin\PropertiesController@update');
+    Route::get('admin/properties/edit/{id}', 'Admin\PropertiesController@edit');
+    Route::get('admin/properties/delete/{id}', 'Admin\PropertiesController@delete');
 });
 
 Route::group(['middleware' => ['role:owner|register']], function() {
@@ -141,7 +148,9 @@ Menu::make('MyNavBar', function($menu) {
 
     $menu->add('Agents', 'admin/agents')->attr(array('pre_icon' => 'address-book'))->active('admin/agents/*');
 
-    $menu->add('Advertisement', 'advertisement')->attr(array('pre_icon' => ''))->active('advertisement/*');
+    $menu->add('Properties', 'admin/properties')->attr(array('pre_icon' => 'cog'))->active('admin/properties/*');
+
+    $menu->add('Advertisement', 'advertisement')->attr(array('pre_icon' => 'buysellads'))->active('advertisement/*');
 
 //    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
 });
