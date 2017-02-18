@@ -224,7 +224,7 @@
 									            <p class="main_p">{{$post->content}}</p>
 									            <p><a href="{{$post->link}}" target="_blank">{{$post->address}}</a>
 									            </p>
-									            <p class="min_p">{!!$post->city!!}</p>
+									            <p class="min_p">{!!$post->location!!}</p>
 									        </div>
 									    </div>
 									</div>	

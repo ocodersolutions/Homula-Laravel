@@ -17,7 +17,7 @@
 				<th >Address</th>
 				<th >Thumbnail</th>
 				<th >Price</th>
-				<th >City</th>
+				<th >Location</th>
 				<th >&nbsp;</th>
 	        </tr>
 	        </thead>
@@ -31,7 +31,7 @@
 					 	@endif
 					</td>
 					<td > {!!$property->price!!} </td>
-					<td > {!!$property->city!!} </td>
+					<td > {!!$property->location!!} </td>
 					<td style="width: 162px;">
 						<a href="{{ url('admin/properties/edit/'. $property->id) }}" class="btn btn-info">Update</a>
 						<a href="{{ url('admin/properties/delete/' . $property->id) }}" class="btn btn-danger">Delete</a>

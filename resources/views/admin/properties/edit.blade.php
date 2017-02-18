@@ -72,10 +72,10 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
-                            City
+                            Location
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='city' value="{{old('city') ? old('city') : ($properties ? $properties->city : '') }}">
+                            <input class="form-control" type="text" name='location' value="{{old('location') ? old('location') : ($properties ? $properties->location : '') }}">
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>    

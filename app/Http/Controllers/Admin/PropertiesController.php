@@ -36,7 +36,7 @@ class PropertiesController extends Controller
             $properties->address = $post_data['address'];
             $properties->thumbnail = $post_data['thumbnail'];
             $properties->price = $post_data['price'];
-            $properties->city = $post_data['city'];
+            $properties->location = $post_data['location'];
             $result = $properties->save();
         } else {
             $properties = Properties::findOrFail($id);
