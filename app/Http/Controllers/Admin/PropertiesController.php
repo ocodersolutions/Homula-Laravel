@@ -34,9 +34,17 @@ class PropertiesController extends Controller
             $post_data = $request->all();
             $properties = new Properties();
             $properties->address = $post_data['address'];
+            $properties->location = $post_data['location'];
+            $properties->bedrooms = $post_data['bedrooms'];
+            $properties->bathrooms = $post_data['bathrooms'];
             $properties->thumbnail = $post_data['thumbnail'];
             $properties->price = $post_data['price'];
-            $properties->location = $post_data['location'];
+            $properties->features = $post_data['features'];
+            $properties->advanced = $post_data['advanced'];
+            $properties->amenities = $post_data['amenities'];
+            $properties->walkscore = $post_data['walkscore'];
+            $properties->map = $post_data['map'];
+            $properties->slideshow = $post_data['slideshow'];
             $result = $properties->save();
         } else {
             $properties = Properties::findOrFail($id);

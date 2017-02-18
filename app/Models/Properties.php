@@ -8,5 +8,5 @@ class Properties extends Model
 {
 	public $timestamps = false;
 	
-    protected $fillable = ['address', 'thumbnail', 'price', 'city'];
+    protected $fillable = ['address', 'location', 'bedrooms', 'bathrooms', 'thumbnail', 'price', 'features', 'advanced', 'amenities', 'walkscore', 'map', 'slideshow'];
 }

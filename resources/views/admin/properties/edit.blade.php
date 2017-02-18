@@ -51,6 +51,36 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
+                            Location
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='location' value="{{old('location') ? old('location') : ($properties ? $properties->location : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>    
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Bedrooms
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='bedrooms' value="{{old('bedrooms') ? old('bedrooms') : ($properties ? $properties->bedrooms : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>    
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Bathrooms
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='bathrooms' value="{{old('bathrooms') ? old('bathrooms') : ($properties ? $properties->bathrooms : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>    
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
                             Thumbnail
                         </label>
                         <div class="col-sm-10">
@@ -72,10 +102,60 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">   
-                            Location
+                            Features
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='location' value="{{old('location') ? old('location') : ($properties ? $properties->location : '') }}">
+                            <input class="form-control" type="text" name='features' value="{{old('features') ? old('features') : ($properties ? $properties->features : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>    
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Advanced
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='advanced' value="{{old('advanced') ? old('advanced') : ($properties ? $properties->advanced : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>   
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Amenities
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='amenities' value="{{old('amenities') ? old('amenities') : ($properties ? $properties->amenities : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>    
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Walkscore
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='walkscore' value="{{old('walkscore') ? old('walkscore') : ($properties ? $properties->walkscore : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>    
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Map
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='map' value="{{old('map') ? old('map') : ($properties ? $properties->map : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>    
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Slideshow
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='slideshow' value="{{old('slideshow') ? old('slideshow') : ($properties ? $properties->slideshow : '') }}">
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>    
