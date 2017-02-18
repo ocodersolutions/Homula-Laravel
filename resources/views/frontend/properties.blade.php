@@ -28,71 +28,72 @@
 						</div>
 					</div>
 					<div class="properties_page_slider">
-						<div id="properties_jssor" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 852px!important; height: 660px; overflow: hidden; visibility: hidden; background-color: #f1f1f1;">
-							<!-- Load screen -->
-							<div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+						<div id="jssor_properties" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 850px; height: 660px; overflow: visible; visibility: hidden;">
+					        <!-- Loading Screen -->
+					        <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
 					            <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width: 100%; height: 100%;"></div>
 					            <div style="position:absolute;display:block;background:url('/images/loading.gif') no-repeat center center;top:0px;left:0px;width:100%;height:100%;"></div>
 					        </div>
-					        <!-- Slider -->
-					        <div data-u="slides" class="lightslide" style="cursor: default; position: relative; top: 0px; left: 0px; width: 852px; height: 480px; overflow: hidden;">
-					        	<div data-p="144.50">
-					        		<a href="" data-lightbox="roadtrip">
-					        			<img data-u='image' src="/images/hot_properties_item_1.jpg" alt="">
-					        		</a>
-					        		<img data-u='thumb' src="/images/hot_properties_item_1.jpg" alt="">
-					        	</div>
-					        	<div data-p="144.50">
-					        		<a href="" data-lightbox="roadtrip">
-					        			<img data-u='image' src="/images/hot_properties_item_2.jpg" alt="">
-					        		</a>
-					        		<img data-u='thumb' src="/images/hot_properties_item_2.jpg" alt="">
-					        	</div>
-					        	<div class="galLiLast" data-p="144.50">
-					        		<a href="" data-lightbox="roadtrip">
-					        			<img data-u='image' src="/images/hot_properties_item_3.jpg" alt="">
-					        		</a>
-					        		<img data-u='thumb' src="/images/hot_properties_item_3.jpg" alt="">
-					        	</div>
-					        	<div data-p="144.50">
-					        		<a href="" data-lightbox="roadtrip">
-					        			<img data-u='image' src="/images/hot_properties_item_4.jpg" alt="">
-					        		</a>
-					        		<img data-u='thumb' src="/images/hot_properties_item_4.jpg" alt="">
-					        	</div>
-					        	<div data-p="144.50">
-					        		<a href="" data-lightbox="roadtrip">
-					        			<img data-u='image' src="/images/hot_properties_item_5.jpg" alt="">
-					        		</a>
-					        		<img data-u='thumb' src="/images/hot_properties_item_5.jpg" alt="">
-					        	</div>
-					        	<div class="galLiLast" data-p="144.50">
-					        		<a href="" data-lightbox="roadtrip">
-					        			<img data-u='image' src="/images/hot_properties_item_6.jpg" alt="">
-					        		</a>
-					        		<img data-u='thumb' src="/images/hot_properties_item_6.jpg" alt="">
-					        	</div>
-					        	<div data-p="144.50">
-					        		<a href="" data-lightbox="roadtrip">
-					        			<img data-u='image' src="/images/hot_properties_item_7.jpg" alt="">
-					        		</a>
-					        		<img data-u='thumb' src="/images/hot_properties_item_7.jpg" alt="">
-					        	</div>
+					        <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 852px; height: 480px; overflow: hidden;">
+					            <div data-p="144.50">
+					            	<a href=""><img data-u="image" src="/sl/img/002.jpg" /></a>					                
+					                <img data-u="thumb" src="/sl/img/002.jpg" />
+					            </div>
+					            <div data-p="144.50" style="display:none;">
+					                <a href=""><img data-u="image" src="/sl/img/003.jpg" /></a>
+					                <img data-u="thumb" src="/sl/img/003.jpg" />
+					            </div>
+					            <div data-p="144.50" style="display:none;">
+					                <a href=""><img data-u="image" src="/sl/img/004.jpg" /></a>
+					                <img data-u="thumb" src="/sl/img/004.jpg" />
+					            </div>
+					            <div data-p="144.50" style="display:none;">
+					                <a href=""><img data-u="image" src="/sl/img/005.jpg" /></a>
+					                <img data-u="thumb" src="/sl/img/005.jpg" />
+					            </div>
+					            <div data-p="144.50" style="display:none;">
+					                <a href=""><img data-u="image" src="/sl/img/006.jpg" /></a>
+					                <img data-u="thumb" src="/sl/img/006.jpg" />
+					            </div>
+					            <div data-p="144.50" style="display:none;">
+					                <a href=""><img data-u="image" src="/sl/img/007.jpg" /></a>
+					                <img data-u="thumb" src="/sl/img/007.jpg" />
+					            </div>
+					            <div data-p="144.50" style="display:none;">
+					                <a href=""><img data-u="image" src="/sl/img/008.jpg" /></a>
+					                <img data-u="thumb" src="/sl/img/008.jpg" />
+					            </div>
+					            <div data-p="144.50" style="display:none;">
+					                <a href=""><img data-u="image" src="/sl/img/009.jpg" /></a>
+					                <img data-u="thumb" src="/sl/img/009.jpg" />
+					            </div>
+					            <div data-p="144.50" style="display:none;">
+					                <a href=""><img data-u="image" src="/sl/img/010.jpg" /></a>
+					                <img data-u="thumb" src="/sl/img/010.jpg" />
+					            </div>
+					            <div data-p="144.50" style="display:none;">
+					                <a href=""><img data-u="image" src="/sl/img/011.jpg" /></a>
+					                <img data-u="thumb" src="/sl/img/011.jpg" />
+					            </div>
 					        </div>
 					        <!-- Thumbnail Navigator -->
-					        <div data-u="thumbnavigator" class="jssort01" style="margin-top:30px;position:absolute;left:0px;bottom:0px;width:847px;height:150px;" data-autocenter="1">
+					        <div data-u="thumbnavigator" class="jssort_properties" style="position:absolute;left:0px;bottom:0;width:600px;height:135px;" data-autocenter="1">
+					            <div style="position: absolute; top: 0; left: 0; width: 100%; height:100%; filter:alpha(opacity=30.0); opacity:0.3;"></div>
 					            <!-- Thumbnail Item Skin Begin -->
-					            <div data-u="slides" style="cursor: default;">
+					            <div data-u="slides" style="cursor: default;height: 142px!important;">
 					                <div data-u="prototype" class="p">
 					                    <div class="w">
 					                        <div data-u="thumbnailtemplate" class="t"></div>
 					                    </div>
+					                    <div class="c"></div>
 					                </div>
 					            </div>
 					            <!-- Thumbnail Item Skin End -->
-					            <span data-u="arrowleft" class="jssora05l" style="top:0px;left:0px;width:40px;height:150px;text-align:center;"></span>
-					        	<span data-u="arrowright" class="jssora05r" style="top:0px;right:0px;width:40px;height:150px;text-align:center;"></span>
 					        </div>
+					        <!-- Arrow Navigator -->
+					        <span data-u="arrowleft" class="jssoraProl" style="left:0;" data-autocenter="2"><i class="fa fa-angle-left" aria-hidden="true"></i></span>
+					        <span data-u="arrowright" class="jssoraPror" style="right:0;" data-autocenter="2"><i class="fa fa-angle-right" aria-hidden="true"></i></span>
+
 						</div>
 					</div>
 					<div class="properties_page_overview">

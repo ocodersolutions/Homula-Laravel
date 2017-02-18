@@ -1995,3 +1995,108 @@ h1.agents-content-title {
     color: #424242;
     float: right;
 }
+/************ style slider for properties page *************/
+#jssor_properties {
+    // width: 850px !important;
+    // height: 660px !important;
+}
+.jssoraProl,
+.jssoraPror {
+    display: block;
+    position: absolute;
+    width: 40px;
+    height: 135px;
+    cursor: pointer;
+    background: #223c6e;
+    overflow: hidden;
+    bottom: 0;
+    top: auto !important;
+}
+.jssoraProl .fa, .jssoraPror .fa {
+    color: #fff;
+    font-size: 55px;
+    line-height: 142px;
+    width: 100%;
+    text-align: center;
+}
+.jssoraProl {
+    background-position: -3px -33px;
+}
+.jssoraPror {
+    background-position: -63px -33px;
+}
+.jssoraProl:hover {
+    background-position: -123px -33px;
+}
+.jssoraPror:hover {
+    background-position: -183px -33px;
+}
+.jssoraProl.jssoraProldn {
+    background-position: -3px -33px;
+}
+.jssoraPror.jssoraPrordn {
+    background-position: -63px -33px;
+}
+.jssoraProl.jssoraProlds {
+    background-position: -3px -33px;
+    opacity: .3;
+    pointer-events: none;
+}
+.jssoraPror.jssoraPrords {
+    background-position: -63px -33px;
+    opacity: .3;
+    pointer-events: none;
+}
+.jssort_properties .p {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 162px;
+    height: 135px;
+}
+.jssort_properties .t {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+.jssort_properties .w, .jssort_properties .pav:hover .w {
+    position: absolute;
+    width: 160px;
+    height: 135px;
+    border: white 1px dashed;
+    box-sizing: content-box;
+}
+.jssort_properties .pdn .w, .jssort_properties .pav .w {
+    border-style: solid;
+}
+.jssort_properties .c {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 162px;
+    height: 135px;
+    background-color: #000;
+    filter: alpha(opacity=45);
+    opacity: .45;
+    transition: opacity .6s;
+    -moz-transition: opacity .6s;
+    -webkit-transition: opacity .6s;
+    -o-transition: opacity .6s;
+}
+.jssort_properties .p:hover .c, .jssort_properties .pav .c {
+    filter: alpha(opacity=0);
+    opacity: 0;
+}
+.jssort_properties .p:hover .c {
+    transition: none;
+    -moz-transition: none;
+    -webkit-transition: none;
+    -o-transition: none;
+}
+* html .jssort_properties .w {
+    width: 62px;
+    height: 32px;
+}
