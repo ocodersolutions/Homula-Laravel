@@ -49,7 +49,7 @@ class AgentsController extends Controller
             $agents = Agents::findOrFail($id);
             if ($agents) {
                 $result = $agents->update($request->all());
-            }
+            }a
         }
         if ($result) {
             Session::flash('success', 'Agents saved successfully!');
