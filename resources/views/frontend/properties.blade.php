@@ -106,10 +106,10 @@
 									<img src="http://realestate.homula.com/wp-content/uploads/2016/10/image-C3615220-9.jpg" alt="">
 								</div>
 								<dl>
-				                	<dt>Price: </dt><dd>2,388,000</dd>			            	
-				                	<dt>Location: </dt><dd>Ontario, M2N4M3</dd>
-				                	<dt>Bedrooms: </dt><dd>4</dd>
-				                	<dt>Total Baths: </dt><dd>4</dd>
+				                	<dt>Price: </dt><dd>{!!$properties->price != '' ? $properties->price : '&nbsp;'!!}</dd>			            	
+				                	<dt>Location: </dt><dd>{!!$properties->location != '' ? $properties->location : '&nbsp;'!!}</dd>
+				                	<dt>Bedrooms: </dt><dd>{{$properties->bedrooms}}</dd>
+				                	<dt>Total Baths: </dt><dd>{{$properties->bathrooms}}</dd>
 				                	<dt>Extra: </dt>
 				                	<dd>Hunter Douglas Blinds. Stainless Steel Side/Side Fridge, Stove, B/I Dishwasher, Funnel Exhaust Hood. Cac, Cvac, Gdo, Alarm Sys, Insulated Garage Dr, Approx.21'X12' Sun-Deck W Bbq Gas Line. Designer Interlocking.</dd>
 			                	</dl>

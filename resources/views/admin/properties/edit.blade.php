@@ -64,7 +64,15 @@
                             Bedrooms
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='bedrooms' value="{{old('bedrooms') ? old('bedrooms') : ($properties ? $properties->bedrooms : '') }}">
+                            <select name="bedrooms" data-placeholder="Choose a Bedrooms..." class="chosen-select" style="width:350px;" tabindex="2">
+                                @for($i = 0; $i< 5; $i++)
+                                    @if ($properties && $properties->bedrooms == $i) 
+                                        <option value="{{$i}}" selected="selected">{{$i}}</option>
+                                    @else
+                                        <option value="{{$i}}">{{$i}}</option>
+                                    @endif
+                                @endfor
+                            </select>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>    
@@ -74,7 +82,15 @@
                             Bathrooms
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='bathrooms' value="{{old('bathrooms') ? old('bathrooms') : ($properties ? $properties->bathrooms : '') }}">
+                            <select name="bathrooms" data-placeholder="Choose a Bathrooms..." class="chosen-select" style="width:350px;" tabindex="2">
+                                @for($i = 1; $i < 10; $i++)
+                                    @if ($properties && $properties->bathrooms == ($i/2-0.5)) 
+                                        <option value="{{($i/2-0.5)}}" selected="selected">{{($i/2-0.5)}}</option>
+                                    @else
+                                        <option value="{{($i/2-0.5)}}">{{($i/2-0.5)}}</option>
+                                    @endif
+                                @endfor
+                            </select>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>    
@@ -105,7 +121,7 @@
                             Features
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='features' value="{{old('features') ? old('features') : ($properties ? $properties->features : '') }}">
+                            <textarea id="properties_editor1" class="form-control" type="text" name='features'>{!! old('features') ? old('features') : ($properties ? $properties->features : '') !!}</textarea>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>    
@@ -115,7 +131,7 @@
                             Advanced
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='advanced' value="{{old('advanced') ? old('advanced') : ($properties ? $properties->advanced : '') }}">
+                            <textarea id="properties_editor2" class="form-control" type="text" name='advanced'>{!! old('advanced') ? old('advanced') : ($properties ? $properties->advanced : '') !!}</textarea>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>   
@@ -125,7 +141,7 @@
                             Amenities
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='amenities' value="{{old('amenities') ? old('amenities') : ($properties ? $properties->amenities : '') }}">
+                            <textarea id="properties_editor3" class="form-control" type="text" name='amenities'>{!! old('amenities') ? old('amenities') : ($properties ? $properties->amenities : '') !!}</textarea>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>    
@@ -170,8 +186,28 @@
 @section("content_js")
 
 <script>
-    
+    CKEDITOR.replace('properties_editor1', {
+        filebrowserBrowseUrl: '{{URL::asset("filemanager")}}/index.html',
+    });
+    CKEDITOR.replace('properties_editor2', {
+        filebrowserBrowseUrl: '{{URL::asset("filemanager")}}/index.html',
+    });
+    CKEDITOR.replace('properties_editor3', {
+        filebrowserBrowseUrl: '{{URL::asset("filemanager")}}/index.html',
+    });
+
     var elem = document.querySelector('.js-switch');
     var switchery = new Switchery(elem, {color: '#1AB394'});
+    //choosen select
+    var config = {
+        '.chosen-select'           : {},
+        '.chosen-select-deselect'  : {allow_single_deselect:true},
+        '.chosen-select-no-single' : {disable_search_threshold:10},
+        '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+        '.chosen-select-width'     : {width:"95%"}
+        }
+    for (var selector in config) {
+        $(selector).chosen(config[selector]);
+    }
 </script>
 @endsection

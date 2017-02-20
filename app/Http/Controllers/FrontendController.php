@@ -58,6 +58,7 @@ class FrontendController extends Controller
     }
 
     public function properties($id) {
-        return view('frontend.properties');
+        $properties = Properties::findOrFail($id);
+        return view('frontend.properties', compact('properties'));
     }
 }
