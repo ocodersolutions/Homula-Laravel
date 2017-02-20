@@ -11,9 +11,9 @@
 							<div class="agents-card-img-content">
 								<img src="{{$agents_detail->thumbnail}}" alt="">
 								<div class="agent-card-link">
-									<i class="fa fa-facebook-square"></i>
-									<i class="fa fa-twitter-square"></i>
-									<i class="fa fa-google-plus-square"></i>
+									<a href="{{$agents_detail->facebook}}"><i class="fa fa-facebook-square"></i></a>
+									<a href="{{$agents_detail->skype}}"><i class="fa fa-twitter-square"></i></a>
+									<a href="{{$agents_detail->google}}"><i class="fa fa-google-plus-square"></i></a>
 								</div>
 							</div>
 						</div>
@@ -59,9 +59,9 @@
 							<div class="clr"></div>
 						</ul>
 						<div class="agents-detail-nav-content">
-							<p class="adnc-about">For over 65 years, Enbridge has been effectively delivering energy in North America. Their dedication, hard work and proven techniques has enabled them to be recognized as one of the Global 100 Most Sustainable Corporation in the world. Safety is the number one priority of this excellent energy company. Enbridge has had a 99.9994% safe delivery record through their crude oil pipelines for the past 10 years!</p>
-							<p class="adnc-agents-properties">A subsidiary of PowerStream Holdings Inc., PowerStream Energy Services was established in 2013. This electricity distribution company, owned by the city of Markham, Vaughan and Barrie, provides Sub-Metering services to both commercial properties and condos throughout Canada! PowerStream Energy Services works closely with our experts at Homula in order to exceed your needs. From commissioning to installation, you can count on the experienced technicians at PowerStream Energy Services.</p>
-							<p class="adnc-rate">Incorporated in 1929, Reliance Infrastructure companies distribute over 36 billion units of energy to over 30 million consumers. Reliance is one of the most trusted utility companies in the world today. With their vow to continuously offer 24/7 phone support, they have truly become one of the leaders in the industry.</p>
+							<p class="adnc-about">{!!$agents_detail->about!!}</p>
+							<p class="adnc-agents-properties">{!!$agents_detail->properties!!}</p>
+							<p class="adnc-rate">{!!$agents_detail->rate!!}</p>
 						</div>
 					</div>
 				</div>

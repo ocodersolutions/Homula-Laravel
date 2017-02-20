@@ -1563,6 +1563,9 @@ h1.agents-content-title {
     text-align: center;
     letter-spacing: 2px;
 }
+.agent-card-link a i {
+    color: #fff;
+}
 .agents-card-info {
     border-left: 6px solid #fff;
     padding-top: 15px;

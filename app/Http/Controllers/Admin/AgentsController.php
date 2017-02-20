@@ -44,12 +44,18 @@ class AgentsController extends Controller
             $agents->area_work = $post_data['area_work'];
             $agents->spoken_language = $post_data['spoken_language'];
             $agents->experience = $post_data['experience'];
+            $agents->about = $post_data['about'];
+            $agents->properties = $post_data['properties'];
+            $agents->rate = $post_data['rate'];
+            $agents->facebook = $post_data['facebook'];
+            $agents->skype = $post_data['skype'];
+            $agents->google = $post_data['google'];
             $result = $agents->save();
         } else {
             $agents = Agents::findOrFail($id);
             if ($agents) {
                 $result = $agents->update($request->all());
-            }a
+            }
         }
         if ($result) {
             Session::flash('success', 'Agents saved successfully!');
