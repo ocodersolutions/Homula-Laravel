@@ -312,7 +312,6 @@ $(document).ready(function(){
     
 
     $(".customizer-header, .header_sub_menu li a").click(function(e){
-        e.preventDefault();
         var ink, d, x, y;
         if($(this).find(".ink").length === 0){
             $(this).prepend("<span class='ink'></span>");
