@@ -2,7 +2,7 @@
 
 @section('content')
 	<div class="agents-detail-page">
-		<h1 class="adp-title">Alaadin Zahran</h1>
+		<h1 class="adp-title">{{$agents_detail->name}}</h1>
 		<div class="adp-module">
 			<div class="adp-module-content container">
 				<div class="agents-card">

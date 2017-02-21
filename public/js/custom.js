@@ -44,15 +44,15 @@ $(document).ready(function(){
         $(this).addClass('active');
         if($(this).hasClass('about-ag')) {
             $('.agents-detail-nav-content p').css('display','none');
-            $('.adnc-about').css('display','block');
+            $('.adnc-about').fadeIn(1000);
         }
         else if($(this).hasClass('agents-properties-ag')) {
             $('.agents-detail-nav-content p').css('display','none');
-            $('.adnc-agents-properties').css('display','block');
+            $('.adnc-agents-properties').fadeIn(1000);
         }
         else {
             $('.agents-detail-nav-content p').css('display','none');
-            $('.adnc-rate').css('display','block');
+            $('.adnc-rate').fadeIn(1000);
         }
     });
 
