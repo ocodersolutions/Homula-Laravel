@@ -311,7 +311,7 @@ $(document).ready(function(){
      */
     
 
-    $(".customizer-header, .header_sub_menu li a, .header_top_account i, .header_top_favorites i").click(function(e){
+    $(".customizer-header, .header_sub_menu li a, .header_top_account i, .header_top_favorites i, .shadow-box button").click(function(e){
         var ink, d, x, y;
         if($(this).find(".ink").length === 0){
             $(this).prepend("<span class='ink'></span>");

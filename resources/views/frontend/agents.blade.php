@@ -94,7 +94,7 @@
 		    text-transform: uppercase;
 
 		}
-		.shadow-box button:hover {
+		.shadow-box button:hover, .shadow-box button:focus {
 			color: #fff;
 		}
 	</style>
@@ -171,9 +171,9 @@
 										<span>{!! $agent->experience !!}</span>
 									</div>
 									<div class="aic-infor-link">
-										<a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
-										<a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-										<a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+										<a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+										<a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+										<a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
 									</div>
 								</div>
 							</div>
