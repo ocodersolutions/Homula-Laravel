@@ -198,7 +198,7 @@ video {
     cursor: pointer;
     text-transform: uppercase;
 }
-.wsil_btn:hover {
+.wsil_btn:hover, .wsil_btn:focus {
     text-decoration: none;
     color: #fff;
 }
