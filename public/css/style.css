@@ -52,6 +52,7 @@ a:hover {
     color: #fff;
     font-size: 18px;
     margin: 0 20px;
+    position: relative;
 }
 .header_top_account i:hover, .header_top_favorites i:hover {
 	box-shadow: 0px 0px 15px #fff;
@@ -69,11 +70,16 @@ a:hover {
     font-size: 18px;
     border-radius: 50%;
     margin-left: 20px;
+    position: relative;
 }
 .header_top_favorites a {
     color: #fff;
     font-weight: bold;
     font-size: 11px;
+}
+.header_top_favorites a:hover {
+    color: #fff;
+    text-decoration: none;
 }
 .header_menu {
     background: #0a368a;
@@ -1167,7 +1173,7 @@ p.box_items_title {
         float: right;
         padding-left: 0;
     }
-    .header_top_favorites a {
+    .header_top_favorites a.htf_favorites {
         display: none;
     }
     .header_top_favorites i {

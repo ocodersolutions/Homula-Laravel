@@ -55,8 +55,8 @@
 									@endif
 									</div>
 									<div class="col-sm-4 header_top_favorites">
-										<a>FAVORITES</a>
-										<i class="fa fa-heart" aria-hidden="true"></i>
+										<a href="" class="htf_favorites">FAVORITES</a>
+										<a href=""><i class="fa fa-heart" aria-hidden="true"></i></a>
 									</div>
 								</div>
 							</div>
@@ -403,7 +403,7 @@
 			</div>
 
 			<div class="customizer">
-				<div class="customizer-header closed">
+				<div class="customizer-header">
 					<img src="/images/contact-icon-17.png" alt="">
 				</div>
 				<div class="move_page_top"><i class="fa fa-angle-up"></i></div>
