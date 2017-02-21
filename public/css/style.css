@@ -1764,6 +1764,19 @@ h1.agents-content-title {
 .agents-detail-nav-content p.adnc-about {
     display: block;
 }
+.agents-content-form button {
+    background-color: #e91e63;
+    border: 0;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 6px 12px;
+    overflow: hidden;
+    position: relative;
+    text-transform: uppercase;
+    height: 48px;
+    margin-top: 20px;
+}
 
 /***************** style for properties page *****************************/
 .properties_page_header {

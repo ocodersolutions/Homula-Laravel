@@ -2,6 +2,9 @@
 
 @section('banner')
 	<style type="text/css">
+		.agents-page {
+			background: #f2f2f2;
+		}
 		.header_bot {
 			border-bottom: none;
 			margin-bottom: 60px;
@@ -141,46 +144,50 @@
 					<h1 class="agents-content-title">Agents</h1>
 				</div>
 				<div class="agents-content col-sm-12">
-				@foreach($agents as $agent)
-					<div class="col-sm-6">
-						<div class="agents-item">
-							<div class="agents-item-content">
-								<div class="aic-image">
-									<div class="aic-image-inner">
-										<a href="/agents/{{$agent->alias}}">
-											@if ($agent->thumbnail != '')
-												<img src="{{$agent->thumbnail}}" alt="">
-											@else 
-												<img src="/images/agent_no_thum.jpg" alt="">
-											@endif
-										</a>
+					@foreach($agents as $agent)
+						<div class="col-sm-6">
+							<div class="agents-item">
+								<div class="agents-item-content">
+									<div class="aic-image">
+										<div class="aic-image-inner">
+											<a href="/agents/{{$agent->alias}}">
+												@if ($agent->thumbnail != '')
+													<img src="{{$agent->thumbnail}}" alt="">
+												@else 
+													<img src="/images/agent_no_thum.jpg" alt="">
+												@endif
+											</a>
+										</div>
 									</div>
-								</div>
-								<div class="aic-information">
-									<h2><a href="/agents/{{$agent->alias}}">{{$agent->name}}</a></h2>
-									<div class="aic-infor-area-work">
-										<h3>AREAS YOU WORK IN</h3>
-										<span>{!!$agent->area_work!!}</span>
-									</div>
-									<div class="aic-infor-spoken-lang">
-										<h3>SPOKEN LANGUAGES</h3>
-										<span>{!! $agent->spoken_language !!}</span>
-									</div>
-									<div class="aic-infor-exp">
-										<h3>EXPERIENCE</h3>
-										<span>{!! $agent->experience !!}</span>
-									</div>
-									<div class="aic-infor-link">
-										<a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-										<a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
-										<a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+									<div class="aic-information">
+										<h2><a href="/agents/{{$agent->alias}}">{{$agent->name}}</a></h2>
+										<div class="aic-infor-area-work">
+											<h3>AREAS YOU WORK IN</h3>
+											<span>{!!$agent->area_work!!}</span>
+										</div>
+										<div class="aic-infor-spoken-lang">
+											<h3>SPOKEN LANGUAGES</h3>
+											<span>{!! $agent->spoken_language !!}</span>
+										</div>
+										<div class="aic-infor-exp">
+											<h3>EXPERIENCE</h3>
+											<span>{!! $agent->experience !!}</span>
+										</div>
+										<div class="aic-infor-link">
+											<a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+											<a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+											<a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+										</div>
 									</div>
 								</div>
 							</div>
 						</div>
-					</div>
-				@endforeach
+					@endforeach
+					<form action="" class="agents-content-form">
+						<button>Ask a question</button>
+					</form>
 				</div>
+				
 			</div>
 		</div>
 	</div>
