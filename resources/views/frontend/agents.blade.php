@@ -11,6 +11,18 @@
 			background-size: cover;
 		    background-position: center center;
 		    background-repeat: no-repeat;
+		    position: relative;
+		}
+		.header_bot_video:after {
+			background-color: rgba(129,212,250,0.15);
+		    bottom: 0;
+		    content: '';
+		    display: block;
+		    left: 0;
+		    position: absolute;
+		    right: 0;
+		    top: 0;
+		    z-index: 10;
 		}
 		.shadow-box {
 		    background-color: rgba(255, 255, 255, 0.7);
@@ -19,6 +31,7 @@
 		    margin: 0 auto;
 		    position: relative;
 		    margin-top: 45px;
+		    z-index: 11;
 		}
 		.shadow-box h1 {
 		    color: #0a368a;
@@ -50,7 +63,7 @@
 		    box-sizing: border-box;
 		}
 		.shadow-box .form-control {
-		    border: 1px solid red;
+		    border: 1px solid rgba(0,0,0,0.7);
 		    width: 100%;
 		    float: right;
 		    background: white;
@@ -74,12 +87,15 @@
 		    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.26);
 		    color: #fff;
 		    font-size: 13px;
-		    font-weight: 600;
+		    font-weight: 500;
 		    padding: 6px 12px;
 		    overflow: hidden;
 		    position: relative;
 		    text-transform: uppercase;
 
+		}
+		.shadow-box button:hover {
+			color: #fff;
 		}
 	</style>
 
