@@ -55,7 +55,7 @@
 							<a href="/radius-search">
 								<img src="{{URL::asset('images/homula-search.jpg')}}" alt="homula search" class="img-responsive">
 								<div class="overplay_title">
-									<a href="#"><p class="box_items_title">Ask Questions</p></a>
+									<a href="#"><p class="box_items_title">Realestate Answers</p></a>
 								</div>
 							</a>
 						</div>	

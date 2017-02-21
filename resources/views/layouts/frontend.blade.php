@@ -489,6 +489,7 @@
 	<script type="text/javascript" src="{{ URL::asset('js/owl.carousel.min.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/typed.js') }}"></script>
 	<script type="text/javascript" src="{{ URL::asset('js/jssor.slider-21.1.6.mini.js') }}"></script>
+	@yield('script')
 
 </body>
 </html>

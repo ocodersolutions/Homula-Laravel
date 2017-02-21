@@ -355,3 +355,41 @@
 		</div>
 	</div>
 @endsection
+
+@section('script')
+	<script type="text/javascript">
+		$(document).ready(function(){
+		    // slider
+		    var jssor_properties_option = {
+		      $AutoPlay: true,
+		      $ArrowNavigatorOptions: {
+		        $Class: $JssorArrowNavigator$
+		      },
+		      $ThumbnailNavigatorOptions: {
+		        $Class: $JssorThumbnailNavigator$,
+		        $Cols: 5,
+		        $SpacingX: 3,
+		        $SpacingY: 3,
+		        $Align: 260
+		      }
+		    };
+
+		    var jssor_properties_slider = new $JssorSlider$("jssor_properties", jssor_properties_option);
+
+		    function ScaleSlider() {
+		        var refSize = jssor_properties_slider.$Elmt.parentNode.clientWidth;
+		        if (refSize) {
+		            refSize = Math.min(refSize, 852);
+		            jssor_properties_slider.$ScaleWidth(refSize);
+		        }
+		        else {
+		            window.setTimeout(ScaleSlider, 130);
+		        }
+		    }
+		    ScaleSlider();
+		    $(window).bind("load", ScaleSlider);
+		    $(window).bind("resize", ScaleSlider);
+		    $(window).bind("orientationchange", ScaleSlider);
+		});
+	</script>
+@endsection

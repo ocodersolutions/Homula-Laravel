@@ -294,37 +294,15 @@ $(document).ready(function(){
         $(properties_show).show();
     });
 
-    // slider
 
-    
-    var jssor_properties_option = {
-      $AutoPlay: true,
-      $ArrowNavigatorOptions: {
-        $Class: $JssorArrowNavigator$
-      },
-      $ThumbnailNavigatorOptions: {
-        $Class: $JssorThumbnailNavigator$,
-        $Cols: 5,
-        $SpacingX: 3,
-        $SpacingY: 3,
-        $Align: 260
-      }
-    };
-
-    var jssor_properties_slider = new $JssorSlider$("jssor_properties", jssor_properties_option);
-
-    function ScaleSlider() {
-        var refSize = jssor_properties_slider.$Elmt.parentNode.clientWidth;
-        if (refSize) {
-            refSize = Math.min(refSize, 852);
-            jssor_properties_slider.$ScaleWidth(refSize);
-        }
-        else {
-            window.setTimeout(ScaleSlider, 130);
-        }
+    WinH = $(window).width();
+    if (WinH > 992){
+        $( ".header_main_menu > li" ).mouseenter(function() {   
+            clearTimeout(this.timeout);
+            $( this ).find( ".header_sub_menu" ).stop( true, true ).css('visibility','visible').fadeIn(1000); 
+        }).mouseleave(function() {
+            $( this ).find( ".header_sub_menu" ).stop( true, true ).fadeOut(500); 
+            
+        });
     }
-    ScaleSlider();
-    $(window).bind("load", ScaleSlider);
-    $(window).bind("resize", ScaleSlider);
-    $(window).bind("orientationchange", ScaleSlider);
 });

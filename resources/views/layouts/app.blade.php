@@ -261,24 +261,24 @@
 						<div class="header_search">
 							<ul>
 								<li>
-									<p>GTA</p>
-									<span>(LOGIN REQUIRED)</span>
+									<p>Live Search</p>
+									<span>(Login Required)</span>
 								</li>
 								<li>
 									<p>Ontario</p>
 									<span>(TREB)</span>
 								</li>
 								<li>
+									<p>New Condo Project</p>
+								</li>
+								<li>
+									<p>New Construction Home</p>
+								</li>
+								<li>
 									<p>Canada</p>
 								</li>
 								<li>
 									<p>International</p>
-								</li>
-								<li>
-									<p>New House</p>
-								</li>
-								<li>
-									<p>New Condo</p>
 								</li>
 							</ul>
 							<form action="" method="get">
@@ -310,7 +310,7 @@
 										<li><a href="">Guelph</a></li>
 										<li><a href="">Hamilton</a></li>
 										<li><a href="">Richmond Hill</a></li>
-										<li>
+										<!-- <li>
 											<ul>
 												<li><a href="">Barrie</a></li>
 												<li><a href="">Blenheim</a></li>
@@ -318,7 +318,7 @@
 												<li><a href="">Cloyne</a></li>
 											</ul>
 											<span class="hp_show_link">More...</span>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -332,7 +332,7 @@
 										<li><a href="">Markham</a></li>
 										<li><a href="">Barrie</a></li>
 										<li><a href="">Brockville</a></li>
-										<li>
+										<!-- <li>
 											<ul>
 												<li><a href="">Barrie</a></li>
 												<li><a href="">Blenheim</a></li>
@@ -340,7 +340,7 @@
 												<li><a href="">Cloyne</a></li>
 											</ul>
 											<span class="hp_show_link">More...</span>
-										</li>
+										</li> -->
 									</ul>
 								</div>
 							</div>
@@ -361,13 +361,13 @@
 									<h4>BROWSE HOMES</h4>
 									<ul>
 										<li><a href="">Resale Homes</a></li>
-										<li><a href="">New Construction Home</a></li>
+										<!-- <li><a href="">New Construction Home</a></li> -->
 										<li><a href="">Free Home Evaluation</a></li>
 										<li><a href="">Canada Search</a></li>
-										<li><a href="">All Ontario Properties</a></li>
+										<!-- <li><a href="">All Ontario Properties</a></li>
 										<li><a href="">IDX Map Search</a></li>
 										<li><a href="">IDX Commercial Search</a></li>
-										<li><a href="">IDX Lease Search</a></li>
+										<li><a href="">IDX Lease Search</a></li> -->
 										<li><a href="">Sitemap Index</a></li>
 									</ul>
 								</div>

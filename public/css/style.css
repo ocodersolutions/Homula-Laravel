@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,400i,600,600i,700,700i,800,800i');
-
+html body {
+    background: #fafafa;
+}
 li {
 	list-style: none;
 }
@@ -19,16 +21,17 @@ a:hover {
 }
 .logo_header img {
 	padding: 10px 0;
-    width: 65%;
+    width: 199px;
 }
 .header_top_account {
 	text-align: center;
-    line-height: 90px;
+    line-height: 80px;
 }
 .header_top_account span {
     color: #fff;
     font-weight: bold;
     cursor: pointer;
+    font-size: 11px;
 }
 .header_top_account span a {
     color: #fff;
@@ -55,7 +58,7 @@ a:hover {
 }
 .header_top_favorites {
 	text-align: right;
-	line-height: 90px;
+	line-height: 80px;
 }
 .header_top_favorites i {
     background: #0a368a;
@@ -70,6 +73,7 @@ a:hover {
 .header_top_favorites a {
     color: #fff;
     font-weight: bold;
+    font-size: 11px;
 }
 .header_menu {
     background: #0a368a;
@@ -84,9 +88,9 @@ a:hover {
     color: #fff;
     padding: 10px 35px 10px 0;
 }
-.header_main_menu > li:hover .header_sub_menu {
-    display: block;
-}
+/*.header_main_menu > li:hover .header_sub_menu {*/
+    /*display: block;*/
+/*}*/
 .header_main_menu > li a {
     color: #fff;
     position: relative;
@@ -150,9 +154,10 @@ video {
 .header_bot_video h1 {
     position: absolute;
     z-index: 2;
-    top: 50px;
     color: #fff;
-    font-weight: bold;
+    font-size: 30px;
+    font-weight: 700;
+    top: 20px;
     width: 100%;
     text-align: center;
 }
@@ -205,21 +210,24 @@ video {
     float: left;
     text-align: center;
     color: #fff;
-    width: 141px;
     height: 50px;
     background: url(../images/button_search.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    margin: 10px 5px 10px 0;
     cursor: pointer;
+    display: inline-block;
+    width: auto;
+    margin: 10px 3px 10px 0;
+    padding: 0 26px;
+    border-radius: 3px;
 }
 .header_search ul li p {
-    margin: 5px 0 0 0;
-    font-weight: bold;
-    font-size: 15px;
+    margin: 11px 0 0 0;
+    font-size: 14px;
+    font-weight: normal;
 }
 .header_search ul li span {
-    font-size: 11px;
+    font-size: 9px;
     display: block;
     margin-top: -5px;
     font-style: italic;
@@ -237,6 +245,8 @@ video {
     border: 0;
     padding: 10px 20px;
     margin-left: 40px;
+    font-size: 16px;
+    font-style: italic;
 }
 .header_search form input[type=submit] {
     position: absolute;
@@ -249,6 +259,7 @@ video {
     background: url(../images/button_search.png);
     background-repeat: no-repeat;
     background-size: 100% 100%;
+    font-size: 13px;
 }
 .header_search form span {
     display: block;
@@ -355,7 +366,7 @@ video {
     font-size: 30px;
     font-weight: bold;
     position: relative;
-    margin-top: 20px;
+    margin-top: 80px;
     text-align: center;
     color: #232323;
     margin-bottom: 20px;
@@ -465,6 +476,7 @@ video {
     font-weight: bold;
     color: #ffffff;
     font-size: 24px;
+    line-height: 24px;
 }
 .hot_properties_overflow {
     padding-top: 20px;
@@ -504,8 +516,8 @@ video {
     overflow: hidden;
     text-transform: uppercase;
 }
-.content_video {
-    margin-top: 60px;
+.content_video .title_hasline:after {
+    width: 280px;
 }
 .content_video a {
     color: #337ab7;
@@ -546,6 +558,9 @@ p.box_items_title {
 .box_item_what_hover:hover .overplay_title {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
+}
+.top_agents .title_hasline:after {
+    width: 190px;
 }
 .main_top_agents {
     background-size: cover;
@@ -612,6 +627,10 @@ p.box_items_title {
 .foot-agent-content a {
     color: #fff;
     background-color: #337ab7;
+    border-radius: 0;
+    font-size: 13px;
+    text-transform: uppercase;
+    padding: 6px 20px;
 }
 #owl-demo-agent.owl-carousel .owl-stage-outer .see-more {
     height: 253px;
@@ -620,9 +639,6 @@ p.box_items_title {
 }
 #owl-demo-agent.owl-theme .owl-controls {
     margin-top: -10px;
-}
-.real_estate_news {
-    margin-top: 60px;
 }
 .real_estate_all_post {
     padding-top: 20px;
@@ -716,6 +732,42 @@ p.box_items_title {
 @media (min-width: 1900px) {
     .box_item_what_hover iframe {
         height: 38rem!important;
+    }
+}
+@media (min-width: 380px) and (max-width: 991px) {
+    .whereilive_div {
+        right: 100px;    
+    }
+    .header_search {
+        width: 90%;
+        height: auto;
+        padding-top: 10px;
+        padding-bottom: 70px;
+    }
+    .header_search ul {
+        margin-left: 0;
+    }
+    .header_search ul li {
+        margin-bottom: 0;
+        margin-top: 0;
+        padding: 0 4px;
+    }
+    .header_search form input[type=text] {
+        position: static;
+        margin-left: 0;
+        width: 100%;
+        margin-top: 5px;
+    }
+    .header_search form input[type=submit] {
+        top: auto;
+        bottom: 0;
+        right: 0;
+        width: auto;
+        padding: 0 10px;
+    }
+    .header_search form span {
+        top: auto;
+        bottom: -60px;
     }
 }
 .article_details_title h1 {
