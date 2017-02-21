@@ -403,7 +403,7 @@
 			</div>
 
 			<div class="customizer">
-				<div class="customizer-header">
+				<div class="customizer-header closed">
 					<img src="/images/contact-icon-17.png" alt="">
 				</div>
 				<div class="move_page_top"><i class="fa fa-angle-up"></i></div>

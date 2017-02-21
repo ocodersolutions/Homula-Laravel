@@ -124,6 +124,11 @@ a:hover {
     float: left;
     width: 33.33%;
     padding: 10px 15px;
+    overflow: hidden;
+    position: relative;
+    transition: box-shadow .15s linear;
+    -webkit-user-select: none;
+    user-select: none;
 }
 .header_sub_menu li a {
     width: 100%;
@@ -133,6 +138,7 @@ a:hover {
     border-radius: 5px;
     box-shadow: 5px 5px 12px #000;
     font-weight: 600;
+    overflow: hidden;
 }
 .header_sub_menu li a img {
     margin-right: 20px;
@@ -1211,6 +1217,47 @@ p.box_items_title {
     user-select: none;
     width: 56px;
     z-index: 100;
+}
+.ink {
+    display:block;
+    position:absolute;
+    background:rgba(255,255,255,0.3);
+    border-radius:100%;
+    -webkit-transform:scale(0);
+    -moz-transform:scale(0);
+    -o-transform:scale(0);
+    transform:scale(0);
+}
+.animate {
+    -webkit-animation:ripple .65s linear; 
+    -moz-animation:ripple .65s linear;
+    -ms-animation:ripple .65s linear;
+    -o-animation:ripple .65s linear;
+    animation:ripple .65s linear;
+}
+@-webkit-keyframes ripple {
+    100% {
+        opacity:0;
+        -webkit-transform:scale(2.5);
+    }
+}
+@-moz-keyframes ripple {
+    100% {
+        opacity:0;
+        -moz-transform:scale(2.5);
+    }
+}
+@-o-keyframes ripple {
+    100% {
+        opacity:0; 
+        -o-transform:scale(2.5);
+    }
+}
+@keyframes ripple {
+    100% {
+        opacity:0;
+        transform:scale(2.5);
+    }
 }
 .customizer-header img {
     width: 50px;
