@@ -291,7 +291,7 @@ $(document).ready(function(){
         $(this).addClass("active");
         var properties_show = "#" + class_name;
         $(".properties_select_hide").hide();
-        $(properties_show).show();
+        $(properties_show).fadeIn(1000);
     });
 
 
