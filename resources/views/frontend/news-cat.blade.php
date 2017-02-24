@@ -27,7 +27,7 @@
 								<div class="scn_item">
 									<div class="snc_item_top">
 										<div class="snc_it_author_avatar">
-											<img src="/images/agentphoto-1.png" alt="">
+											<img src="/images/agentphoto-@php echo rand(1,8); @endphp.png" alt="">
 										</div>
 										<div class="snc_it_author_info">
 											<h3>realestate</h3>
