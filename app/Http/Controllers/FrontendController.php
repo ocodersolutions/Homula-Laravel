@@ -27,7 +27,9 @@ class FrontendController extends Controller
     public function news_detail($alias) {
         $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
         $news_detail = Articles::where('alias','=',$alias)->get()->first();
-        return view('frontend.news-detail', compact('menus', 'news_detail'));
+        $art_sidebar = Articles::inRandomOrder()->take(8)->get();
+        // echo "<pre>";    var_dump($art_sidebar);   echo "</pre>"; die;
+        return view('frontend.news-detail', compact('menus', 'news_detail', 'art_sidebar'));
     }
 
     public function news_cat($alias) {

@@ -77,7 +77,25 @@
 					<div class="ad_sidebar_content">
 						<h3 class="most_read_head">Recent Posts</h3>
 						<div class="type-small">
+						@php $i = 1; @endphp
+						@foreach ($art_sidebar as $article)
 							<div class="property-small">
+								<div class="number_left"><p>{{$i}}</p></div>
+								<div class="property-small-image">
+									<a href="/news-detail/{{$article->alias}}">
+										<img src="{{$article->thumbnail}}" alt="">
+									</a>
+								</div>
+								<div class="property-small-content">
+									<h3 class="property-small-title">
+										<a href="/news-detail/{{$article->alias}}">{{$article->title}}</a>
+									</h3>
+								</div>
+								<div class="clr"></div>
+							</div>
+							@php $i++ ; @endphp
+						@endforeach
+							<!--div class="property-small">
 								<div class="number_left"><p>1</p></div>
 								<div class="property-small-image">
 									<a href="">
@@ -188,7 +206,7 @@
 									</h3>
 								</div>
 								<div class="clr"></div>
-							</div>
+							</div-->
 						</div>
 					</div>
 				</div>
