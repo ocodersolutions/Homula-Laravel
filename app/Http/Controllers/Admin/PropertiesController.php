@@ -45,6 +45,8 @@ class PropertiesController extends Controller
             $properties->walkscore = $post_data['walkscore'];
             $properties->map = $post_data['map'];
             $properties->slideshow = $post_data['slideshow'];
+            $properties->keyword = $post_data['keyword'];
+            $properties->description = $post_data['description'];
             $result = $properties->save();
         } else {
             $properties = Properties::findOrFail($id);

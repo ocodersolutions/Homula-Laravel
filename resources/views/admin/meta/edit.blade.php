@@ -67,7 +67,7 @@
                             Keyword
                         </label>
                         <div class="col-sm-10">
-                            <input class="form-control" type="text" name='keyword' value="{{old('keyword') ? old('keyword') : ($meta? $meta->keyword : '')}}" required>
+                            <textarea class="form-control" type="text" name='keyword' >{!! old('keyword') ? old('keyword') : ($meta ? $meta->keyword : '') !!}</textarea>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>

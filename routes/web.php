@@ -38,9 +38,6 @@ Route::get('agents/{alias}', 'FrontendController@agents_detail');
 // properties
 Route::get('properties/{id}', 'FrontendController@properties');
 
-Route::get('properties-management', function(){
-    return view('frontend.properties-management');
-});
 
 // ads
 Route::get('advertisement', 'Admin\AdminController@ads');

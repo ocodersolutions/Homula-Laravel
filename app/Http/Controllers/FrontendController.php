@@ -8,6 +8,7 @@ use App\Models\Categories;
 use App\Models\Articles;
 use App\Models\Agents;
 use App\Models\Properties;
+use App\Models\Meta;
 
 class FrontendController extends Controller
 {
@@ -43,7 +44,8 @@ class FrontendController extends Controller
     public function agents() {
         $agents = Agents::all();
         $properties = Properties::orderBy('id','desc')->take(10)->get();
-        return view('frontend.agents', compact('agents', 'properties'));
+        $meta = Meta::where("alias","=","homepage")->get()->first();
+        return view('frontend.agents', compact('agents', 'properties','meta'));
     }
 
     public function agents_detail($alias) {
@@ -54,7 +56,7 @@ class FrontendController extends Controller
 
         $agents = Agents::all();
         $properties = Properties::orderBy('id','desc')->take(10)->get();
-        return view('frontend.agents-detail', compact('agents_detail', 'agents', 'properties'));
+        return view('frontend.agents-detail', compact('agents_detail', 'agents', 'properties', 'meta'));
     }
 
     public function properties($id) {

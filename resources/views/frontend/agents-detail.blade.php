@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('meta_keywords'){{ $agents_detail->keyword }}@stop 
+
+@section('meta_description'){{ $agents_detail->description }}@stop 
+
 @section('content')
 	<div class="agents-detail-page">
 		<h1 class="adp-title">{{$agents_detail->name}}</h1>

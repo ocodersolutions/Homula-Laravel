@@ -8,6 +8,7 @@ use App\Models\Articles;
 use App\Models\Agents;
 use App\Models\Categories;
 use App\Models\Properties;
+use App\Models\Meta;
 
 class HomeController extends Controller
 {
@@ -34,7 +35,8 @@ class HomeController extends Controller
             array_push($cat_arr, $cat->id); 
         }
         $articles_news = Articles::whereIn('categories_id',$cat_arr)->orderBy('id','desc')->get();
-        return view('home', compact('menus', 'properties', 'agents', 'articles_news'));
+        $meta = Meta::where("alias",'=','homepage')->get()->first();
+        return view('home', compact('menus', 'properties', 'agents', 'articles_news', 'meta'));
     }
 
     public function compare()

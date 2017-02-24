@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('meta_keywords'){{ $meta->keyword }}@stop 
+
+@section('meta_description'){{ $meta->description }}@stop 
+
 @section('banner')
 	<style type="text/css">
 		.agents-page {

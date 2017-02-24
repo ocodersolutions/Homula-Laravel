@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('meta_keywords'){{ $properties->keyword }}@stop 
+
+@section('meta_description'){{ $properties->description }}@stop 
+
 @section('content')
 	<div class="properties-page">
 		<div class="container">

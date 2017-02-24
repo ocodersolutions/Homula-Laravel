@@ -170,6 +170,26 @@
                     </div>
                     <div class="hr-line-dashed"></div>   
 
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Keyword
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='keyword' value="{{old('keyword') ? old('keyword') : ($agents ? $agents->keyword : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>   
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Description
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='description' value="{{old('description') ? old('description') : ($agents ? $agents->description : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>   
+
                 </div>
             </div>
         </div>

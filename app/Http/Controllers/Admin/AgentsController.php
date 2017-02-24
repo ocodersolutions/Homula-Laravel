@@ -50,6 +50,8 @@ class AgentsController extends Controller
             $agents->facebook = $post_data['facebook'];
             $agents->skype = $post_data['skype'];
             $agents->google = $post_data['google'];
+            $agents->keyword = $post_data['keyword'];
+            $agents->description = $post_data['description'];
             $result = $agents->save();
         } else {
             $agents = Agents::findOrFail($id);
