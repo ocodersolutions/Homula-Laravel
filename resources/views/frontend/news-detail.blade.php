@@ -5,6 +5,11 @@
 @section('meta_description'){{ $news_detail->meta_description }}@stop 
 
 @section('content')
+<style type="text/css">
+	.article_detail .content img {
+		max-width: 100%;
+	}
+</style>
 <div class="article_detail">
 	<div class="container">
 		<div class="row">
