@@ -50,6 +50,16 @@
                     <div class="hr-line-dashed"></div> 
 
                     <div class="form-group">
+                        <label class="col-sm-2 control-label">     
+                            Alias
+                        </label>
+                        <div class="col-sm-10">
+                            <input class="form-control" type="text" name='alias' value="{{old('alias') ? old('alias') : ($properties ? $properties->alias : '') }}">
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div> 
+
+                    <div class="form-group">
                         <label class="col-sm-2 control-label">   
                             Location
                         </label>

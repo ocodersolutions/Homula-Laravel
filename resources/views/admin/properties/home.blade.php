@@ -15,6 +15,7 @@
 	        <thead>
 	        <tr>
 				<th >Address</th>
+				<th >Alias</th>
 				<th >Thumbnail</th>
 				<th >Price</th>
 				<th >Location</th>
@@ -25,6 +26,7 @@
 	        @foreach ($properties as $property)
 				<tr>
 					<td > {{$property->address}} </td>
+					<td > {{$property->alias}} </td>
 					<td >
 						@if ($property->thumbnail)
 							<img src="{{$property->thumbnail}} " alt="" width="100px;">

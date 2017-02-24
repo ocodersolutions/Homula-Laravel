@@ -104,7 +104,7 @@
 								@foreach ($properties as $post)
 									<div class="item">
 									    <div class="hot_properties_item">
-									        <a href="/properties/{{$post->id}}" target="_blank">
+									        <a href="/properties/{{$post->alias}}" target="_blank">
 									            <div class="hot_properties_item_top">
 									                <div class="item_img"><img width="480" height="320" src="{{URL::asset($post->thumbnail)}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image-C3615220-9.jpg">										                </div>
 									                <div class="visite_libre">
@@ -116,7 +116,7 @@
 									        <div class="hot_properties_item_bot">
 									        	<b>{{$post->price}}</b>
 									            <p class="main_p">{{$post->content}}</p>
-									            <p><a href="{{$post->link}}" target="_blank">{{$post->address}}</a>
+									            <p><a href="/properties/{{$post->alias}}" target="_blank">{{$post->address}}</a>
 									            </p>
 									            <p class="min_p">{!!$post->location!!}</p>
 									        </div>

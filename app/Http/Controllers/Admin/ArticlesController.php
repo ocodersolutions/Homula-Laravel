@@ -74,14 +74,20 @@ class ArticlesController extends Controller {
     public function update(Request $request) {
         $id = $request->get("id");
         $result = false;
+        $ex_alias = 0;
         if ($id == 0) {
             $post_data = $request->all();
             $articles = new Articles();
             $articles->title = $post_data['title'];
-            if (!$post_data['alias'] == '') {
+            if ($post_data['alias'] != '') {
                 $articles->alias = $post_data['alias'];
-            } else {
-                $articles->alias = str_slug($post_data['title'], '-');
+            }
+            else {
+                $str = str_replace(' ', '-', $post_data['address']);
+                $str = preg_replace('/[^A-Za-z0-9\-]/', '', $str);
+                $str = strtolower(preg_replace('/-+/', '-', $str));
+                $ex_alias = Articles::where("alias",'=',$str)->get()->first() ? "1" : "0";
+                $articles->alias = $str;
             }
             $articles->thumbnail = $post_data['thumbnail'];
             // $articles->link = $post_data['link'];
@@ -106,6 +112,10 @@ class ArticlesController extends Controller {
             Session::flash('error', 'Article failed to save successfully!');
         }
         if ($articles && $articles->id) {
+            if($ex_alias == 1) {
+                $articles->alias .= "-" . $articles->id;
+                $articles->save();
+            }   
             return redirect('admin/articles/edit/' . $articles->id);
         }
         return redirect('admin/articles/create');

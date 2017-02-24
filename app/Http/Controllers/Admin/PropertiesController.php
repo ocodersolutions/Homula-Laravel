@@ -30,10 +30,21 @@ class PropertiesController extends Controller
     public function update(Request $request) {
     	$id = $request->get("id");
         $result = false;
+        $ex_alias = 0;
         if ($id == 0) {
             $post_data = $request->all();
             $properties = new Properties();
             $properties->address = $post_data['address'];
+            if ($post_data['alias'] != '') {
+                $properties->alias = $post_data['alias'];
+            }
+            else {
+                $str = str_replace(' ', '-', $post_data['address']);
+                $str = preg_replace('/[^A-Za-z0-9\-]/', '', $str);
+                $str = strtolower(preg_replace('/-+/', '-', $str));
+                $ex_alias = Properties::where("alias",'=',$str)->get()->first() ? "1" : "0";
+                $properties->alias = $str;
+            }
             $properties->location = $post_data['location'];
             $properties->bedrooms = $post_data['bedrooms'];
             $properties->bathrooms = $post_data['bathrooms'];
@@ -60,6 +71,10 @@ class PropertiesController extends Controller
             Session::flash('error', 'Properties failed to save successfully!');
         }
         if ($properties && $properties->id) {
+            if($ex_alias == 1) {
+                $properties->alias .= "-" . $properties->id;
+                $properties->save();
+            }            
             return redirect('admin/properties/edit/' . $properties->id);
         }
         return redirect('admin/properties/create');

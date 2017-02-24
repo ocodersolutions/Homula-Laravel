@@ -32,14 +32,20 @@ class PageController extends Controller
     public function update(Request $request) {
     	$id = $request->get("id");
         $result = false;
+        $ex_alias = 0;
         if ($id == 0) {
             $post_data = $request->all();
             $page = new Page();
             $page->title = $post_data['title'];
-            if (!$post_data['alias'] == '') {
+            if ($post_data['alias'] != '') {
                 $page->alias = $post_data['alias'];
-            } else {
-                $page->alias = str_slug($post_data['title'], '-');
+            }
+            else {
+                $str = str_replace(' ', '-', $post_data['address']);
+                $str = preg_replace('/[^A-Za-z0-9\-]/', '', $str);
+                $str = strtolower(preg_replace('/-+/', '-', $str));
+                $ex_alias = Page::where("alias",'=',$str)->get()->first() ? "1" : "0";
+                $page->alias = $str;
             }
             $page->thumbnail = $post_data['thumbnail'];
             $page->content = $post_data['content'];
@@ -58,6 +64,10 @@ class PageController extends Controller
             Session::flash('error', 'Page failed to save successfully!');
         }
         if ($page && $page->id) {
+            if($ex_alias == 1) {
+                $page->alias .= "-" . $page->id;
+                $page->save();
+            }  
             return redirect('admin/page/edit/' . $page->id);
         }
         return redirect('admin/page/create');

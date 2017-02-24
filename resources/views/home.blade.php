@@ -18,7 +18,7 @@
 								@foreach ($properties as $post)
 									<div class="item">
 									    <div class="hot_properties_item">
-									        <a href="/properties/{{$post->id}}" target="_blank">
+									        <a href="/properties/{{$post->alias}}" target="_blank">
 									            <div class="hot_properties_item_top">
 									                <div class="item_img"><img width="480" height="320" src="{{URL::asset($post->thumbnail)}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image-C3615220-9.jpg">										                </div>
 									                <div class="visite_libre">
@@ -30,9 +30,9 @@
 									        <div class="hot_properties_item_bot">
 									        	<b>{{$post->price}}</b>
 									            <p class="main_p">{{$post->content}}</p>
-									            <p><a href="{{$post->link}}" target="_blank">{{$post->address}}</a>
+									            <p><a href="/properties/{{$post->alias}}" target="_blank">{{$post->address}}</a>
 									            </p>
-									            <p class="min_p">{!!$post->city!!}</p>
+									            <p class="min_p">{!!$post->location!!}</p>
 									        </div>
 									    </div>
 									</div>	
@@ -133,11 +133,11 @@
 							<div class="real_estate_custom item">
 					    		<div class="real_estate_post">
 					    			<div class="real_estate_post_img">
-					    				<img width="300" height="230" src="{{URL::asset($news->thumbnail)}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="homula-2016-graph_thum">							    				<a href="{{$news->link}}" target="_blank"><p>{{$news->title}}</p></a>
+					    				<img width="300" height="230" src="{{URL::asset($news->thumbnail)}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="homula-2016-graph_thum">							    				<a href="/news-detail/{{$news->alias}}" target="_blank"><p>{{$news->title}}</p></a>
 					    			</div>
 					    			<div class="real_estate_post_detail">
 					    				<!--<p>10 Effective Tips for Finding the Right Realtor in Toronto</p>-->
-					    				<a href="{{$news->link}}" target="_blank">Read more</a>
+					    				<a href="/news-detail/{{$news->alias}}" target="_blank">Read more</a>
 					    			</div>
 				    			</div>
 			    			</div>

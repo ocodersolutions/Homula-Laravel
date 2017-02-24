@@ -39,16 +39,21 @@ class CategoriesController extends Controller
     {
         $id = $request->get("id");
         $result = false;
+        $ex_alias = 0;
 
         if ($id == 0) {
             $post_data = $request->all();
             $categories = new Categories();
             $categories->name = $post_data['name'];
-            if(!$post_data['alias'] == '') {
+            if ($post_data['alias'] != '') {
                 $categories->alias = $post_data['alias'];
             }
             else {
-                $categories->alias = str_slug($post_data['name'], '-');
+                $str = str_replace(' ', '-', $post_data['address']);
+                $str = preg_replace('/[^A-Za-z0-9\-]/', '', $str);
+                $str = strtolower(preg_replace('/-+/', '-', $str));
+                $ex_alias = Categories::where("alias",'=',$str)->get()->first() ? "1" : "0";
+                $categories->alias = $str;
             }
             $categories->description = $post_data['description'];
             $categories->parent_id = $post_data['parent_id'];
@@ -70,6 +75,10 @@ class CategoriesController extends Controller
             Session::flash('error', 'Categories failed to save successfully!');
         }
         if ($categories && $categories->id) {
+            if($ex_alias == 1) {
+                $categories->alias .= "-" . $categories->id;
+                $categories->save();
+            }   
             return redirect('admin/categories/edit/' . $categories->id);
         }
         return redirect('admin/categories/create');

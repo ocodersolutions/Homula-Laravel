@@ -44,7 +44,7 @@ class FrontendController extends Controller
     public function agents() {
         $agents = Agents::all();
         $properties = Properties::orderBy('id','desc')->take(10)->get();
-        $meta = Meta::where("alias","=","homepage")->get()->first();
+        $meta = Meta::where("alias","=","agents")->get()->first();
         return view('frontend.agents', compact('agents', 'properties','meta'));
     }
 
@@ -59,8 +59,8 @@ class FrontendController extends Controller
         return view('frontend.agents-detail', compact('agents_detail', 'agents', 'properties', 'meta'));
     }
 
-    public function properties($id) {
-        $properties = Properties::findOrFail($id);
+    public function properties($alias) {
+        $properties = Properties::where('alias','=',$alias)->get()->first();
         return view('frontend.properties', compact('properties'));
     }
 }

@@ -36,7 +36,7 @@ Route::get('agents', 'FrontendController@agents');
 Route::get('agents/{alias}', 'FrontendController@agents_detail');
 
 // properties
-Route::get('properties/{id}', 'FrontendController@properties');
+Route::get('properties/{alias}', 'FrontendController@properties');
 
 
 // ads
