@@ -127,6 +127,13 @@ Route::group(['middleware' => ['role:admin']], function() {
     Route::post('admin/page/save', 'Admin\PageController@update');
     Route::get('admin/page/edit/{id}', 'Admin\PageController@edit');
     Route::get('admin/page/delete/{id}', 'Admin\PageController@delete');
+
+    //Meta
+    Route::get('admin/meta', 'Admin\MetaController@index');
+    Route::get('admin/meta/create', 'Admin\MetaController@create');
+    Route::post('admin/meta/save', 'Admin\MetaController@update');
+    Route::get('admin/meta/edit/{id}', 'Admin\MetaController@edit');
+    Route::get('admin/meta/delete/{id}', 'Admin\MetaController@delete');
 });
 
 Route::group(['middleware' => ['role:owner|register']], function() {
@@ -162,6 +169,8 @@ Menu::make('MyNavBar', function($menu) {
     $menu->add('Advertisement', 'advertisement')->attr(array('pre_icon' => 'buysellads'))->active('advertisement/*');
 
     $menu->add('Page', 'admin/page')->attr(array('pre_icon' => 'file'))->active('admin/page/*');
+
+    $menu->add('Meta list', 'admin/meta')->attr(array('pre_icon' => 'info'))->active('admin/meta/*');
 
 //    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
 });
