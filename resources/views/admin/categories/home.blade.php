@@ -11,9 +11,10 @@
 	            <th >Id</th>
 				<th >Name</th>
 				<th >Alias</th>
-				<!-- <th >Description</th> -->
 				<th >Parent category name</th>
 				<th >Publish</th>
+				<th >Meta keywords</th>
+				<th >Meta description</th>
 				<th >&nbsp;</th>
 	        </tr>
 	        </thead>
@@ -31,6 +32,8 @@
 						@endif
 					</td>
 					<td > {{$category->published == 1 ? 'Yes' : 'No'}} </td>
+					<td > {{$category->meta_keywords}} </td>
+					<td > {{$category->meta_description}} </td>
 					<td style="width: 162px;">
 						<a href="{{ url('admin/categories/edit/'. $category->id) }}" class="btn btn-info">Update</a>
 						<a href="{{ url('admin/categories/delete/' . $category->id) }}" class="btn btn-danger">Delete</a>

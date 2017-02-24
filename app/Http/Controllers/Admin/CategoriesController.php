@@ -53,6 +53,8 @@ class CategoriesController extends Controller
             $categories->description = $post_data['description'];
             $categories->parent_id = $post_data['parent_id'];
             $categories->published = $request->published ? $request->published : 0;
+            $categories->meta_keywords = $post_data['meta_keywords'];
+            $categories->meta_description = $post_data['meta_description'];
             $result = $categories->save();
         }
         else {

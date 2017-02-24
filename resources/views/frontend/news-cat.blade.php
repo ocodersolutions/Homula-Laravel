@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('meta_keywords'){{ $categories->meta_keywords }}@stop 
+
+@section('meta_description'){{ $categories->meta_description }}@stop 
+
 @section('content')
 
 	<div class="sub_cat_news">

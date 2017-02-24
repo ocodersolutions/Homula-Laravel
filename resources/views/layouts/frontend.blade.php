@@ -4,6 +4,8 @@
 	<title>Toronto Real Estate - @yield('title')</title>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="@yield('meta_keywords')">
+	<meta name="description" content="@yield('meta_description')">
 
 	<link href="{{ URL::asset('css/bootstrap.min.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="{{ URL::asset('css/bootstrap-theme.min.css') }}" media="all" rel="stylesheet" type="text/css" />

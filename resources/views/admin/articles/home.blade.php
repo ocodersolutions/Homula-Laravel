@@ -14,17 +14,15 @@
 	    <table class="table">
 	        <thead>
 	        <tr>
-	            <!-- <th >Id</th> -->
 				<th >Title</th>
 				<th >Alias</th>
 				<th >Thumbnail</th>
-				<!-- <th >Link</th> -->
 				<th >Content</th>
 				<th >Excerpt</th>
 				<th >Category name</th>
 				<th >Publish</th>
-				<th >Created_at</th>
-				<th >Updated_at</th>
+				<th >Meta keywords</th>
+				<th >Meta description</th>
 				<th >&nbsp;</th>
 	        </tr>
 	        </thead>
@@ -49,8 +47,8 @@
 						@endif
 					</td>
 					<td > {{$post->published == 1 ? 'Yes' : 'No'}} </td>
-					<td > {{$post->created_at}} </td>
-					<td > {{$post->updated_at}} </td>
+					<td > {{$post->meta_keywords}} </td>
+					<td > {{$post->meta_description}} </td>
 					<td style="width: 162px;">
 						<a href="{{ url('admin/articles/edit/'. $post->id) }}" class="btn btn-info">Update</a>
 						<a href="{{ url('admin/articles/delete/' . $post->id) }}" class="btn btn-danger">Delete</a>

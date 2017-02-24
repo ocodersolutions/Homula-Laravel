@@ -90,6 +90,8 @@ class ArticlesController extends Controller {
             $articles->excerpt = $post_data['excerpt'];
             $articles->categories_id = $post_data['categories_id'];
             $articles->published = $request->published ? $request->published : 0;
+            $articles->meta_keywords = $post_data['meta_keywords'];
+            $articles->meta_description = $post_data['meta_description'];
             $result = $articles->save();
         } else {
             $articles = Articles::findOrFail($id);

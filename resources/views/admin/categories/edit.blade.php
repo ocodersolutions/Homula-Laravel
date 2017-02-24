@@ -45,7 +45,7 @@
                             Name
                         </label>
                         <div class="col-sm-10">
-	                    	<input id="name" class="form-control" type="text" name='name' value="{{old('title') ? old('title') : ($categories_item ? $categories_item->name : '')}}" required autofocus>
+	                    	<input id="name" class="form-control" type="text" name='name' value="{{old('name') ? old('name') : ($categories_item ? $categories_item->name : '')}}" required autofocus>
                             @if ($errors->has('name'))
                                 <span class="help-block">
                                     <strong>{{ $errors->first('name') }}</strong>
@@ -60,7 +60,7 @@
                             Alias
                         </label>
                         <div class="col-sm-10">
-	                    	<input class="form-control" type="text" name='alias' value="{{old('title') ? old('title') : ($categories_item ? $categories_item->alias : '') }}">
+	                    	<input class="form-control" type="text" name='alias' value="{{old('alias') ? old('alias') : ($categories_item ? $categories_item->alias : '') }}">
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>
@@ -70,7 +70,7 @@
                             Description
                         </label>
                         <div class="col-sm-10">
-	                    	<textarea class="form-control" type="text" name='description'>{{old('title') ? old('title') : ($categories_item ? $categories_item->description : '') }}</textarea>
+	                    	<textarea class="form-control" type="text" name='description'>{{old('description') ? old('description') : ($categories_item ? $categories_item->description : '') }}</textarea>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>     
@@ -133,6 +133,26 @@
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>   
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">     
+                            Meta keywords
+                        </label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" type="text" name='meta_keywords'>{{old('meta_keywords') ? old('meta_keywords') : ($categories_item ? $categories_item->meta_keywords : '') }}</textarea>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">     
+                            Meta description
+                        </label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" type="text" name='meta_description'>{{old('meta_description') ? old('meta_description') : ($categories_item ? $categories_item->meta_description : '') }}</textarea>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>
                 </div>
             </div>
         </div>

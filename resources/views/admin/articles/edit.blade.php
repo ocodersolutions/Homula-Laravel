@@ -152,6 +152,26 @@
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>   
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Meta keywords
+                        </label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" type="text" name='meta_keywords'>{!! old('meta_keywords') ? old('meta_keywords') : ($articles ? $articles->meta_keywords : '') !!}</textarea>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>  
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">   
+                            Meta description
+                        </label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" type="text" name='meta_description'>{!! old('meta_description') ? old('meta_description') : ($articles ? $articles->meta_description : '') !!}</textarea>
+                        </div>
+                    </div>
+                    <div class="hr-line-dashed"></div>  
                 </div>
             </div>
         </div>

@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('meta_keywords'){{ $news_detail->meta_keywords }}@stop 
+
+@section('meta_description'){{ $news_detail->meta_description }}@stop 
+
 @section('content')
 <div class="article_detail">
 	<div class="container">
