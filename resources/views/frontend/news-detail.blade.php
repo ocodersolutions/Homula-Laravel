@@ -6,8 +6,8 @@
 
 @section('content')
 <style type="text/css">
-	.article_detail .content img {
-		max-width: 100%;
+	.article_detail_content img {
+		max-width: 100% !important;
 	}
 </style>
 <div class="article_detail">
