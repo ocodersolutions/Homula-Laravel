@@ -10,5 +10,5 @@ class Page extends Model
 
     public $timestamps = false;
 	
-    protected $fillable = ['title','alias','thumbnail','content','page_parent','template'];
+    protected $fillable = ['title','alias','thumbnail','content','keyword','description','page_parent','template'];
 }

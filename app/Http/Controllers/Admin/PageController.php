@@ -49,6 +49,8 @@ class PageController extends Controller
             }
             $page->thumbnail = $post_data['thumbnail'];
             $page->content = $post_data['content'];
+            $page->keyword = $post_data['keyword'];
+            $page->description = $post_data['description'];
             $page->page_parent = $post_data['page_parent'];
             $page->template = $post_data['template'];
             $result = $page->save();

@@ -18,6 +18,8 @@
 				<th >Alias</th>
 				<th >Thumbnail</th>
 				<th >Content</th>
+				<th >Keyword</th>
+				<th >Description</th>
 				<th >Page Parent</th>
 				<th >Template</th>
 				<th >&nbsp;</th>
@@ -34,6 +36,8 @@
 					 	@endif
 					</td>
 					<td >{!!str_limit(strip_tags($post->content),100, '...')!!}</td>
+					<td > {{$post->keyword}} </td>
+					<td > {{$post->description}} </td>
 					<td >
 						@php
 							$title_parent = App\Http\Controllers\Admin\PageController::getPage($post->page_parent);
