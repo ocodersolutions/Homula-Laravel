@@ -75,6 +75,7 @@ class FrontendController extends Controller
     }
 
     public function specials($alias) {
-        return view('frontend.specials.'.$alias);
+        $properties = Properties::orderBy('id','desc')->take(10)->get();
+        return view('frontend.specials.'.$alias, compact('properties'));
     }
 }
