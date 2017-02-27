@@ -38,10 +38,9 @@ Route::get('agents/{alias}', 'FrontendController@agents_detail');
 // properties
 Route::get('properties/{alias}', 'FrontendController@properties');
 
+// page
+Route::get('page/{alias}', 'FrontendController@page');
 
-// ads
-Route::get('advertisement', 'Admin\AdminController@ads');
-Route::get('advertisement/create/{id}', 'Admin\AdminController@ads_save');
 
 /**
  * admin
@@ -139,6 +138,10 @@ Route::group(['middleware' => ['role:owner|register']], function() {
     Route::get('admin/user/profile', 'Admin\UserController@getProfile');
     Route::post('admin/user/profile', 'Admin\UserController@postProfile');
 });
+
+// ads
+Route::get('advertisement', 'Admin\AdminController@ads');
+Route::get('advertisement/create/{id}', 'Admin\AdminController@ads_save');
 
 /**
  * create menu role:admin

@@ -9,6 +9,7 @@ use App\Models\Articles;
 use App\Models\Agents;
 use App\Models\Properties;
 use App\Models\Meta;
+use App\Models\Page;
 
 class FrontendController extends Controller
 {
@@ -64,5 +65,12 @@ class FrontendController extends Controller
     public function properties($alias) {
         $properties = Properties::where('alias','=',$alias)->get()->first();
         return view('frontend.properties', compact('properties'));
+    }
+
+    public function page($alias) {
+        $properties = Properties::orderBy('id','desc')->take(10)->get();
+        $agents = Agents::all();
+        $page = Page::where("alias","=",$alias)->get()->first();
+        return view("frontend.page.page", compact('properties', 'agents', 'page'));
     }
 }
