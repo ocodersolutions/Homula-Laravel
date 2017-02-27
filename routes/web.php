@@ -42,9 +42,7 @@ Route::get('properties/{alias}', 'FrontendController@properties');
 Route::get('page/{alias}', 'FrontendController@page');
 
 //specials
-Route::get('best-mortgage-calculators', function(){
-    return view('frontend.specials.best-mortgage-calculators');
-});
+Route::get('specials/{alias}', 'FrontendController@specials');
 
 
 /**

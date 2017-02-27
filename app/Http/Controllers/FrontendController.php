@@ -73,4 +73,8 @@ class FrontendController extends Controller
         $page = Page::where("alias","=",$alias)->get()->first();
         return view("frontend.page.page", compact('properties', 'agents', 'page'));
     }
+
+    public function specials($alias) {
+        return view('frontend.specials.'.$alias);
+    }
 }
