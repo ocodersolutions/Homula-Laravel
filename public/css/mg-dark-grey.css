@@ -1,0 +1,125 @@
+.mg-calculator-container {
+	border-radius: 0px;
+	color: #ffffff;
+	background-color: #FFF;
+}
+.mg-calculator-header {
+	border-bottom: none;
+	padding: 6% 0px;
+	color: #0a368a;
+    font-size: 58px;
+    text-shadow: 2px 1px 6px #000;
+}
+.mg-calculator-input {
+    border: 0!important;
+    border-radius: 30px!important;
+    font-weight: bold!important;
+    font-size: 17px!important;
+    color: #FFF!important;
+    background-color: #039be5!important;
+    height: 33px!important;
+    padding: 9px 10px 7px 57px!important;
+}
+.mg-calculator-input:focus {
+	background-color: #7b7b7b;	
+}
+.mg-calculator-item-container label {
+	font-size: 13px;
+	float: left;
+    padding-right: 10px;
+    color: #0a368a;
+    font-weight: 700;
+}
+.mg-calculator-submit, .mg-calculator-reset {
+	text-align: center;
+	border-radius: 30px;
+	/*background-color: #3f6cc3;*/
+	background-image:url(http://realestate.homula.com/wp-content/themes/realsite/images/calculatar-img.png);
+	width: 45%;
+	height: 51px;
+    line-height: 42px;
+    font-size: 22px;
+    margin-right: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.mg-calculator-reset {
+	margin-top: 0;
+	background-color: #565656;
+}
+.mg-buttons {
+	text-align: center;
+	margin-top: 39px;
+}
+.mg-input-label {
+	border-right: 1px solid #444444;
+	border-bottom-left-radius: 30px;
+	border-top-left-radius: 30px;
+	color: #FFF;
+	background-color: #3f6cc3;
+	font-size: 15px;
+}
+.mg-error-display {
+	color: #ffeb3b;
+}
+
+/* Amortization table */
+.mg-calculator-results {
+	color: #cccccc;
+	background-color: #222222;
+}
+.mg-amortization {
+	border: 1px solid #000000;
+	border-radius: 5px;
+}
+.mg-amortization tr:nth-child(even) {
+	background-color: #444444;
+}
+.mg-amortization thead {
+	color: #cccccc;
+	background-color: #333333;
+}
+.mg-amortization tbody {
+	color: #cccccc;
+	background-color: #545454;
+}
+.mg-amortization .mg-amortization-body tr:hover, .mg-yearly-row td  {
+	color: #ffffff;
+	background-color: #3f6cc3;
+}
+
+/* Tooltip */
+.mg-tip {
+	color: #e9e9e9;
+	background-color: #3f6cc3;
+	position: relative;
+    bottom: 5px;
+}
+.mg-tip .mg-tiptext {
+    background-color: #3f6cc3;
+    color: #ffffff;
+}
+.mg-tip .mg-tiptext::after {
+	 border-color: #3f6cc3 transparent transparent transparent;
+}
+.mg-print-button {
+	color: #ffffff;
+    background-color: #000;
+    border: 0;
+    border-bottom: 1px solid #ffffff;
+}
+.main-cal-cls {
+	margin-bottom: 50px; 
+	border-bottom:solid 9px #041f4a; 
+	border-left:solid 9px #041f4a; 
+	border-right:solid 9px #041f4a;    
+	border-top: solid 9px #041f4a;
+	position: relative;
+	bottom: 3px;
+}
+
+// .page-id-1491 .homebg {
+// 	background-image:url(http://realestate.homula.com/wp-content/themes/realsite/images/ontario-mortgage-calculator-bg.png);
+//     background-size:cover;
+// 	background-position: center top;
+// }
