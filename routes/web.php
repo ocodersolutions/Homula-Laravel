@@ -133,6 +133,14 @@ Route::group(['middleware' => ['role:admin']], function() {
     Route::post('admin/meta/save', 'Admin\MetaController@update');
     Route::get('admin/meta/edit/{id}', 'Admin\MetaController@edit');
     Route::get('admin/meta/delete/{id}', 'Admin\MetaController@delete');
+
+    //Faq
+    Route::get('admin/faq', 'Admin\FaqController@index');
+    Route::get('admin/faq/create', 'Admin\FaqController@create');
+    Route::post('admin/faq/save', 'Admin\FaqController@update');
+    Route::get('admin/faq/edit/{id}', 'Admin\FaqController@edit');
+    Route::get('admin/faq/delete/{id}', 'Admin\FaqController@delete');
+
 });
 
 Route::group(['middleware' => ['role:owner|register']], function() {
@@ -174,6 +182,8 @@ Menu::make('MyNavBar', function($menu) {
     $menu->add('Page', 'admin/page')->attr(array('pre_icon' => 'file'))->active('admin/page/*');
 
     $menu->add('Meta list', 'admin/meta')->attr(array('pre_icon' => 'info'))->active('admin/meta/*');
+
+    $menu->add('Faq', 'admin/faq')->attr(array('pre_icon' => 'question-circle'))->active('admin/faq/*');
 
 //    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
 });

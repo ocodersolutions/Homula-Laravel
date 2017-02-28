@@ -1,0 +1,75 @@
+/********** global style */
+body{font-size:12pt;}
+option {font-family:Arial,Helvetica,sans-serif;font-size:12pt;}
+.icon-popup-text > h4 {margin-top:0px;}
+.itp-calculator-body {/*overflow:hidden*/}
+.itp-calculator-body .itp-calculator{width: 98%; min-width: 600px;}
+.itp-calculator-body .itp-calculator .itp-calc-box{padding: 10px 1%; background: #fafafa; margin-bottom: 10px;border: 1px solid #dddddd; width: 98%; float: left;}
+.itp-calculator-body .itp-calculator .txt-box{padding:4px; border:1px solid #ddd; outline: none;}
+.itp-calculator-body .itp-calculator .slider-label{color:#666; font-weight:bold; font-size: smaller;}
+.itp-calculator-body .itp-calculator select {padding:4px; border:1px solid #ddd;font-size:12pt;}
+.itp-calculator-body .itp-calculator .ui-slider-range { background: red; }
+.itp-calculator-body .itp-calculator .txt-price { font-size:18px;width: 150px; font-weight:bold; height:30px !important; }
+.itp-calculator-body .itp-calculator .green { color:red;}
+.itp-calculator-body .itp-calculator .col1-2{ float:left; width:48%; margin-right:2%;}
+.itp-calculator-body .itp-calculator .col1-2-last{float:left; width:48%; margin-left:2%;}
+.itp-calculator-body .itp-calculator .col1-4{ float:left; width:23%; margin-right:2%;}
+.itp-calculator-body .itp-calculator .col1-4-last{float:left; width:24%; margin-right:0;}
+.itp-calculator-body .itp-calculator .col3-4{ float:left; width:70%; margin-right:2%;}
+.itp-calculator-body .itp-calculator .col3-4-last{float:left; width:24%; margin-left:1%;}
+.itp-calculator-body .itp-calculator .clear{clear: both;}
+.itp-calculator-body .itp-calculator .remarks{font-size:smaller; color:#666; }
+.itp-calculator-body .itp-powered-by{ text-align:right;width:100%; clear: both; }
+.itp-calculator-body .icon-popup-text{ font-size:12px;font-weight:noraml;background:white;border:2px solid black;position:absolute;z-index:1;padding:10px;}
+
+
+/****** affordibility calculator */
+.itp-calculator-body #mort_afford_scenarios .txt-mort-rate{width: 40px;}
+.itp-calculator-body #mort_afford_scenarios .currency {font-weight:bold;}
+
+.itp-calculator-body #mort_afford_scenarios  .col1-4{ border-right: 1px dotted #ddd;}
+.itp-calculator-body #mort_afford_scenarios  .col1-4 h3, #mort_afford_scenarios  .col1-4-last h3{ border-bottom: 1px dotted #ddd;}
+.itp-calculator-body #mort_afford_scenarios .txt-price, .itp-calculator-body .col1-4 .txt-price{ width:140px !important;}
+.itp-calculator-body #mort_afford_scenarios select {width:90% !important;}
+.itp-calculator-body .annual-income #amt_total_income{padding-top:6px;}
+/* end affordibility calculator *******/
+
+
+/****** loan payment calculator */
+.itp-calculator-body .itp-graph-box{width: 100%; float: left; }
+.itp-calculator-body .itp-graph-box .chart-settings {float: right; width: auto;}
+.itp-calculator-body .itp-amortz-schedule h4{float: left; width: auto;}
+.itp-calculator-body .icon-popup{ font-style: normal; font-size: 12pt; color:rgb(47, 126, 216); cursor: pointer;}
+
+.itp-calculator-body #itp_mort_details {position: relative;}
+.itp-calculator-body #itp_mort_details table{ width: 100%; border-spacing:0;border-collapse:collapse;}
+.itp-calculator-body #itp_mort_details th, #itp_mort_details td{ padding: 6px;height:56px;}
+.itp-calculator-body #itp_mort_details th{font-size:14pt;}
+.itp-calculator-body #itp_mort_details tr{border-bottom: dotted 1px #ddd;}
+.itp-calculator-body #itp_mort_details th, #itp_mort_details td{width:23%; padding-right:2%;}
+.itp-calculator-body #itp_mort_details th:first-child, #itp_mort_details td:first-child{background:#fafafa; font-weight:bold; border-right: dotted 1px #ddd; }
+.itp-calculator-body #itp_mort_details th:nth-child(2), #itp_mort_details td:nth-child(2){background:#fdfdfd; border-right: dotted 1px #ddd; }
+.itp-calculator-body #itp_mort_details th:nth-child(3),#itp_mort_details td:nth-child(3){background:#f6f6f6; border-right: dotted 1px #ddd; }
+.itp-calculator-body #itp_mort_details td:last-child{width:24.5%;background:#fcfcfc;}
+.itp-calculator-body #itp_mort_details .lbl-amt-down-pay{ }
+.itp-calculator-body #itp_mort_details .lbl-hint-italic{ color:#888; font-size:10pt; font-style:italic; display: block; padding-top: 10px;}
+.itp-calculator-body #itp_mort_details .txt-percent-down-pay, #itp_mort_details .txt-mort-rate {width: 40px;}
+.itp-calculator-body #itp_mort_details .amt_mort_pay{font-weight: bold; font-size: 14pt;}
+.itp-calculator-body #itp_mort_details .alertbox{position: absolute; width: 500px; z-index: 22; left: 200px; top: 200px;}
+
+.itp-calculator-body #chart_container{width:100%; clear: both;}
+
+.itp-calculator-body .tbl-yearly-calc{width:100%;border: solid 1px #ddd;border-collapse: collapse;}
+.itp-calculator-body .tbl-yearly-calc th,.tbl-yearly-calc td{ padding:6px; text-align:right;border: dotted 1px #c0c0c0;}
+.itp-calculator-body .tbl-yearly-calc th:first-child{text-align:left;}
+.itp-calculator-body .tbl-yearly-calc tr.tr-alt{background-color: #f7f7f7;}
+.itp-calculator-body .tbl-yearly-calc tr.tr-amt-total{background: #ccc; font-weight:bold; color:#333; font-style: italic;}
+.itp-calculator-body .tbl-yearly-calc .first-col{font-weight:bold; text-align:left;}
+.itp-calculator-body .tbl-yearly-calc tr.tr-amt-term{background: #ddd; font-weight:bold; color:#444; font-style: italic;}
+/****** loan payment calculator ends */
+
+/** jQueryUi updates **/
+.itp-calculator-body .ui-slider .ui-slider-handle {outline: none;}
+.itp-calculator-body .ui-state-error, .ui-state-highlight{padding: 20px; text-align: center;background:#eee;}
+.itp-calculator-body .ui-spinner .ui-spinner-input{outline: none;}
+.itp-calculator-body #descrp span.close {position: absolute;top: -10px;right: -10px;border: 2px solid rgba(255, 0, 0, 0.65);background: white;padding: 2px 6px;cursor: pointer;}
