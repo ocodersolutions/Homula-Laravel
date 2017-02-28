@@ -16,6 +16,8 @@
 	<link href="{{ URL::asset('css/owl.theme.default.min.css') }}" media="all" rel="stylesheet" type="text/css" />
 	<link href="/css/app.css" rel="stylesheet">
 
+	@yield('styles')
+
 	<script type="text/javascript" src="{{URL::asset('js/jquery-1.12.4.min.js')}}"></script>
 	<script>
         window.Laravel = <?php echo json_encode([

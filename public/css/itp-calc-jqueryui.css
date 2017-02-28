@@ -1,0 +1,567 @@
+/*! newJQuery UI - v1.10.3 - 2013-05-28
+* http://jqueryui.com
+* Includes: newJQuery.ui.core.css, newJQuery.ui.accordion.css, newJQuery.ui.button.css, newJQuery.ui.slider.css, newJQuery.ui.spinner.css, newJQuery.ui.tooltip.css
+* Copyright 2013 newJQuery Foundation and other contributors Licensed MIT */
+
+/* Layout helpers
+----------------------------------*/
+.itp-calculator-body .ui-helper-hidden {
+	display: none;
+}
+.itp-calculator-body .ui-helper-hidden-accessible {
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
+}
+.itp-calculator-body .ui-helper-reset {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	line-height: 1.3;
+	text-decoration: none;
+	font-size: 100%;
+	list-style: none;
+}
+.itp-calculator-body .ui-helper-clearfix:before,
+.itp-calculator-body .ui-helper-clearfix:after {
+	content: "";
+	display: table;
+	border-collapse: collapse;
+}
+.itp-calculator-body .ui-helper-clearfix:after {
+	clear: both;
+}
+.itp-calculator-body .ui-helper-clearfix {
+	min-height: 0; /* support: IE7 */
+}
+.itp-calculator-body .ui-helper-zfix {
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	opacity: 0;
+	filter:Alpha(Opacity=0);
+}
+
+.itp-calculator-body .ui-front {
+	z-index: 100;
+}
+
+
+/* Interaction Cues
+----------------------------------*/
+.itp-calculator-body .ui-state-disabled {
+	cursor: default !important;
+}
+
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.itp-calculator-body .ui-icon {
+	display: block;
+	text-indent: -99999px;
+	overflow: hidden;
+	background-repeat: no-repeat;
+}
+
+
+/* Misc visuals
+----------------------------------*/
+
+/* Overlays */
+.itp-calculator-body .ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.itp-calculator-body .ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin-top: 2px;
+	padding: .5em .5em .5em .7em;
+	min-height: 0; /* support: IE7 */
+}
+.itp-calculator-body .ui-accordion .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.itp-calculator-body .ui-accordion .ui-accordion-noicons {
+	padding-left: .7em;
+}
+.itp-calculator-body .ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 2.2em;
+}
+.itp-calculator-body .ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: .5em;
+	top: 50%;
+	margin-top: -8px;
+}
+.itp-calculator-body .ui-accordion .ui-accordion-content {
+	padding: 1em 2.2em;
+	border-top: 0;
+	overflow: auto;
+}
+.itp-calculator-body .ui-button {
+	display: inline-block;
+	position: relative;
+	padding: 0;
+	line-height: normal;
+	margin-right: .1em;
+	cursor: pointer;
+	vertical-align: middle;
+	text-align: center;
+	overflow: visible; /* removes extra width in IE */
+}
+.itp-calculator-body .ui-button,
+.itp-calculator-body .ui-button:link,
+.itp-calculator-body .ui-button:visited,
+.itp-calculator-body .ui-button:hover,
+.itp-calculator-body .ui-button:active {
+	text-decoration: none;
+}
+/* to make room for the icon, a width needs to be set here */
+.itp-calculator-body .ui-button-icon-only {
+	width: 2.2em;
+}
+/* button elements seem to need a little more width */
+.itp-calculator-body button.ui-button-icon-only {
+	width: 2.4em;
+}
+.itp-calculator-body .ui-button-icons-only {
+	width: 3.4em;
+}
+.itp-calculator-body button.ui-button-icons-only {
+	width: 3.7em;
+}
+
+/* button text element */
+.itp-calculator-body .ui-button .ui-button-text {
+	display: block;
+	line-height: normal;
+}
+.itp-calculator-body .ui-button-text-only .ui-button-text {
+	padding: .4em 1em;
+}
+.itp-calculator-body .ui-button-icon-only .ui-button-text,
+.itp-calculator-body .ui-button-icons-only .ui-button-text {
+	padding: .4em;
+	text-indent: -9999999px;
+}
+.itp-calculator-body .ui-button-text-icon-primary .ui-button-text,
+.itp-calculator-body .ui-button-text-icons .ui-button-text {
+	padding: .4em 1em .4em 2.1em;
+}
+.itp-calculator-body .ui-button-text-icon-secondary .ui-button-text,
+.itp-calculator-body .ui-button-text-icons .ui-button-text {
+	padding: .4em 2.1em .4em 1em;
+}
+.itp-calculator-body .ui-button-text-icons .ui-button-text {
+	padding-left: 2.1em;
+	padding-right: 2.1em;
+}
+/* no icon support for input elements, provide padding by default */
+.itp-calculator-body input.ui-button {
+	padding: .4em 1em;
+}
+
+/* button icon element(s) */
+.itp-calculator-body .ui-button-icon-only .ui-icon,
+.itp-calculator-body .ui-button-text-icon-primary .ui-icon,
+.itp-calculator-body .ui-button-text-icon-secondary .ui-icon,
+.itp-calculator-body .ui-button-text-icons .ui-icon,
+.itp-calculator-body .ui-button-icons-only .ui-icon {
+	position: absolute;
+	top: 50%;
+	margin-top: -8px;
+}
+.itp-calculator-body .ui-button-icon-only .ui-icon {
+	left: 50%;
+	margin-left: -8px;
+}
+.itp-calculator-body .ui-button-text-icon-primary .ui-button-icon-primary,
+.itp-calculator-body .ui-button-text-icons .ui-button-icon-primary,
+.itp-calculator-body .ui-button-icons-only .ui-button-icon-primary {
+	left: .5em;
+}
+.itp-calculator-body .ui-button-text-icon-secondary .ui-button-icon-secondary,
+.itp-calculator-body .ui-button-text-icons .ui-button-icon-secondary,
+.itp-calculator-body .ui-button-icons-only .ui-button-icon-secondary {
+	right: .5em;
+}
+
+/* button sets */
+.itp-calculator-body .ui-buttonset {
+	margin-right: 7px;
+}
+.itp-calculator-body .ui-buttonset .ui-button {
+	margin-left: 0;
+	margin-right: -.3em;
+}
+
+/* workarounds */
+/* reset extra padding in Firefox, see h5bp.com/l */
+.itp-calculator-body input.ui-button::-moz-focus-inner,
+.itp-calculator-body button.ui-button::-moz-focus-inner {
+	border: 0;
+	padding: 0;
+}
+.itp-calculator-body .ui-slider {
+	position: relative;
+	text-align: left;
+}
+.itp-calculator-body .ui-slider .ui-slider-handle {
+	position: absolute;
+	z-index: 2;
+	width: 1.2em;
+	height: 1.2em;
+	cursor: default;
+}
+.itp-calculator-body .ui-slider .ui-slider-range {
+	position: absolute;
+	z-index: 1;
+	font-size: .7em;
+	display: block;
+	border: 0;
+	background-position: 0 0;
+}
+
+/* For IE8 - See #6727 */
+.itp-calculator-body .ui-slider.ui-state-disabled .ui-slider-handle,
+.itp-calculator-body .ui-slider.ui-state-disabled .ui-slider-range {
+	filter: inherit;
+}
+
+.itp-calculator-body .ui-slider-horizontal {
+	height: .8em;
+}
+.itp-calculator-body .ui-slider-horizontal .ui-slider-handle {
+	top: -.3em;
+	margin-left: -.6em;
+}
+.itp-calculator-body .ui-slider-horizontal .ui-slider-range {
+	top: 0;
+	height: 100%;
+}
+.itp-calculator-body .ui-slider-horizontal .ui-slider-range-min {
+	left: 0;
+}
+.itp-calculator-body .ui-slider-horizontal .ui-slider-range-max {
+	right: 0;
+}
+
+.itp-calculator-body .ui-slider-vertical {
+	width: .8em;
+	height: 100px;
+}
+.itp-calculator-body .ui-slider-vertical .ui-slider-handle {
+	left: -.3em;
+	margin-left: 0;
+	margin-bottom: -.6em;
+}
+.itp-calculator-body .ui-slider-vertical .ui-slider-range {
+	left: 0;
+	width: 100%;
+}
+.itp-calculator-body .ui-slider-vertical .ui-slider-range-min {
+	bottom: 0;
+}
+.itp-calculator-body .ui-slider-vertical .ui-slider-range-max {
+	top: 0;
+}
+.itp-calculator-body .ui-spinner {
+	position: relative;
+	display: inline-block;
+	overflow: hidden;
+	padding: 0;
+	vertical-align: middle;
+}
+.itp-calculator-body .ui-spinner-input {
+	border: none;
+	background: none;
+	color: inherit;
+	padding: 0;
+	margin: .2em 0;
+	vertical-align: middle;
+	margin-left: .4em;
+	margin-right: 22px;
+}
+.itp-calculator-body .ui-spinner-button {
+	width: 16px;
+	height: 50%;
+	font-size: .5em;
+	padding: 0;
+	margin: 0;
+	text-align: center;
+	position: absolute;
+	cursor: default;
+	display: block;
+	overflow: hidden;
+	right: 0;
+}
+/* more specificity required here to overide default borders */
+.itp-calculator-body .ui-spinner a.ui-spinner-button {
+	border-top: none;
+	border-bottom: none;
+	border-right: none;
+}
+/* vertical centre icon */
+.itp-calculator-body .ui-spinner .ui-icon {
+	position: absolute;
+	margin-top: -8px;
+	top: 50%;
+	left: 0;
+}
+.itp-calculator-body .ui-spinner-up {
+	top: 0;
+}
+.itp-calculator-body .ui-spinner-down {
+	bottom: 0;
+}
+
+/* TR overrides */
+.itp-calculator-body .ui-spinner .ui-icon-triangle-1-s {
+	/* need to fix icons sprite */
+	background-position: -65px -16px;
+}
+.itp-calculator-body .ui-tooltip {
+	position: absolute;
+	z-index: 9999;
+	max-width: 300px;
+	-webkit-box-shadow: 0 0 5px #aaa;
+	box-shadow: 0 0 5px #aaa;
+    border: 2px solid #ff0084;
+}
+.itp-calculator-body body .ui-tooltip {
+	border-width: 2px;
+    border: 2px solid #ff0084;
+}
+.custom-tooltip-styling {
+    background-color: #ffffff;
+    width: 400px; 
+    padding: 0 20px; font-size: smaller;
+}
+/* Component containers
+----------------------------------*/
+.itp-calculator-body .ui-widget {
+	/*font-family: Helvetica,Arial,sans-serif;
+	font-size: 1.1em;*/
+}
+.itp-calculator-body .ui-widget .ui-widget {
+	font-size: 1em;
+}
+.itp-calculator-body .ui-widget input,
+.itp-calculator-body .ui-widget select,
+.itp-calculator-body .ui-widget textarea,
+.itp-calculator-body .ui-widget button {
+	/*font-family: Helvetica,Arial,sans-serif;*/
+	font-size: 1em;
+}
+.itp-calculator-body .ui-widget-content {
+	border: 1px solid #dddddd;
+	background: #ffffff url(images/ui-bg_flat_75_ffffff_40x100.png) 50% 50% repeat-x;
+	color: #444444;
+}
+.itp-calculator-body .ui-widget-content a {
+	color: #444444;
+}
+.itp-calculator-body .ui-widget-header {
+	border: 1px solid #dddddd;
+	background: #dddddd url(images/ui-bg_highlight-soft_50_dddddd_1x100.png) 50% 50% repeat-x;
+	color: #444444;
+	font-weight: bold;
+}
+.itp-calculator-body .ui-widget-header a {
+	color: #444444;
+}
+
+/* Interaction states
+----------------------------------*/
+.itp-calculator-body .ui-state-default,
+.itp-calculator-body .ui-widget-content .ui-state-default,
+.itp-calculator-body .ui-widget-header .ui-state-default {
+	border: 1px solid #dddddd;
+	background: #f6f6f6 url(images/ui-bg_highlight-soft_100_f6f6f6_1x100.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #0073ea;
+}
+.itp-calculator-body .ui-state-default a,
+.itp-calculator-body .ui-state-default a:link,
+.itp-calculator-body .ui-state-default a:visited {
+	color: #0073ea;
+	text-decoration: none;
+}
+.itp-calculator-body .ui-state-hover,
+.itp-calculator-body .ui-widget-content .ui-state-hover,
+.itp-calculator-body .ui-widget-header .ui-state-hover,
+.itp-calculator-body .ui-state-focus,
+.itp-calculator-body .ui-widget-content .ui-state-focus,
+.itp-calculator-body .ui-widget-header .ui-state-focus {
+	border: 1px solid #0073ea;
+	background: #0073ea url(images/ui-bg_highlight-soft_25_0073ea_1x100.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #ffffff;
+}
+.itp-calculator-body .ui-state-hover a,
+.itp-calculator-body .ui-state-hover a:hover,
+.itp-calculator-body .ui-state-hover a:link,
+.itp-calculator-body .ui-state-hover a:visited {
+	color: #ffffff;
+	text-decoration: none;
+}
+.itp-calculator-body .ui-state-active,
+.itp-calculator-body .ui-widget-content .ui-state-active,
+.itp-calculator-body .ui-widget-header .ui-state-active {
+	border: 1px solid #dddddd;
+	background: #ffffff url(images/ui-bg_glass_65_ffffff_1x400.png) 50% 50% repeat-x;
+	font-weight: bold;
+	color: #ff0084;
+}
+.itp-calculator-body .ui-state-active a,
+.itp-calculator-body .ui-state-active a:link,
+.itp-calculator-body .ui-state-active a:visited {
+	color: #ff0084;
+	text-decoration: none;
+}
+
+/* Interaction Cues
+----------------------------------*/
+.itp-calculator-body .ui-state-highlight,
+.itp-calculator-body .ui-widget-content .ui-state-highlight,
+.itp-calculator-body .ui-widget-header .ui-state-highlight {
+	border: 4px solid rgba(255, 0, 0, 0.65); text-align: left; font-size: small;
+	background: #ffffff url(images/ui-bg_flat_55_ffffff_40x100.png) 50% 50% repeat-x;
+	color: #444444;
+}
+.itp-calculator-body .ui-state-highlight a,
+.itp-calculator-body .ui-widget-content .ui-state-highlight a,
+.itp-calculator-body .ui-widget-header .ui-state-highlight a {
+	color: #444444;
+}
+.itp-calculator-body .ui-state-error,
+.itp-calculator-body .ui-widget-content .ui-state-error,
+.itp-calculator-body .ui-widget-header .ui-state-error {
+	border: 4px solid rgba(255, 0, 0, 0.65);
+	background: #ffffff url(images/ui-bg_flat_55_ffffff_40x100.png) 50% 50% repeat-x;
+	color: #222222;
+}
+.itp-calculator-body .ui-state-error a,
+.itp-calculator-body .ui-widget-content .ui-state-error a,
+.itp-calculator-body .ui-widget-header .ui-state-error a {
+	color: #222222;
+}
+.itp-calculator-body .ui-state-error-text,
+.itp-calculator-body .ui-widget-content .ui-state-error-text,
+.itp-calculator-body .ui-widget-header .ui-state-error-text {
+	color: #222222;
+}
+.itp-calculator-body .ui-priority-primary,
+.itp-calculator-body .ui-widget-content .ui-priority-primary,
+.itp-calculator-body .ui-widget-header .ui-priority-primary {
+	font-weight: bold;
+}
+.itp-calculator-body .ui-priority-secondary,
+.itp-calculator-body .ui-widget-content .ui-priority-secondary,
+.itp-calculator-body .ui-widget-header .ui-priority-secondary {
+	opacity: .7;
+	filter:Alpha(Opacity=70);
+	font-weight: normal;
+}
+.itp-calculator-body .ui-state-disabled,
+.itp-calculator-body .ui-widget-content .ui-state-disabled,
+.itp-calculator-body .ui-widget-header .ui-state-disabled {
+	opacity: .35;
+	filter:Alpha(Opacity=35);
+	background-image: none;
+}
+.itp-calculator-body .ui-state-disabled .ui-icon {
+	filter:Alpha(Opacity=35); /* For IE8 - See #6059 */
+}
+
+/* Icons
+----------------------------------*/
+
+/* states and images */
+.itp-calculator-body .ui-icon {
+	width: 16px;
+	height: 16px;
+}
+.itp-calculator-body .ui-icon,
+.itp-calculator-body .ui-widget-content .ui-icon {
+	background-image: url(images/ui-icons_ff0084_256x240.png);
+}
+.itp-calculator-body .ui-widget-header .ui-icon {
+	background-image: url(images/ui-icons_0073ea_256x240.png);
+}
+.itp-calculator-body .ui-state-default .ui-icon {
+	background-image: url(images/ui-icons_666666_256x240.png);
+}
+.itp-calculator-body .ui-state-hover .ui-icon,
+.itp-calculator-body .ui-state-focus .ui-icon {
+	background-image: url(images/ui-icons_ffffff_256x240.png);
+}
+.itp-calculator-body .ui-state-active .ui-icon {
+	background-image: url(images/ui-icons_454545_256x240.png);
+}
+.itp-calculator-body .ui-state-highlight .ui-icon {
+	background-image: url(images/ui-icons_0073ea_256x240.png);
+}
+.itp-calculator-body .ui-state-error .ui-icon,
+.itp-calculator-body .ui-state-error-text .ui-icon {
+	background-image: url(images/ui-icons_ff0084_256x240.png);
+}
+
+/* Misc visuals
+----------------------------------*/
+
+/* Corner radius */
+.itp-calculator-body .ui-corner-all,
+.itp-calculator-body .ui-corner-top,
+.itp-calculator-body .ui-corner-left,
+.itp-calculator-body .ui-corner-tl {
+	border-top-left-radius: 2px;
+}
+.itp-calculator-body .ui-corner-all,
+.itp-calculator-body .ui-corner-top,
+.itp-calculator-body .ui-corner-right,
+.itp-calculator-body .ui-corner-tr {
+	border-top-right-radius: 2px;
+}
+.itp-calculator-body .ui-corner-all,
+.itp-calculator-body .ui-corner-bottom,
+.itp-calculator-body .ui-corner-left,
+.itp-calculator-body .ui-corner-bl {
+	border-bottom-left-radius: 2px;
+}
+.itp-calculator-body .ui-corner-all,
+.itp-calculator-body .ui-corner-bottom,
+.itp-calculator-body .ui-corner-right,
+.itp-calculator-body .ui-corner-br {
+	border-bottom-right-radius: 2px;
+}
+
+/* Overlays */
+.itp-calculator-body .ui-widget-overlay {
+	background: #eeeeee url(images/ui-bg_flat_0_eeeeee_40x100.png) 50% 50% repeat-x;
+	opacity: .8;
+	filter: Alpha(Opacity=80);
+}
+.itp-calculator-body .ui-widget-shadow {
+	margin: -4px 0 0 -4px;
+	padding: 4px;
+	background: #aaaaaa url(images/ui-bg_flat_0_aaaaaa_40x100.png) 50% 50% repeat-x;
+	opacity: .6;
+	filter: Alpha(Opacity=60);
+	border-radius: 0px;
+}
