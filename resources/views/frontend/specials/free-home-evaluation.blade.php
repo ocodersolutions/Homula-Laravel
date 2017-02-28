@@ -94,7 +94,7 @@
     		font-weight: bold;
     		padding: 0px 10px;
     		border: 1px solid #0a368a;
-    		background-image: url(http://realestate.homula.com/wp-content/themes/realsite/images/selar.png);
+    		background-image: url(/images/selar.png);
 		    background-repeat: no-repeat;
 		    background-position: 165px 20px;
 		    -webkit-appearance: none;
@@ -120,7 +120,7 @@
 
 <div class="cleafix"></div>
 <div class="main">
-    <div id="outer-wrap" class="cover" style="background: url(http://realestate.homula.com/wp-content/uploads/2016/11/city-wallpaper-32.jpg) no-repeat; background-size: cover;height: 450px"></div>
+    <div id="outer-wrap" class="cover" style="background: url(/images/city-wallpaper-32.jpg) no-repeat; background-size: cover;height: 450px"></div>
     <div class="new-title-search">
         <div class="content col-sm-12" style="">
             <div class="clearfix"></div>
@@ -140,7 +140,7 @@
                                         <div class="next">
                                             <button type="button" class="btn get">Get Instant Estimate</button>
                                         </div>
-                                        <img id="loading" style="display:none" src="http://realestate.homula.com/wp-content/themes/realsite/images/ui-anim_basic_16x16.gif">
+                                        <img id="loading" style="display:none" src="/images/ui-anim_basic_16x16.gif">
                                         <input type="hidden" name="housesearch_address" id="housesearch_address" value="">
                                         <br>
                                         <span class="dempcon">Ex: 123-456 100 Street, Toronto, ON</span>
@@ -190,7 +190,7 @@
                                 </div>
                                 <div class="section-holder">
                                     <div class="submit" style="display: none;">
-                                        <img id="loading_oneaddress" style="display:none" src="http://realestate.homula.com/wp-content/themes/realsite/images/ui-anim_basic_16x16.gif">
+                                        <img id="loading_oneaddress" style="display:none" src="/images/ui-anim_basic_16x16.gif">
                                         <button onclick="return FetchValue();" type="button" class="btn get last-step">Get Instant Estimate</button>
                                     </div>
                                     <div class="clear"></div>
@@ -241,7 +241,7 @@
                                                     <span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-required wpcf7-validates-as-email" aria-required="true" aria-invalid="false"></span> </label>
                                             </p>
                                             <p>
-                                                <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="http://realestate.homula.com/wp-content/plugins/contact-form-7/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;">
+                                                <input type="submit" value="Send" class="wpcf7-form-control wpcf7-submit"><img class="ajax-loader" src="/images/ajax-loader.gif" alt="Sending ..." style="visibility: hidden;">
                                             </p>
                                             <div class="wpcf7-response-output wpcf7-display-none"></div>
                                         </form>
@@ -274,7 +274,7 @@
 @endsection
 
 @section('script')
-<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+<script src="/js/jquery-ui.js"></script>
 <script>
     jQuery(document).ready(function() {
         jQuery('.getadd').hide();
