@@ -2318,7 +2318,7 @@ h1.agents-content-title {
 }
 .page_frontend p {
     font-size: 16px;
-    clear: both;
+    /*clear: both;*/
 }
 .exclusive_homes_form > .input-group p:first-child strong:first-child {
     color: #000;
