@@ -141,6 +141,13 @@ Route::group(['middleware' => ['role:admin']], function() {
     Route::get('admin/faq/edit/{id}', 'Admin\FaqController@edit');
     Route::get('admin/faq/delete/{id}', 'Admin\FaqController@delete');
 
+    //Help centre
+    Route::get('admin/helpcentre', 'Admin\HelpCentreController@index');
+    Route::get('admin/helpcentre/create', 'Admin\HelpCentreController@create');
+    Route::post('admin/helpcentre/save', 'Admin\HelpCentreController@update');
+    Route::get('admin/helpcentre/edit/{id}', 'Admin\HelpCentreController@edit');
+    Route::get('admin/helpcentre/delete/{id}', 'Admin\HelpCentreController@delete');
+
 });
 
 Route::group(['middleware' => ['role:owner|register']], function() {
@@ -184,6 +191,8 @@ Menu::make('MyNavBar', function($menu) {
     $menu->add('Meta list', 'admin/meta')->attr(array('pre_icon' => 'info'))->active('admin/meta/*');
 
     $menu->add('Faq', 'admin/faq')->attr(array('pre_icon' => 'question-circle'))->active('admin/faq/*');
+
+    $menu->add('Help centre', 'admin/helpcentre')->attr(array('pre_icon' => 'user-md'))->active('admin/helpcentre/*');
 
 //    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
 });
