@@ -132,7 +132,6 @@
 	    clear: both;
 	}
 	input[type=checkbox] {
-		background-image: none;
 	    border: 0;
 	    cursor: pointer;
 	    height: 20px;
@@ -143,24 +142,8 @@
 	    width: 20px;
 	}
 	input[type=checkbox]:before {
-	    background-color: transparent;
+	    background-color: #fff;
 	    border: 2px solid #e0e0e0;
-	    content: '';
-	    display: block;
-	    height: 20px;
-	    left: 0;
-	    opacity: 1;
-	    position: absolute;
-	    transition: opacity .15s linear;
-	    top: 0;
-	    width: 20px;
-	}
-	input[type=checkbox]:checked:before {
-	    opacity: 0;
-	}
-	input[type=checkbox]:before {
-	    background-color: transparent;
-	    border: 2px solid #fff;
 	    content: '';
 	    display: block;
 	    height: 20px;
@@ -184,6 +167,13 @@
 	    -webkit-transform: rotate(-45deg);
 	    transition: opacity .15s linear;
 	    width: 27px;
+	    background: #fff;
+	}
+	input[type=checkbox]:checked:before {
+	    border-color: #fff;
+	}
+	input[type=checkbox]:checked:after {
+	    opacity: 1;
 	}
 	.main-cal-cls{
 		border: 0;
