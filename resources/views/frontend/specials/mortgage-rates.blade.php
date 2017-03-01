@@ -271,7 +271,7 @@
 													</td>
 										  		</tr>
 										  		<tr>
-													<td colspan="3">
+													<td colspan="3" style="width: 100%; padding: 0;">
 														<div id="widget-srp_affordabilitycalc-579-result" class="srp_additional-info" style="display: none"></div></td>
 										  		</tr>
 												<tr>
