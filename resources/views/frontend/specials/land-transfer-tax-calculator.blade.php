@@ -371,7 +371,7 @@
 															<div class="row" style="margin-bottom: 40px;">
 																<div class="col-md-7 col-xs-12">
 																	<form name="calculator">
-																		<h2 style="color:#000; margin-bottom: 32px;">Purchase Information</h2>
+																		<h2 style="color:#000; margin-bottom: 32px; text-transform: uppercase; font-size: 20px;">Purchase Information</h2>
 																		<div class="effect6">
 																			<div class="form-group">
 																				<label id="rb_purchasePrice" class="control-label">Purchase Price</label>
