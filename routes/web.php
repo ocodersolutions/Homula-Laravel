@@ -39,10 +39,12 @@ Route::get('agents/{alias}', 'FrontendController@agents_detail');
 Route::get('properties/{alias}', 'FrontendController@properties');
 
 // page
-Route::get('page/{alias}', 'FrontendController@page');
+// Route::get('page/{alias}', 'FrontendController@page');
+Route::get('{alias}', 'FrontendController@page');
 
 //specials
-Route::get('specials/{alias}', 'FrontendController@specials');
+// Route::get('specials/{alias}', 'FrontendController@specials');
+// Route::get('{alias}', 'FrontendController@specials');
 
 
 /**

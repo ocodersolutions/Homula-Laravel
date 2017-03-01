@@ -71,11 +71,16 @@ class FrontendController extends Controller
         $properties = Properties::orderBy('id','desc')->take(10)->get();
         $agents = Agents::all();
         $page = Page::where("alias","=",$alias)->get()->first();
-        return view("frontend.page.page", compact('properties', 'agents', 'page'));
+        if(!$page) {
+            return view('frontend.specials.'.$alias, compact('properties'));
+        }
+        else {            
+            return view("frontend.page.page", compact('properties', 'agents', 'page'));
+        }
     }
 
-    public function specials($alias) {
-        $properties = Properties::orderBy('id','desc')->take(10)->get();
-        return view('frontend.specials.'.$alias, compact('properties'));
-    }
+    // public function specials($alias) {
+    //     $properties = Properties::orderBy('id','desc')->take(10)->get();
+    //     return view('frontend.specials.'.$alias, compact('properties'));
+    // }
 }
