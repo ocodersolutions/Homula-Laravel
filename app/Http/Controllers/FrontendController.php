@@ -10,6 +10,7 @@ use App\Models\Agents;
 use App\Models\Properties;
 use App\Models\Meta;
 use App\Models\Page;
+use App\Models\Faq;
 
 class FrontendController extends Controller
 {
@@ -68,6 +69,10 @@ class FrontendController extends Controller
     }
 
     public function page($alias) {
+        if($alias == "faq") {
+            $faq = Faq::paginate(10);
+            return view('frontend.specials.faq', compact('faq'));
+        }
         $properties = Properties::orderBy('id','desc')->take(10)->get();
         $agents = Agents::all();
         $page = Page::where("alias","=",$alias)->get()->first();
