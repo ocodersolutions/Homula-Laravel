@@ -23,7 +23,7 @@
 	        @foreach ($faq as $post)
 				<tr>
 					<td > {{$post->question}} </td>
-					<td > {!!$post->answer!!} </td>
+					<td >{{str_limit(strip_tags($post->answer),150, '...')}}</td>
 					<td style="width: 162px;">
 						<a href="{{ url('admin/faq/edit/'. $post->id) }}" class="btn btn-info">Update</a>
 						<a href="{{ url('admin/faq/delete/' . $post->id) }}" class="btn btn-danger">Delete</a>
