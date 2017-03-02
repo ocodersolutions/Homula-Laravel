@@ -321,6 +321,141 @@
 		    text-align: center;
 		    text-transform: uppercase;
 		}
+		.page-list-my-house div.wpcf7 {
+		    border: 1px solid #aaaaaa;
+		    background: #f8f8f8;
+		    margin-bottom: 30px;
+		}
+		div.wpcf7 .screen-reader-response {
+		    position: absolute;
+		    overflow: hidden;
+		    clip: rect(1px,1px,1px,1px);
+		    height: 1px;
+		    width: 1px;
+		    margin: 0;
+		    padding: 0;
+		    border: 0;
+		}
+		.page-list-my-house form {
+		    padding: 30px 0px 0 0px;
+		    margin: 0;
+		    background: #f8f8f8;
+		}
+		.page-list-my-house .cformfield {
+		    margin: 0;
+		    color: #000;
+		    font-size: 15px;
+		    line-height: 24px;
+		}
+		.page-list-my-house .cformfield label {
+		    display: inline-block;
+		    width: 190px;
+		    font-size: 15px;
+		    font-weight: normal;
+		    color: #000;
+	        cursor: pointer;
+	        text-transform: uppercase;
+		}
+		.page-list-my-house .cformfield input {
+		    padding: 5px;
+		    line-height: 60px;
+		    text-align: left;
+		    font-size: 19px;
+	        box-shadow: 0 1px 0 0 rgba(0,0,0,0.12);
+	        position: relative;
+		    transition: box-shadow .12s linear;
+	        background: #fcfcfc;
+		    border: 1px solid #6984b6;
+		    border-radius: 10px;
+		    height: 50px;
+		    margin-bottom: 50px;
+		    color: #000;
+		}
+		.page-list-my-house .cformfieldtext {
+			color: #000;
+		    margin: 0 auto;
+		    padding: 10px;
+		    display: block;
+		    width: 100%;
+		    background: #fcfcfc;
+		    text-transform: uppercase;
+		    border: 1px solid #6984b6;
+		    border-radius: 10px;
+		}
+		.page-list-my-house .cformfieldtext textarea {
+			box-shadow: none;
+			border: 0;
+			background: none;
+			outline: 0;
+			resize: none;
+		}
+		.page-list-my-house .cformfield input:focus {
+			box-shadow: 0 2px 0 0 #039be5;
+		    outline: 0;
+		}		
+		.page-list-my-house .wpcf7 form p input[type=submit] {
+		    background: #039be5;
+		    padding: 10px 50px;
+		    border-radius: 10px;
+		    font-weight: bold;
+		    font-size: 16px;
+		    box-shadow: 0 3px 0px #027fbb;
+		    border: 0;
+		    color: #fff;
+	        margin-top: 20px;
+		    margin-left: 100%;
+		    transform: translateX(-100%);
+		}
+		.page-list-my-house .wpcf7 form {
+			overflow: hidden;
+		}
+		.page-list-my-house p {
+			color: #232323;
+			font-size: 15px;
+		    line-height: 24px;
+		}
+		.page-list-my-house h3 {
+		    font-size: 18px;
+		    font-weight: bold;
+		    background: #333366;
+		    color: #fff;
+		    padding: 20px;
+		    width: 643px;
+		    margin-bottom: 15px;
+	        margin-top: 20px;
+	        text-transform: uppercase;
+		}
+		.page_frontend.page-list-my-house .page_frontend_header {
+		    margin-top: 150px;
+		    margin-bottom: 0;
+		    padding: 15px 0;
+		}
+		.list_my_house_box_1 {
+		    margin: 30px 0;
+		}
+		.list_my_house_box_1 div strong, .list_my_house_box_2 div strong {
+		    background: #6682b8;
+		    padding: 10px;
+		    margin-right: 3px;
+		    display: inline-block;
+		    color: #fff;
+		    font-size: 18px;
+		    font-weight: bold;
+		    text-transform: uppercase;
+		    cursor: pointer;
+		}
+		.list_my_house_box_1 div strong.active_strong, .list_my_house_box_2 div strong.active_strong {
+		    background: #223c6e;
+		}
+		.list_my_house_box_1 p, .list_my_house_box_2 p {
+		    border: 1px solid #b7b7b7;
+		    background: #fff;
+		    padding: 20px;
+		    display: none;
+		}
+		.list_my_house_box_1 p.box_1_p_1, .list_my_house_box_2 p.box_2_p_1 {
+		    display: block;
+		}
 
 	</style>
 

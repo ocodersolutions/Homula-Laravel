@@ -322,4 +322,56 @@ $(document).ready(function() {
 
         ink.css({ top: y + 'px', left: x + 'px' }).addClass("animate");
     });
+
+    $(".list_my_house_box_1 div strong:nth-child(1), .list_my_house_box_1 div strong:nth-child(2), .list_my_house_box_1 div strong:nth-child(3), .list_my_house_box_1 div strong:nth-child(4)").click(function() {
+        if ($(".list_my_house_box_1 div strong").hasClass("active_strong")) {
+            $(".list_my_house_box_1 div strong").removeClass("active_strong");
+            $(this).addClass("active_strong");
+
+        }
+    });
+    $(".list_my_house_box_2 div strong:nth-child(1), .list_my_house_box_2 div strong:nth-child(2), .list_my_house_box_2 div strong:nth-child(3), .list_my_house_box_2 div strong:nth-child(4), .list_my_house_box_2 div strong:nth-child(5)").click(function() {
+        if ($(".list_my_house_box_2 div strong").hasClass("active_strong")) {
+            $(".list_my_house_box_2 div strong").removeClass("active_strong");
+            $(this).addClass("active_strong");
+
+        }
+    });
+    $(".list_my_house_box_1 div strong:nth-child(1)").click(function() {
+        $(".list_my_house_box_1 p").css("display", "none");
+        $(".list_my_house_box_1 .box_1_p_1").css("display", "block");
+    });
+    $(".list_my_house_box_1 div strong:nth-child(2)").click(function() {
+        $(".list_my_house_box_1 p").css("display", "none");
+        $(".list_my_house_box_1 .box_1_p_2").css("display", "block");
+    });
+    $(".list_my_house_box_1 div strong:nth-child(3)").click(function() {
+        $(".list_my_house_box_1 p").css("display", "none");
+        $(".list_my_house_box_1 .box_1_p_3").css("display", "block");
+    });
+    $(".list_my_house_box_1 div strong:nth-child(4)").click(function() {
+        $(".list_my_house_box_1 p").css("display", "none");
+        $(".list_my_house_box_1 .box_1_p_4").css("display", "block");
+    });
+    $(".list_my_house_box_2 div strong:nth-child(1)").click(function() {
+        $(".list_my_house_box_2 p").css("display", "none");
+        $(".list_my_house_box_2 .box_2_p_1").css("display", "block");
+    });
+    $(".list_my_house_box_2 div strong:nth-child(2)").click(function() {
+        $(".list_my_house_box_2 p").css("display", "none");
+        $(".list_my_house_box_2 .box_2_p_2").css("display", "block");
+    });
+    $(".list_my_house_box_2 div strong:nth-child(3)").click(function() {
+        $(".list_my_house_box_2 p").css("display", "none");
+        $(".list_my_house_box_2 .box_2_p_3").css("display", "block");
+    });
+    $(".list_my_house_box_2 div strong:nth-child(4)").click(function() {
+        $(".list_my_house_box_2 p").css("display", "none");
+        $(".list_my_house_box_2 .box_2_p_4").css("display", "block");
+    });
+    $(".list_my_house_box_2 div strong:nth-child(5)").click(function() {
+        $(".list_my_house_box_2 p").css("display", "none");
+        $(".list_my_house_box_2 .box_2_p_5").css("display", "block");
+    });
+
 });
