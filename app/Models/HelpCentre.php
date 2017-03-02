@@ -8,7 +8,7 @@ class HelpCentre extends Model
 {
     var $table = 'help_centre';
 
-    public $timestamps = false;
+    // public $timestamps = false;
 	
     protected $fillable = ['question','alias','answer','categories_id'];
 }
