@@ -142,6 +142,7 @@
 
 		.page-open-house .stbg_1 {
 		    padding: 0px 0 40px 0;
+	        /*background-color: #f1f1f1;*/
 		}
 		.page_frontend .shadow_bottom {
 		    position: relative;
@@ -206,6 +207,45 @@
 		    font-size: 18px;
 		    margin-bottom: 15px;
 		    text-transform: uppercase;
+		}
+		.page-open-house ul.nav.nav-tabs li a {
+		    background: #6782b9;
+		    color: #FFF;
+		    text-transform: uppercase;
+	        border: 0;
+		    border-radius: 0;
+		    font-weight: 500;
+		    margin: 0 5px 0 0;
+		    overflow: hidden;
+		    padding: 20px;
+		    position: relative;
+		    text-align: center;
+	        line-height: 1.42857;
+		}
+		.page-open-house ul.nav.nav-tabs li.active a {
+		    background: #223c6d;
+		    box-shadow: none;
+		}
+		.page-open-house .tab-content {
+		    box-sizing: border-box;
+		    padding: 20px;
+		    border: 1px solid #cacaca;
+		}
+		.page-open-house .nav-tabs {
+			border: 0;
+		}
+		.page-open-house #advertising ul {
+		    margin-bottom: 30px;
+		    padding: 0;
+		}
+		.page-open-house #advertising ul li {
+			margin-bottom: 10px;
+		}
+		.page-open-house #advertising ul li i {
+			margin-right: 10px;
+		}
+		.page-open-house #advertising p {
+			font-size: 16px;
 		}
 
 		.page-ask-a-question .askform {
