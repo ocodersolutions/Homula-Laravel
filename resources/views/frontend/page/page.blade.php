@@ -6,6 +6,7 @@
 
 @section('content')
 	<style type="text/css">
+		/* style for resale-home page */
 		.resale_homes_box_one {
 		    background: #fff;
 		}
@@ -66,7 +67,7 @@
 		    margin-right: 35.33%;
 		    padding: 10px 20px;
 		}
-
+		/* style for exclusive-homes page */
 		.page_frontend .page_frontend_header {
 		    background: #039be5;
 		    color: #fff;
@@ -139,7 +140,7 @@
 		    text-align: center;
 		    border-radius: 50%;
 		}
-
+		/* style for open-house page */
 		.page-open-house .stbg_1 {
 		    padding: 0px 0 40px 0;
 	        /*background-color: #f1f1f1;*/
@@ -247,7 +248,7 @@
 		.page-open-house #advertising p {
 			font-size: 16px;
 		}
-
+		/* style ask-a-question page */
 		.page-ask-a-question .askform {
 			margin-bottom: 40px;
 		}
@@ -361,6 +362,7 @@
 		    text-align: center;
 		    text-transform: uppercase;
 		}
+		/* style for list-my-house page */
 		.page-list-my-house div.wpcf7 {
 		    border: 1px solid #aaaaaa;
 		    background: #f8f8f8;
@@ -495,6 +497,183 @@
 		}
 		.list_my_house_box_1 p.box_1_p_1, .list_my_house_box_2 p.box_2_p_1 {
 		    display: block;
+		}
+		/* style for utility-companies page */
+		.page-utility-companies {
+			background: #f1f1f1;
+		    padding: 0;
+		}
+		.page-utility-companies p {
+			text-align: left;
+		    margin-bottom: 20px;
+		    font-size: 15px;
+		}
+		.page-utility-companies #form-utility {
+		    width: 60%;
+		    float: left;
+		}
+		.page-utility-companies .wpcf7 form {
+		    margin: 0;
+		    padding: 0;
+		    background: #f1f1f1;
+		}
+		.page-utility-companies .wpcf7 .cformfield {
+		    margin-bottom: 25px;
+		    position: relative;
+		    background: #fff;
+		    z-index: 0;
+		    border: 1px solid #dcdcdc;
+		    color: #000;
+		}
+		.page-utility-companies .wpcf7 .cformfield:before, .page-utility-companies .wpcf7 .cformfield:after {
+			position: absolute;
+		    content: "";
+		    height: 50%;
+		    bottom: 18px;
+		    left: 15px;
+		    right: 15px;
+		    z-index: -1;
+		    box-shadow: 0 15px 15px #777;
+		    border-radius: 100px/20px;
+		    margin: 0 auto;
+		    width: 50%;
+		}
+		.page-utility-companies .wpcf7 .cformfield .wrap-shadow {
+		    padding: 7px 15px;
+		    background: #fff;
+		}
+		.page-utility-companies #form-utility .wpcf7-form-control-wrap {
+		    margin-left: 72px;
+		}
+		.page-utility-companies #form-utility .wpcf7 .cformfield input {
+			padding: 5px;
+		    border-radius: 5px;
+		    line-height: 60px;
+		    text-align: left;
+		    height: 45px;
+		    background: #fff;
+		    border: 1px solid #0496df;
+		    width: 60%;
+		    margin: 0;
+		    color: rgba(0, 0, 0, 0.7);
+		    font-size: 16px;
+		}
+		.page-utility-companies #form-utility .wpcf7 .cformfield input:focus,
+		.page-utility-companies #form-utility .wpcf7-form-control-wrap.your-request textarea:focus {
+			box-shadow: 0 2px 0 0 #039be5;
+		    outline: 0;
+		}
+		.page-utility-companies #form-utility .wpcf7-form-control-wrap.your-request textarea {
+			box-shadow: 0 1px 0 0 rgba(0,0,0,0.12);
+		    color: rgba(0,0,0,0.7);
+		    font-size: 16px;
+		    line-height: 48px;
+		    padding: 0 5px;
+		    position: relative;
+		    transition: box-shadow .12s linear;
+		    margin-left: 16px;
+		    border: 1px solid #0496df;
+		    border-radius: 5px;
+		    width: 60%;
+		    vertical-align: top;
+		    background: #fff;
+		    resize: none;
+		}
+		.page-utility-companies #form-utility .wpcf7 .cformbtn {
+		    margin: 60px 0 0 0;
+		}
+		.page-utility-companies #form-utility .wpcf7 .cformbtn input {
+			border: 0;
+			color: #fff;
+			font-weight: 500;
+		    overflow: hidden;
+		    position: relative;
+		    text-transform: uppercase;
+			border-radius: 5px;
+			box-shadow: 2px 2px 1px #000;
+			font-size: 20px;
+		    background: #0496df;
+		    padding: 10px 50px;
+		}
+		.page-utility-companies div.wpcf7 img.ajax-loader {
+		    border: 0;
+		    vertical-align: middle;
+		    margin-left: 4px;
+		}
+		.page-utility-companies .effect-1 {
+		    width: 35%;
+		    float: right;
+		    background: #fff;
+		    position: relative;
+		    z-index: 0;
+		}
+		.page-utility-companies .effect-1:before, .page-utility-companies .effect-1:after {
+		    z-index: -1;
+		    position: absolute;
+		    content: "";
+		    bottom: 15px;
+		    left: 26px;
+		    width: 50%;
+		    top: 80%;
+		    max-width: 300px;
+		    background: #777;
+		    box-shadow: 0 15px 10px #777;
+		    transform: rotate(-3deg);
+		}
+		.page-utility-companies .effect-1:after {
+			transform: rotate(3deg);
+		    right: 26px;
+		    left: auto;
+		}
+		.page-utility-companies .content-1 {
+		    clear: both;
+		    background: #fff;
+		    margin-top: 30px;
+		    text-transform: none;
+		}
+		.page-utility-companies ul.nav.nav-tabs {
+			border: 0;
+		    display: block;
+		    margin: 0;
+		    padding: 0;
+		    box-shadow: none;
+		    line-height: 10px;
+		}
+		.page-utility-companies ul.nav.nav-tabs li a {
+			border: 0;
+			margin: 0 5px 0 0;
+		    overflow: hidden;
+		    position: relative;
+		    text-align: center;
+		    line-height: 1.42857;
+		    border-radius: 0;
+		    padding: 10px;
+		    font-weight: bold;
+		    background: #6782b9;
+		    color: #FFF;
+		    text-transform: uppercase;
+		}
+		.page-utility-companies ul.nav.nav-tabs li.active a {
+		    background: #223c6d;
+		    box-shadow: none;
+		}
+		.page-utility-companies .tab-content {
+		    box-sizing: border-box;
+		    padding: 20px;
+		    border: 1px solid #cacaca;
+		    background: #fff;
+		    margin-bottom: 50px;
+		}
+		.page-utility-companies .content-2 {
+		    clear: both;
+		    margin-top: 65px;
+		    text-transform: none;
+		}
+		.page-utility-companies strong.choosing {
+		    background: #0496df;
+		    padding: 10px;
+		    text-transform: uppercase;
+		    color: #fff;
 		}
 
 	</style>
