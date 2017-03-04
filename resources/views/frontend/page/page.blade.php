@@ -675,6 +675,80 @@
 		    text-transform: uppercase;
 		    color: #fff;
 		}
+		/* style for property-management page */
+		.page-property-management {
+			background: #f2f2f2;
+		}
+		.page_frontend.page-property-management .page_frontend_header {
+			margin: 0;
+		    color: #039be5;
+		    font-size: 23px;
+		    padding-top: 50px;
+		    background: #fff;
+		}
+		.property-management-body {
+			background: #fff;
+		    overflow: hidden;
+		    padding: 15px;
+		}
+		.property-management-body .custommenul_item {
+		    float: left;
+		    padding: 15px;
+		    margin: 0 4px;
+		    box-shadow: 0 0 10px;
+		    width: 362px;
+		    min-height: 458px;
+		}
+		.property-management-body .custommenul_item h2 {
+		    color: #0a368a;
+		    font-weight: bold;
+		    padding-bottom: 10px;
+		    border-bottom: 1px solid;
+		    margin: 0 0 10px 0;
+		    font-size: 20px;
+		    text-transform: uppercase;
+		    line-height: 1.1;
+		}
+		.property-management-body .custommenul_item ul {
+			padding: 0;
+			margin: 0 0 10px 0;
+		}
+		.property-management-body .custommenul_item ul li {
+			margin-bottom: 10px;
+		}
+		.property-management-body .custommenul_item a {
+		    color: #68b7ec;
+		    transition: color .15s linear;
+		}
+		.property-management-body .custommenul_item a:hover {
+			text-decoration: none;
+		}
+		.property-management-body ul {
+			padding: 0;
+			margin: 0 0 10px 0;
+		}
+		.property-management-body ul li {
+			margin-bottom: 10px;
+			font-size: 16px;
+		}
+		.property-management-body p {
+			font-size: 16px;
+		}
+		.property-management-body strong {
+			font-size: 16px;
+		}
+		.property-management-body a {
+			font-size: 16px;
+		}
+		.property-management-body a:hover {
+			text-decoration: none;
+		}
+		.property-management-body h3 {
+			font-size: 18px;
+		    margin-bottom: 15px;
+		    font-weight: normal;
+		    text-transform: uppercase;
+		}
 
 	</style>
 
