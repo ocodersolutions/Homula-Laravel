@@ -749,11 +749,11 @@
 		    font-weight: normal;
 		    text-transform: uppercase;
 		}
-		.page-home-stagers{
+		.page-home-stagers,.page-sign-suppliers{
 		    padding: 0;
     		background: #f2f2f2;
 		}
-		.page-home-stagers .container{
+		.page-home-stagers .container,.page-sign-suppliers .container{
 			padding: 10px 20px;
 		    width: 1200px;
 		    margin: 0 auto;
@@ -771,20 +771,20 @@
 		.page-home-stagers p *,.page-home-stagers ul li *{
 			font-size: 16px;
 		}
-		.page-home-stagers .agent-row-content {
+		.agent-row-content {
 		    box-shadow: 0 0 10px;
 		    float: left;
 		    margin: 0 15px 40px 15px;
 		    width: 356px;
 		    min-height: 260px;
 		}
-		.page-home-stagers .agent-row-content .agent-row-info {
+		.agent-row-content .agent-row-info {
 		    padding: 0;
 		}
-		.page-home-stagers .agent-row-content {
+		.agent-row-content {
 		    padding: 20px;
 		}
-		.page-home-stagers h2.page_frontend_header{
+		.page-home-stagers h2.page_frontend_header,.page-sign-suppliers h2.page_frontend_header{
 			background: #fff;
 		    text-align: center;
 		    color: #039be5;
@@ -797,10 +797,10 @@
 		.page-home-stagers h2 {
 		    margin: 0;
 		}
-		.page-home-stagers .agent-row-content h2 strong{
+		.agent-row-content h2 strong{
 			font-size: 17px;
 		}
-		.page-home-stagers .agent-row-content h2 {
+		.agent-row-content h2 {
 		    color: #0a368a;
 		    padding: 0 !important;
 		    margin-bottom: 10px;
@@ -808,26 +808,30 @@
 		    text-align: left;
 		    text-transform: uppercase;
 		}
-		.page-home-stagers .agent-row-content hr {
+		.agent-row-content hr{
 		    display: none;
 		}
-		.page-home-stagers .agent-row-info ul {
-			color: #424242;
+		.agent-row-info ul {
+		    color: #424242;
+		    list-style: none;
+		    margin: 0;
+		    padding: 0;
 		}
-		.page-home-stagers .agent-row-info ul li{
+		.agent-row-info ul li{
 			font-size: 16px;
+			 margin-bottom: 10px;
 		}
-		.page-home-stagers .agent-row-info,.page-home-stagers .agent-row-info ul li a{
+		.agent-row-info,.agent-row-info ul li a{
 			font-size: 15px;
 		}
-		.page-home-stagers .agent-row-info ul .fa {
+		.agent-row-info ul .fa {
 		    color: #039be4;
 		    margin-right: 10px;
 		    font-size: 30px;
 		    vertical-align: middle;
 	        margin: 0 5px 0 0;
 		}
-		.page-home-stagers .container a {
+		.page-home-stagers .container a,.page-sign-suppliers .container a {
 			text-decoration: none;
 		    color: #337ab7!important;
 		}
