@@ -374,4 +374,75 @@ $(document).ready(function() {
         $(".list_my_house_box_2 .box_2_p_5").css("display", "block");
     });
 
+//// Q-start
+    jQuery('.shadow-box .back-button').click(function(){
+         ask_number = jQuery(this).closest('.shadow-box').data('ask');
+         jQuery(this).closest('.shadow-box').fadeOut(function(){
+            jQuery('.ask-'+(ask_number-1)).find('input:checked').removeAttr('checked');
+            jQuery('.ask-'+(ask_number-1)).fadeIn(2000);
+         });
+    });
+
+    jQuery('.shadow-box button').click(function(){
+        ask_number = jQuery(this).closest('.shadow-box').data('ask');
+        
+        switch(ask_number) {
+            case 1:
+                    area = jQuery(this).closest('.shadow-box').find('input[name="location"]').val();
+                    if (area != '') {
+                        jQuery(this).closest('.ask-1').fadeOut(function(){
+                            jQuery('.ask-2').fadeIn(2000);    
+                        });
+                    }else{
+                        jQuery('input[name="location"]').css({"border": "1px solid red"});
+                    }
+                break;
+            case 2:
+                jQuery(this).closest('.button').find('input[name="buyorsell"]').attr('checked','');
+                jQuery(this).closest('.ask-2').fadeOut(function(){
+                    jQuery('.ask-3').fadeIn(2000);
+                });
+                
+                break;
+            case 3:
+                jQuery(this).closest('.button-row').find('input[name="price"]').attr('checked','');
+                jQuery(this).closest('.ask-3').fadeOut(function(){
+                    jQuery('.ask-4').fadeIn(2000);    
+                });
+                
+                break;
+            case 4:
+                jQuery(this).closest('.button-row').find('input[name="type"]').attr('checked','');
+                jQuery(this).closest('.ask-4').fadeOut(function(){
+                    jQuery('.ask-5').fadeIn(2000);    
+                });
+            
+                break;
+            case 5:
+                jQuery(this).closest('.button').find('input[name="important"]').attr('checked','');
+                jQuery(this).closest('.ask-5').fadeOut(function(){
+                    jQuery('.ask-6').fadeIn(2000);    
+                });
+            
+                break;
+            default:
+                submit = jQuery(this).attr('type');
+                name = jQuery('input[name="fullname"]').val();
+                phone = jQuery('input[name="phone"]').val();
+                email = jQuery('input[name="email"]').val();
+                time = jQuery('input[name="time"]').val();
+                if(name != "" && phone != "" && email != "" ){
+                    if(submit == 'submit'){
+                        jQuery ("form#survey" ).submit();
+                    }
+                }
+
+
+                
+        }
+
+       
+    });
+//// Q-end
+
 });
