@@ -443,6 +443,167 @@ $(document).ready(function() {
 
        
     });
+
+        jQuery(document).ready(function(e) {
+
+            jQuery(".owl-carousel").owlCarousel({
+                items : 6,
+                navigation : false,
+                slideBy: 1,
+                loop:true,
+                transitionStyle : "fade",
+                rewindSpeed: 100,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true
+            });
+
+
+             jQuery("#featured-properties").owlCarousel({
+                items : 6,
+                navigation : false,
+                slideBy: 1,
+                loop:true,
+                transitionStyle : "fade",
+                rewindSpeed: 100,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true
+            });
+            jQuery("#hot-in-market-properties").owlCarousel({
+                items : 6,
+                navigation : false,
+                slideBy: 1,
+                loop:true,
+                transitionStyle : "fade",
+                rewindSpeed: 100,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true
+            });
+            jQuery("#last-month-properties").owlCarousel({
+                items : 6,
+                navigation : false,
+                slideBy: 1,
+                loop:true,
+                transitionStyle : "fade",
+                rewindSpeed: 100,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true
+            });
+            jQuery("#recommended-properties").owlCarousel({
+                items : 6,
+                navigation : false,
+                slideBy: 1,
+                loop:true,
+                transitionStyle : "fade",
+                rewindSpeed: 100,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true
+            });
+            
+            jQuery("#owl-demo-agent").owlCarousel({
+                items : 5,
+                navigation : false,
+                slideBy: 1,
+                loop:true,
+                transitionStyle : "fade",
+                rewindSpeed: 100,
+                autoplay:true,
+                 autoplayTimeout:2000,
+                 autoplayHoverPause:true
+            });
+            
+            jQuery("#owl-demo-news").owlCarousel({
+                items : 5,
+                navigation : false,
+                slideBy: 1,
+                loop:true,
+                transitionStyle : "fade",
+                rewindSpeed: 100,
+                dots:true,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true
+            });
+            
+            /*jQuery('#featured-properties .owl-wrapper-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
+            jQuery('#hot-in-market-properties .owl-wrapper-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
+            jQuery('#last-month-properties .owl-wrapper-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
+            jQuery('#recommended-properties .owl-wrapper-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');*/
+            jQuery('#featured-properties .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
+            jQuery('#hot-in-market-properties .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
+            jQuery('#last-month-properties .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
+            jQuery('#recommended-properties .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
+            jQuery('#owl-demo-agent .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
+            jQuery('#owl-demo-news .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
+            
+            
+            //var owl = $("#featured-properties");
+             jQuery(document).on("click","#featured-properties .see-more", function(){
+
+                //jQuery("#featured-properties").trigger('owl.next');
+                //jQuery("#featured-properties .owl-next").trigger('click');
+                 var $dots = jQuery('#featured-properties .owl-dot');
+                 var $next = $dots.filter('.active').next();
+                    if (!$next.length)
+                        $next = $dots.first();
+                    $next.trigger('click');
+                    
+             });
+             jQuery(document).on("click","#hot-in-market-properties .see-more", function(){
+                //jQuery("#hot-in-market-properties").trigger('owl.next');
+                //jQuery("#hot-in-market-properties .owl-next").trigger('click');
+                 var $dots = jQuery('#hot-in-market-properties .owl-dot');
+                 var $next = $dots.filter('.active').next();
+                    if (!$next.length)
+                        $next = $dots.first();
+                    $next.trigger('click');
+             });
+             jQuery(document).on("click","#last-month-properties .see-more", function(){
+                //jQuery("#last-month-properties").trigger('owl.next');
+                //jQuery("#last-month-properties .owl-next").trigger('click');
+                 var $dots = jQuery('#last-month-properties .owl-dot');
+                 var $next = $dots.filter('.active').next();
+                    if (!$next.length)
+                        $next = $dots.first();
+                    $next.trigger('click');
+             });
+             jQuery(document).on("click","#recommended-properties .see-more", function(){
+                //jQuery("#recommended-properties").trigger('owl.next');
+                //jQuery("#recommended-properties .owl-next").trigger('click');
+                 var $dots = jQuery('#recommended-properties .owl-dot');
+                 var $next = $dots.filter('.active').next();
+                    if (!$next.length)
+                        $next = $dots.first();
+                    $next.trigger('click');
+             });
+             jQuery(document).on("click","#owl-demo-agent .see-more", function(){
+                //jQuery("#owl-demo-agent").trigger('owl.next');
+                //jQuery("#owl-demo-agent .owl-next").trigger('click');
+                 var $dots = jQuery('#owl-demo-agent .owl-dot');
+                 var $next = $dots.filter('.active').next();
+                    if (!$next.length)
+                        $next = $dots.first();
+                    $next.trigger('click');
+             });
+             jQuery(document).on("click","#owl-demo-news .see-more", function(){
+                //jQuery("#owl-demo-news").trigger('owl.next');
+                //jQuery("#owl-demo-news .owl-next").trigger('click');
+                 var $dots = jQuery('#owl-demo-news .owl-dot');
+                 var $next = $dots.filter('.active').next();
+                    if (!$next.length)
+                        $next = $dots.first();
+                    $next.trigger('click');
+             });
+             
+             
+        });
+      
+
+
 //// Q-end
 
 });
