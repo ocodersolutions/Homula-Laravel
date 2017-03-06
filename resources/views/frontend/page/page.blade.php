@@ -749,26 +749,26 @@
 		    font-weight: normal;
 		    text-transform: uppercase;
 		}
-		.page-home-stagers,.page-sign-suppliers{
+		.page-home-stagers,.page-sign-suppliers,.page-appraiser,.page-insurance-brokers,.page-moving-company{
 		    padding: 0;
     		background: #f2f2f2;
 		}
-		.page-home-stagers .container,.page-sign-suppliers .container{
+		.page-home-stagers .container,.page-sign-suppliers .container,.page-appraiser .container,.page-insurance-brokers .container,.page-moving-company .container{
 			padding: 10px 20px;
 		    width: 1200px;
 		    margin: 0 auto;
 		    background: #fff;
 		    text-align: justify;
 		}
-		.page-home-stagers ul{
+		.page-home-stagers ul, .type-profess ul{
 			list-style-type: none;
 		    margin-top: 0;
 		    padding: 0;
 		}
-		.page-home-stagers ul li{
+		.page-home-stagers ul li, .type-profess ul li{
 		    margin-bottom: 10px;
 		}
-		.page-home-stagers p *,.page-home-stagers ul li *{
+		.page-home-stagers p *,.page-home-stagers ul li *, .type-profess ul li *{
 			font-size: 16px;
 		}
 		.agent-row-content {
@@ -784,7 +784,7 @@
 		.agent-row-content {
 		    padding: 20px;
 		}
-		.page-home-stagers h2.page_frontend_header,.page-sign-suppliers h2.page_frontend_header{
+		.page-home-stagers h2.page_frontend_header,.page-sign-suppliers h2.page_frontend_header,.page-appraiser h2.page_frontend_header,.page-insurance-brokers h2.page_frontend_header,.page-moving-company .page_frontend_header{
 			background: #fff;
 		    text-align: center;
 		    color: #039be5;
@@ -792,10 +792,13 @@
 		    font-size: 23px;
 		    font-weight: bold;
 		    margin-bottom: 25px;
-		    margin: 0 auto;
+		    margin-top: 10px;
 		}
 		.page-home-stagers h2 {
 		    margin: 0;
+		}
+		.agent-row-content h2{
+			margin: 0;
 		}
 		.agent-row-content h2 strong{
 			font-size: 17px;
@@ -831,7 +834,7 @@
 		    vertical-align: middle;
 	        margin: 0 5px 0 0;
 		}
-		.page-home-stagers .container a,.page-sign-suppliers .container a {
+		.page-home-stagers .container a,.page-sign-suppliers .container a,.agent-row-content a {
 			text-decoration: none;
 		    color: #337ab7!important;
 		}
@@ -956,7 +959,7 @@
 		.page_frontend.page-receive-free-home-report .page_frontend_header{
 			margin: 0;
 		}
-		.page-mortgage-broker .mortgage-broker{
+		.page-mortgage-broker .mortgage-broker,.page_frontend .type-profess{
 			width: 1200px;
 		    margin: 0 auto;
 		    padding: 0 20px 10px;
@@ -966,7 +969,7 @@
 		.mortgage-broker p{
 			clear: both;
 		}
-		.page_frontend.page-mortgage-broker .container{
+		.page_frontend.page-mortgage-broker .container,.page-appraiser .container{
 			background-color: #fff;
 			width: 1200px;
 		}
@@ -987,8 +990,13 @@
 			text-transform: uppercase;
 			font-size: 18px;
 		}
-		.mortgage-broker p *{
+		.mortgage-broker p *,.type-profess p *{
 			font-size: 16px;
+		}
+		.type-profess h2{
+			font-size: 20px;
+			margin: 0;
+			text-transform: uppercase;
 		}
 	</style>
 
