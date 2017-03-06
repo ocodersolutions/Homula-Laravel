@@ -749,11 +749,11 @@
 		    font-weight: normal;
 		    text-transform: uppercase;
 		}
-		.page-home-stagers,.page-sign-suppliers,.page-appraiser,.page-insurance-brokers,.page-moving-company{
+		.page-home-stagers,.page-sign-suppliers,.page-appraiser,.page-insurance-brokers,.page-moving-company,.page-home-inspector{
 		    padding: 0;
     		background: #f2f2f2;
 		}
-		.page-home-stagers .container,.page-sign-suppliers .container,.page-appraiser .container,.page-insurance-brokers .container,.page-moving-company .container{
+		.page-home-stagers .container,.page-sign-suppliers .container,.page-appraiser .container,.page-insurance-brokers .container,.page-moving-company .container,.page-home-inspector .container{
 			padding: 10px 20px;
 		    width: 1200px;
 		    margin: 0 auto;
@@ -784,7 +784,7 @@
 		.agent-row-content {
 		    padding: 20px;
 		}
-		.page-home-stagers h2.page_frontend_header,.page-sign-suppliers h2.page_frontend_header,.page-appraiser h2.page_frontend_header,.page-insurance-brokers h2.page_frontend_header,.page-moving-company .page_frontend_header{
+		.page-home-stagers h2.page_frontend_header,.page-sign-suppliers h2.page_frontend_header,.page-appraiser h2.page_frontend_header,.page-insurance-brokers h2.page_frontend_header,.page-moving-company .page_frontend_header,.page-home-inspector h2.page_frontend_header{
 			background: #fff;
 		    text-align: center;
 		    color: #039be5;
@@ -874,7 +874,7 @@
 		.current_box p *{
 			font-size: 15px;
 		}
-		.current_box h3 {
+		.current_box h3 ,{
 			text-transform: uppercase;
 			margin: 0;
 			padding: 20px;
@@ -986,7 +986,7 @@
 			margin-bottom: 25px;
 			margin-top: 10px;
 		}
-		.mortgage-broker h3{
+		.mortgage-broker h3,.type-profess h3{
 			text-transform: uppercase;
 			font-size: 18px;
 		}
