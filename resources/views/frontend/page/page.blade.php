@@ -675,7 +675,166 @@
 		    text-transform: uppercase;
 		    color: #fff;
 		}
-
+		/* style for property-management page */
+		.page-property-management {
+			background: #f2f2f2;
+		}
+		.page_frontend.page-property-management .page_frontend_header {
+			margin: 0;
+		    color: #039be5;
+		    font-size: 23px;
+		    padding-top: 50px;
+		    background: #fff;
+		}
+		.property-management-body {
+			background: #fff;
+		    overflow: hidden;
+		    padding: 15px;
+		}
+		.property-management-body .custommenul_item {
+		    float: left;
+		    padding: 15px;
+		    margin: 0 4px;
+		    box-shadow: 0 0 10px;
+		    width: 362px;
+		    min-height: 458px;
+		}
+		.property-management-body .custommenul_item h2 {
+		    color: #0a368a;
+		    font-weight: bold;
+		    padding-bottom: 10px;
+		    border-bottom: 1px solid;
+		    margin: 0 0 10px 0;
+		    font-size: 20px;
+		    text-transform: uppercase;
+		    line-height: 1.1;
+		}
+		.property-management-body .custommenul_item ul {
+			padding: 0;
+			margin: 0 0 10px 0;
+		}
+		.property-management-body .custommenul_item ul li {
+			margin-bottom: 10px;
+		}
+		.property-management-body .custommenul_item a {
+		    color: #68b7ec;
+		    transition: color .15s linear;
+		}
+		.property-management-body .custommenul_item a:hover {
+			text-decoration: none;
+		}
+		.property-management-body ul {
+			padding: 0;
+			margin: 0 0 10px 0;
+		}
+		.property-management-body ul li {
+			margin-bottom: 10px;
+			font-size: 16px;
+		}
+		.property-management-body p {
+			font-size: 16px;
+		}
+		.property-management-body strong {
+			font-size: 16px;
+		}
+		.property-management-body a {
+			font-size: 16px;
+		}
+		.property-management-body a:hover {
+			text-decoration: none;
+		}
+		.property-management-body h3 {
+			font-size: 18px;
+		    margin-bottom: 15px;
+		    font-weight: normal;
+		    text-transform: uppercase;
+		}
+		.page-home-stagers,.page-sign-suppliers{
+		    padding: 0;
+    		background: #f2f2f2;
+		}
+		.page-home-stagers .container,.page-sign-suppliers .container{
+			padding: 10px 20px;
+		    width: 1200px;
+		    margin: 0 auto;
+		    background: #fff;
+		    text-align: justify;
+		}
+		.page-home-stagers ul{
+			list-style-type: none;
+		    margin-top: 0;
+		    padding: 0;
+		}
+		.page-home-stagers ul li{
+		    margin-bottom: 10px;
+		}
+		.page-home-stagers p *,.page-home-stagers ul li *{
+			font-size: 16px;
+		}
+		.agent-row-content {
+		    box-shadow: 0 0 10px;
+		    float: left;
+		    margin: 0 15px 40px 15px;
+		    width: 356px;
+		    min-height: 260px;
+		}
+		.agent-row-content .agent-row-info {
+		    padding: 0;
+		}
+		.agent-row-content {
+		    padding: 20px;
+		}
+		.page-home-stagers h2.page_frontend_header,.page-sign-suppliers h2.page_frontend_header{
+			background: #fff;
+		    text-align: center;
+		    color: #039be5;
+		    border-bottom: none;
+		    font-size: 23px;
+		    font-weight: bold;
+		    margin-bottom: 25px;
+		    margin: 0 auto;
+		}
+		.page-home-stagers h2 {
+		    margin: 0;
+		}
+		.agent-row-content h2 strong{
+			font-size: 17px;
+		}
+		.agent-row-content h2 {
+		    color: #0a368a;
+		    padding: 0 !important;
+		    margin-bottom: 10px;
+		    font-size: 17px;
+		    text-align: left;
+		    text-transform: uppercase;
+		}
+		.agent-row-content hr{
+		    display: none;
+		}
+		.agent-row-info ul {
+		    color: #424242;
+		    list-style: none;
+		    margin: 0;
+		    padding: 0;
+		}
+		.agent-row-info ul li{
+			font-size: 16px;
+			 margin-bottom: 10px;
+		}
+		.agent-row-info,.agent-row-info ul li a{
+			font-size: 15px;
+		}
+		.agent-row-info ul .fa {
+		    color: #039be4;
+		    margin-right: 10px;
+		    font-size: 30px;
+		    vertical-align: middle;
+	        margin: 0 5px 0 0;
+		}
+		.page-home-stagers .container a,.page-sign-suppliers .container a {
+			text-decoration: none;
+		    color: #337ab7!important;
+		}
 	</style>
 
 	<div class="page_frontend page-{{$page->alias}}">
