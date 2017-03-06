@@ -2,7 +2,6 @@
 
 @section('content')
 <style type="text/css">
-    
     @media (min-width: 1899px){
         body .container {
             width: 1140px;
@@ -188,21 +187,30 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm-12">
-            <article id="page-554" class="post-554 page type-page status-publish">
-                <h2 class="page-header test-homula1">Find A Realtor</h2>
-                <p>If you are buying or selling a home, you may be inclined to save a buck or two by not appointing an agent. It is just a house, how hard could it be. From our point of view, this is a major mistake. Buying or selling a house is a big decision, you need to have a professional to facilitate everything. Toronto Real Estate agents are a dime or doze, so how to get the best bank for your buck. We can help you find agents based on the following criteria.</p>
-                <p><img class="img-responsive" src="http://realestate.homula.com/wp-content/themes/realsite/images/find-a-realtor-images.jpg" alt="">
-                </p>
-                <p><strong>Experience: </strong>Absolutely nothing can substitute for experience. An agent with precise knowledge of the locality and housing market is second to non. You can get the best price and best value for your investment. An experienced agent is also adaptable, if there are unforeseen complications, the agent is well equipped to handle it. Secondly when you are making such an important decision, you do not want to be part of the learning curb for a rookie.<strong>&nbsp;</strong>
-                </p>
-                <p><strong>Background checks:</strong>&nbsp;Homula does a background check on each one of the <a href="http://realestate.homula.com/agents/" target="_blank">agent listing</a>. We check to see how long they have been in business, find and speak to former clientele. We check their licensing, get in contact with the governing body of the province and check if they have had any complaints or concerns with the person in question. When it comes to your home you want to pick someone who has a strict code of conduct. When we are doing a background check we look at the type and locality of homes the agent has dealt with. If you are selling, the agent has to be well versed in the type of home you have. If you are buying look into agents who are familiar with your desired price range. To check the competence of an agent, ask the person if there are any houses nearby for sale. A good agent should have that information off the top of his/her head. That means you are picking someone who is on top of the market.<strong>&nbsp;</strong>
-                </p>
-                <p>When you make the decision to sell or <a href="http://realestate.homula.com/resale-homes/">purchase a home</a>, put some money aside for a real estate agent. You might not want to but it saves money and time in the long run. <strong>&nbsp;&nbsp;</strong>
-                </p>
-            </article>
-        </div>
+    <div class="col-sm-12">
+        <article id="page-596" class="post-596 page type-page status-publish">
+            <h2 class="page-header test-homula1">Find a commercial realtor</h2>
+            <p><span style="font-weight: 400;">The top </span>Toronto real estate <span style="font-weight: 400;">agents</span> <span style="font-weight: 400;">are on the Homula team! We have agents that are experts in both commercial and </span>residential real estate ,<span style="font-weight: 400;"> as well as agents who specialize in one industry. Finding a commercial realtor with the ability to get you a great deal is extremely easy with Homula. Our agents will guide you through the </span>MLS listing <span style="font-weight: 400;">software in hopes of locating your future space.</span>
+                <br>
+                <img class="img-responsive" src="http://realestate.homula.com/wp-content/themes/realsite/images/find-a-commercial-realtor-img-main.jpg" alt="">
+            </p>
+            <h3>The Benefits of Hiring a Commercial Realtor</h3>
+            <p><span style="font-weight: 400;">Buying or selling your commercial property is a huge deal. It is important that you consider hiring a realtor to aid you through the confusing process of home buying or selling. When you hire one of our experts, their fiduciary responsibility is you. They are contractually bound to protect you and look out for your best interests. Our </span><a href="http://realestate.homula.com/agents/">real estate agents </a><span style="font-weight: 400;">&nbsp;have the expertise and experience to help sellers protect their investment, and help buyers acquire theirs. </span>
+            </p>
+            <p><span style="font-weight: 400;">Another great reason to hire a realtor is due to ever-changing, complex real estate regulations and rules. The knowledge and skillet that a realtor can provide is irreplaceable. It is their job to know the laws, contracts and practices so that they can best serve you. Our realtors know important details about the properties you may be considering. An expert commercial real estate agent uses their knowledge of the current real estate market in order to figure out what the true value of your property is. They will often give you a price range that they feel is accurate and allow you to decide what the final price point is. </span>
+            </p>
+            <p><span style="font-weight: 400;">Contracts can be tricky and very long documents. Our experts are trained to easily navigate through and understand contracts. In addition, when it comes to negotiation time, your realtor or </span><a href="http://realestate.homula.com/real-estate-lawyer/">real estate lawyer </a><span style="font-weight: 400;">&nbsp;can be your liaison to help you through the process. When you work with representation, you are ensuring you are working with someone who is bound by a code of ethics. </span>
+            </p>
+            <p><span style="font-weight: 400;">You can expect to be treated with fairness and respect once you connect with one of our agents. Our agents possess intimate knowledge of neighborhoods or at the very least, can find the industry buzz about where you are looking. A realtor can identify comparable sales in the area to help you establish a price point if you are selling, or gauge prices if you are buying. For example, you may know that a home down the street from you was listed for $405,000 but an agent will know that it sold for only $365,000 because it was in need of repairs. </span>
+            </p>
+            <p><span style="font-weight: 400;">Our experts have information about the<a href="http://realestate.homula.com/latest-trends-sweeping-real-estate-market-toronto/"> market conditions</a> such as average days on the market, average home prices per square foot, and more. Having an agent is also very beneficial because of their ability to network. A realtor will know of companies in the area, and may have worked with some of them. They offer suggestions and provide you with a list of references from which you can do your own research. Agents are known for their negotiation skills and confidentiality. </span>
+            </p>
+            <p><span style="font-weight: 400;">There are mounds of paperwork when it comes to buying or selling a home and an agent’s job is to guide you through the process. Your realtor is there to answer any questions or concerns you might have during the home buying or selling process. Agents will do their best when working with you because their business is built upon reputation. If you want to receive guidance during the home buying, selling or investing processes, then you need to </span><a href="http://realestate.homula.com/contact-us/">hire a professional realtor through Homula </a>&nbsp;<span style="font-weight: 400;">today.</span>
+            </p>
+            <p>&nbsp;</p>
+        </article>
     </div>
+</div>
 </div>
 
 <div style="background: #000; height: 50px; text-align: center; color: #fff;">Block Agents</div>
