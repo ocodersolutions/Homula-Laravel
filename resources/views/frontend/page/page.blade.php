@@ -956,6 +956,40 @@
 		.page_frontend.page-receive-free-home-report .page_frontend_header{
 			margin: 0;
 		}
+		.page-mortgage-broker .mortgage-broker{
+			width: 1200px;
+		    margin: 0 auto;
+		    padding: 0 20px 10px;
+		    background: #fff;
+		    text-align: justify;
+		}
+		.mortgage-broker p{
+			clear: both;
+		}
+		.page_frontend.page-mortgage-broker .container{
+			background-color: #fff;
+			width: 1200px;
+		}
+		.page_frontend.page-mortgage-broker{
+			background: #f2f2f2;
+		}
+		.page_frontend.page-mortgage-broker .page_frontend_header {
+			background: #fff;
+			text-align: center;
+			color: #039be5;
+			border-bottom: none;
+			font-size: 23px;
+			font-weight: bold;
+			margin-bottom: 25px;
+			margin-top: 10px;
+		}
+		.mortgage-broker h3{
+			text-transform: uppercase;
+			font-size: 18px;
+		}
+		.mortgage-broker p *{
+			font-size: 16px;
+		}
 	</style>
 
 	<div class="page_frontend page-{{$page->alias}}">

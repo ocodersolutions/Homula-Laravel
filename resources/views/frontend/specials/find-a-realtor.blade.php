@@ -192,7 +192,7 @@
             <article id="page-554" class="post-554 page type-page status-publish">
                 <h2 class="page-header test-homula1">Find A Realtor</h2>
                 <p>If you are buying or selling a home, you may be inclined to save a buck or two by not appointing an agent. It is just a house, how hard could it be. From our point of view, this is a major mistake. Buying or selling a house is a big decision, you need to have a professional to facilitate everything. Toronto Real Estate agents are a dime or doze, so how to get the best bank for your buck. We can help you find agents based on the following criteria.</p>
-                <p><img class="img-responsive" src="http://realestate.homula.com/wp-content/themes/realsite/images/find-a-realtor-images.jpg" alt="">
+                <p><img class="img-responsive" src="/images/find-a-realtor-images.jpg" alt="">
                 </p>
                 <p><strong>Experience: </strong>Absolutely nothing can substitute for experience. An agent with precise knowledge of the locality and housing market is second to non. You can get the best price and best value for your investment. An experienced agent is also adaptable, if there are unforeseen complications, the agent is well equipped to handle it. Secondly when you are making such an important decision, you do not want to be part of the learning curb for a rookie.<strong>&nbsp;</strong>
                 </p>
