@@ -142,6 +142,13 @@ Route::group(['middleware' => ['role:admin']], function() {
     Route::get('admin/helpcentre/edit/{id}', 'Admin\HelpCentreController@edit');
     Route::get('admin/helpcentre/delete/{id}', 'Admin\HelpCentreController@delete');
 
+    //Company
+    Route::get("admin/photographers", "Admin\PhotographersController@index");
+    Route::get("admin/photographers/create", "Admin\PhotographersController@create");
+    Route::post("admin/photographers/save", "Admin\PhotographersController@update");
+    Route::get("admin/photographers/edit/{id}", "Admin\PhotographersController@edit");
+    Route::get("admin/photographers/delete/{id}", "Admin\PhotographersController@delete");
+
 });
 
 Route::group(['middleware' => ['role:owner|register']], function() {
@@ -194,6 +201,8 @@ Menu::make('MyNavBar', function($menu) {
     $menu->add('Faq', 'admin/faq')->attr(array('pre_icon' => 'question-circle'))->active('admin/faq/*');
 
     $menu->add('Help centre', 'admin/helpcentre')->attr(array('pre_icon' => 'user-md'))->active('admin/helpcentre/*');
+
+    $menu->add('photographers', 'admin/photographers')->attr(array('pre_icon' => 'building'))->active('admin/photographers/*');
 
 //    $menu->add('Gallery', 'admin/gallery')->attr(array('pre_icon' => 'picture-o'));
 });
