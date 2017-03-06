@@ -192,7 +192,7 @@
             <h2 class="page-header test-homula1">Find a commercial realtor</h2>
             <p><span style="font-weight: 400;">The top </span>Toronto real estate <span style="font-weight: 400;">agents</span> <span style="font-weight: 400;">are on the Homula team! We have agents that are experts in both commercial and </span>residential real estate ,<span style="font-weight: 400;"> as well as agents who specialize in one industry. Finding a commercial realtor with the ability to get you a great deal is extremely easy with Homula. Our agents will guide you through the </span>MLS listing <span style="font-weight: 400;">software in hopes of locating your future space.</span>
                 <br>
-                <img class="img-responsive" src="http://realestate.homula.com/wp-content/themes/realsite/images/find-a-commercial-realtor-img-main.jpg" alt="">
+                <img class="img-responsive" src="/images/find-a-commercial-realtor-img-main.jpg" alt="">
             </p>
             <h3>The Benefits of Hiring a Commercial Realtor</h3>
             <p><span style="font-weight: 400;">Buying or selling your commercial property is a huge deal. It is important that you consider hiring a realtor to aid you through the confusing process of home buying or selling. When you hire one of our experts, their fiduciary responsibility is you. They are contractually bound to protect you and look out for your best interests. Our </span><a href="http://realestate.homula.com/agents/">real estate agents </a><span style="font-weight: 400;">&nbsp;have the expertise and experience to help sellers protect their investment, and help buyers acquire theirs. </span>
