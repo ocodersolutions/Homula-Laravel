@@ -12,6 +12,7 @@ use App\Models\Meta;
 use App\Models\Page;
 use App\Models\Faq;
 use App\Models\HelpCentre;
+use App\Models\Photographers;
 
 class FrontendController extends Controller
 {
@@ -75,6 +76,10 @@ class FrontendController extends Controller
             return view('frontend.specials.faq', compact('faq'));
         }
         $properties = Properties::orderBy('id','desc')->take(10)->get();
+        if($alias == "photographers-properties") {
+            $photographers = Photographers::All();
+            return view("frontend.specials.".$alias, compact("photographers","properties"));
+        }
         $agents = Agents::all();
         $page = Page::where("alias","=",$alias)->get()->first();
         $help_centre = HelpCentre::where("alias","=",$alias)->get()->first();
