@@ -2403,3 +2403,21 @@ h1.agents-content-title {
         background: #fff;
         text-align: justify;
     }
+    #hot-in-market-properties .owl-stage-outer .see-more, #recommended-properties .owl-stage-outer .see-more{
+        background: #ff0000;
+    }
+    #hot-in-market-properties .hot_properties_item_top .visite_libre, #recommended-properties .hot_properties_item_top .visite_libre{
+        border-top: 60px solid #ff0000;
+        border-left: 60px solid #ff0000;
+    }
+    #hot-in-market-properties .hot_properties_item_bot p a, #recommended-properties .hot_properties_item_bot p a{
+        color: #ff0000;
+    }
+    .main_top_agents {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background: url(/images/top_agents_bg.jpg);
+        text-align: center;
+        height: 331px;
+        padding: 15px 0 0 0;
+    }
