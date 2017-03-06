@@ -109,6 +109,7 @@
 		}
 		input.getadd{
 			background: none;
+            color: #000
     		border: 0;
     		text-align: center;
 		}

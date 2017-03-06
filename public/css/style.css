@@ -650,7 +650,7 @@ p.box_items_title {
     box-shadow: -4px -1px 6px rgba(4, 4, 4, 0.4);
 }
 #owl-demo-agent.owl-theme .owl-controls {
-    margin-top: -10px;
+    /*margin-top: -10px;*/
 }
 .real_estate_all_post {
     padding-top: 20px;
