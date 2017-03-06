@@ -749,7 +749,88 @@
 		    font-weight: normal;
 		    text-transform: uppercase;
 		}
-
+		.page-home-stagers{
+		    padding: 0;
+    		background: #f2f2f2;
+		}
+		.page-home-stagers .container{
+			padding: 10px 20px;
+		    width: 1200px;
+		    margin: 0 auto;
+		    background: #fff;
+		    text-align: justify;
+		}
+		.page-home-stagers ul{
+			list-style-type: none;
+		    margin-top: 0;
+		    padding: 0;
+		}
+		.page-home-stagers ul li{
+		    margin-bottom: 10px;
+		}
+		.page-home-stagers p *,.page-home-stagers ul li *{
+			font-size: 16px;
+		}
+		.page-home-stagers .agent-row-content {
+		    box-shadow: 0 0 10px;
+		    float: left;
+		    margin: 0 15px 40px 15px;
+		    width: 356px;
+		    min-height: 260px;
+		}
+		.page-home-stagers .agent-row-content .agent-row-info {
+		    padding: 0;
+		}
+		.page-home-stagers .agent-row-content {
+		    padding: 20px;
+		}
+		.page-home-stagers h2.page_frontend_header{
+			background: #fff;
+		    text-align: center;
+		    color: #039be5;
+		    border-bottom: none;
+		    font-size: 23px;
+		    font-weight: bold;
+		    margin-bottom: 25px;
+		    margin: 0 auto;
+		}
+		.page-home-stagers h2 {
+		    margin: 0;
+		}
+		.page-home-stagers .agent-row-content h2 strong{
+			font-size: 17px;
+		}
+		.page-home-stagers .agent-row-content h2 {
+		    color: #0a368a;
+		    padding: 0 !important;
+		    margin-bottom: 10px;
+		    font-size: 17px;
+		    text-align: left;
+		    text-transform: uppercase;
+		}
+		.page-home-stagers .agent-row-content hr {
+		    display: none;
+		}
+		.page-home-stagers .agent-row-info ul {
+			color: #424242;
+		}
+		.page-home-stagers .agent-row-info ul li{
+			font-size: 16px;
+		}
+		.page-home-stagers .agent-row-info,.page-home-stagers .agent-row-info ul li a{
+			font-size: 15px;
+		}
+		.page-home-stagers .agent-row-info ul .fa {
+		    color: #039be4;
+		    margin-right: 10px;
+		    font-size: 30px;
+		    vertical-align: middle;
+	        margin: 0 5px 0 0;
+		}
+		.page-home-stagers .container a {
+			text-decoration: none;
+		    color: #337ab7!important;
+		}
 	</style>
 
 	<div class="page_frontend page-{{$page->alias}}">
