@@ -10,7 +10,7 @@
 		    background: #fff;
 		    text-align: justify;
 		}
-		.page-header {
+		h2.page-header {
 		    background: #fff;
 		    text-align: center;
 		    color: #039be5;
