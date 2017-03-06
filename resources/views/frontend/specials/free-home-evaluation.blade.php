@@ -67,7 +67,7 @@
 		    overflow: hidden;
 		}
 		.btn.get.last-step{
-			margin: 35px 0;
+			margin: 0;
 		}
 
 		form .section-holder .onbox{
@@ -84,26 +84,40 @@
 		}
 		.section.ofbox .styled-select{
 			width: 33%;
-    		float: left;
+            background-color: #fff;
+            background-image: url(/images/selar.png);
+            background-position: 163px 22px;
+            background-repeat: no-repeat;
+            border-radius: 4px;
+            display: inline-block;
+            height: 55px;
+            margin-right: 25px;
+            margin-top: 10px;
+            overflow: hidden;
+            width: 211px;
+            border: 1px solid #0a368a;
 		}
 		.section.ofbox .styled-select select{
-			width: 55%;
-			border-radius: 7px;
-			height: 55px;
-			color: #000;
-    		font-weight: bold;
-    		padding: 0px 10px;
-    		border: 1px solid #0a368a;
-    		background-image: url(/images/selar.png);
-		    background-repeat: no-repeat;
-		    background-position: 165px 20px;
-		    -webkit-appearance: none;
+            border: medium none;
+            color: #001446;
+            font-weight: bold;
+            margin: 15px 15px 50px 0;
+            padding: 3px 7px;
+            background: transparent none repeat scroll 0 0;
+            font-size: 13px;
+            width: 268px;
 		}
 		input.getadd{
 			background: none;
     		border: 0;
     		text-align: center;
 		}
+        .section-holder .submit{
+            float: left;
+            margin-top: 25px;
+            text-align: center;
+            width: 100%;
+        }
 
 		.back{
 			border-bottom: 1px solid #fff;
