@@ -2,31 +2,31 @@
 
 @section('content')
 	<script type="text/javascript" src="/js/chart.js"></script>
-<script type="text/javascript" src="/js/jquery.canvasjs.min.js"></script>
-<link rel="stylesheet" type="text/css" href="/css/mg-main.css">
-<link rel="stylesheet" type="text/css" href="/css/mg-dark-grey.css">
+	<script type="text/javascript" src="/js/jquery.canvasjs.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="/css/mg-main.css">
+	<link rel="stylesheet" type="text/css" href="/css/mg-dark-grey.css">
 
 
-<style type="text/css">
-	.mg-calculator-submit {
-		background-color: #039be5!important;
-		border-radius: 12px!important;
-	    background-repeat: no-repeat;
-	    border: none!important;
-	    text-align: center;
-	    font-size: 24px!important;
-	    width: 167px;
-	    box-shadow: none!important;
-		line-height: 25px;
-	}
-	.page-id-11375 .homebg {
-	    background-image: url(/images/ontario-mortgage-calculator-bg.png)!important;
-	    background-size: cover;
-	    background-position: center top;
-	}
-	.canvasjs-chart-credit { display:none!important; }
-</style>
-<script language="javascript">
+	<style type="text/css">
+		.mg-calculator-submit {
+			background-color: #039be5!important;
+			border-radius: 12px!important;
+		    background-repeat: no-repeat;
+		    border: none!important;
+		    text-align: center;
+		    font-size: 24px!important;
+		    width: 167px;
+		    box-shadow: none!important;
+			line-height: 25px;
+		}
+		.page-id-11375 .homebg {
+		    background-image: url(/images/ontario-mortgage-calculator-bg.png)!important;
+		    background-size: cover;
+		    background-position: center top;
+		}
+		.canvasjs-chart-credit { display:none!important; }
+	</style>
+	<script language="javascript">
 		function numberFilter (s) {
 		filteredValues = "1234567890.";	 // Characters stripped out
 		var i;
@@ -117,8 +117,11 @@
 			document.calculator.tax.value = total_tax;
 			return false;
 		}
-</script>
-<style type="text/css">
+	</script>
+	<style type="text/css">
+	.rlgn-widget h2{
+		text-transform: uppercase;
+	}
 	label {
 	    color: #757575;
 	    cursor: pointer;
@@ -357,174 +360,174 @@
 		}
 	}
 
-</style>
+	</style>
 
-<div style="background-image: url(/images/background-land-transfer.jpg); background-size: cover;">
-   <div class="container">        
-        <div class="row main-cal-cls">
-            <div class="col-md-12" style="float:none; margin:0 auto; ">
-                <div class="hutlrb" style="float:none; margin:0 auto; padding-top:0px;">
-                    <!--          <article id="page-590" class="">-->
-                    <div>
-    					<div class="mg-calculator-container js-mg-calculator">
-    						<div class="mg-calculator-header">Land Transfer Tax Calculator</div>
-    						<div id="rlgn-zone-content" class="rlgn-zone clearfix">
-								<div class="rlgn-zone-inner clearfix">
-									<div class="container-fluid">
-										<div class="row">
-											<div class="col-xs-12 rlgn-col-flush">
-												<div id="rlgn-module-id-32" class="rlgn-module rlgn-module-type-SyndicatedContent">
-													<!-- webcode #648  start -->
-													<!-- real-estate-calculators/Land Transfer Tax -->
-													<div class="rlgn-widget ">
-														<div class="container-fluid">
-															<div class="row" style="margin-bottom: 40px;">
-																<div class="col-md-7 col-xs-12">
-																	<form name="calculator">
-																		<h2 style="color:#000; margin-bottom: 32px;">Purchase Information</h2>
-																		<div class="effect6">
-																			<div class="form-group">
-																				<label id="rb_purchasePrice" class="control-label">Purchase Price</label>
-																				<div class="input-group input-group-lg">
-																					<span class="input-group-addon" style="padding: 0;height: auto;">$</span>
-																					<input style="height: 37px;" class="input form-control" type="text" value="600,000" name="price">
+	<div style="background-image: url(/images/background-land-transfer.jpg); background-size: cover;">
+	   <div class="container">        
+	        <div class="row main-cal-cls">
+	            <div class="col-md-12" style="float:none; margin:0 auto; ">
+	                <div class="hutlrb" style="float:none; margin:0 auto; padding-top:0px;">
+	                    <!--          <article id="page-590" class="">-->
+	                    <div>
+	    					<div class="mg-calculator-container js-mg-calculator">
+	    						<div class="mg-calculator-header">Land Transfer Tax Calculator</div>
+	    						<div id="rlgn-zone-content" class="rlgn-zone clearfix">
+									<div class="rlgn-zone-inner clearfix">
+										<div class="container-fluid">
+											<div class="row">
+												<div class="col-xs-12 rlgn-col-flush">
+													<div id="rlgn-module-id-32" class="rlgn-module rlgn-module-type-SyndicatedContent">
+														<!-- webcode #648  start -->
+														<!-- real-estate-calculators/Land Transfer Tax -->
+														<div class="rlgn-widget ">
+															<div class="container-fluid">
+																<div class="row" style="margin-bottom: 40px;">
+																	<div class="col-md-7 col-xs-12">
+																		<form name="calculator">
+																			<h2 style="color:#000; margin-bottom: 32px;">Purchase Information</h2>
+																			<div class="effect6">
+																				<div class="form-group">
+																					<label id="rb_purchasePrice" class="control-label">Purchase Price</label>
+																					<div class="input-group input-group-lg">
+																						<span class="input-group-addon" style="padding: 0;height: auto;">$</span>
+																						<input style="height: 37px;" class="input form-control" type="text" value="600,000" name="price">
+																					</div>
 																				</div>
 																			</div>
+																			<div class="checkbox">
+																				<label for="firsttimehomebuyer">
+																					<input style="background: #fff;" data-toggle="checkbox" type="checkbox" value="1" name="firsttimehomebuyer" id="firsttimehomebuyer">&nbsp;&nbsp;&nbsp;I am a first time home buyer
+																				</label> 
+																			</div>
+																			<div class="checkbox">
+																				<label for="torontopurchase">
+																					<input style="background: #fff;" data-toggle="checkbox" type="checkbox" vvalue="1" name="torontopurchase" id="torontopurchase">&nbsp;&nbsp;&nbsp;I am purchasing a property located in Toronto
+																				</label>
+																			</div>
+																			<p><input type="submit" class="mg-calculator-submit" value="Calculate" onClick="return calculate();"></p>
+																			<h2 style="color:#000; margin-top: 40px;">Results</h2>
+																			<div class="effect6">
+																				<div class="form-group">
+																					<label id="rb_totalLandTax" class="control-label">Total Land Transfer Tax</label>
+																						<div class="input-group input-group-lg">
+																							<span class="input-group-addon">$</span>
+																							<input class="input form-control" value=""  disabled="" name="tax">
+																						</div>
+																				</div><!--end .form-group-->
+																			</div>
+																		</form>
+																	</div><!-- end .col-md-6-->
+																	<div class="col-md-5 col-xs-12" style="padding-top: 75px;">
+	 																	<script type="text/javascript">
+																			window.onload = function () {
+																				var chart = new CanvasJS.Chart("chartContainer",
+																				{
+																					zoomEnabled: true,      
+																					title:{
+																						//text: "X Axis Labels adapt automatically on Zooming" 
+																					},
+																					axisX :{
+																						labelAngle: -30
+																					},
+																					axisY :{
+																						includeZero: false
+																					},
+																					legend: {
+																						horizontalAlign: "right",
+																						verticalAlign: "center"        
+																					},
+																					data: data,  // random generator below
+																				});
+																				chart.render();
+																			}
+
+																			var limit = 10000;    //increase number of dataPoints by increasing this
+
+																			var y = 0;
+																			var data = []; var dataSeries = { type: "line" };
+																			var dataPoints = [];
+																			for (var i = -limit/4; i <= limit/4; i++) {
+
+																				y += (Math.random() * 10 - 5);
+																				dateTime = new Date(2006, 08, 15);
+
+																				//dateTime.setMilliseconds(dateTime.getMilliseconds() + i);
+																				//dateTime.setSeconds(dateTime.getSeconds() + i);
+																				//dateTime.setMinutes(dateTime.getMinutes() + i);
+																				//dateTime.setHours(dateTime.getHours() + i);
+																				dateTime.setDate(dateTime.getDate() + i);
+																				//dateTime.setMonth(dateTime.getMonth() + i);
+																				//dateTime.setFullYear(dateTime.getFullYear() + i);
+
+																				dataPoints.push({         
+																					x: dateTime,
+																					y: y
+																				});
+																			}
+
+																			dataSeries.dataPoints = dataPoints;
+																			data.push(dataSeries);               
+
+																		</script>
+
+																		<div id="chartContainer">
+																		<div style="background: #fff;
+																		    height: 100%;
+																		    z-index: 99;
+																		    position: absolute;
+																		    width: 100%;"></div>
 																		</div>
-																		<div class="checkbox">
-																			<label for="firsttimehomebuyer">
-																				<input style="background: #fff;" data-toggle="checkbox" type="checkbox" value="1" name="firsttimehomebuyer" id="firsttimehomebuyer">&nbsp;&nbsp;&nbsp;I am a first time home buyer
-																			</label> 
+																	</div><!-- end .col-md-6-->
+																</div><!-- end .row-->
+	   															<div id="desc-right-main">
+														        	<div class="well well-lg">
+														        		<div class="box-well">
+																			<h3>Ontario Land Transfer Tax Explained</h3>
+																			<ul class="list-unstyled">
+																				<li>0.5% - on the first $55,000</li>
+																				<li>1.0% - on portion between $55,000 - $250,000</li>
+																				<li>1.5% - on balance over $250,000</li>
+																				<li>2.0% - on anything over $400,000</li>
+																				<li><i>Qualifying first time buyers receive up to a $2000 credit</i></li>
+																			</ul>
 																		</div>
-																		<div class="checkbox">
-																			<label for="torontopurchase">
-																				<input style="background: #fff;" data-toggle="checkbox" type="checkbox" vvalue="1" name="torontopurchase" id="torontopurchase">&nbsp;&nbsp;&nbsp;I am purchasing a property located in Toronto
-																			</label>
+
+																		<div class="box-well">
+																			<h3>Toronto Land Transfer Tax Explained</h3>
+																			<ul class="list-unstyled">
+																				<li>0.5% - on the first $55,000</li>
+																				<li>1.0% - on portion between $55,000 - $400,000</li>
+																				<li>2.0% - on anything over $400,000</li>
+																				<li><i>First time buyers are exempt on the first $400,000</i></li>
+																			</ul>
 																		</div>
-																		<p><input type="submit" class="mg-calculator-submit" value="Calculate" onClick="return calculate();"></p>
-																		<h2 style="color:#000; margin-top: 40px;">Results</h2>
-																		<div class="effect6">
-																			<div class="form-group">
-																				<label id="rb_totalLandTax" class="control-label">Total Land Transfer Tax</label>
-																					<div class="input-group input-group-lg">
-																						<span class="input-group-addon">$</span>
-																						<input class="input form-control" value=""  disabled="" name="tax">
-																					</div>
-																			</div><!--end .form-group-->
-																		</div>
-																	</form>
-																</div><!-- end .col-md-6-->
-																<div class="col-md-5 col-xs-12" style="padding-top: 75px;">
- 																	<script type="text/javascript">
-																		window.onload = function () {
-																			var chart = new CanvasJS.Chart("chartContainer",
-																			{
-																				zoomEnabled: true,      
-																				title:{
-																					//text: "X Axis Labels adapt automatically on Zooming" 
-																				},
-																				axisX :{
-																					labelAngle: -30
-																				},
-																				axisY :{
-																					includeZero: false
-																				},
-																				legend: {
-																					horizontalAlign: "right",
-																					verticalAlign: "center"        
-																				},
-																				data: data,  // random generator below
-																			});
-																			chart.render();
-																		}
-
-																		var limit = 10000;    //increase number of dataPoints by increasing this
-
-																		var y = 0;
-																		var data = []; var dataSeries = { type: "line" };
-																		var dataPoints = [];
-																		for (var i = -limit/4; i <= limit/4; i++) {
-
-																			y += (Math.random() * 10 - 5);
-																			dateTime = new Date(2006, 08, 15);
-
-																			//dateTime.setMilliseconds(dateTime.getMilliseconds() + i);
-																			//dateTime.setSeconds(dateTime.getSeconds() + i);
-																			//dateTime.setMinutes(dateTime.getMinutes() + i);
-																			//dateTime.setHours(dateTime.getHours() + i);
-																			dateTime.setDate(dateTime.getDate() + i);
-																			//dateTime.setMonth(dateTime.getMonth() + i);
-																			//dateTime.setFullYear(dateTime.getFullYear() + i);
-
-																			dataPoints.push({         
-																				x: dateTime,
-																				y: y
-																			});
-																		}
-
-																		dataSeries.dataPoints = dataPoints;
-																		data.push(dataSeries);               
-
-																	</script>
-
-																	<div id="chartContainer">
-																	<div style="background: #fff;
-																	    height: 100%;
-																	    z-index: 99;
-																	    position: absolute;
-																	    width: 100%;"></div>
+																		<div class="clear"></div>
 																	</div>
-																</div><!-- end .col-md-6-->
-															</div><!-- end .row-->
-   															<div id="desc-right-main">
-													        	<div class="well well-lg">
-													        		<div class="box-well">
-																		<h3>Ontario Land Transfer Tax Explained</h3>
-																		<ul class="list-unstyled">
-																			<li>0.5% - on the first $55,000</li>
-																			<li>1.0% - on portion between $55,000 - $250,000</li>
-																			<li>1.5% - on balance over $250,000</li>
-																			<li>2.0% - on anything over $400,000</li>
-																			<li><i>Qualifying first time buyers receive up to a $2000 credit</i></li>
-																		</ul>
-																	</div>
-
-																	<div class="box-well">
-																		<h3>Toronto Land Transfer Tax Explained</h3>
-																		<ul class="list-unstyled">
-																			<li>0.5% - on the first $55,000</li>
-																			<li>1.0% - on portion between $55,000 - $400,000</li>
-																			<li>2.0% - on anything over $400,000</li>
-																			<li><i>First time buyers are exempt on the first $400,000</i></li>
-																		</ul>
-																	</div>
-																	<div class="clear"></div>
-																</div>
-													        </div>
+														        </div>
+															</div>
 														</div>
-													</div>
-													<!-- webcode #648 -->
+														<!-- webcode #648 -->
 
-												</div>
-											</div>	
+													</div>
+												</div>	
+											</div>
 										</div>
 									</div>
 								</div>
-							</div>
-    					</div><!-- end calculator container -->
-    				</div>
-                    
-                    <br>
-                    <br>
-                    
-                    <!--          </article>-->
-                    <div class="clearfix"></div>    
-                </div><!--Col 11 End Hut-->
-            </div><!--Col 12 End Hut-->
-        </div><!--row End Hut-->
-        
-   </div>
-</div>
+	    					</div><!-- end calculator container -->
+	    				</div>
+	                    
+	                    <br>
+	                    <br>
+	                    
+	                    <!--          </article>-->
+	                    <div class="clearfix"></div>    
+	                </div><!--Col 11 End Hut-->
+	            </div><!--Col 12 End Hut-->
+	        </div><!--row End Hut-->
+	        
+	   </div>
+	</div>
 	
 @endsection
 
