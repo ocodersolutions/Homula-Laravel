@@ -749,11 +749,11 @@
 		    font-weight: normal;
 		    text-transform: uppercase;
 		}
-		.page-home-stagers,.page-sign-suppliers,.page-appraiser,.page-insurance-brokers,.page-moving-company,.page-home-inspector{
+		.page-home-stagers,.page-sign-suppliers,.page-appraiser,.page-insurance-brokers,.page-moving-company,.page-home-inspector,.page-printers,.page-sign-installers{
 		    padding: 0;
     		background: #f2f2f2;
 		}
-		.page-home-stagers .container,.page-sign-suppliers .container,.page-appraiser .container,.page-insurance-brokers .container,.page-moving-company .container,.page-home-inspector .container,.page-lawyers-firms .container{
+		.page-home-stagers .container,.page-sign-suppliers .container,.page-appraiser .container,.page-insurance-brokers .container,.page-moving-company .container,.page-home-inspector .container,.page-lawyers-firms .container, .page-printers .container,.page-sign-installers .container{
 			padding: 10px 20px;
 		    width: 1200px;
 		    margin: 0 auto;
@@ -775,7 +775,7 @@
 		    box-shadow: 0 0 10px;
 		    float: left;
 		    margin: 0 15px 40px 15px;
-		    width: 356px;
+		    width: 30.74%;
 		    min-height: 260px;
 		}
 		.agent-row-content .agent-row-info {
@@ -784,7 +784,7 @@
 		.agent-row-content {
 		    padding: 20px;
 		}
-		.page-home-stagers h2.page_frontend_header,.page-sign-suppliers h2.page_frontend_header,.page-appraiser h2.page_frontend_header,.page-insurance-brokers h2.page_frontend_header,.page-moving-company .page_frontend_header,.page-home-inspector h2.page_frontend_header,.page-lawyers-firms h2.page_frontend_header{
+		.page-home-stagers h2.page_frontend_header,.page-sign-suppliers h2.page_frontend_header,.page-appraiser h2.page_frontend_header,.page-insurance-brokers h2.page_frontend_header,.page-moving-company .page_frontend_header,.page-home-inspector h2.page_frontend_header,.page-lawyers-firms h2.page_frontend_header, .page-printers h2.page_frontend_header,.page-sign-installers h2.page_frontend_header{
 			background: #fff;
 		    text-align: center;
 		    color: #039be5;
@@ -1005,6 +1005,11 @@
 			content:"";
 			display: table;
 			clear: both;
+		}
+		@media (min-width: 1200px){
+			.page_frontend .comtainer{
+				width: 1200px;
+			}
 		}
 	</style>
 
