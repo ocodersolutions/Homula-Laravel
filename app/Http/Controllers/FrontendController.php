@@ -10,6 +10,8 @@ use App\Models\Agents;
 use App\Models\Properties;
 use App\Models\Meta;
 use App\Models\Page;
+use App\Models\Faq;
+use App\Models\HelpCentre;
 
 class FrontendController extends Controller
 {
@@ -68,14 +70,54 @@ class FrontendController extends Controller
     }
 
     public function page($alias) {
+        if($alias == "faq") {
+            $faq = Faq::paginate(10);
+            return view('frontend.specials.faq', compact('faq'));
+        }
         $properties = Properties::orderBy('id','desc')->take(10)->get();
         $agents = Agents::all();
         $page = Page::where("alias","=",$alias)->get()->first();
-        return view("frontend.page.page", compact('properties', 'agents', 'page'));
+        $help_centre = HelpCentre::where("alias","=",$alias)->get()->first();
+        if($page) {
+            return view("frontend.page.page", compact('properties', 'agents', 'page'));
+        }
+        elseif($help_centre) {
+            return view('frontend.specials.help-centre-detail', compact('help_centre'));
+        }
+        else {            
+            return view('frontend.specials.'.$alias, compact('properties'));
+        }
     }
 
-    public function specials($alias) {
-        $properties = Properties::orderBy('id','desc')->take(10)->get();
-        return view('frontend.specials.'.$alias, compact('properties'));
+    public function help_centre() {
+        $help_centre = Categories::where("alias","=","help-centre")->get()->first();
+        $categories = Categories::where("parent_id","=",$help_centre->id)->get(); 
+        // echo "<pre>"; var_dump($categories); echo "</pre>";
+        return view('frontend.specials.help-centre', compact('categories'));
+    }
+
+    public function help_centre_cat($alias) {
+        $cat_hc = Categories::where("alias","=",$alias)->get()->first();
+        return view('frontend.specials.help-centre-cat',compact('cat_hc'));
+    }
+
+    public static function get_art_help_centre($id) {        
+        $articles = HelpCentre::where("categories_id","=",$id)->orderBy("id","asc")->take(5)->get();
+        return $articles;
+    }
+
+    public static function full_art_help_centre($id) {
+        $articles = HelpCentre::where("categories_id","=",$id)->orderBy("id","asc")->get();
+        return $articles;
+    }
+
+    public static function count_art($id) {
+        $count = HelpCentre::where("categories_id","=",$id)->count();
+        return $count;
+    }
+
+    public static function get_cat($id) {
+        $categories = Categories::findOrfail($id);
+        return $categories;
     }
 }

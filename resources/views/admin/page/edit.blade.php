@@ -78,7 +78,7 @@
                             Content
                         </label>
                         <div class="col-sm-10">
-                            <textarea id="page_editor1" class="form-control" type="text" name='content' >{!! old('content') ? old('content') : ($page ? $page->content : '') !!}</textarea>
+                            <textarea id="page_editor1" class="form-control" type="text" name='content' >{{ old('content') ? old('content') : ($page ? $page->content : '') }}</textarea>
                         </div>
                     </div>
                     <div class="hr-line-dashed"></div>   

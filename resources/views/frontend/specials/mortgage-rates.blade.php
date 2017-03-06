@@ -1,5 +1,9 @@
 @extends('layouts.frontend')
 
+@section('styles')
+	<link rel="stylesheet" type="text/css" href="/css/thickbox.min.css">
+@endsection
+
 @section('content')
 	<style type="text/css">
 		.mortgage-rates-one {
@@ -124,6 +128,9 @@
 		    display: block;
 		    overflow: hidden;
 		    position: relative;
+		}
+		.srp_additional-info span {
+			font-weight: bold;
 		}
 		.centered .shadow_bot2 {
 		    margin-top: 40px;
@@ -271,7 +278,7 @@
 													</td>
 										  		</tr>
 										  		<tr>
-													<td colspan="3">
+													<td colspan="3" style="width: 100%; padding: 0;">
 														<div id="widget-srp_affordabilitycalc-579-result" class="srp_additional-info" style="display: none"></div></td>
 										  		</tr>
 												<tr>
@@ -358,7 +365,19 @@
 		var srp = {"srp_url":"http:\/\/realestate.homula.com\/wp-content\/plugins\/simple-real-estate-pack-4","srp_inc":"http:\/\/realestate.homula.com\/wp-content\/plugins\/simple-real-estate-pack-4\/includes","srp_wp_admin":"http:\/\/realestate.homula.com\/wp-admin","ajaxurl":"http:\/\/realestate.homula.com\/wp-admin\/admin-ajax.php","srp_gmap_key":""};
 		/* ]]> */
 	</script>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, "script", "facebook-jssdk"));</script><script type='text/javascript'>
+	/* <![CDATA[ */
+	var thickboxL10n = {"next":"Next >","prev":"< Prev","image":"Image","of":"of","close":"Close","noiframes":"This feature requires inline frames. You have iframes disabled or your browser does not support them.","loadingAnimation":"http:\/\/realestate.homula.com\/wp-includes\/js\/thickbox\/loadingAnimation.gif"};
+	/* ]]> */
+	</script>
 	<script type='text/javascript' src='/js/srp.min.js'></script>
 	<script type="text/javascript" src="/js/srp-MortgageCalc.min.js"></script>
 	<script type="text/javascript" src="/js/jquery.formatCurrency-1.0.0.min.js"></script>
+	<script type="text/javascript" src="/js/thickbox.min.js"></script>
 @endsection

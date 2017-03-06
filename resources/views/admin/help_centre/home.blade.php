@@ -15,7 +15,6 @@
 	        <thead>
 	        <tr>
 				<th >Question</th>
-				<th >Alias</th>
 				<th >Answer</th>
 				<th >Categories name</th>
 				<th >&nbsp;</th>
@@ -25,8 +24,7 @@
 	        @foreach ($help_centre as $post)
 				<tr>
 					<td > {{$post->question}} </td>
-					<td > {!!$post->alias!!} </td>
-					<td >{!!str_limit(strip_tags($post->answer),100, '...')!!}</td>
+					<td >{!!str_limit(strip_tags($post->answer),150, '...')!!}</td>
 					<td > 
 						@if ($post->categories_id != 0)
 							@php $cate = App\Http\Controllers\Admin\HelpCentreController::getCat($post->categories_id); @endphp
