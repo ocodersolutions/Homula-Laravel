@@ -835,6 +835,127 @@
 			text-decoration: none;
 		    color: #337ab7!important;
 		}
+		.page-receive-free-home-report{
+		    margin: 0;
+		    padding: 50px 0 0 0;
+		    background: #f1f1f1;
+		}
+		.after_title{
+			margin: 40px auto 30px auto;
+		    text-align: center;
+		    font-size: 18px;
+		}
+		.current_box_wr{
+			background: #fcfcfc;
+		}
+		.current_box_wr_content {
+			margin: 0px auto 0px auto;
+			padding: 50px 0 20px 0;
+		}
+		.current_box_wr_content p{
+			color: #000;
+		}
+		.current_box_wr_content p:first-child {
+		    margin-bottom: 30px;
+		}
+		.current_box {
+		    border: 1px solid #c0c0c0;
+		    min-height: 360px;
+		    margin-bottom: 30px;
+		}
+		.current_box p {
+			padding: 20px;
+			margin: 0;
+			font-size: 15px;
+		}
+		.current_box p *{
+			font-size: 15px;
+		}
+		.current_box h3 {
+			text-transform: uppercase;
+			margin: 0;
+			padding: 20px;
+			background: #223c6e;
+			color: #fff;
+			font-weight: bold;
+			font-size: 18px;
+		}
+		/* form contact*/
+		.page-receive-free-home-report form {
+			margin: 0;
+			padding-bottom: 50px;
+			background: none;
+		    padding-left:20px;
+		    padding-top: 0;
+		    padding-right: 50px;
+		}
+		.page-receive-free-home-report form p.cformfield {
+		    border: 1px solid #d9d9d9;
+		    margin-bottom: 40px !important;
+		    background: #f8f8f8;
+		    padding: 10px 20px;
+		    font-size: 16px;
+		    text-transform: uppercase;
+		    width: 100%;
+		    color: #000;
+    		line-height: 24px;
+		}
+		.wpcf7-form-control-wrap {
+		    position: relative;
+		}
+		.page-receive-free-home-report .cformfield input {
+		    color: #000;
+		    margin: 0 0 0 8%;
+		    padding: 10px;
+		    border: 1px solid #6984b6;
+		    border-radius: 10px;
+		    background: #fcfcfc;
+		    width: 65%;
+		    height: 50px;
+		}
+		.page-receive-free-home-report .cformfield input[type=text]:focus,.page-receive-free-home-report .cformfield input[type=email]:focus{
+			box-shadow: 0 2px 0 0 #039be5;
+    		outline: 0;
+		}
+		.cformfield input {
+	    	padding: 5px;
+		    background: #0496df;
+		    border-radius: 5px;
+		    height: 60px;
+		    line-height: 60px;
+		    margin-bottom: 15px;
+		    text-align: left;
+		    font-size: 19px;
+		    color: white;
+		}
+		span.wpcf7-not-valid-tip {
+		    color: #f00;
+		    font-size: 1em;
+		    display: block;
+		}
+		.cformbtn {
+		    margin: 0;
+		    width: 100%;
+		    text-align: right;
+		    display: table;
+    		float: none;
+		}
+		.cformbtn input[type=submit] {
+		    background: #039be5;
+		    font-size: 21px;
+		    font-weight: bold;
+		    box-shadow: 0 4px 1px #027fbb;
+		    border-radius: 10px;
+	        padding: 15px 50px;
+            color: #fff;
+            border: 0;
+            overflow: hidden;
+			position: relative;
+			text-transform: uppercase;
+		}
+		.page_frontend.page-receive-free-home-report .page_frontend_header{
+			margin: 0;
+		}
 	</style>
 
 	<div class="page_frontend page-{{$page->alias}}">
