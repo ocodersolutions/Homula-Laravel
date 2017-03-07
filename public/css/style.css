@@ -2421,3 +2421,113 @@ h1.agents-content-title {
         height: 331px;
         padding: 15px 0 0 0;
     }
+    /** modal login style**/
+    .modal-size-cs .modal-content{
+        border-radius: 0;
+    }
+    .modal-size-cs .modal-header{
+        padding: 0;
+        border-bottom: 0;
+    }
+    .modal-size-cs .modal-body{
+        background: #183674;
+        padding: 15px 30px;
+    }
+    .modal-size-cs ul{
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+    .modal-size-cs ul:after{
+        display: table;
+        content:"";
+        clear: both;
+    }
+    .modal-size-cs ul li{
+        float: left;
+        width: 25%;
+        text-align: center;
+        background: #3066d5;
+    }
+    .modal-size-cs ul li a{
+        padding-top: 5px;
+        display: block;
+        font-size: 30px;
+        color: #fff;
+        -webkit-transition-delay: 0.1s; /* Safari */
+        transition-delay: 0.1s;
+    }
+    .modal-size-cs ul li a:hover{
+        background: #f7941d;
+    }
+    .modal-size-cs ul li a.active{
+        background: #f7941d;
+        pointer-events: none;
+    }
+    .form-style{
+        padding: 10px 20px 20px 20px;
+    }
+    .form-style .form-group{
+        position: relative;
+        margin-bottom: 25px;
+    }
+    .form-style label.control-label{
+        width: 46px;
+        position: absolute;
+        padding: 12px;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1;
+        color: #fff;
+        text-align: center;
+        background-color: #3066d5;
+        border-radius: 0;
+        top: 0;
+        left: 0;
+        z-index: 9;
+    }
+    .form-style input.style_input{
+        float: left;
+        width: 100%;
+        height: 46px;
+        border-radius: 0;
+        border: 0;
+        background: #fff;
+        padding-left: 50px;
+    }
+    p.modal-name{
+        color: #fff;
+        font-size: 22px;
+        padding: 0 5px;
+    }
+    .modal-body-logo{
+        width: 80%;
+        padding: 15px;
+        margin: 0 auto;
+    }
+    .form-style .btn-primary{
+        width: 100%;
+        text-transform: uppercase;
+        font-size: 22px;
+        text-align: center;
+        color: #fff;
+        background: #f7941d;
+        border-radius: 0;
+        border: 0;
+    }
+    .form-style .btn-primary:hover{
+        background: #3066d5;
+    }
+    .login_w_social{
+        margin-top: 10px;
+        text-align: right;
+    }
+    .login_w_social a{
+        font-size: 36px;
+        color:#fff;
+        margin: 0 10px;
+    }
+    #modal_signin .modal-size-cs,#modal_signup .modal-size-cs{
+        max-width: 350px;
+    }
