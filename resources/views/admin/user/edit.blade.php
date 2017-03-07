@@ -147,7 +147,7 @@
                         <div class="col-sm-10">
                             @foreach($roles as $role)
                             
-                            <label><input type="checkbox" name="roles[]"  {{$user ? ($user->hasRole($role->name) ?  'checked' : '') : '' }} value="{{$role->id}}">{{$role->display_name}}</label><br>
+                            <label><input type="checkbox" name="roles[{{$role->id}}]"  {{$user ? ($user->hasRole($role->name) ?  'checked' : '') : '' }} value="{{$role->id}}" @if(array_key_exists($role->id, old('roles', []))) checked @endif  >{{$role->display_name}}</label><br>
                              @endforeach
 
                         </div>
