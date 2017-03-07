@@ -310,12 +310,12 @@
 								<div class="footer_top_box">
 									<h4>HOT PROPERTIES</h4>
 									<ul>
-										<li><a href="">Toronto</a></li>
-										<li><a href="">Brampton</a></li>
-										<li><a href="">Burlington</a></li>
-										<li><a href="">Guelph</a></li>
-										<li><a href="">Hamilton</a></li>
-										<li><a href="">Richmond Hill</a></li>
+										<li><a href="/toronto-hot-properties">Toronto</a></li>
+										<li><a href="/brampton-hot-properties">Brampton</a></li>
+										<li><a href="/burlington-hot-properties">Burlington</a></li>
+										<li><a href="/guelph-hot-properties">Guelph</a></li>
+										<li><a href="/hamilton-hot-properties">Hamilton</a></li>
+										<li><a href="/richmond-hill-hot-properties">Richmond Hill</a></li>
 										<!-- <li>
 											<ul>
 												<li><a href="">Barrie</a></li>

@@ -335,7 +335,7 @@
 				<div class="customizer-content  closed">
 					<h2>Connect with one of our professionals in your area</h2>
 					<form action="sender" method="post">
-					{{ csrf_field() }}
+						{{ csrf_field() }}
 						<p>
 							<label for="">YOUR NAME (REQUIRED)</label>
 							<input name="name" type="text">
