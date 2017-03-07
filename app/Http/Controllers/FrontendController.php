@@ -107,7 +107,7 @@ class FrontendController extends Controller
             return view('frontend.specials.help-centre-detail', compact('help_centre','menus','menus_bot'));
         }
         else {            
-            return view('frontend.specials.'.$alias, compact('properties','menus','menus_bot'));
+            return view('frontend.specials.'.$alias, compact('properties','agents','menus','menus_bot'));
         }
     }
 
