@@ -70,7 +70,7 @@
 				<!-- modal sign in -->
 				
 				<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="modal_signin">
-					<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-dialog modal-sm" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
 								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
@@ -221,6 +221,14 @@
 						</div>
 					</div>
 				</div>
+				@php
+					if(!isset($menus) || !isset($menus_bot)) {
+						$menus = App\Models\Menus::where(['parent_id' => 0, 'published' => 1, 'type' =>'top'])->get();
+						$menus_bot = App\Models\Menus::where(['published' => 1, 'type' =>'bottom'])->get();
+					}
+				@endphp
+
+
 				<!-- End modal sign up -->
 				<div class="header_menu">
 					<div class="container">
@@ -230,12 +238,9 @@
 									<i class="fa fa-bars" aria-hidden="true"></i>
 								</div>
 								<ul class="header_main_menu">
-									@php 
-										$menus = App\Models\Menus::where(['parent_id' => 0, 'published' => 1])->get();
-									@endphp
 									@foreach ($menus as $menu)
 										@php
-											$sub_menu = App\Models\Menus::where(['parent_id' => $menu['id'], 'published' => 1])->get();
+											$sub_menu = App\Models\Menus::where(['parent_id' => $menu['id'], 'published' => 1, 'type' =>'top'])->get();
 										@endphp
 										@if(count($sub_menu) == 0)
 											<li class="no_after"><a href="{{$menu['link']}}" target="{{$menu['target']}}">{{$menu['name']}}</a></li>
@@ -267,78 +272,31 @@
 				<div class="footer_top">
 					<div class="container">
 						<div class="row">
-							<div class="col-sm-6 col-md-3">
-								<div class="footer_top_box">
-									<h4>HOT PROPERTIES</h4>
-									<ul>
-										<li><a href="/toronto-hot-properties">Toronto</a></li>
-										<li><a href="/brampton-hot-properties">Brampton</a></li>
-										<li><a href="/burlington-hot-properties">Burlington</a></li>
-										<li><a href="/guelph-hot-properties">Guelph</a></li>
-										<li><a href="/hamilton-hot-properties">Hamilton</a></li>
-										<li><a href="/richmond-hill-hot-properties">Richmond Hill</a></li>
-										<!-- <li>
+							@foreach ($menus_bot as $m_bottom)
+								@if($m_bottom->parent_id == 0)
+									<div class="col-sm-6 col-md-3">
+										<div class="footer_top_box">
+											<h4>{{$m_bottom->name}}</h4>											
 											<ul>
-												<li><a href="">Barrie</a></li>
-												<li><a href="">Blenheim</a></li>
-												<li><a href="">Blenheim</a></li>
-												<li><a href="">Cloyne</a></li>
+												@foreach($menus_bot as $value)
+													@if($value->parent_id == $m_bottom->id)
+														<li><a href="">{{$value->name}}</a></li>
+														<!-- <li>
+															<ul>
+																<li><a href="">Barrie</a></li>
+																<li><a href="">Blenheim</a></li>
+																<li><a href="">Blenheim</a></li>
+																<li><a href="">Cloyne</a></li>
+															</ul>
+															<span class="hp_show_link">More...</span>
+														</li> -->
+													@endif												
+												@endforeach
 											</ul>
-											<span class="hp_show_link">More...</span>
-										</li> -->
-									</ul>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-3">
-								<div class="footer_top_box">
-									<h4>HOT RENTALS</h4>
-									<ul>
-										<li><a href="">Toronto</a></li>
-										<li><a href="">Richmond Hill</a></li>
-										<li><a href="">Mississauga</a></li>
-										<li><a href="">Markham</a></li>
-										<li><a href="">Barrie</a></li>
-										<li><a href="">Brockville</a></li>
-										<!-- <li>
-											<ul>
-												<li><a href="">Barrie</a></li>
-												<li><a href="">Blenheim</a></li>
-												<li><a href="">Blenheim</a></li>
-												<li><a href="">Cloyne</a></li>
-											</ul>
-											<span class="hp_show_link">More...</span>
-										</li> -->
-									</ul>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-3">
-								<div class="footer_top_box">
-									<h4>MORTGAGE RATES</h4>
-									<ul>
-										<li><a href="">Mortgage Insurance Calculator</a></li>
-										<li><a href="">Land Transfer Tax Calculator</a></li>
-										<li><a href="">Mortgage Broker</a></li>
-										<li><a href="">Mortgage Rates</a></li>
-										<li><a href="">New Mortgage Calculators</a></li>
-									</ul>
-								</div>
-							</div>
-							<div class="col-sm-6 col-md-3">
-								<div class="footer_top_box">
-									<h4>BROWSE HOMES</h4>
-									<ul>
-										<li><a href="">Resale Homes</a></li>
-										<!-- <li><a href="">New Construction Home</a></li> -->
-										<li><a href="">Free Home Evaluation</a></li>
-										<li><a href="">Canada Search</a></li>
-										<!-- <li><a href="">All Ontario Properties</a></li>
-										<li><a href="">IDX Map Search</a></li>
-										<li><a href="">IDX Commercial Search</a></li>
-										<li><a href="">IDX Lease Search</a></li> -->
-										<li><a href="">Sitemap Index</a></li>
-									</ul>
-								</div>
-							</div>
+										</div>
+									</div>
+								@endif
+							@endforeach
 							<div class="col-sm-12 footer_divider">
 								<img src="{{ url::asset('images/fdivider.png') }}" alt="">
 							</div>

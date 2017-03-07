@@ -218,7 +218,7 @@
 				<div class="col-sm-12">
 					<h1 class="page-header">List Your Property</h1>
 					<div class="box submission-form">
-						<form method="post" action="" enctype="multipart/form-data" name="list_your_property" class="ng-pristine ng-valid">
+						<form method="post" action="/list-your-property/#wpcf7-f1815-p1254-o1" class="ng-pristine ng-valid">
 							<div id="section-property">
 								<div class="section-property-box">
 								    <div class="box-pro" id="even">
@@ -227,7 +227,7 @@
 								        </div>
 								        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								            <div class="list-box-area">
-								                <input type="text" name="firstname" class="short-input-full">
+								                <input type="text" name="firstname" class="short-input-full" required>
 								            </div>
 								        </div>
 								    </div>
@@ -237,7 +237,7 @@
 								        </div>
 								        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								            <div class="list-box-area">
-								                <input type="text" name="email" class="short-input-full">
+								                <input type="text" name="email" class="short-input-full" required>
 								            </div>
 								        </div>
 								    </div>
@@ -247,7 +247,7 @@
 								        </div>
 								        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								            <div class="list-box-area">
-								                <input type="text" name="phone" class="short-input-full">
+								                <input type="text" name="phone" class="short-input-full" required>
 								            </div>
 								        </div>
 								    </div>
@@ -257,7 +257,7 @@
 								        </div>
 								        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								            <div class="list-box-area">
-								                <input type="text" name="address" class="short-input-full">
+								                <input type="text" name="address" class="short-input-full" required>
 								            </div>
 								        </div>
 								    </div>
@@ -267,7 +267,7 @@
 								        </div>
 								        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								            <div class="list-box-area">
-								                <input type="text" name="city" class="short-input-full">
+								                <input type="text" name="city" class="short-input-full" required>
 								            </div>
 								        </div>
 								    </div>
@@ -277,7 +277,7 @@
 								        </div>
 								        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								            <div class="list-box-area">
-								                <input type="text" name="province" class="short-input-full">
+								                <input type="text" name="province" class="short-input-full" required>
 								            </div>
 								        </div>
 								    </div>
@@ -287,7 +287,7 @@
 								        </div>
 								        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								            <div class="list-box-area">
-								                <input type="text" name="postal_code" class="short-input-full">
+								                <input type="text" name="postal_code" class="short-input-full" required>
 								            </div>
 								        </div>
 								    </div>
@@ -297,7 +297,7 @@
 								        </div>
 								        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
 								            <div class="list-box-area">
-								                <textarea name="description" rows="3" style="overflow: hidden; word-wrap: break-word; height: 98px;"></textarea>
+								                <textarea name="description" rows="3" style="overflow: hidden; word-wrap: break-word; height: 98px;" required></textarea>
 								            </div>
 								        </div>
 								    </div>
