@@ -126,7 +126,7 @@
 						        <div class="col-lg-8 col-md-8 col-sm-8 col-xs-12">
 						            <div role="form" class="wpcf7" id="wpcf7-f12075-o1" lang="en-US" dir="ltr">
 						                <div class="screen-reader-response"></div>
-						                <form action="" method="post" class="wpcf7-form ng-pristine ng-valid" novalidate="novalidate">
+						                <form action="" method="post" class="wpcf7-form ng-pristine ng-valid">
 						                    <div style="display: none;">
 						                        <input type="hidden" name="_wpcf7" value="12075">
 						                        <input type="hidden" name="_wpcf7_version" value="4.5.1">
@@ -134,8 +134,8 @@
 						                        <input type="hidden" name="_wpcf7_unit_tag" value="wpcf7-f12075-o1">
 						                        <input type="hidden" name="_wpnonce" value="900b119f8a">
 						                    </div>
-						                    <p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Full Name"></span> </p>
-						                    <p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" placeholder="Email Adress"></span> </p>
+						                    <p><span class="wpcf7-form-control-wrap your-name"><input type="text" name="your-name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Full Name" required></span> </p>
+						                    <p><span class="wpcf7-form-control-wrap your-email"><input type="email" name="your-email" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-email wpcf7-validates-as-email" aria-invalid="false" placeholder="Email Adress" required></span> </p>
 						                    <p><span class="wpcf7-form-control-wrap tel-682"><input type="tel" name="tel-682" value="" size="40" class="wpcf7-form-control wpcf7-text wpcf7-tel wpcf7-validates-as-tel" aria-invalid="false" placeholder="Phone No"></span></p>
 						                    <p><span class="wpcf7-form-control-wrap your-message"><textarea name="your-message" cols="40" rows="10" class="wpcf7-form-control wpcf7-textarea" aria-invalid="false" placeholder="Message" style="overflow: hidden; word-wrap: break-word; height: 120px;"></textarea></span> </p>
 						                    <p>

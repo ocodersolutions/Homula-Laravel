@@ -41,7 +41,10 @@
 					<td >
 						@php
 							$title_parent = App\Http\Controllers\Admin\PageController::getPage($post->page_parent);
-							echo $title_parent->title;
+							if ($title_parent) echo $title_parent->title;
+							else {
+								echo "none";
+							}							
 						@endphp
 					</td>
 					<td > @if($post->template == 0) no template @endif </td>

@@ -10,27 +10,27 @@ use Illuminate\Support\Facades\Session;
 class PageController extends Controller
 {
     public function __construct() {
-    	$this->middleware('auth');
+        $this->middleware('auth');
     }
 
     public function index() {
-    	$page = Page::where('page_parent','!=','0')->paginate(10);
-    	return view('admin.page.home', compact('page'));
+        $page = Page::paginate(10);
+        return view('admin.page.home', compact('page'));
     }
 
     public function create() {
-    	$page_parent = Page::All();
-    	return view('admin.page.edit', compact('page_parent'));
+        $page_parent = Page::All();
+        return view('admin.page.edit', compact('page_parent'));
     }
 
     public function edit($id) {
-    	$page = Page::findOrFail($id);
-    	$page_parent = Page::All();
-    	return view('admin.page.edit', compact('page', 'page_parent'));
+        $page = Page::findOrFail($id);
+        $page_parent = Page::All();
+        return view('admin.page.edit', compact('page', 'page_parent'));
     }
 
     public function update(Request $request) {
-    	$id = $request->get("id");
+        $id = $request->get("id");
         $result = false;
         $ex_alias = 0;
         if ($id == 0) {
@@ -41,7 +41,7 @@ class PageController extends Controller
                 $page->alias = $post_data['alias'];
             }
             else {
-                $str = str_replace(' ', '-', $post_data['address']);
+                $str = str_replace(' ', '-', $post_data['title']);
                 $str = preg_replace('/[^A-Za-z0-9\-]/', '', $str);
                 $str = strtolower(preg_replace('/-+/', '-', $str));
                 $ex_alias = Page::where("alias",'=',$str)->get()->first() ? "1" : "0";
@@ -76,13 +76,16 @@ class PageController extends Controller
     }
 
     public function delete($id) {
-    	$page = Page::find($id);
+        $page = Page::find($id);
         $page->delete();
         return redirect('admin/page');
     }
 
     public static function getPage($id) {
-    	$page_parent = Page::findOrFail($id);
-    	return $page_parent;
+        if($id == 0) {
+            return false;
+        }
+        $page_parent = Page::findOrFail($id);
+        return $page_parent;
     }
 }

@@ -24,7 +24,8 @@ class HomeController extends Controller
 
     public function index()
     {
-        $menus = Menus::where(['parent_id' => 0, 'published' => 1])->get();
+        $menus = Menus::where(['parent_id' => 0, 'published' => 1, 'type' =>'top'])->get();
+        $menus_bot = Menus::where(['published' => 1, 'type' =>'bottom'])->get();
         $properties = Properties::orderBy('id','desc')->take(10)->get();
         $agents = Agents::all();
         $news = Categories::where('alias','=','news')->get()->first();
@@ -36,7 +37,7 @@ class HomeController extends Controller
         }
         $articles_news = Articles::whereIn('categories_id',$cat_arr)->orderBy('id','desc')->get();
         $meta = Meta::where("alias",'=','homepage')->get()->first();
-        return view('home', compact('menus', 'properties', 'agents', 'articles_news', 'meta'));
+        return view('home', compact('menus', 'properties', 'agents', 'articles_news', 'meta', 'menus_bot'));
     }
 
     public function compare()

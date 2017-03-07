@@ -10,25 +10,25 @@ use Illuminate\Support\Facades\Session;
 class PhotographersController extends Controller
 {
     public function __construct() {
-    	$this->middleware('auth');
+        $this->middleware('auth');
     }
 
     public function index() {
-    	$photographers = Photographers::paginate(10);
-    	return view("admin.photographers.home", compact("photographers"));
+        $photographers = Photographers::paginate(10);
+        return view("admin.photographers.home", compact("photographers"));
     }
 
     public function create() {
-    	return view('admin.photographers.edit');
+        return view('admin.photographers.edit');
     }
 
     public function edit($id) {
-    	$photographers = Photographers::findOrFail($id);
-    	return view('admin.photographers.edit', compact('photographers'));
+        $photographers = Photographers::findOrFail($id);
+        return view('admin.photographers.edit', compact('photographers'));
     }
 
     public function update(Request $request) {
-    	$id = $request->get("id");
+        $id = $request->get("id");
         $result = false;
         $ex_alias = 0;
         if ($id == 0) {
@@ -73,7 +73,7 @@ class PhotographersController extends Controller
     }
 
     public function delete($id) {
-    	$photographers = Photographers::find($id);
+        $photographers = Photographers::find($id);
         $photographers->delete();
         return redirect('admin/photographers');
     }
