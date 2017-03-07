@@ -1,5 +1,6 @@
 <?php
-
+use App\Mail\sender;
+use Illuminate\Http\Request;
 /*
   |--------------------------------------------------------------------------
   | Web Routes
@@ -38,6 +39,11 @@ Route::get('agents/{alias}', 'FrontendController@agents_detail');
 // properties
 Route::get('properties/{alias}', 'FrontendController@properties');
 
+//send email template
+Route::post('/sender', function () {
+    Mail::to('topinfo93@gmail.com')->send(new sender);
+    return  redirect('/');
+});
 
 /**
  * admin

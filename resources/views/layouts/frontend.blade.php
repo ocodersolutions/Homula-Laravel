@@ -271,12 +271,12 @@
 								<div class="footer_top_box">
 									<h4>HOT PROPERTIES</h4>
 									<ul>
-										<li><a href="">Toronto</a></li>
-										<li><a href="">Brampton</a></li>
-										<li><a href="">Burlington</a></li>
-										<li><a href="">Guelph</a></li>
-										<li><a href="">Hamilton</a></li>
-										<li><a href="">Richmond Hill</a></li>
+										<li><a href="/toronto-hot-properties">Toronto</a></li>
+										<li><a href="/brampton-hot-properties">Brampton</a></li>
+										<li><a href="/burlington-hot-properties">Burlington</a></li>
+										<li><a href="/guelph-hot-properties">Guelph</a></li>
+										<li><a href="/hamilton-hot-properties">Hamilton</a></li>
+										<li><a href="/richmond-hill-hot-properties">Richmond Hill</a></li>
 										<!-- <li>
 											<ul>
 												<li><a href="">Barrie</a></li>
@@ -376,18 +376,19 @@
 				<div class="move_page_top"><i class="fa fa-angle-up"></i></div>
 				<div class="customizer-content  closed">
 					<h2>Connect with one of our professionals in your area</h2>
-					<form action="">
+					<form action="sender" method="post">
+					{{ csrf_field() }}
 						<p>
 							<label for="">YOUR NAME (REQUIRED)</label>
-							<input type="text">
+							<input name="name" type="text">
 						</p>
 						<p>
 							<label for="">YOUR EMAIL (REQUIRED)</label>
-							<input type="text">
+							<input name="email" type="text">
 						</p>
 						<p>
 							<label for="">YOUR PHONE (REQUIRED)</label>
-							<input type="text">
+							<input name="phone" type="text">
 						</p>
 						<p>
 							<button>CONTACT US</button>

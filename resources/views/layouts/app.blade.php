@@ -415,18 +415,19 @@
 				<div class="move_page_top"><i class="fa fa-angle-up"></i></div>
 				<div class="customizer-content  closed">
 					<h2>Connect with one of our professionals in your area</h2>
-					<form action="">
+					<form action="sender" method="post">
+						{{ csrf_field() }}
 						<p>
 							<label for="">YOUR NAME (REQUIRED)</label>
-							<input type="text">
+							<input name="name" type="text">
 						</p>
 						<p>
 							<label for="">YOUR EMAIL (REQUIRED)</label>
-							<input type="text">
+							<input name="email" type="text">
 						</p>
 						<p>
 							<label for="">YOUR PHONE (REQUIRED)</label>
-							<input type="text">
+							<input name="phone" type="text">
 						</p>
 						<p>
 							<button>CONTACT US</button>
