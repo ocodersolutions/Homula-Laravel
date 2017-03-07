@@ -111,160 +111,6 @@ $(document).ready(function() {
             // resetCallback: function() { newTyped(); }
     });
 
-    var owlhome = $("#owl-demo-home");
-
-    owlhome.owlCarousel({
-
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            400: {
-                items: 2,
-            },
-            600: {
-                items: 3,
-            },
-            700: {
-                items: 3,
-            },
-            1000: {
-                items: 4,
-                slideBy: 1,
-            },
-            1200: {
-                items: 6,
-                slideBy: 1,
-            },
-            1400: {
-                items: 6,
-                slideBy: 1,
-            },
-            1600: {
-                items: 6,
-                slideBy: 1,
-            }
-        },
-        mergeFit: true,
-        nav: false,
-        loop: true,
-        transitionStyle: "fade",
-        rewindSpeed: 100,
-        dots: true,
-        margin: 25,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true
-    });
-
-    $('#owl-demo-home .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
-
-    var owlagent = $("#owl-demo-agent");
-    owlagent.owlCarousel({
-
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            400: {
-                items: 1,
-            },
-            600: {
-                items: 2,
-            },
-            700: {
-                items: 2,
-            },
-            1000: {
-                items: 3,
-                slideBy: 1,
-            },
-            1200: {
-                items: 4,
-                slideBy: 1,
-            },
-            1600: {
-                items: 5,
-                slideBy: 1,
-            }
-        },
-        navigation: false,
-        loop: true,
-        items: 1,
-        rewindSpeed: 100,
-        dots: true,
-        margin: 15,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true
-    });
-
-    $('#owl-demo-agent .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
-
-    /*carousel news */
-    var owlnews = $("#owl-demo-news");
-    owlnews.owlCarousel({
-        responsiveClass: true,
-        responsive: {
-            0: {
-                items: 1,
-            },
-            400: {
-                items: 2,
-            },
-            600: {
-                items: 2,
-            },
-            700: {
-                items: 3,
-            },
-            1000: {
-                items: 4,
-                slideBy: 1,
-            },
-            1600: {
-                items: 5,
-                slideBy: 1,
-            }
-        },
-        navigation: false,
-        loop: true,
-        rewindSpeed: 100,
-        dots: true,
-        margin: 15,
-        autoplay: true,
-        autoplayTimeout: 2000,
-        autoplayHoverPause: true
-    });
-    $('#owl-demo-news .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
-
-    $(document).on("click", "#owl-demo-home .see-more", function() {
-        //   owlhome.trigger('next.owl.carousel');
-        var $dots = $('#owl-demo-home .owl-dot');
-        var $next = $dots.filter('.active').next();
-        if (!$next.length)
-            $next = $dots.first();
-        $next.trigger('click');
-    });
-    $(document).on("click", "#owl-demo-agent .see-more", function() {
-        // owlagent.trigger('next.owl.carousel');
-        var $dots = $('#owl-demo-agent .owl-dot');
-        var $next = $dots.filter('.active').next();
-        if (!$next.length)
-            $next = $dots.first();
-        $next.trigger('click');
-    });
-    $(document).on("click", "#owl-demo-news .see-more", function() {
-        //owlnews.trigger('next.owl.carousel');
-        var $dots = $('#owl-demo-news .owl-dot');
-        var $next = $dots.filter('.active').next();
-        if (!$next.length)
-            $next = $dots.first();
-        $next.trigger('click');
-    });
-
     $('.hp_show_link').click(function() {
         if ($(this).hasClass('show_link')) {
             $(this).parent().find('ul').css("display", "none");
@@ -446,20 +292,7 @@ $(document).ready(function() {
 
         jQuery(document).ready(function(e) {
 
-            jQuery(".owl-carousel").owlCarousel({
-                items : 6,
-                navigation : false,
-                slideBy: 1,
-                loop:true,
-                transitionStyle : "fade",
-                rewindSpeed: 100,
-                autoplay:true,
-                autoplayTimeout:2000,
-                autoplayHoverPause:true
-            });
-
-
-             jQuery("#featured-properties").owlCarousel({
+            jQuery("#featured-properties").owlCarousel({
                 items : 6,
                 navigation : false,
                 slideBy: 1,
@@ -503,9 +336,8 @@ $(document).ready(function() {
                 autoplayTimeout:2000,
                 autoplayHoverPause:true
             });
-            
             jQuery("#owl-demo-agent").owlCarousel({
-                items : 5,
+                items : 4,
                 navigation : false,
                 slideBy: 1,
                 loop:true,
@@ -515,9 +347,8 @@ $(document).ready(function() {
                  autoplayTimeout:2000,
                  autoplayHoverPause:true
             });
-            
             jQuery("#owl-demo-news").owlCarousel({
-                items : 5,
+                items : 4,
                 navigation : false,
                 slideBy: 1,
                 loop:true,
@@ -528,11 +359,6 @@ $(document).ready(function() {
                 autoplayTimeout:2000,
                 autoplayHoverPause:true
             });
-            
-            /*jQuery('#featured-properties .owl-wrapper-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
-            jQuery('#hot-in-market-properties .owl-wrapper-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
-            jQuery('#last-month-properties .owl-wrapper-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
-            jQuery('#recommended-properties .owl-wrapper-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');*/
             jQuery('#featured-properties .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
             jQuery('#hot-in-market-properties .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
             jQuery('#last-month-properties .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
@@ -541,11 +367,9 @@ $(document).ready(function() {
             jQuery('#owl-demo-news .owl-stage-outer').append('<div class="see-more"><p>SEE MORE<i class="fa fa-long-arrow-right" aria-hidden="true"></i></p></div>');
             
             
-            //var owl = $("#featured-properties");
              jQuery(document).on("click","#featured-properties .see-more", function(){
 
-                //jQuery("#featured-properties").trigger('owl.next');
-                //jQuery("#featured-properties .owl-next").trigger('click');
+               
                  var $dots = jQuery('#featured-properties .owl-dot');
                  var $next = $dots.filter('.active').next();
                     if (!$next.length)
@@ -554,8 +378,7 @@ $(document).ready(function() {
                     
              });
              jQuery(document).on("click","#hot-in-market-properties .see-more", function(){
-                //jQuery("#hot-in-market-properties").trigger('owl.next');
-                //jQuery("#hot-in-market-properties .owl-next").trigger('click');
+            
                  var $dots = jQuery('#hot-in-market-properties .owl-dot');
                  var $next = $dots.filter('.active').next();
                     if (!$next.length)
@@ -563,8 +386,7 @@ $(document).ready(function() {
                     $next.trigger('click');
              });
              jQuery(document).on("click","#last-month-properties .see-more", function(){
-                //jQuery("#last-month-properties").trigger('owl.next');
-                //jQuery("#last-month-properties .owl-next").trigger('click');
+         
                  var $dots = jQuery('#last-month-properties .owl-dot');
                  var $next = $dots.filter('.active').next();
                     if (!$next.length)
@@ -572,8 +394,7 @@ $(document).ready(function() {
                     $next.trigger('click');
              });
              jQuery(document).on("click","#recommended-properties .see-more", function(){
-                //jQuery("#recommended-properties").trigger('owl.next');
-                //jQuery("#recommended-properties .owl-next").trigger('click');
+              
                  var $dots = jQuery('#recommended-properties .owl-dot');
                  var $next = $dots.filter('.active').next();
                     if (!$next.length)
@@ -581,8 +402,7 @@ $(document).ready(function() {
                     $next.trigger('click');
              });
              jQuery(document).on("click","#owl-demo-agent .see-more", function(){
-                //jQuery("#owl-demo-agent").trigger('owl.next');
-                //jQuery("#owl-demo-agent .owl-next").trigger('click');
+               
                  var $dots = jQuery('#owl-demo-agent .owl-dot');
                  var $next = $dots.filter('.active').next();
                     if (!$next.length)
@@ -590,8 +410,7 @@ $(document).ready(function() {
                     $next.trigger('click');
              });
              jQuery(document).on("click","#owl-demo-news .see-more", function(){
-                //jQuery("#owl-demo-news").trigger('owl.next');
-                //jQuery("#owl-demo-news .owl-next").trigger('click');
+               
                  var $dots = jQuery('#owl-demo-news .owl-dot');
                  var $next = $dots.filter('.active').next();
                     if (!$next.length)
