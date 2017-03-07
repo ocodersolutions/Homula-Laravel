@@ -3,7 +3,9 @@
 @section('meta_keywords'){{ $page->keyword }}@stop 
 
 @section('meta_description'){{ $page->description }}@stop 
-
+@section ('styles')
+<link href="{{ URL::asset('css/reposive-pro-fess.css') }}" media="all" rel="stylesheet" type="text/css" />
+@endsection
 @section('content')
 	<style type="text/css">
 		/* style for resale-home page */
@@ -85,6 +87,7 @@
 		}
 		.page_frontend p {
 		    font-size: 16px;
+		    clear: both;
 		}
 		.exclusive_homes_form > .input-group p:first-child strong:first-child {
 		    color: #000;
@@ -755,7 +758,6 @@
 		}
 		.page-home-stagers .container,.page-sign-suppliers .container,.page-appraiser .container,.page-insurance-brokers .container,.page-moving-company .container,.page-home-inspector .container,.page-lawyers-firms .container, .page-printers .container,.page-sign-installers .container{
 			padding: 10px 20px;
-		    width: 1200px;
 		    margin: 0 auto;
 		    background: #fff;
 		    text-align: justify;
@@ -774,8 +776,7 @@
 		.agent-row-content {
 		    box-shadow: 0 0 10px;
 		    float: left;
-		    margin: 0 15px 40px 15px;
-		    width: 30.74%;
+		    width: 30.72%;
 		    min-height: 260px;
 		}
 		.agent-row-content .agent-row-info {
@@ -874,7 +875,7 @@
 		.current_box p *{
 			font-size: 15px;
 		}
-		.current_box h3 ,{
+		.current_box h3 {
 			text-transform: uppercase;
 			margin: 0;
 			padding: 20px;
@@ -960,9 +961,8 @@
 			margin: 0;
 		}
 		.page-mortgage-broker .mortgage-broker,.page_frontend .type-profess{
-			width: 1200px;
 		    margin: 0 auto;
-		    padding: 0 20px 10px;
+		    padding: 0 5px 10px;
 		    background: #fff;
 		    text-align: justify;
 		}
@@ -971,7 +971,6 @@
 		}
 		.page_frontend.page-mortgage-broker .container,.page-appraiser .container{
 			background-color: #fff;
-			width: 1200px;
 		}
 		.page_frontend.page-mortgage-broker,.page-lawyers-firms{
 			background: #f2f2f2;
@@ -1001,15 +1000,18 @@
 		.page-lawyers-firms .agent-row-content {
 			min-height:265px;
 		}
-		.type-profess:after{
+		.type-profess:after,.agent-row-content ul li:after,.agent-row-content:after{
 			content:"";
 			display: table;
 			clear: both;
 		}
-		@media (min-width: 1200px){
-			.page_frontend .comtainer{
-				width: 1200px;
-			}
+		.agent-row-content ul li i{
+			float: left;
+		}
+		.agent-row-content li a{
+		    float: left;
+    		width: calc(100% - 32px);
+    		word-wrap: break-word;
 		}
 	</style>
 
