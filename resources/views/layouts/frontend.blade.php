@@ -70,71 +70,75 @@
 				<!-- modal sign in -->
 				
 				<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="modal_signin">
-					<div class="modal-dialog modal-sm" role="document">
+					<div class="modal-dialog modal-size-cs modal-login" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								{{-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> --}}
 								<h4 class="modal-title" id="myModalLabel">Modal Sign In</h4>
+								<ul>
+									<li><a href="" class="login_icon active"><i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+									<li><a href="" class="register_icon"><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+									{{-- <li><a href="" class="recover_icon"><i class="fa fa-key" aria-hidden="true"></i></a></li>
+									<li><a href="" class="mail_icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li> --}}
+								</ul>
 							</div>
 							<div class="modal-body">
-								<div class="panel panel-default">
-					                <div class="panel-heading">Login</div>
-					                <div class="panel-body">
-					                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/login') }}">
-					                        {{ csrf_field() }}
+								<div class="modal-body-logo"><img src="{{ URL::asset('images/logo-sep.png') }}" class="img-responsive"></div>
+								<p class="modal-name">Login Member</p>
+			                    <form class="form-horizontal form-style" role="form" method="POST" action="{{ url('/login') }}">
+			                        {{ csrf_field() }}
+									
+			                        <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+			                            <label for="username" class="control-label glyphicon glyphicon-user"></label>
+		                                <input id="username" type="text" class="form-control style_input" name="username" value="{{ old('username') }}" required autofocus/>
 
-					                        <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
-					                            <label for="username" class="col-md-4 control-label">Username</label>
+		                                 @if ($errors->has('username'))
+		                                <span class="help-block">
+		                                    <strong>{{ $errors->first('username') }}</strong>
+		                                </span>
+		                            	@endif
+			                            
+			                        </div>
 
-					                            <div class="col-md-6">
-					                                <input id="username" type="text" class="form-control" name="username" value="{{ old('username') }}" required autofocus>
+			                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+			                            <label for="password" class="control-label glyphicon glyphicon-lock"></label>
+		                                <input id="password" type="password" class="form-control style_input" name="password" required>
 
-					                                 @if ($errors->has('username'))
-					                                <span class="help-block">
-					                                    <strong>{{ $errors->first('username') }}</strong>
-					                                </span>
-					                            @endif
-					                            </div>
-					                        </div>
+		                                @if ($errors->has('password'))
+		                                    <span class="help-block">
+		                                        <strong>{{ $errors->first('password') }}</strong>
+		                                    </span>
+		                                @endif
+			                            
+			                        </div>
 
-					                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-					                            <label for="password" class="col-md-4 control-label">Password</label>
+			                        {{-- <div class="form-group">
+			                            <div class="col-md-6 col-md-offset-4">
+			                                <div class="checkbox">
+			                                    <label>
+			                                        <input type="checkbox" name="remember"> Remember Me
+			                                    </label>
+			                                </div>
+			                            </div>
+			                        </div> --}}
 
-					                            <div class="col-md-6">
-					                                <input id="password" type="password" class="form-control" name="password" required>
+			                        <div class="form-group">
+			                            
+		                                <button type="submit" class="btn btn-primary">
+		                                    Sign In
+		                                </button>
 
-					                                @if ($errors->has('password'))
-					                                    <span class="help-block">
-					                                        <strong>{{ $errors->first('password') }}</strong>
-					                                    </span>
-					                                @endif
-					                            </div>
-					                        </div>
-
-					                        <div class="form-group">
-					                            <div class="col-md-6 col-md-offset-4">
-					                                <div class="checkbox">
-					                                    <label>
-					                                        <input type="checkbox" name="remember"> Remember Me
-					                                    </label>
-					                                </div>
-					                            </div>
-					                        </div>
-
-					                        <div class="form-group">
-					                            <div class="col-md-8 col-md-offset-4">
-					                                <button type="submit" class="btn btn-primary">
-					                                    Login
-					                                </button>
-
-					                                <a class="btn btn-link" href="{{ url('/password/reset') }}">
-					                                    Forgot Your Password?
-					                                </a>
-					                            </div>
-					                        </div>
-					                    </form>
-					                </div>
-					            </div>
+		                                {{-- <a class="btn btn-link" href="{{ url('/password/reset') }}">
+		                                    Forgot Your Password?
+		                                </a> --}}
+			                            <div class="login_w_social">
+			                            	<a href="" class="social_f"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+			                            	<a href="" class="social_t"><i class="fa fa-google-plus-square" aria-hidden="true"></i></a>
+			                            </div>
+			                        </div>
+			                       
+			                    </form>
+					                
 							</div>
 						</div>
 					</div>
@@ -144,92 +148,92 @@
 				<!-- modal sign up -->
 				
 				<div class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" id="modal_signup">
-					<div class="modal-dialog modal-lg" role="document">
+					<div class="modal-dialog modal-size-cs modal-sign-up" role="document">
 						<div class="modal-content">
 							<div class="modal-header">
-								<button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+								{{-- <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button> --}}
 								<h4 class="modal-title" id="myModalLabel">Modal Sign Up</h4>
+								<ul>
+									<li><a href="" class="login_icon"><i class="fa fa-sign-in" aria-hidden="true"></i></a></li>
+									<li><a href="" class="register_icon active"><i class="fa fa-plus" aria-hidden="true"></i></a></li>
+									{{-- <li><a href="" class="recover_icon"><i class="fa fa-key" aria-hidden="true"></i></a></li>
+									<li><a href="" class="mail_icon"><i class="fa fa-envelope-o" aria-hidden="true"></i></a></li> --}}
+								</ul>
 							</div>
 							<div class="modal-body">
-								<div class="panel panel-default">
-                					<div class="panel-heading">Register</div>
-					                <div class="panel-body">
-					                    <form class="form-horizontal" role="form" method="POST" action="{{ url('/register') }}">
-					                        {{ csrf_field() }}
+								
+								<p class="modal-name">Register</p>
+			                    <form class="form-horizontal form-style" role="form" method="POST" action="{{ url('/register') }}">
+			                        {{ csrf_field() }}
 
-					                        <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
-					                            <label for="username" class="col-md-4 control-label">Username</label>
+			                        <div class="form-group{{ $errors->has('username') ? ' has-error' : '' }}">
+			                            <label for="username" class="control-label"><i class="fa fa-user-o" aria-hidden="true"></i></label>
 
-					                            <div class="col-md-6">
-					                                <input id="username" type="text" class="form-control" name="username" value="{{ old('username') }}" required autofocus>
+			                            
+			                                <input id="username" type="text" class="form-control style_input" name="username" value="{{ old('username') }}" required autofocus>
 
-					                                @if ($errors->has('username'))
-					                                    <span class="help-block">
-					                                        <strong>{{ $errors->first('username') }}</strong>
-					                                    </span>
-					                                @endif
-					                            </div>
-					                        </div>
+			                                @if ($errors->has('username'))
+			                                    <span class="help-block">
+			                                        <strong>{{ $errors->first('username') }}</strong>
+			                                    </span>
+			                                @endif
+			                            
+			                        </div>
 
-					                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
-					                            <label for="email" class="col-md-4 control-label">E-Mail Address</label>
+			                        <div class="form-group{{ $errors->has('email') ? ' has-error' : '' }}">
+			                            <label for="email" class="control-label"><i class="fa fa-envelope-o" aria-hidden="true"></i></label>
 
-					                            <div class="col-md-6">
-					                                <input id="email" type="email" class="form-control" name="email" value="{{ old('email') }}" required>
+			                            
+			                                <input id="email" type="email" class="form-control style_input" name="email" value="{{ old('email') }}" required>
 
-					                                @if ($errors->has('email'))
-					                                    <span class="help-block">
-					                                        <strong>{{ $errors->first('email') }}</strong>
-					                                    </span>
-					                                @endif
-					                            </div>
-					                        </div>
+			                                @if ($errors->has('email'))
+			                                    <span class="help-block">
+			                                        <strong>{{ $errors->first('email') }}</strong>
+			                                    </span>
+			                                @endif
+			                            
+			                        </div>
 
-					                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
-					                            <label for="password" class="col-md-4 control-label">Password</label>
+			                        <div class="form-group{{ $errors->has('password') ? ' has-error' : '' }}">
+			                            <label for="password" class="control-label"><i class="fa fa-lock" aria-hidden="true"></i></label>
+		                                <input id="password" type="password" class="form-control style_input" name="password" required>
 
-					                            <div class="col-md-6">
-					                                <input id="password" type="password" class="form-control" name="password" required>
+		                                @if ($errors->has('password'))
+		                                    <span class="help-block">
+		                                        <strong>{{ $errors->first('password') }}</strong>
+		                                    </span>
+		                                @endif
+			                            
+			                        </div>
 
-					                                @if ($errors->has('password'))
-					                                    <span class="help-block">
-					                                        <strong>{{ $errors->first('password') }}</strong>
-					                                    </span>
-					                                @endif
-					                            </div>
-					                        </div>
+			                        <div class="form-group">
+			                            <label for="password-confirm" class="control-label"><i class="fa fa-lock" aria-hidden="true"></i></label>
+		                                <input id="password-confirm" type="password" class="form-control style_input" name="password_confirmation" required>
+			                            
+			                        </div>
 
-					                        <div class="form-group">
-					                            <label for="password-confirm" class="col-md-4 control-label">Confirm Password</label>
-
-					                            <div class="col-md-6">
-					                                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required>
-					                            </div>
-					                        </div>
-
-					                        <div class="form-group">
-					                            <div class="col-md-6 col-md-offset-4">
-					                                <button type="submit" class="btn btn-primary">
-					                                    Register
-					                                </button>
-					                            </div>
-					                        </div>
-					                    </form>
-					                </div>
-					            </div>
+			                        <div class="form-group">
+			                            
+		                                <button type="submit" class="btn btn-primary">
+		                                    Sign up
+		                                </button>
+			                            
+			                        </div>
+			                    </form>
+					                
 							</div>
 						</div>
 					</div>
 				</div>
+
+				<!-- End modal sign up -->
+
 				@php
 					if(!isset($menus) || !isset($menus_bot)) {
 						$menus = App\Models\Menus::where(['parent_id' => 0, 'published' => 1, 'type' =>'top'])->get();
 						$menus_bot = App\Models\Menus::where(['published' => 1, 'type' =>'bottom'])->get();
 					}
 				@endphp
-
-
-				<!-- End modal sign up -->
 				<div class="header_menu">
 					<div class="container">
 						<div class="row">
