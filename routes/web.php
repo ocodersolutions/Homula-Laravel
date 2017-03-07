@@ -34,6 +34,7 @@ Route::get('news-detail/{alias}','FrontendController@news_detail');
 
 // agents
 Route::get('agents', 'FrontendController@agents');
+Route::get('realestate-agent', 'FrontendController@agents');
 Route::get('agents/{alias}', 'FrontendController@agents_detail');
 
 // properties
