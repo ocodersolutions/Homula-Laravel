@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Free Home Evaluation")
+
 @section('content')
 
 	<style type="text/css">

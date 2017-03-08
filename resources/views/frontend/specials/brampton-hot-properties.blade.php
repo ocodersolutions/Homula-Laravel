@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Brampton Hot Properties")
+
 @section('content')
 <div class="row hot_properties featured_properties">
 <h2 class="title_hasline">FEATURED PROPERTIES</h2>

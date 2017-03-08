@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","About Us")
+
 @section('content')
 	<style>
 		.about-us-page *{

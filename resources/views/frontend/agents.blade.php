@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Realestate Agent")
+
 @section('meta_keywords'){{ $meta->keyword }}@stop 
 
 @section('meta_description'){{ $meta->description }}@stop 

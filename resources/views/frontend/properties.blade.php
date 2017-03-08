@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title") {{$properties->address}} @endsection
+
 @section('meta_keywords'){{ $properties->keyword }}@stop 
 
 @section('meta_description'){{ $properties->description }}@stop 
@@ -10,7 +12,7 @@
 			<div class="row">
 				<div class="col-sm-12">
 					<div class="properties_page_header">
-						<h1>109 HOLMES AVE, TORONTO, M2N4M3, ONTARIO</h1>
+						<h1>{!!$properties->address != '' ? $properties->address : '&nbsp;'!!}</h1>
 						<div class="properties_page_header_action">
 							<div class="properties_header_virtual_tour">
 								<i class="fa fa-eye" aria-hidden="true"></i>VIRTUAL TOUR

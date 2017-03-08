@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Legal")
+
 @section('content')
 	<style>
 		.legal-page{

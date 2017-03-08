@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Ontario Mortgage Calculators")
+
 @section('styles')
 	<link rel="stylesheet" type="text/css" href="/css/style-cal.css">
 	<link rel="stylesheet" type="text/css" href="/css/popup-cal.css">

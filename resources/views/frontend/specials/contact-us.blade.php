@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Contact Us")
+
 @section("content")
 	<style type="text/css">
 		.cup_image {

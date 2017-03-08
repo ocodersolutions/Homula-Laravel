@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Mortgage Insurance Calculators")
+
 @section('styles')
 	<link rel="stylesheet" type="text/css" href="/css/thickbox.css">
 	<link rel="stylesheet" type="text/css" href="/css/itp-calc-jqueryui.css">

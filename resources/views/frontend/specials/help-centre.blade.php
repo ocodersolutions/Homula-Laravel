@@ -1,5 +1,7 @@
 @extends('layouts.frontend');
 
+@section("title", "Help Centre")
+
 @section('content')
 	<style type="text/css">
 		.help-centre-page {

@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title") {{$agents_detail->name}} @endsection
+
 @section('meta_keywords'){{ $agents_detail->keyword }}@stop 
 
 @section('meta_description'){{ $agents_detail->description }}@stop 

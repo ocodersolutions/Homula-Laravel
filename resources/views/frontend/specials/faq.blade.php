@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","FAQ")
+
 @section('content')
 	<style type="text/css">
 		.faq-page {

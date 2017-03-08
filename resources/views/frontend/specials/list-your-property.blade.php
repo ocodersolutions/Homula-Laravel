@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","List Your Property")
+
 @section('content')
 	<style type="text/css">
 		.list-your-property-page {

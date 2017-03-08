@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Find A Commercial Realtor")
+
 @section('content')
 <style type="text/css">
     .search-agents h3 {

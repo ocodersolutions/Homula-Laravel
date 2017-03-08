@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title") {{$news_detail->title}} @endsection
+
 @section('meta_keywords'){{ $news_detail->meta_keywords }}@stop 
 
 @section('meta_description'){{ $news_detail->meta_description }}@stop 

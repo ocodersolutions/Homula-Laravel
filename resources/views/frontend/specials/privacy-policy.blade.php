@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Privacy Policy")
+
 @section('content')
 	<style>
 		.privacy-policy{

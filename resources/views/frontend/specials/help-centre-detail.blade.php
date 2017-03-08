@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title") {{$help_centre->question}} @endsection
+
 @section('content')
 	<style type="text/css">
 		.help-centre-detail-page {

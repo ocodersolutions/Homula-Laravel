@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Mortgage Rates")
+
 @section('styles')
 	<link rel="stylesheet" type="text/css" href="/css/thickbox.min.css">
 @endsection

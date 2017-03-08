@@ -1,5 +1,7 @@
 @extends("layouts.frontend")
 
+@section("title","Photographers Properties")
+
 @section("content")
 	<style type="text/css">
 		.photographers-properties-page {

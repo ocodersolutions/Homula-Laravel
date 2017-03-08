@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title") {{$categories->name}} @endsection
+
 @section('meta_keywords'){{ $categories->meta_keywords }}@stop 
 
 @section('meta_description'){{ $categories->meta_description }}@stop 

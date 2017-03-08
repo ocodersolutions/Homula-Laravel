@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Profile")
+
 @section('banner')
 	<div class="header_bot">
 		<div class="header_bot_video">

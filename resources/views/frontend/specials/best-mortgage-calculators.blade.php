@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Best Mortgage Calculators")
+
 @section('content')
 	<style type="text/css">
 		.best-mortgage-calculators-page {

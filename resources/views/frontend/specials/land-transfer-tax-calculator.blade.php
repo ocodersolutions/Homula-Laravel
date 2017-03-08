@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title","Land Transfer Calculator")
+
 @section('content')
 	<script type="text/javascript" src="/js/chart.js"></script>
 <script type="text/javascript" src="/js/jquery.canvasjs.min.js"></script>

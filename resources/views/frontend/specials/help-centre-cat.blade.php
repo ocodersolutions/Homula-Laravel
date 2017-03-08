@@ -1,5 +1,7 @@
 @extends('layouts.frontend')
 
+@section("title") {{$cat_hc->name}} @endsection
+
 @section('content')
 	<style type="text/css">
 		.help-centre-cat-page {
