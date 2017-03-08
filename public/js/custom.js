@@ -292,6 +292,19 @@ $(document).ready(function() {
 
         jQuery(document).ready(function(e) {
 
+            jQuery("#owl-demo-home").owlCarousel({
+                items : 6,
+                navigation : false,
+                slideBy: 1,
+                loop:true,
+                transitionStyle : "fade",
+                rewindSpeed: 100,
+                autoplay:true,
+                autoplayTimeout:2000,
+                autoplayHoverPause:true
+            });
+
+
             jQuery("#featured-properties").owlCarousel({
                 items : 6,
                 navigation : false,
