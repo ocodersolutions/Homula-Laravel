@@ -2,6 +2,22 @@
 
 @section('content')
 <style type="text/css">
+    .search-agents h3 {
+        background: none;
+    }
+    article.page {
+        padding: 0;
+        margin: 0;
+        background: none;
+    }
+    h1.agents-content-title {
+        background: #039be5;
+        color: #fff;
+        font-size: 32px;
+        padding: 10px;
+        text-transform: uppercase;
+        margin-top: 50px;
+    }
     @media (min-width: 1899px){
         body .container {
             width: 1140px;
@@ -179,11 +195,17 @@
 </div>
 
 
-
-
-
-
-<div style="background: #000; height: 50px; text-align: center; color: #fff;"> Block Seach</div>
+<div class="search-agents">
+    <div class="container"><h3></h3></div>
+    <div class="search-agents-main">
+        <div class="search-agents-content">
+            <form action="">
+                <input type="text" placeholder="Search here...">
+                <button><i class="fa fa-search" aria-hidden="true"></i> SEARCH</button>
+            </form>
+        </div>
+    </div>
+</div>
 
 <div class="container">
     <div class="row">
@@ -213,7 +235,130 @@
 </div>
 </div>
 
-<div style="background: #000; height: 50px; text-align: center; color: #fff;">Block Agents</div>
+@php 
+    $agents = App\Models\Agents::all();
+    $properties = App\Models\Properties::orderBy('id','desc')->take(10)->get();
+@endphp
+<div class="container">
+    <div class="row">
+        <div class="col-sm-12">
+            <h1 class="agents-content-title">Agents</h1>
+        </div>
+        <div class="agents-content col-sm-12">
+            @foreach($agents as $agent)
+                <div class="col-sm-6">
+                    <div class="agents-item">
+                        <div class="agents-item-content">
+                            <div class="aic-image">
+                                <div class="aic-image-inner">
+                                    <a href="/agents/{{$agent->alias}}">
+                                        @if ($agent->thumbnail != '')
+                                            <img src="{{$agent->thumbnail}}" alt="">
+                                        @else 
+                                            <img src="/images/agent_no_thum.jpg" alt="">
+                                        @endif
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="aic-information">
+                                <h2><a href="/agents/{{$agent->alias}}">{{$agent->name}}</a></h2>
+                                <div class="aic-infor-area-work">
+                                    <h3>AREAS YOU WORK IN</h3>
+                                    <span>{!!$agent->area_work!!}</span>
+                                </div>
+                                <div class="aic-infor-spoken-lang">
+                                    <h3>SPOKEN LANGUAGES</h3>
+                                    <span>{!! $agent->spoken_language !!}</span>
+                                </div>
+                                <div class="aic-infor-exp">
+                                    <h3>EXPERIENCE</h3>
+                                    <span>{!! $agent->experience !!}</span>
+                                </div>
+                                <div class="aic-infor-link">
+                                    <a href="" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                    <a href="" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                                    <a href="" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            @endforeach
+            <form action="" class="agents-content-form">
+                <button>Ask a question</button>
+            </form>
+        </div>
+        
+    </div>
+</div>
+<div class="top_agents">
+    <h2 class="title_hasline">TOP AGENTS</h2>
+    <div class="main_top_agents">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div id="owl-demo-agent" class="owl-carousel owl-theme">    
+                        @foreach ($agents as $agent)
+                            <div class="item">
+                                <div class="top_agents_content">
+                                    <div class="avartar_agents">
+                                        <a href="/agents/{{$agent->alias}}" target="_blank"><img width="225" height="300" src="{{$agent->thumbnail}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="{{$agent->name}} real estate professional on Homula"></a>
+                                    </div>
+                                    <div class="detail_agents">
+                                        <p><a href="/agents/{{$agent->alias}}" target="_blank">
+                                        <b>{{$agent->name}}</b></a></p>
+                                        <p>{{$agent->spoken_language}}</p>
+                                        <p>{!!$agent->email!!}</p><p></p>
+                                    </div>
+                                    <div class="foot-agent-content" style="">
+                                        <a href="/agents/{{$agent->alias}}" target="_blank" class="btn btn-primary">Contact now</a>
+                                    </div>
+                                </div>
+                            </div>
+                        @endforeach
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="hot_properties">
+    <h2 class="title_hasline">HOT PROPERTIES</h2>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-12">
+                <div class="hot_properties_overflow">
+                    <div class="content_one_ads">
+                        <div id="owl-demo-home" class="owl-carousel owl-theme">
+                            @foreach ($properties as $post)
+                                <div class="item">
+                                    <div class="hot_properties_item">
+                                        <a href="/properties/{{$post->alias}}" target="_blank">
+                                            <div class="hot_properties_item_top">
+                                                <div class="item_img"><img width="480" height="320" src="{{URL::asset($post->thumbnail)}}" class="attachment-post-thumbnail size-post-thumbnail wp-post-image" alt="image-C3615220-9.jpg">                                                      </div>
+                                                <div class="visite_libre">
+                                                    <p>VISIT NOW</p>
+                                                </div>
+                                                <p class="tag_p">+</p>
+                                            </div>
+                                        </a>
+                                        <div class="hot_properties_item_bot">
+                                            <b>{{$post->price}}</b>
+                                            <p class="main_p">{{$post->content}}</p>
+                                            <p><a href="/properties/{{$post->alias}}" target="_blank">{{$post->address}}</a>
+                                            </p>
+                                            <p class="min_p">{!!$post->location!!}</p>
+                                        </div>
+                                    </div>
+                                </div>  
+                            @endforeach 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
 
 

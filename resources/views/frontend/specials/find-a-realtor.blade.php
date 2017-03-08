@@ -18,6 +18,10 @@
         text-transform: uppercase;
         margin-top: 50px;
     }
+    @media (min-width: 1899px){
+        body .container {
+            width: 1140px;
+    }
 
     
 </style>
